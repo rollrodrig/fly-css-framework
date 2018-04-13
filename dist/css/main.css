@@ -1,8 +1,18 @@
+/* break points */
+/* Screen sizes */
+/* Mobiel margins */
 /* Colors */
 /* Global variables */
 /* heading */
 /* Helpers */
 /* background color */
+.clearfix::after {
+  content: '.';
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both; }
+
 * {
   box-sizing: border-box; }
 
@@ -112,10 +122,8 @@ p {
 
 body {
   color: #3c3c3c;
-  font-size: 14px;
-  font-family: "Open Sans";
-  font-weight: 400;
-  font-style: normal;
+  font-size: 16px;
+  font-family: Arial, Helvetica;
   line-height: 1.3; }
 
 p {
@@ -313,6 +321,41 @@ h1, h2, h3, h4, h5 {
     position: absolute;
     top: 5px;
     right: 5px; }
+
+.fy-ctnr {
+  width: 100%;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto; }
+  @media only screen and (max-width: 1190px) {
+    .fy-ctnr {
+      width: auto;
+      margin-left: 10px;
+      margin-right: 10px; } }
+  @media only screen and (max-width: 979px) {
+    .fy-ctnr.-brk {
+      max-width: 767px;
+      margin-left: auto;
+      margin-right: auto; } }
+  @media only screen and (max-width: 767px) {
+    .fy-ctnr.-brk {
+      max-width: 320px;
+      margin-left: auto;
+      margin-right: auto; } }
+  @media only screen and (max-width: 340px) {
+    .fy-ctnr.-brk {
+      max-width: 100%;
+      margin-left: 10px;
+      margin-right: 10px; } }
+
+.grt {
+  width: 100%;
+  max-width: 800px;
+  margin-left: 10px;
+  margin-right: 10px; }
+  @media only screen and (max-width: 979px) {
+    .grt {
+      width: auto; } }
 
 .fy-lb {
   border-radius: 3px;

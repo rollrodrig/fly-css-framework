@@ -1,0 +1,42 @@
+.fy-ctnr {
+	width: 100%;
+	max-width: $container-max-width;
+	margin-left: auto;
+	margin-right: auto;
+	
+	@include media($container-max-width + $small-device-margin-left + $small-device-margin-right) {
+		width: auto;
+		margin-left: $small-device-margin-left;
+		margin-right: $small-device-margin-right;
+	}
+
+	&.-brk {
+		@include media($max-tablet){
+			max-width: $max-mobile;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		@include media($max-mobile){
+			max-width: 320px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		@include media(320px + $small-device-margin-left + $small-device-margin-right){
+			max-width: 100%;
+			margin-left: $small-device-margin-left;
+			margin-right: $small-device-margin-right;
+		}
+	}
+
+}
+
+.grt {
+	width: 100%;
+	max-width: 800px;
+	margin-left: 10px;
+	margin-right: 10px;
+	@include tablet(){
+		width: auto;
+
+	}
+}

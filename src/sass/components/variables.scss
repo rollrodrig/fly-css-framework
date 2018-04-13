@@ -1,4 +1,26 @@
 
+
+
+
+/* break points */
+
+$max-mobile: 767px;
+$max-tablet: 979px;
+
+$mobile-start-at: 767px;
+$tablet-start-at: 980px;
+
+/* Screen sizes */
+
+$container-max-width: 1170px;
+
+/* Mobiel margins */
+
+$small-device-margin-left: 10px;
+$small-device-margin-right: 10px;
+
+
+
 /* Colors */
 
 $color-primary: #0E56D9;
@@ -15,8 +37,8 @@ $color-dark-lighter: #929396;
 
 /* Global variables */
 
-$global-font-size: 14px;
-$global-font-family: "Open Sans";
+$global-font-size: 16px;
+$global-font-family: Arial, Helvetica;
 $global-font-style: normal;
 $global-font-weight: 400;
 
