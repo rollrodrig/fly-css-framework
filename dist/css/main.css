@@ -413,6 +413,261 @@ a {
     transform: rotate(45deg);
     top: 9px; }
 
+.fy-gc:after {
+  content: '.';
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both; }
+
+/*$extra-large-col-breakpoint: 560px;*/
+.fy-gcxs1 {
+  float: left;
+  width: 8.33333%; }
+
+.fy-gcxs2 {
+  float: left;
+  width: 16.66667%; }
+
+.fy-gcxs3 {
+  float: left;
+  width: 25%; }
+
+.fy-gcxs4 {
+  float: left;
+  width: 33.33333%; }
+
+.fy-gcxs5 {
+  float: left;
+  width: 41.66667%; }
+
+.fy-gcxs6 {
+  float: left;
+  width: 50%; }
+
+.fy-gcxs7 {
+  float: left;
+  width: 58.33333%; }
+
+.fy-gcxs8 {
+  float: left;
+  width: 66.66667%; }
+
+.fy-gcxs9 {
+  float: left;
+  width: 75%; }
+
+.fy-gcxs10 {
+  float: left;
+  width: 83.33333%; }
+
+.fy-gcxs11 {
+  float: left;
+  width: 91.66667%; }
+
+.fy-gcxs12 {
+  float: left;
+  width: 100%; }
+
+@media only screen and (min-width: 541px) {
+  .fy-gcs1 {
+    float: left;
+    width: 8.33333%; } }
+
+@media only screen and (min-width: 541px) {
+  .fy-gcs2 {
+    float: left;
+    width: 16.66667%; } }
+
+@media only screen and (min-width: 541px) {
+  .fy-gcs3 {
+    float: left;
+    width: 25%; } }
+
+@media only screen and (min-width: 541px) {
+  .fy-gcs4 {
+    float: left;
+    width: 33.33333%; } }
+
+@media only screen and (min-width: 541px) {
+  .fy-gcs5 {
+    float: left;
+    width: 41.66667%; } }
+
+@media only screen and (min-width: 541px) {
+  .fy-gcs6 {
+    float: left;
+    width: 50%; } }
+
+@media only screen and (min-width: 541px) {
+  .fy-gcs7 {
+    float: left;
+    width: 58.33333%; } }
+
+@media only screen and (min-width: 541px) {
+  .fy-gcs8 {
+    float: left;
+    width: 66.66667%; } }
+
+@media only screen and (min-width: 541px) {
+  .fy-gcs9 {
+    float: left;
+    width: 75%; } }
+
+@media only screen and (min-width: 541px) {
+  .fy-gcs10 {
+    float: left;
+    width: 83.33333%; } }
+
+@media only screen and (min-width: 541px) {
+  .fy-gcs11 {
+    float: left;
+    width: 91.66667%; } }
+
+@media only screen and (min-width: 541px) {
+  .fy-gcs12 {
+    float: left;
+    width: 100%; } }
+
+@media only screen and (min-width: 781px) {
+  .fy-gcm1 {
+    float: left;
+    width: 8.33333%; } }
+
+@media only screen and (min-width: 781px) {
+  .fy-gcm2 {
+    float: left;
+    width: 16.66667%; } }
+
+@media only screen and (min-width: 781px) {
+  .fy-gcm3 {
+    float: left;
+    width: 25%; } }
+
+@media only screen and (min-width: 781px) {
+  .fy-gcm4 {
+    float: left;
+    width: 33.33333%; } }
+
+@media only screen and (min-width: 781px) {
+  .fy-gcm5 {
+    float: left;
+    width: 41.66667%; } }
+
+@media only screen and (min-width: 781px) {
+  .fy-gcm6 {
+    float: left;
+    width: 50%; } }
+
+@media only screen and (min-width: 781px) {
+  .fy-gcm7 {
+    float: left;
+    width: 58.33333%; } }
+
+@media only screen and (min-width: 781px) {
+  .fy-gcm8 {
+    float: left;
+    width: 66.66667%; } }
+
+@media only screen and (min-width: 781px) {
+  .fy-gcm9 {
+    float: left;
+    width: 75%; } }
+
+@media only screen and (min-width: 781px) {
+  .fy-gcm10 {
+    float: left;
+    width: 83.33333%; } }
+
+@media only screen and (min-width: 781px) {
+  .fy-gcm11 {
+    float: left;
+    width: 91.66667%; } }
+
+@media only screen and (min-width: 781px) {
+  .fy-gcm12 {
+    float: left;
+    width: 100%; } }
+
+@media only screen and (min-width: 981px) {
+  .fy-gcl1 {
+    float: left;
+    width: 8.33333%; } }
+
+@media only screen and (min-width: 981px) {
+  .fy-gcl2 {
+    float: left;
+    width: 16.66667%; } }
+
+@media only screen and (min-width: 981px) {
+  .fy-gcl3 {
+    float: left;
+    width: 25%; } }
+
+@media only screen and (min-width: 981px) {
+  .fy-gcl4 {
+    float: left;
+    width: 33.33333%; } }
+
+@media only screen and (min-width: 981px) {
+  .fy-gcl5 {
+    float: left;
+    width: 41.66667%; } }
+
+@media only screen and (min-width: 981px) {
+  .fy-gcl6 {
+    float: left;
+    width: 50%; } }
+
+@media only screen and (min-width: 981px) {
+  .fy-gcl7 {
+    float: left;
+    width: 58.33333%; } }
+
+@media only screen and (min-width: 981px) {
+  .fy-gcl8 {
+    float: left;
+    width: 66.66667%; } }
+
+@media only screen and (min-width: 981px) {
+  .fy-gcl9 {
+    float: left;
+    width: 75%; } }
+
+@media only screen and (min-width: 981px) {
+  .fy-gcl10 {
+    float: left;
+    width: 83.33333%; } }
+
+@media only screen and (min-width: 981px) {
+  .fy-gcl11 {
+    float: left;
+    width: 91.66667%; } }
+
+@media only screen and (min-width: 981px) {
+  .fy-gcl12 {
+    float: left;
+    width: 100%; } }
+
+.fy-demo-grid > div {
+  border-top: 1px solid #c3c3c3;
+  border-left: 1px solid #c3c3c3;
+  border-bottom: 1px solid #c3c3c3; }
+  .fy-demo-grid > div:last-child {
+    border-right: 1px solid #c3c3c3; }
+
+/*.fy-gc-s- {
+
+}
+.fy-gc-m- {
+
+}
+.fy-gc-l- {
+
+}
+.fy-gc-xl- {
+
+}*/
 hr {
   display: block;
   height: 1px;

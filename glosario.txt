@@ -254,6 +254,21 @@ fy-twnw
 .fy-ctrn.-fw
 
 
+### Grid
+
+# grid container
+.fy-gc
+
+# grid col
+.fy-gcxs* < 560
+.fy-gcs*	< 768
+.fy-gcm* < 980
+.fy-gcl* > 980
+.fy-gcxl* > 1281
+
+
+
+
 
 
 
