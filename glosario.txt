@@ -1,0 +1,314 @@
+
+# Title
+fy-ti
+
+# Title sizes from 1 to 7
+
+# sizes
+
+fy-ti.s1
+fy-ti.s2
+fy-ti.s3
+fy-ti.s4
+fy-ti.s5
+fy-ti.s6
+fy-ti.s7
+	
+
+### Margin
+
+# margin bottom from 0 to 50
+
+fy-mb0
+fy-mb1
+fy-mb2
+fy-mb3
+fy-mb4
+fy-mb5
+
+# margin top from 0 to 50
+
+fy-mt0
+fy-mt1
+fy-mt2
+fy-mt3
+fy-mt4
+fy-mt5
+
+# margin negative from 0 to 50
+fy-mtn0
+fy-mtn1
+fy-mtn2
+fy-mtn3
+fy-mtn4
+fy-mtn5
+
+
+
+### Padding
+
+# padding bottom from 0 to 50
+
+fy-pb0
+fy-pb1
+fy-pb2
+fy-pb3
+fy-pb4
+fy-pb5
+
+
+# padding top from 0 to 50
+
+fy-pt0
+fy-pt1
+fy-pt2
+fy-pt3
+fy-pt4
+fy-pt5
+
+
+### Text
+
+# text lead
+fy-tld
+
+# text basic
+fy-tb
+
+# text large 
+fy-tl
+	
+# text medium 
+fy-tm
+			
+# text small
+fy-ts
+
+# text mute, little smal and grey
+fy-tmu
+
+
+### Text style
+
+# text with underline
+fy-tul
+
+
+### Text transform
+
+# text to upprcase
+fy-ttuc
+
+# text to lowecase
+fy-ttlc
+
+
+
+### Text align
+
+# Text align left
+fy-tal
+
+# Text align right
+fy-tar
+
+# Text align center
+fy-tac
+
+# Text justify
+fy-tj
+
+
+
+###  Text wrapping
+
+# Text wrapping truncate
+fy-twt
+
+# Text wrapping break
+fy-twb
+
+# Text wrapping nowrap
+fy-twnw
+
+
+
+
+### Vertical align
+
+
+### Alert
+
+.fy-alert
+
+### Close button
+
+# close button
+.fy-cls
+
+# close button container
+.fy-cls-c
+
+
+### Background color
+
+# primary
+.fy-bgc-p
+
+# secondary
+.fy-bgc-s
+
+# neutral
+.fy-bgc-n
+
+# warning
+.fy-bgc-wa
+
+# success
+.fy-bgc-su
+
+
+### Badge
+.fy-bge
+
+
+### Label
+.fy-lb
+
+### Breadcrumb
+
+.fy-brc
+
+
+
+### Button
+
+## Button size
+.fy-btn
+
+# large
+.fy-btn.-l
+
+# medium
+.fy-btn.-m
+
+# small
+.fy-btn.-s
+
+# extra small
+.fy-btn.-xs
+
+## Buton styles 
+# border radius
+.fy-btn.-br
+
+# full width
+.fy-btn.-fw
+
+# disabled
+.fy-btn.-dis
+
+# center button
+.fy-btn.-ctr
+
+## button with icons
+
+# arrow left
+.fy-btn.-al
+
+# arrow right
+.fy-btn.-ar
+
+
+.fy-btn.-ic
+
+### Link
+
+# link arrow to left
+.fy-ll
+
+# link arrow to right
+.fy-lr
+
+
+### Card
+.fy-card
+
+# large padding
+.fy-card.lp
+# small padding
+.fy-card.sp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

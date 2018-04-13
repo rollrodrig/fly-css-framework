@@ -1,0 +1,16 @@
+
+/* padding top */
+
+@for $i from 0 through $helper-loop-max-through {
+	.fy-pt#{$i*10} {
+		padding-top: $i*$helper-loop-constant;
+	}	
+}
+
+/* padding bottom*/
+
+@for $i from 0 through $helper-loop-max-through {
+	.fy-pb#{$i*10} {
+		padding-bottom: $i*$helper-loop-constant;
+	}	
+}

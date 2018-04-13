@@ -1,0 +1,47 @@
+
+/* Colors */
+
+$color-primary: #0E56D9;
+$color-secondary: #5585DD;
+$color-neutral: #c2c2c2;
+$color-warning: #FF0000;
+$color-success: #0CE900;
+
+$color-default: #ffffff;
+$color-dark: #333333;
+$color-dark-lighter: #929396;
+
+
+
+/* Global variables */
+
+$global-font-size: 14px;
+$global-font-family: "Open Sans";
+$global-font-style: normal;
+$global-font-weight: 400;
+
+
+/* heading */
+
+$heading-font-size-is1: 14px;
+$heading-font-size-is2: 18px;
+$heading-font-size-is3: 24px;
+$heading-font-size-is4: 30px;
+$heading-font-size-is5: 40px;
+$heading-font-size-is6: 50px;
+$heading-font-size-is7: 60px;
+
+/* Helpers */
+
+$helper-loop-max-through: 5;
+$helper-loop-constant: 10;
+
+
+
+/* background color */
+
+$background-color-primary: $color-primary;
+$background-color-secondary: $color-secondary;
+$background-color-neutral: $color-neutral;
+$background-color-warning: $color-warning;
+$background-color-success: $color-success;

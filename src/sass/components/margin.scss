@@ -1,0 +1,24 @@
+
+/* margin top */
+
+@for $i from 0 through $helper-loop-max-through {
+	.fy-mt#{$i*10} {
+		margin-top: $i*$helper-loop-constant;
+	}	
+}
+
+/* margin bottom */
+
+@for $i from 0 through $helper-loop-max-through {
+	.fy-mb#{$i*10} {
+		margin-bottom: $i*$helper-loop-constant;
+	}	
+}
+
+/* marbin top negative */
+
+@for $i from 0 through $helper-loop-max-through {
+	.fy-mtn#{$i*10} {
+		margin-top: -$i*$helper-loop-constant;
+	}	
+}

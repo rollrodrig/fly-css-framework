@@ -1,0 +1,56 @@
+.fy-btn  {
+	
+	&.-al {
+		position: relative;
+		padding-left: 26px;
+	    &:before, &:after {
+	        position: absolute;
+            left: 13px;
+	        content: ' ';
+	        height: 8px;
+	        width: 1px;
+	        background-color: $color-dark;
+	    }
+
+	    &:before {
+			transform: rotate(45deg);
+			top: 14px;	
+	    }
+	    &:after {
+	    	transform: rotate(-45deg);
+			top: 19px;
+	     	
+	    }  		
+	}
+
+	&.-ar {
+		position: relative;
+		padding-right: 26px;
+	    &:before, &:after {
+	        position: absolute;
+            right: 13px;
+	        content: ' ';
+	        height: 8px;
+	        width: 1px;
+	        background-color: $color-dark;
+	    }
+
+	    &:before {
+	    	transform: rotate(-45deg);
+			top: 14px;	
+	    }
+	    &:after {
+			transform: rotate(45deg);
+			top: 19px;
+	    }  		
+	}	
+
+
+}
+
+
+
+
+
+
+

@@ -1,0 +1,27 @@
+.fy-card {
+	padding: 30px;
+	border:1px solid $color-dark-lighter;
+	
+	&.lp {
+		padding: 50px;
+	}
+	&.sp {
+		padding: 15px;
+	}
+
+	
+	
+}
+
+.fy-card-h {
+	margin-bottom: 30px;
+	border-bottom: 1px solid black;
+}
+.fy-card-b {
+	margin-bottom: 30px;
+}
+.fy-card-f {
+	font-size: 80%;
+}
+
+			

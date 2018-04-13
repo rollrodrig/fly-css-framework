@@ -1,0 +1,46 @@
+
+// close button
+.fy-cls {
+    display: block;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    cursor: pointer;
+    
+    &:hover {
+    	&:before, &:after {
+            background-color: $color-dark-lighter;
+        }
+    }
+    &:before, &:after {
+        position: absolute;
+        left: 9px;
+        content: ' ';
+        height: 14px;
+        width: 2px;
+        background-color: $color-dark;
+        top: 2px;
+    }
+
+    &:before {
+      transform: rotate(45deg);
+    }
+    &:after {
+      transform: rotate(-45deg);
+    }    
+
+}
+
+// close button container
+.fy-cls-c {
+	position: relative;
+	
+	.fy-cls {
+		position: absolute;
+        top: 5px;
+        right: 5px;
+	}
+
+}
+

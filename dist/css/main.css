@@ -1,0 +1,631 @@
+/* Colors */
+/* Global variables */
+/* heading */
+/* Helpers */
+/* background color */
+* {
+  box-sizing: border-box; }
+
+html {
+  line-height: 1.4;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  margin: 0;
+  padding: 0; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 0; }
+
+p {
+  margin-top: 0;
+  margin-bottom: 0; }
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../fonts/open-sans/OpenSans-Light-webfont.eot");
+  src: url("../fonts/open-sans/OpenSans-Light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/open-sans/OpenSans-Light-webfont.woff") format("woff"), url("../fonts/open-sans/OpenSans-Light-webfont.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../fonts/open-sans/OpenSans-LightItalic-webfont.eot");
+  src: url("../fonts/open-sans/OpenSans-LightItalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/open-sans/OpenSans-LightItalic-webfont.woff") format("woff"), url("../fonts/open-sans/OpenSans-LightItalic-webfont.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../fonts/open-sans/OpenSans-Regular-webfont.eot");
+  src: url("../fonts/open-sans/OpenSans-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/open-sans/OpenSans-Regular-webfont.woff") format("woff"), url("../fonts/open-sans/OpenSans-Regular-webfont.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../fonts/open-sans/OpenSans-Italic-webfont.eot");
+  src: url("../fonts/open-sans/OpenSans-Italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/open-sans/OpenSans-Italic-webfont.woff") format("woff"), url("../fonts/open-sans/OpenSans-Italic-webfont.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../fonts/open-sans/OpenSans-Semibold-webfont.eot");
+  src: url("../fonts/open-sans/OpenSans-Semibold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/open-sans/OpenSans-Semibold-webfont.woff") format("woff"), url("../fonts/open-sans/OpenSans-Semibold-webfont.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../fonts/open-sans/OpenSans-SemiboldItalic-webfont.eot");
+  src: url("../fonts/open-sans/OpenSans-SemiboldItalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/open-sans/OpenSans-SemiboldItalic-webfont.woff") format("woff"), url("../fonts/open-sans/OpenSans-SemiboldItalic-webfont.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../fonts/open-sans/OpenSans-Bold-webfont.eot");
+  src: url("../fonts/open-sans/OpenSans-Bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/open-sans/OpenSans-Bold-webfont.woff") format("woff"), url("../fonts/open-sans/OpenSans-Bold-webfont.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../fonts/open-sans/OpenSans-BoldItalic-webfont.eot");
+  src: url("../fonts/open-sans/OpenSans-BoldItalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/open-sans/OpenSans-BoldItalic-webfont.woff") format("woff"), url("../fonts/open-sans/OpenSans-BoldItalic-webfont.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../fonts/open-sans/OpenSans-ExtraBold-webfont.eot");
+  src: url("../fonts/open-sans/OpenSans-ExtraBold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/open-sans/OpenSans-ExtraBold-webfont.woff") format("woff"), url("../fonts/open-sans/OpenSans-ExtraBold-webfont.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../fonts/open-sans/OpenSans-ExtraBoldItalic-webfont.eot");
+  src: url("../fonts/open-sans/OpenSans-ExtraBoldItalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/open-sans/OpenSans-ExtraBoldItalic-webfont.woff") format("woff"), url("../fonts/open-sans/OpenSans-ExtraBoldItalic-webfont.ttf") format("truetype");
+  font-weight: 800;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../fonts/montserrat/montserrat-bold-webfont.eot");
+  src: url("../fonts/montserrat/montserrat-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat/montserrat-bold-webfont.woff2") format("woff2"), url("../fonts/montserrat/montserrat-bold-webfont.woff") format("woff"), url("../fonts/montserrat/montserrat-bold-webfont.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../fonts/montserrat/montserrat-regular-webfont.eot");
+  src: url("../fonts/montserrat/montserrat-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat/montserrat-regular-webfont.woff2") format("woff2"), url("../fonts/montserrat/montserrat-regular-webfont.woff") format("woff"), url("../fonts/montserrat/montserrat-regular-webfont.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+body {
+  color: #3c3c3c;
+  font-size: 14px;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.3; }
+
+p {
+  margin-top: 0; }
+
+h1, h2, h3, h4, h5 {
+  margin-top: 0; }
+
+.fy-alert {
+  padding: 25px;
+  font-size: 14px;
+  background-color: #f3f3f3; }
+  .fy-alert.sp {
+    padding: 10px; }
+  .fy-alert.lp {
+    padding: 40px; }
+
+.fy-bgc-p {
+  background-color: #0E56D9; }
+
+.fy-bgc-s {
+  background-color: #5585DD; }
+
+.fy-bgc-n {
+  background-color: #c2c2c2; }
+
+.fy-bgc-wa {
+  background-color: #FF0000; }
+
+.fy-bgc-su {
+  background-color: #0CE900; }
+
+.fy-bge {
+  border-radius: 10px;
+  background-color: #c2c2c2;
+  font-size: 12px;
+  min-width: 22px;
+  height: 17px;
+  text-align: center;
+  padding: 0 6px;
+  vertical-align: middle;
+  display: inline-flex;
+  justify-content: center; }
+
+.fy-brc {
+  font-size: 12px; }
+  .fy-brc > a {
+    font-size: 12px;
+    color: #333333;
+    text-decoration: none; }
+    .fy-brc > a:hover {
+      text-decoration: underline; }
+  .fy-brc > span {
+    color: #c2c2c2; }
+  .fy-brc > span.--a {
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px; }
+    .fy-brc > span.--a:before, .fy-brc > span.--a:after {
+      position: absolute;
+      left: 13px;
+      content: ' ';
+      height: 8px;
+      width: 1px;
+      background-color: #333333; }
+    .fy-brc > span.--a:before {
+      transform: rotate(-45deg);
+      top: 3px; }
+    .fy-brc > span.--a:after {
+      transform: rotate(45deg);
+      top: 8px; }
+
+.fy-btn {
+  display: inline-block;
+  background-color: transparent;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  text-align: center;
+  border: 1px solid #929396;
+  font-size: 14px;
+  color: #929396;
+  text-decoration: none;
+  line-height: 1.12; }
+  .fy-btn:not(:disabled) {
+    cursor: pointer; }
+  .fy-btn.-br {
+    border-radius: 3px; }
+  .fy-btn.-fw {
+    width: 100%;
+    max-width: 100%; }
+  .fy-btn.-di {
+    opacity: 0.7; }
+  .fy-btn.-ctr {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    left: 50%;
+    transform: translateX(-50%); }
+
+.fy-btn.-l {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 18px;
+  line-height: 1.5; }
+
+.fy-btn.-s {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 12px;
+  line-height: 1.1; }
+
+.fy-btn.-al {
+  position: relative;
+  padding-left: 26px; }
+  .fy-btn.-al:before, .fy-btn.-al:after {
+    position: absolute;
+    left: 13px;
+    content: ' ';
+    height: 8px;
+    width: 1px;
+    background-color: #333333; }
+  .fy-btn.-al:before {
+    transform: rotate(45deg);
+    top: 14px; }
+  .fy-btn.-al:after {
+    transform: rotate(-45deg);
+    top: 19px; }
+
+.fy-btn.-ar {
+  position: relative;
+  padding-right: 26px; }
+  .fy-btn.-ar:before, .fy-btn.-ar:after {
+    position: absolute;
+    right: 13px;
+    content: ' ';
+    height: 8px;
+    width: 1px;
+    background-color: #333333; }
+  .fy-btn.-ar:before {
+    transform: rotate(-45deg);
+    top: 14px; }
+  .fy-btn.-ar:after {
+    transform: rotate(45deg);
+    top: 19px; }
+
+.fy-card {
+  padding: 30px;
+  border: 1px solid #929396; }
+  .fy-card.lp {
+    padding: 50px; }
+  .fy-card.sp {
+    padding: 15px; }
+
+.fy-card-h {
+  margin-bottom: 30px;
+  border-bottom: 1px solid black; }
+
+.fy-card-b {
+  margin-bottom: 30px; }
+
+.fy-card-f {
+  font-size: 80%; }
+
+.fy-cls {
+  display: block;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  cursor: pointer; }
+  .fy-cls:hover:before, .fy-cls:hover:after {
+    background-color: #929396; }
+  .fy-cls:before, .fy-cls:after {
+    position: absolute;
+    left: 9px;
+    content: ' ';
+    height: 14px;
+    width: 2px;
+    background-color: #333333;
+    top: 2px; }
+  .fy-cls:before {
+    transform: rotate(45deg); }
+  .fy-cls:after {
+    transform: rotate(-45deg); }
+
+.fy-cls-c {
+  position: relative; }
+  .fy-cls-c .fy-cls {
+    position: absolute;
+    top: 5px;
+    right: 5px; }
+
+.fy-lb {
+  border-radius: 3px;
+  background-color: #c2c2c2;
+  font-size: 12px;
+  min-width: 22px;
+  text-align: center;
+  padding: 0 6px;
+  vertical-align: middle;
+  display: inline-flex;
+  justify-content: center;
+  text-transform: uppercase; }
+
+a {
+  font-size: 14px;
+  color: #0E56D9;
+  text-decoration: none; }
+  a:hover {
+    text-decoration: underline; }
+
+.fy-a:hover {
+  text-decoration: underline; }
+
+.fy-a.-al {
+  position: relative;
+  padding-left: 26px; }
+  .fy-a.-al:before, .fy-a.-al:after {
+    position: absolute;
+    left: 13px;
+    content: ' ';
+    height: 8px;
+    width: 1px;
+    background-color: #0E56D9; }
+  .fy-a.-al:before {
+    transform: rotate(45deg);
+    top: 4px; }
+  .fy-a.-al:after {
+    transform: rotate(-45deg);
+    top: 9px; }
+
+.fy-a.-ar {
+  position: relative;
+  padding-right: 26px; }
+  .fy-a.-ar:before, .fy-a.-ar:after {
+    position: absolute;
+    right: 13px;
+    content: ' ';
+    height: 8px;
+    width: 1px;
+    background-color: #0E56D9; }
+  .fy-a.-ar:before {
+    transform: rotate(-45deg);
+    top: 4px; }
+  .fy-a.-ar:after {
+    transform: rotate(45deg);
+    top: 9px; }
+
+hr {
+  display: block;
+  height: 1px;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+/* margin top */
+.fy-mt0 {
+  margin-top: 0; }
+
+.fy-mt10 {
+  margin-top: 10; }
+
+.fy-mt20 {
+  margin-top: 20; }
+
+.fy-mt30 {
+  margin-top: 30; }
+
+.fy-mt40 {
+  margin-top: 40; }
+
+.fy-mt50 {
+  margin-top: 50; }
+
+/* margin bottom */
+.fy-mb0 {
+  margin-bottom: 0; }
+
+.fy-mb10 {
+  margin-bottom: 10; }
+
+.fy-mb20 {
+  margin-bottom: 20; }
+
+.fy-mb30 {
+  margin-bottom: 30; }
+
+.fy-mb40 {
+  margin-bottom: 40; }
+
+.fy-mb50 {
+  margin-bottom: 50; }
+
+/* marbin top negative */
+.fy-mtn0 {
+  margin-top: 0; }
+
+.fy-mtn10 {
+  margin-top: -10; }
+
+.fy-mtn20 {
+  margin-top: -20; }
+
+.fy-mtn30 {
+  margin-top: -30; }
+
+.fy-mtn40 {
+  margin-top: -40; }
+
+.fy-mtn50 {
+  margin-top: -50; }
+
+/* padding top */
+.fy-pt0 {
+  padding-top: 0; }
+
+.fy-pt10 {
+  padding-top: 10; }
+
+.fy-pt20 {
+  padding-top: 20; }
+
+.fy-pt30 {
+  padding-top: 30; }
+
+.fy-pt40 {
+  padding-top: 40; }
+
+.fy-pt50 {
+  padding-top: 50; }
+
+/* padding bottom*/
+.fy-pb0 {
+  padding-bottom: 0; }
+
+.fy-pb10 {
+  padding-bottom: 10; }
+
+.fy-pb20 {
+  padding-bottom: 20; }
+
+.fy-pb30 {
+  padding-bottom: 30; }
+
+.fy-pb40 {
+  padding-bottom: 40; }
+
+.fy-pb50 {
+  padding-bottom: 50; }
+
+/* font weight */
+.fy-fw100 {
+  font-weight: 100;
+  font-style: normal; }
+
+.fy-fw100i {
+  font-weight: 100;
+  font-style: italic; }
+
+.fy-fw200 {
+  font-weight: 200;
+  font-style: normal; }
+
+.fy-fw200i {
+  font-weight: 200;
+  font-style: italic; }
+
+.fy-fw300 {
+  font-weight: 300;
+  font-style: normal; }
+
+.fy-fw300i {
+  font-weight: 300;
+  font-style: italic; }
+
+.fy-fw400 {
+  font-weight: 400;
+  font-style: normal; }
+
+.fy-fw400i {
+  font-weight: 400;
+  font-style: italic; }
+
+.fy-fw500 {
+  font-weight: 500;
+  font-style: normal; }
+
+.fy-fw500i {
+  font-weight: 500;
+  font-style: italic; }
+
+.fy-fw600 {
+  font-weight: 600;
+  font-style: normal; }
+
+.fy-fw600i {
+  font-weight: 600;
+  font-style: italic; }
+
+.fy-fw700 {
+  font-weight: 700;
+  font-style: normal; }
+
+.fy-fw700i {
+  font-weight: 700;
+  font-style: italic; }
+
+/* remove font weight bold*/
+.fy-rb {
+  font-weight: 400;
+  font-weight: normal; }
+
+.fy-ti {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 32px;
+  font-weight: 400;
+  font-style: normal; }
+  .fy-ti.s1 {
+    font-size: 14px; }
+  .fy-ti.s2 {
+    font-size: 18px; }
+  .fy-ti.s3 {
+    font-size: 24px; }
+  .fy-ti.s4 {
+    font-size: 30px; }
+  .fy-ti.s5 {
+    font-size: 40px; }
+  .fy-ti.s6 {
+    font-size: 50px; }
+  .fy-ti.s7 {
+    font-size: 60px; }
+
+.fy-sti {
+  margin-top: -20px;
+  margin-bottom: 20px; }
+
+/*# text lead*/
+.fy-tld {
+  font-size: 24px;
+  margin-bottom: 10px; }
+
+/*# text basic*/
+.fy-tb {
+  font-size: 16px; }
+
+/*# text large */
+.fy-tl {
+  font-size: 30px; }
+
+/*# text medium */
+.fy-tm {
+  font-size: 20px; }
+
+/*# text small*/
+.fy-ts {
+  font-size: 13px; }
+
+/*# text mute, little smal and grey*/
+.fy-tmu {
+  font-size: 12px;
+  color: #777777; }
+
+/*### Text style*/
+/*# text underline*/
+.fy-tu {
+  text-decoration: underline; }
+
+/* text no underline */
+.fy-tnu {
+  text-decoration: none; }
+
+/*### Text transform*/
+/*# text transform to upprcase*/
+.fy-ttuc {
+  text-transform: uppercase; }
+
+/*# text transform to lowecase*/
+.fy-ttlc {
+  text-transform: lowercase; }
+
+/*# text transform capitalize*/
+.fy-ttc {
+  text-transform: capitalize; }
+
+/*### Text align*/
+/*# Text align left*/
+.fy-tal {
+  text-align: left; }
+
+/*# Text align right*/
+.fy-tar {
+  text-align: right; }
+
+/*# Text align center*/
+.fy-tac {
+  text-align: center; }
+
+/*# Text justify*/
+.fy-tj {
+  text-align: justify; }
+
+/*###  Text wrapping*/
+/*# Text wrapping truncate*/
+/*# Text wrapping break*/
+/*# Text wrapping nowrap*/
+
+/*# sourceMappingURL=maps/main.css.map */
