@@ -10,26 +10,6 @@
 
 }
 
-$max-cols-number: 12;
-$extra-small-col-breakpoint: 560px;
-$small-col-breakpoint: 780px;
-$medium-col-breakpoint: 980px;
-$large-col-breakpoint: 981px;
-
-$extra-small-min-size: 0px;
-$extra-small-max-size: 540px;
-
-$small-min-size: 541px;
-$small-max-size: 780px;
-
-$medium-min-size: 781px;
-$medium-max-size: 980px;
-
-$large-min-size: 981px;
-
-/*$extra-large-col-breakpoint: 560px;*/
-
-
 @for $i from 1 through $max-cols-number {
 	.fy-gcxs#{$i} {
 			float: left;

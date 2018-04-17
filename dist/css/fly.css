@@ -1,3 +1,4 @@
+/* fly prefix */
 /* break points */
 /* Screen sizes */
 /* Mobiel margins */
@@ -19,14 +20,14 @@
   box-sizing: border-box; }
 
 html {
-  line-height: 1.4;
-  /* 1 */
-  -webkit-text-size-adjust: 100%;
-  /* 2 */
   margin: 0;
   padding: 0; }
 
 body {
+  color: #3c3c3c;
+  font-size: 16px;
+  font-family: Arial, Helvetica;
+  line-height: 1.3;
   margin: 0;
   padding: 0; }
 
@@ -122,18 +123,20 @@ p {
   font-weight: 400;
   font-style: normal; }
 
+/*
 body {
-  color: #3c3c3c;
-  font-size: 16px;
-  font-family: Arial, Helvetica;
-  line-height: 1.3; }
+	color: #3c3c3c;
+	font-size: $global-font-size;
+	font-family: $global-font-family;
+	line-height: 1.3;
+}
 
 p {
-  margin-top: 0; }
-
-h1, h2, h3, h4, h5 {
-  margin-top: 0; }
-
+	margin-top: 0;
+}
+h1,h2,h3,h4,h5 {
+	margin-top: 0;
+}*/
 .fy-alert {
   padding: 25px;
   font-size: 14px;
@@ -326,10 +329,10 @@ h1, h2, h3, h4, h5 {
 
 .fy-ctnr {
   width: 100%;
-  max-width: 1170px;
+  max-width: 1164px;
   margin-left: auto;
   margin-right: auto; }
-  @media only screen and (max-width: 1190px) {
+  @media only screen and (max-width: 1184px) {
     .fy-ctnr {
       width: auto;
       margin-left: 10px;
@@ -669,19 +672,6 @@ a {
 .fy-gc-xl- {
 
 }*/
-#left {
-  float: left;
-  width: 180px;
-  background-color: #ff0000; }
-
-#right {
-  width: 100%;
-  padding-left: 180px;
-  background-color: #00FF00; }
-
-.w200 {
-  width: 200px; }
-
 .fy-w200 > div:first-child {
   display: block;
   float: left;
@@ -703,9 +693,6 @@ a {
   padding-right: 200px;
   display: block;
   background-color: blue; }
-
-.classm {
-  width: 300px; }
 
 hr {
   display: block;

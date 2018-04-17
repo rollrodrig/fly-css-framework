@@ -268,11 +268,14 @@ fy-twnw
 
 
 
+### Width
+.fy-w
 
 
 
+### remaining width
 
-
+.fy-rw
 
 
 

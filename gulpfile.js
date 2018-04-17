@@ -27,7 +27,7 @@ gulp.task('browserify', function() {
 
 // Sass
 gulp.task('sass', function () {
-    gulp.src('./src/sass/main.scss')
+    gulp.src('./src/sass/fly.scss')
         .pipe(sourcemaps.init())
         .pipe(sass().on('error', sass.logError))
         .pipe(sourcemaps.write('./maps'))
