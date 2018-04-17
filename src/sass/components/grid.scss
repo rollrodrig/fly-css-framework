@@ -1,0 +1,70 @@
+.fy-gc {
+
+	&:after {
+		content: '.';
+		display: block;
+		visibility: hidden;
+		height: 0;
+		clear: both;
+	}
+
+}
+
+@for $i from 1 through $max-cols-number {
+	.fy-gcxs#{$i} {
+			float: left;
+			width: (100/$max-cols-number)*$i + %;
+	}
+}
+
+@for $i from 1 through $max-cols-number {
+	.fy-gcs#{$i} {
+		@include min-media($small-min-size) {
+			float: left;
+			width: (100/$max-cols-number)*$i + %;
+		}
+	}
+}
+
+@for $i from 1 through $max-cols-number {
+	.fy-gcm#{$i} {
+		@include min-media($medium-min-size) {
+			float: left;
+			width: (100/$max-cols-number)*$i + %;
+		}
+	}
+}
+
+@for $i from 1 through $max-cols-number {
+	.fy-gcl#{$i} {
+		@include min-media($large-min-size) {
+			float: left;
+			width: (100/$max-cols-number)*$i + %;
+		}
+	}
+}
+
+.fy-demo-grid {
+	> div {
+		border-top:1px solid #c3c3c3;
+		border-left:1px solid #c3c3c3;
+		border-bottom:1px solid #c3c3c3;
+		&:last-child {
+			border-right:1px solid #c3c3c3;
+		}
+	}
+}
+
+
+/*.fy-gc-s- {
+
+}
+.fy-gc-m- {
+
+}
+.fy-gc-l- {
+
+}
+.fy-gc-xl- {
+
+}*/
