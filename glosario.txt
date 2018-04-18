@@ -269,23 +269,50 @@ fy-twnw
 
 
 ### Width
-.fy-w
+width from 1 to 12
+.fy-wd*
 
+### width float elements to left
+.fy-wda
+
+#  override float to right
+.fy-wda.fy-ar
 
 
 ### remaining width
-
-.fy-rw
-
-
-
-
+from 1 to 12
+.fy-rw* 
+column align right
+.fy-rw-r
 
 
+### Clearfix
+.fy-cfx
 
 
+### align
+# align left
+.fy-all
+# align right
+.fy-alr
 
 
+### mobile override
+.fy-
+.fy-mbk
+
+
+### Expand elements
+
+# for individual element
+.fy-exp-xs #extra small
+.fy-exp-s #small
+.fy-exp-m #medium 
+
+# for direct child elements
+.fy-exp-cs-xs > * #extra small
+.fy-exp-cs-s > * #small
+.fy-exp-cs-m > * #medium 
 
 
 

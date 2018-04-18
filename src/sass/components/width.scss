@@ -1,52 +1,5 @@
-
-.fy-wd {
-
-}
-
-.fy-w200 {
-	> div:first-child {
-		display: block;
-		float: left;
-		width: 200px;
-		background-color: orange;
-	}
-	> div:last-child {
-		padding-left: 200px;
-		display: block;
-		background-color: blue;
+@for $i from 1 through $max-cols-number {
+	.fy-wd#{$i} {
+		width: $column-width*$i;
 	}
 }
-
-.fy-w200-r {
-	> div:first-child {
-		display: block;
-		float: right;
-		width: 200px;
-		background-color: orange;
-	}
-	> div:last-child {
-		padding-right: 200px;
-		display: block;
-		background-color: blue;
-	}
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

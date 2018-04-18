@@ -1,0 +1,36 @@
+.fy-wda {
+
+	&:after {
+		content: '.';
+		display: block;
+		visibility: hidden;
+		height: 0;
+		clear: both;
+	}
+
+	&.-ctr {
+		display: inline-block;
+	    position: relative;
+	    margin-left: auto;
+	    margin-right: auto;
+	    left: 50%;
+	    transform: translateX(-50%);
+	    &:after {
+	    	content:'';
+	    	display: none;
+	    }
+	}
+
+
+
+	> div {
+		float: left;
+	}
+
+	&.fy-ar {
+		> div {
+			float: right;
+		}
+	}
+	
+}

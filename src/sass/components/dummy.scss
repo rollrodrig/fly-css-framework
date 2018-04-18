@@ -1,0 +1,23 @@
+
+
+.demo-grid {
+	> div {
+		border-top:1px solid #c3c3c3;
+		border-left:1px solid #c3c3c3;
+		border-bottom:1px solid #c3c3c3;
+		&:last-child {
+			border-right:1px solid #c3c3c3;
+		}
+	}
+}
+
+.object-float-left {
+	display: block;
+	width: 150px;
+	background-color: grey;
+	float: left;
+}
+
+.a-box-343 {
+	padding: 30px;
+}
