@@ -1,0 +1,30 @@
+.fy-bx {
+	padding: 30px;
+
+	&.--sv {
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+	&.--sh {
+		padding-left: 15px;
+		padding-right: 15px;
+	}	
+
+	&.--lv {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+	&.--lh {
+		padding-left: 60px;
+		padding-top: 60px;
+	}
+}
+
+.fy-bxs {
+	padding: 15px;
+}
+
+
+.fy-bxl {
+	padding: 50px;
+}

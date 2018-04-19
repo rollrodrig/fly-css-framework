@@ -317,24 +317,40 @@ column align right
 
 
 
+### Nav
+
+# nav
+.fy-nv
+
+# title
+.fy-nv.--t
+
+# title capitalize
+.fy-nv.--tc
+
+# title underline
+.fy-nv.--tu
+
+# child padding
+.fy-nv.--cp
 
 
 
+### box
 
+normal
+fy-bx
 
+small
+fy-bxs
+large
+fy-bxl
 
+horizontal
+fy-bxh
 
-
-
-
-
-
-
-
-
-
-
-
+vertical
+fy-bxv
 
 
 
