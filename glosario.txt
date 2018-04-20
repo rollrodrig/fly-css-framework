@@ -184,7 +184,7 @@ fy-twnw
 
 
 ### Badge
-.fy-bge
+.fy-bdg
 
 
 ### Label

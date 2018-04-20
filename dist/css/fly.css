@@ -496,17 +496,18 @@ pre, code {
 .fy-bgc-ln {
   background-color: #f3f3f3; }
 
-.fy-bge {
+.fy-bdg {
   border-radius: 10px;
   background-color: #c2c2c2;
-  font-size: 12px;
+  font-size: 11px;
   min-width: 22px;
   height: 17px;
   text-align: center;
-  padding: 0 6px;
+  padding: 2px 6px;
   vertical-align: middle;
-  display: inline-flex;
   justify-content: center; }
+  .fy-bdg .fy-bdg.-l {
+    font-size: 18px; }
 
 .fy-brc {
   font-size: 12px; }

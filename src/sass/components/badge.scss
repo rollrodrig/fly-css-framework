@@ -1,13 +1,16 @@
-.fy-bge {
+.fy-bdg {
     border-radius: 10px;
     background-color: $color-neutral;
-    font-size: 12px;
+    font-size: 11px;
     min-width: 22px;
     height: 17px;
     text-align: center;
-    padding: 0 6px;
+    padding: 2px 6px;
     vertical-align: middle;
-    display: inline-flex;
     justify-content: center;
 
+    &
+    &.-l {
+        font-size: 18px;
+    }
 }
