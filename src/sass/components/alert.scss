@@ -1,12 +1,11 @@
-.fy-alert {
+.fy-alrt {
 	padding: 25px;
-	font-size: 14px;
 	background-color: #f3f3f3;
 
-	&.sp {
+	&.-sp {
 		padding: 10px;
 	}
-	&.lp {
+	&.-lp {
 		padding: 40px;
 	}
 }

@@ -331,13 +331,38 @@ body {
   margin: 0;
   padding: 0; }
 
+h1, h2, h3, h4, h5 {
+  margin-top: 0; }
+
 h1 {
-  margin-top: 0;
-  margin-bottom: 0; }
+  margin-bottom: 20px; }
+
+h2 {
+  margin-bottom: 15px; }
+
+h3 {
+  margin-bottom: 10px; }
+
+h4 {
+  margin-bottom: 10px; }
+
+h5 {
+  margin-bottom: 10px; }
 
 p {
   margin-top: 0;
-  margin-bottom: 0; }
+  margin-bottom: 18px; }
+
+p a {
+  text-decoration: none; }
+  p a:hover {
+    text-decoration: underline; }
+
+pre, code {
+  font-size: 13px;
+  line-height: 1.4;
+  tab-size: 4;
+  font-family: 'Roboto Mono',monospace; }
 
 @font-face {
   font-family: 'Open Sans';
@@ -439,13 +464,12 @@ p {
 .a-box-343 {
   padding: 30px; }
 
-.fy-alert {
+.fy-alrt {
   padding: 25px;
-  font-size: 14px;
   background-color: #f3f3f3; }
-  .fy-alert.sp {
+  .fy-alrt.-sp {
     padding: 10px; }
-  .fy-alert.lp {
+  .fy-alrt.-lp {
     padding: 40px; }
 
 .fy-all {
@@ -460,14 +484,17 @@ p {
 .fy-bgc-s {
   background-color: #5585DD; }
 
-.fy-bgc-n {
-  background-color: #c2c2c2; }
-
 .fy-bgc-wa {
   background-color: #FF0000; }
 
 .fy-bgc-su {
   background-color: #0CE900; }
+
+.fy-bgc-n {
+  background-color: #c2c2c2; }
+
+.fy-bgc-ln {
+  background-color: #f3f3f3; }
 
 .fy-bge {
   border-radius: 10px;
@@ -1313,128 +1340,6 @@ hr {
   margin-top: 20px;
   margin-bottom: 20px; }
 
-/* margin top */
-.fy-mt0 {
-  margin-top: 0; }
-
-.fy-mt10 {
-  margin-top: 10; }
-
-.fy-mt20 {
-  margin-top: 20; }
-
-.fy-mt30 {
-  margin-top: 30; }
-
-.fy-mt40 {
-  margin-top: 40; }
-
-.fy-mt50 {
-  margin-top: 50; }
-
-/* margin bottom */
-.fy-mb0 {
-  margin-bottom: 0; }
-
-.fy-mb10 {
-  margin-bottom: 10; }
-
-.fy-mb20 {
-  margin-bottom: 20; }
-
-.fy-mb30 {
-  margin-bottom: 30; }
-
-.fy-mb40 {
-  margin-bottom: 40; }
-
-.fy-mb50 {
-  margin-bottom: 50; }
-
-/* marbin top negative */
-.fy-mtn0 {
-  margin-top: 0; }
-
-.fy-mtn10 {
-  margin-top: -10; }
-
-.fy-mtn20 {
-  margin-top: -20; }
-
-.fy-mtn30 {
-  margin-top: -30; }
-
-.fy-mtn40 {
-  margin-top: -40; }
-
-.fy-mtn50 {
-  margin-top: -50; }
-
-/* padding top */
-.fy-pt0 {
-  padding-top: 0; }
-
-.fy-pt10 {
-  padding-top: 10; }
-
-.fy-pt20 {
-  padding-top: 20; }
-
-.fy-pt30 {
-  padding-top: 30; }
-
-.fy-pt40 {
-  padding-top: 40; }
-
-.fy-pt50 {
-  padding-top: 50; }
-
-/* padding bottom*/
-.fy-pb0 {
-  padding-bottom: 0; }
-
-.fy-pb10 {
-  padding-bottom: 10; }
-
-.fy-pb20 {
-  padding-bottom: 20; }
-
-.fy-pb30 {
-  padding-bottom: 30; }
-
-.fy-pb40 {
-  padding-bottom: 40; }
-
-.fy-pb50 {
-  padding-bottom: 50; }
-
-.fy-fwb {
-  font-weight: bold; }
-
-.fy-fwn {
-  font-weight: normal; }
-
-.fy-fwl {
-  font-weight: lighter; }
-
-.fy-fz1 {
-  font-size: 11px; }
-
-.fy-fz2 {
-  font-size: 14px; }
-
-.fy-fz3 {
-  font-size: 20px; }
-
-.fy-fz4 {
-  font-size: 26px; }
-
-.fy-fz5 {
-  font-size: 32px; }
-
-.fy-fz6 {
-  font-size: 46px; }
-
 .fy-ti {
   margin-top: 0;
   margin-bottom: 30px;
@@ -1442,37 +1347,50 @@ hr {
   font-weight: normal;
   line-height: 1.1; }
   .fy-ti.-s1 {
-    font-size: 14px; }
+    font-size: 14px;
+    margin-bottom: 12px; }
   .fy-ti.-s2 {
-    font-size: 18px; }
+    font-size: 18px;
+    margin-bottom: 15px; }
   .fy-ti.-s3 {
-    font-size: 24px; }
+    font-size: 24px;
+    margin-bottom: 20px; }
   .fy-ti.-s4 {
-    font-size: 30px; }
+    font-size: 30px;
+    margin-bottom: 30px; }
   .fy-ti.-s5 {
-    font-size: 40px; }
+    font-size: 40px;
+    margin-bottom: 30px; }
   .fy-ti.-s6 {
-    font-size: 50px; }
+    font-size: 50px;
+    margin-bottom: 30px; }
   .fy-ti.-s7 {
-    font-size: 60px; }
+    font-size: 60px;
+    margin-bottom: 30px; }
 
 .fy-sti {
   margin-top: -30px;
   margin-bottom: 20px; }
 
 .fy-tx {
-  font-size: 16px; }
+  font-size: 16px;
+  margin-bottom: 15px; }
   .fy-txs {
-    font-size: 13px; }
+    font-size: 13px;
+    margin-bottom: 10px; }
   .fy-txm {
-    font-size: 20px; }
+    font-size: 20px;
+    margin-bottom: 25px; }
   .fy-txl {
-    font-size: 30px; }
+    font-size: 30px;
+    margin-bottom: 50px; }
   .fy-txld {
-    font-size: 24px; }
+    font-size: 24px;
+    margin-bottom: 50px; }
   .fy-txmu {
     font-size: 12px;
-    color: #777777; }
+    color: #777777;
+    margin-bottom: 8px; }
   .fy-txul {
     text-decoration: underline; }
   .fy-txnul {
@@ -1570,6 +1488,128 @@ hr {
 .fy-ss.-r .fy-ss_i {
   border-radius: 3px; }
 
+/* padding top */
+.fy-pt0 {
+  padding-top: 0; }
+
+.fy-pt10 {
+  padding-top: 10; }
+
+.fy-pt20 {
+  padding-top: 20; }
+
+.fy-pt30 {
+  padding-top: 30; }
+
+.fy-pt40 {
+  padding-top: 40; }
+
+.fy-pt50 {
+  padding-top: 50; }
+
+/* padding bottom*/
+.fy-pb0 {
+  padding-bottom: 0; }
+
+.fy-pb10 {
+  padding-bottom: 10; }
+
+.fy-pb20 {
+  padding-bottom: 20; }
+
+.fy-pb30 {
+  padding-bottom: 30; }
+
+.fy-pb40 {
+  padding-bottom: 40; }
+
+.fy-pb50 {
+  padding-bottom: 50; }
+
+.fy-fwb {
+  font-weight: bold; }
+
+.fy-fwn {
+  font-weight: normal; }
+
+.fy-fwl {
+  font-weight: lighter; }
+
+.fy-fz1 {
+  font-size: 11px; }
+
+.fy-fz2 {
+  font-size: 14px; }
+
+.fy-fz3 {
+  font-size: 20px; }
+
+.fy-fz4 {
+  font-size: 26px; }
+
+.fy-fz5 {
+  font-size: 32px; }
+
+.fy-fz6 {
+  font-size: 46px; }
+
+/* margin top */
+.fy-mt0 {
+  margin-top: 0; }
+
+.fy-mt10 {
+  margin-top: 10; }
+
+.fy-mt20 {
+  margin-top: 20; }
+
+.fy-mt30 {
+  margin-top: 30; }
+
+.fy-mt40 {
+  margin-top: 40; }
+
+.fy-mt50 {
+  margin-top: 50; }
+
+/* margin bottom */
+.fy-mb0 {
+  margin-bottom: 0; }
+
+.fy-mb10 {
+  margin-bottom: 10; }
+
+.fy-mb20 {
+  margin-bottom: 20; }
+
+.fy-mb30 {
+  margin-bottom: 30; }
+
+.fy-mb40 {
+  margin-bottom: 40; }
+
+.fy-mb50 {
+  margin-bottom: 50; }
+
+/* marbin top negative */
+.fy-mtn0 {
+  margin-top: 0; }
+
+.fy-mtn10 {
+  margin-top: -10; }
+
+.fy-mtn20 {
+  margin-top: -20; }
+
+.fy-mtn30 {
+  margin-top: -30; }
+
+.fy-mtn40 {
+  margin-top: -40; }
+
+.fy-mtn50 {
+  margin-top: -50; }
+
 /* Navigation */
 .fy-nv {
   display: block;
@@ -1615,11 +1655,5 @@ hr {
     padding-left: 10px; }
     .fy-nv.--cp > *:first-child {
       padding-left: 0; }
-
-.logo {
-  width: 130px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto; }
 
 /*# sourceMappingURL=maps/fly.css.map */

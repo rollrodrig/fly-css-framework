@@ -31,10 +31,6 @@
 
 @import "hr";
 
-@import "margin";
-@import "padding";
-@import "font-weight";
-@import "font-size";
 
 @import "title";
 @import "subtitle";
@@ -43,7 +39,10 @@
 @import "box";
 @import "social";
 
-
+@import "padding";
+@import "font-weight";
+@import "font-size";
+@import "margin";
 
 /* Navigation */
 @import "nav";
@@ -51,7 +50,3 @@
 
 
 @import "helpers";
-
-
-
-@import "docs";

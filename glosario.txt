@@ -154,7 +154,7 @@ fy-twnw
 
 ### Alert
 
-.fy-alert
+.fy-alrt
 
 ### Close button
 

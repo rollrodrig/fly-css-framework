@@ -1,0 +1,15 @@
+pre {
+
+}
+code, code.hljs {
+	background-color: transparent;
+	margin: 0;
+	padding: 0;
+}
+
+.logo {
+    width: 130px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
