@@ -1577,6 +1577,46 @@ hr {
 .fy-bxl {
   padding: 50px; }
 
+.fy-ss {
+  font-size: 16px;
+  color: #656565;
+  display: inline-block; }
+
+.fy-ss-t {
+  padding-right: 5px;
+  display: inline-block; }
+
+.fy-ss-i {
+  display: inline-block;
+  width: 29px;
+  height: 27px;
+  background-color: #909090;
+  text-align: center;
+  margin-right: 5px;
+  color: #ffffff;
+  cursor: pointer; }
+  .fy-ss-i:last-child {
+    margin-right: 0px; }
+  .fy-ss-i > i {
+    margin-top: 5px; }
+
+/* Variations */
+.fy-ss.--s {
+  font-size: 12px; }
+  .fy-ss.--s .fy-ss-i {
+    width: 20px;
+    height: 20px; }
+
+.fy-ss.--l {
+  font-size: 20px; }
+  .fy-ss.--l .fy-ss-i {
+    width: 45px;
+    height: 40px;
+    font-size: 29px; }
+
+.fy-ss.--nm .fy-ss-i {
+  margin-right: 0; }
+
 /* Navigation */
 .fy-nv {
   display: block;

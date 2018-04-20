@@ -1,0 +1,89 @@
+.fy-ss {
+	font-size: 16px;
+	color: #656565;
+    display: inline-block;
+}
+.fy-ss-t {
+	padding-right: 5px;
+    display: inline-block;
+}
+.fy-ss-i {
+    display: inline-block;
+	width: 29px;
+	height: 27px;
+	background-color: #909090;
+	text-align: center;
+	margin-right: 5px;
+	color: #ffffff;
+	cursor: pointer;
+	
+	&:last-child {
+		margin-right: 0px;
+	}
+	> i {
+		margin-top: 5px;
+	}
+}
+
+/* Variations */
+.fy-ss {
+	&.--s {
+		font-size: 12px;
+
+		.fy-ss-i {
+			width: 20px;
+			height: 20px;
+		}
+
+	}
+	&.--l {
+		font-size: 20px;
+
+		.fy-ss-i {
+			width: 45px;
+			height: 40px;
+			font-size: 29px;
+		}
+
+	}
+
+	&.--nm {
+		.fy-ss-i {
+			margin-right: 0;	
+		}
+		
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
