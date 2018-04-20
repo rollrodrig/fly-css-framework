@@ -1,29 +1,28 @@
 .fy-ti {
 	margin-top: 0;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 	font-size: 32px;
-	font-weight: 400;
-	font-style: normal;
-
-	&.s1 {
+	font-weight: normal;
+	line-height: 1.1;
+	&.-s1 {
 		font-size: $heading-font-size-is1;
 	}
-	&.s2 {
+	&.-s2 {
 		font-size: $heading-font-size-is2;
 	}
-	&.s3 {
+	&.-s3 {
 		font-size: $heading-font-size-is3;
 	}
-	&.s4 {
+	&.-s4 {
 		font-size: $heading-font-size-is4;
 	}
-	&.s5 {
+	&.-s5 {
 		font-size: $heading-font-size-is5;
 	}
-	&.s6 {
+	&.-s6 {
 		font-size: $heading-font-size-is6;
 	}
-	&.s7 {
+	&.-s7 {
 		font-size: $heading-font-size-is7;
 	}
 

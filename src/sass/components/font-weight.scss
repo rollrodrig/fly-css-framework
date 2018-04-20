@@ -1,23 +1,9 @@
-/* font weight */
-@for $i from 1 through 7 {
-	.fy-fw#{$i}00 {
-	    font-weight: $i*100;
-	    font-style: normal;
-	}
-	.fy-fw#{$i}00i {
-	    font-weight: $i*100;
-	    font-style: italic;
-	}
+.fy-fwb {
+	font-weight: bold;
 }
-
-
-
-/* remove font weight bold*/
-.fy-rb {
-	font-weight: 400;
+.fy-fwn {
 	font-weight: normal;
 }
-
-
-
-
+.fy-fwl {
+	font-weight: lighter;
+}

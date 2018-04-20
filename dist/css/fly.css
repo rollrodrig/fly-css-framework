@@ -324,7 +324,7 @@ html {
   padding: 0; }
 
 body {
-  color: #3c3c3c;
+  color: #585858;
   font-size: 16px;
   font-family: Arial, Helvetica;
   line-height: 1.3;
@@ -1299,6 +1299,14 @@ a {
   margin-left: auto;
   margin-right: auto; }
 
+.fy-cg {
+  display: inline-block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  left: 50%;
+  transform: translateX(-50%); }
+
 hr {
   display: block;
   height: 1px;
@@ -1400,156 +1408,92 @@ hr {
 .fy-pb50 {
   padding-bottom: 50; }
 
-/* font weight */
-.fy-fw100 {
-  font-weight: 100;
-  font-style: normal; }
+.fy-fwb {
+  font-weight: bold; }
 
-.fy-fw100i {
-  font-weight: 100;
-  font-style: italic; }
-
-.fy-fw200 {
-  font-weight: 200;
-  font-style: normal; }
-
-.fy-fw200i {
-  font-weight: 200;
-  font-style: italic; }
-
-.fy-fw300 {
-  font-weight: 300;
-  font-style: normal; }
-
-.fy-fw300i {
-  font-weight: 300;
-  font-style: italic; }
-
-.fy-fw400 {
-  font-weight: 400;
-  font-style: normal; }
-
-.fy-fw400i {
-  font-weight: 400;
-  font-style: italic; }
-
-.fy-fw500 {
-  font-weight: 500;
-  font-style: normal; }
-
-.fy-fw500i {
-  font-weight: 500;
-  font-style: italic; }
-
-.fy-fw600 {
-  font-weight: 600;
-  font-style: normal; }
-
-.fy-fw600i {
-  font-weight: 600;
-  font-style: italic; }
-
-.fy-fw700 {
-  font-weight: 700;
-  font-style: normal; }
-
-.fy-fw700i {
-  font-weight: 700;
-  font-style: italic; }
-
-/* remove font weight bold*/
-.fy-rb {
-  font-weight: 400;
+.fy-fwn {
   font-weight: normal; }
+
+.fy-fwl {
+  font-weight: lighter; }
+
+.fy-fz1 {
+  font-size: 11px; }
+
+.fy-fz2 {
+  font-size: 14px; }
+
+.fy-fz3 {
+  font-size: 20px; }
+
+.fy-fz4 {
+  font-size: 26px; }
+
+.fy-fz5 {
+  font-size: 32px; }
+
+.fy-fz6 {
+  font-size: 46px; }
 
 .fy-ti {
   margin-top: 0;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   font-size: 32px;
-  font-weight: 400;
-  font-style: normal; }
-  .fy-ti.s1 {
+  font-weight: normal;
+  line-height: 1.1; }
+  .fy-ti.-s1 {
     font-size: 14px; }
-  .fy-ti.s2 {
+  .fy-ti.-s2 {
     font-size: 18px; }
-  .fy-ti.s3 {
+  .fy-ti.-s3 {
     font-size: 24px; }
-  .fy-ti.s4 {
+  .fy-ti.-s4 {
     font-size: 30px; }
-  .fy-ti.s5 {
+  .fy-ti.-s5 {
     font-size: 40px; }
-  .fy-ti.s6 {
+  .fy-ti.-s6 {
     font-size: 50px; }
-  .fy-ti.s7 {
+  .fy-ti.-s7 {
     font-size: 60px; }
 
 .fy-sti {
-  margin-top: -20px;
+  margin-top: -30px;
   margin-bottom: 20px; }
 
-/*# text lead*/
-.fy-tld {
-  font-size: 24px;
-  margin-bottom: 10px; }
-
-/*# text basic*/
-.fy-tb {
+.fy-tx {
   font-size: 16px; }
+  .fy-txs {
+    font-size: 13px; }
+  .fy-txm {
+    font-size: 20px; }
+  .fy-txl {
+    font-size: 30px; }
+  .fy-txld {
+    font-size: 24px; }
+  .fy-txmu {
+    font-size: 12px;
+    color: #777777; }
+  .fy-txul {
+    text-decoration: underline; }
+  .fy-txnul {
+    text-decoration: none; }
+  .fy-txuc {
+    text-transform: uppercase; }
+  .fy-txlc {
+    text-transform: lowercase; }
+  .fy-txcp {
+    text-transform: capitalize; }
 
-/*# text large */
-.fy-tl {
-  font-size: 30px; }
-
-/*# text medium */
-.fy-tm {
-  font-size: 20px; }
-
-/*# text small*/
-.fy-ts {
-  font-size: 13px; }
-
-/*# text mute, little smal and grey*/
-.fy-tmu {
-  font-size: 12px;
-  color: #777777; }
-
-/*### Text style*/
-/*# text underline*/
-.fy-tu {
-  text-decoration: underline; }
-
-/* text no underline */
-.fy-tnu {
-  text-decoration: none; }
-
-/*### Text transform*/
-/*# text transform to upprcase*/
-.fy-ttuc {
-  text-transform: uppercase; }
-
-/*# text transform to lowecase*/
-.fy-ttlc {
-  text-transform: lowercase; }
-
-/*# text transform capitalize*/
-.fy-ttc {
-  text-transform: capitalize; }
-
-/*### Text align*/
-/*# Text align left*/
 .fy-tal {
   text-align: left; }
 
-/*# Text align right*/
 .fy-tar {
   text-align: right; }
 
-/*# Text align center*/
 .fy-tac {
   text-align: center; }
 
-/*# Text justify*/
-.fy-tj {
+.fy-taj {
   text-align: justify; }
 
 /*###  Text wrapping*/
@@ -1582,11 +1526,11 @@ hr {
   color: #656565;
   display: inline-block; }
 
-.fy-ss-t {
+.fy-ss_t {
   padding-right: 5px;
   display: inline-block; }
 
-.fy-ss-i {
+.fy-ss_i {
   display: inline-block;
   width: 29px;
   height: 27px;
@@ -1595,27 +1539,36 @@ hr {
   margin-right: 5px;
   color: #ffffff;
   cursor: pointer; }
-  .fy-ss-i:last-child {
+  .fy-ss_i:last-child {
     margin-right: 0px; }
-  .fy-ss-i > i {
+  .fy-ss_i > i {
     margin-top: 5px; }
 
 /* Variations */
-.fy-ss.--s {
+.fy-ss.-s {
   font-size: 12px; }
-  .fy-ss.--s .fy-ss-i {
+  .fy-ss.-s .fy-ss_i {
     width: 20px;
     height: 20px; }
+  .fy-ss.-s.-r .fy-ss_i {
+    border-radius: 2px; }
 
-.fy-ss.--l {
+.fy-ss.-l {
   font-size: 20px; }
-  .fy-ss.--l .fy-ss-i {
+  .fy-ss.-l .fy-ss_i {
     width: 45px;
     height: 40px;
     font-size: 29px; }
+    .fy-ss.-l .fy-ss_i > i {
+      margin-top: 6px; }
+  .fy-ss.-l.-r .fy-ss_i {
+    border-radius: 4px; }
 
-.fy-ss.--nm .fy-ss-i {
+.fy-ss.-nm .fy-ss_i {
   margin-right: 0; }
+
+.fy-ss.-r .fy-ss_i {
+  border-radius: 3px; }
 
 /* Navigation */
 .fy-nv {
@@ -1653,7 +1606,7 @@ hr {
     padding-left: 0;
     border-bottom: 1px solid #c3c3c3;
     padding-bottom: 4px;
-    margin-bottom: 3px;
+    margin-bottom: 8px;
     text-transform: uppercase;
     font-size: 10px; }
     .fy-nv.--tc > *:first-child a:hover {

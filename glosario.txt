@@ -6,14 +6,27 @@ fy-ti
 
 # sizes
 
-fy-ti.s1
-fy-ti.s2
-fy-ti.s3
-fy-ti.s4
-fy-ti.s5
-fy-ti.s6
-fy-ti.s7
+fy-ti.-s1
+fy-ti.-s2
+fy-ti.-s3
+fy-ti.-s4
+fy-ti.-s5
+fy-ti.-s6
+fy-ti.-s7
 	
+### font size
+fy-fz1
+fy-fz2
+fy-fz3
+fy-fz4
+fy-fz5
+fy-fz6
+
+### Font weight
+fy-fwb
+fy-fwn
+fy-fwl
+
 
 ### Margin
 
@@ -69,38 +82,40 @@ fy-pt5
 
 ### Text
 
-# text lead
-fy-tld
-
 # text basic
-fy-tb
+fy-tx
+
+# text lead
+fy-txld
 
 # text large 
-fy-tl
-	
-# text medium 
-fy-tm
+fy-txl
 			
 # text small
-fy-ts
+fy-txs
 
 # text mute, little smal and grey
-fy-tmu
+fy-txmu
 
 
-### Text style
+## Text style
 
 # text with underline
-fy-tul
+fy-txul
 
+# text with no underline
+fy-txnul
 
 ### Text transform
 
-# text to upprcase
-fy-ttuc
+# text to uppercase
+fy-txuc
 
 # text to lowecase
-fy-ttlc
+fy-txlc
+
+# text capitalize
+fy-txcp
 
 
 
@@ -116,7 +131,7 @@ fy-tar
 fy-tac
 
 # Text justify
-fy-tj
+fy-taj
 
 
 
@@ -354,11 +369,21 @@ fy-bxv
 
 ### social share
 
-fy-ss
+# normal
+.fy-ss
+# child text
+.fy-ss_t
+# child icon
+.fy-ss_i
+
+# small
+.fy-ss.-s
+# large
+.fy-ss.-l
 
 
-
-
+# center group
+.fy-cg
 
 
 

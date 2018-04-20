@@ -1,107 +1,49 @@
-
-/*# text lead*/
-.fy-tld {
-	font-size: 24px;
-	margin-bottom: 10px;
-}
-
-/*# text basic*/
-.fy-tb {
+.fy-tx {
 	font-size: 16px;
-}
 
-/*# text large */
-.fy-tl {
-	font-size: 30px;
-}
-	
-/*# text medium */
-.fy-tm {
-	font-size: 20px;
-}
-			
-/*# text small*/
-.fy-ts {
-	font-size: 13px;
-}
+	&s {
+		font-size: 13px;
+	}
+		
+	&m {
+		font-size: 20px;
+	}
 
-/*# text mute, little smal and grey*/
-.fy-tmu {
-	font-size: 12px;
-	color: #777777;
-}
+	&l {
+		font-size: 30px;
+	}
 
+	&ld {
+		font-size: 24px;
+	}
 
-/*### Text style*/
-
-/*# text underline*/
-.fy-tu {
-	text-decoration: underline;
-}
-/* text no underline */
-.fy-tnu {
-	text-decoration: none;
-}
-
-/*### Text transform*/
-
-/*# text transform to upprcase*/
-.fy-ttuc {
-	text-transform: uppercase;
-}
-
-/*# text transform to lowecase*/
-.fy-ttlc {
-	text-transform: lowercase;
-}
-
-/*# text transform capitalize*/
-.fy-ttc {
-	text-transform: capitalize;
-}
+	&mu {
+		font-size: 12px;
+		color: #777777;
+	}
 
 
+	&ul {
+		text-decoration: underline;
+	}
+	&nul {
+		text-decoration: none;
+	}
 
-/*### Text align*/
+	&uc {
+		text-transform: uppercase;
+	}
 
-/*# Text align left*/
-.fy-tal {
-	text-align: left;
-}
+	&lc {
+		text-transform: lowercase;
+	}
 
-/*# Text align right*/
-.fy-tar {
-	text-align: right;
-}
-
-/*# Text align center*/
-.fy-tac {
-	text-align: center
-}
-
-/*# Text justify*/
-.fy-tj {
-	text-align: justify;
-}
-
-
-
-/*###  Text wrapping*/
-
-/*# Text wrapping truncate*/
-.fy-twt {
+	&cp {
+		text-transform: capitalize;
+	}
 
 }
 
-/*# Text wrapping break*/
-.fy-twb {
-
-}
-
-/*# Text wrapping nowrap*/
-.fy-twnw {
-
-}
 
 
 
