@@ -478,23 +478,117 @@ pre, code {
 .fy-alr {
   float: right; }
 
-.fy-bgc-p {
+.fy-bcp {
   background-color: #0E56D9; }
+  .fy-bcpl {
+    background-color: #337bff; }
+  .fy-bcpd {
+    background-color: #0043bd; }
 
-.fy-bgc-s {
-  background-color: #5585DD; }
+.fy-bcs {
+  background-color: #777777; }
+  .fy-bcsl {
+    background-color: #a9a9a9; }
+  .fy-bcsd {
+    background-color: #636363; }
 
-.fy-bgc-wa {
-  background-color: #FF0000; }
+.fy-bcss {
+  background-color: #00D652; }
+  .fy-bcssl {
+    background-color: #2EDD71; }
+  .fy-bcssd {
+    background-color: #009C3C; }
 
-.fy-bgc-su {
-  background-color: #0CE900; }
+.fy-bcw {
+  background-color: #F0BB0B; }
+  .fy-bcwl {
+    background-color: #F4CD4D; }
+  .fy-bcwd {
+    background-color: #DBAA0A; }
 
-.fy-bgc-n {
-  background-color: #c2c2c2; }
+.fy-bcd {
+  background-color: #D83838; }
+  .fy-bcdl {
+    background-color: #FF5454; }
+  .fy-bcdd {
+    background-color: #C61D1D; }
 
-.fy-bgc-ln {
-  background-color: #f3f3f3; }
+.fy-bci {
+  background-color: #0197F6; }
+  .fy-bcil {
+    background-color: #38ACF4; }
+  .fy-bcid {
+    background-color: #0087DB; }
+
+.fy-bcl {
+  background-color: #F5F5F6; }
+  .fy-bcll {
+    background-color: #FAFAFA; }
+  .fy-bcld {
+    background-color: #D7DADD; }
+
+.fy-bcd {
+  background-color: #1A242B; }
+  .fy-bcdl {
+    background-color: #6D7378; }
+  .fy-bcdd {
+    background-color: #0F1418; }
+
+.fy-cop {
+  color: #0E56D9; }
+  .fy-copl {
+    color: #337bff; }
+  .fy-copd {
+    color: #0043bd; }
+
+.fy-cos {
+  color: #777777; }
+  .fy-cosl {
+    color: #a9a9a9; }
+  .fy-cosd {
+    color: #636363; }
+
+.fy-coss {
+  color: #00D652; }
+  .fy-cossl {
+    color: #2EDD71; }
+  .fy-cossd {
+    color: #009C3C; }
+
+.fy-cow {
+  color: #F0BB0B; }
+  .fy-cowl {
+    color: #F4CD4D; }
+  .fy-cowd {
+    color: #DBAA0A; }
+
+.fy-cod {
+  color: #D83838; }
+  .fy-codl {
+    color: #FF5454; }
+  .fy-codd {
+    color: #C61D1D; }
+
+.fy-coi {
+  color: #0197F6; }
+  .fy-coil {
+    color: #38ACF4; }
+  .fy-coid {
+    color: #0087DB; }
+
+.fy-col {
+  color: #F5F5F6; }
+  .fy-coll {
+    color: #FAFAFA; }
+  .fy-cold {
+    color: #D7DADD; }
+
+.fy-cod {
+  color: #1A242B; }
+  .fy-codl {
+    color: #6D7378; }
+  .fy-codd {
+    color: #0F1418; }
 
 .fy-bdg {
   border-radius: 10px;
@@ -506,14 +600,14 @@ pre, code {
   padding: 2px 6px;
   vertical-align: middle;
   justify-content: center; }
-  .fy-bdg .fy-bdg.-l {
+  .fy-bdg.-l {
     font-size: 18px; }
 
 .fy-brc {
   font-size: 12px; }
   .fy-brc > a {
     font-size: 12px;
-    color: #333333;
+    color: #1A242B;
     text-decoration: none; }
     .fy-brc > a:hover {
       text-decoration: underline; }
@@ -529,7 +623,7 @@ pre, code {
       content: ' ';
       height: 8px;
       width: 1px;
-      background-color: #333333; }
+      background-color: #1A242B; }
     .fy-brc > span.--a:before {
       transform: rotate(-45deg);
       top: 3px; }
@@ -545,9 +639,9 @@ pre, code {
   padding-top: 13px;
   padding-bottom: 13px;
   text-align: center;
-  border: 1px solid #929396;
+  border: 1px solid #6D7378;
   font-size: 14px;
-  color: #929396;
+  color: #6D7378;
   text-decoration: none;
   line-height: 1.12; }
   .fy-btn:not(:disabled) {
@@ -591,7 +685,7 @@ pre, code {
     content: ' ';
     height: 8px;
     width: 1px;
-    background-color: #333333; }
+    background-color: #1A242B; }
   .fy-btn.-al:before {
     transform: rotate(45deg);
     top: 14px; }
@@ -608,7 +702,7 @@ pre, code {
     content: ' ';
     height: 8px;
     width: 1px;
-    background-color: #333333; }
+    background-color: #1A242B; }
   .fy-btn.-ar:before {
     transform: rotate(-45deg);
     top: 14px; }
@@ -618,7 +712,7 @@ pre, code {
 
 .fy-card {
   padding: 30px;
-  border: 1px solid #929396; }
+  border: 1px solid #6D7378; }
   .fy-card.lp {
     padding: 50px; }
   .fy-card.sp {
@@ -642,14 +736,14 @@ pre, code {
   text-align: center;
   cursor: pointer; }
   .fy-cls:hover:before, .fy-cls:hover:after {
-    background-color: #929396; }
+    background-color: #6D7378; }
   .fy-cls:before, .fy-cls:after {
     position: absolute;
     left: 9px;
     content: ' ';
     height: 14px;
     width: 2px;
-    background-color: #333333;
+    background-color: #1A242B;
     top: 2px; }
   .fy-cls:before {
     transform: rotate(45deg); }

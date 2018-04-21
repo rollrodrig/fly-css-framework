@@ -156,6 +156,9 @@ fy-twnw
 
 .fy-alrt
 
+
+
+
 ### Close button
 
 # close button
@@ -165,22 +168,102 @@ fy-twnw
 .fy-cls-c
 
 
+### Color 
+
+# primary
+.fy-cop
+
+# secondary
+.fy-cos
+
+# success
+.fy-coss
+
+# warning
+.fy-cow
+
+# danger
+.fy-cod
+
+# info
+.fy-coi
+
+# light
+.fy-col
+
+# dark
+.fy-cod
+
+
+
+# the lighter version
+.fy-copl
+.fy-cosl
+.fy-cossl
+.fy-cowl
+.fy-codl
+.fy-coil
+.fy-coll
+.fy-codl
+
+# the darker version
+.fy-copd
+.fy-cossd
+.fy-cosd
+.fy-cowd
+.fy-codd
+.fy-coid
+.fy-cold
+.fy-codd
+
+
 ### Background color
 
 # primary
-.fy-bgc-p
+.fy-bcp
 
 # secondary
-.fy-bgc-s
-
-# neutral
-.fy-bgc-n
-
-# warning
-.fy-bgc-wa
+.fy-bcs
 
 # success
-.fy-bgc-su
+.fy-bcss
+
+# warning
+.fy-bcw
+
+# danger
+.fy-bcd
+
+# info
+.fy-bci
+
+# light
+.fy-bcl
+
+# dark
+.fy-bcd
+
+# the lighter version
+.fy-bcpl
+.fy-bcsl
+.fy-bcssl
+.fy-bcwl
+.fy-bcdl
+.fy-bcil
+.fy-bcll
+.fy-bcdl
+
+# the darker version
+.fy-bcpd
+.fy-bcsd
+.fy-bcssd
+.fy-bcwd
+.fy-bcdd
+.fy-bcid
+.fy-bcld
+.fy-bcdd
+
+
 
 
 ### Badge
