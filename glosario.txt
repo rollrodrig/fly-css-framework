@@ -192,7 +192,7 @@ fy-twnw
 .fy-col
 
 # dark
-.fy-cod
+.fy-codk
 
 
 
@@ -204,7 +204,7 @@ fy-twnw
 .fy-codl
 .fy-coil
 .fy-coll
-.fy-codl
+.fy-codkl
 
 # the darker version
 .fy-copd
@@ -214,7 +214,7 @@ fy-twnw
 .fy-codd
 .fy-coid
 .fy-cold
-.fy-codd
+.fy-codkd
 
 
 ### Background color
@@ -241,7 +241,7 @@ fy-twnw
 .fy-bcl
 
 # dark
-.fy-bcd
+.fy-bcdk
 
 # the lighter version
 .fy-bcpl
@@ -251,7 +251,7 @@ fy-twnw
 .fy-bcdl
 .fy-bcil
 .fy-bcll
-.fy-bcdl
+.fy-bcdkl
 
 # the darker version
 .fy-bcpd
@@ -261,7 +261,7 @@ fy-twnw
 .fy-bcdd
 .fy-bcid
 .fy-bcld
-.fy-bcdd
+.fy-bcdkd
 
 
 

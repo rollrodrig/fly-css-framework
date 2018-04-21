@@ -479,9 +479,9 @@ pre, code {
   float: right; }
 
 .fy-bcp {
-  background-color: #0E56D9; }
+  background-color: #186aff; }
   .fy-bcpl {
-    background-color: #337bff; }
+    background-color: #1892ff; }
   .fy-bcpd {
     background-color: #0043bd; }
 
@@ -495,14 +495,14 @@ pre, code {
 .fy-bcss {
   background-color: #00D652; }
   .fy-bcssl {
-    background-color: #2EDD71; }
+    background-color: #4eec8b; }
   .fy-bcssd {
     background-color: #009C3C; }
 
 .fy-bcw {
   background-color: #F0BB0B; }
   .fy-bcwl {
-    background-color: #F4CD4D; }
+    background-color: #fbd24b; }
   .fy-bcwd {
     background-color: #DBAA0A; }
 
@@ -511,33 +511,33 @@ pre, code {
   .fy-bcdl {
     background-color: #FF5454; }
   .fy-bcdd {
-    background-color: #C61D1D; }
+    background-color: #b90d0d; }
 
 .fy-bci {
-  background-color: #0197F6; }
+  background-color: #55bdff; }
   .fy-bcil {
-    background-color: #38ACF4; }
+    background-color: #9ad8ff; }
   .fy-bcid {
-    background-color: #0087DB; }
+    background-color: #1c9aea; }
 
 .fy-bcl {
   background-color: #F5F5F6; }
   .fy-bcll {
     background-color: #FAFAFA; }
   .fy-bcld {
-    background-color: #D7DADD; }
+    background-color: #ececec; }
 
-.fy-bcd {
-  background-color: #1A242B; }
-  .fy-bcdl {
-    background-color: #6D7378; }
-  .fy-bcdd {
+.fy-bcdk {
+  background-color: #343b40; }
+  .fy-bcdkl {
+    background-color: #4f565a; }
+  .fy-bcdkd {
     background-color: #0F1418; }
 
 .fy-cop {
-  color: #0E56D9; }
+  color: #186aff; }
   .fy-copl {
-    color: #337bff; }
+    color: #1892ff; }
   .fy-copd {
     color: #0043bd; }
 
@@ -551,14 +551,14 @@ pre, code {
 .fy-coss {
   color: #00D652; }
   .fy-cossl {
-    color: #2EDD71; }
+    color: #4eec8b; }
   .fy-cossd {
     color: #009C3C; }
 
 .fy-cow {
   color: #F0BB0B; }
   .fy-cowl {
-    color: #F4CD4D; }
+    color: #fbd24b; }
   .fy-cowd {
     color: #DBAA0A; }
 
@@ -567,27 +567,27 @@ pre, code {
   .fy-codl {
     color: #FF5454; }
   .fy-codd {
-    color: #C61D1D; }
+    color: #b90d0d; }
 
 .fy-coi {
-  color: #0197F6; }
+  color: #55bdff; }
   .fy-coil {
-    color: #38ACF4; }
+    color: #9ad8ff; }
   .fy-coid {
-    color: #0087DB; }
+    color: #1c9aea; }
 
 .fy-col {
   color: #F5F5F6; }
   .fy-coll {
     color: #FAFAFA; }
   .fy-cold {
-    color: #D7DADD; }
+    color: #ececec; }
 
-.fy-cod {
-  color: #1A242B; }
-  .fy-codl {
-    color: #6D7378; }
-  .fy-codd {
+.fy-codk {
+  color: #343b40; }
+  .fy-codkl {
+    color: #4f565a; }
+  .fy-codkd {
     color: #0F1418; }
 
 .fy-bdg {
@@ -607,7 +607,7 @@ pre, code {
   font-size: 12px; }
   .fy-brc > a {
     font-size: 12px;
-    color: #1A242B;
+    color: #343b40;
     text-decoration: none; }
     .fy-brc > a:hover {
       text-decoration: underline; }
@@ -623,7 +623,7 @@ pre, code {
       content: ' ';
       height: 8px;
       width: 1px;
-      background-color: #1A242B; }
+      background-color: #343b40; }
     .fy-brc > span.--a:before {
       transform: rotate(-45deg);
       top: 3px; }
@@ -639,9 +639,9 @@ pre, code {
   padding-top: 13px;
   padding-bottom: 13px;
   text-align: center;
-  border: 1px solid #6D7378;
+  border: 1px solid #4f565a;
   font-size: 14px;
-  color: #6D7378;
+  color: #4f565a;
   text-decoration: none;
   line-height: 1.12; }
   .fy-btn:not(:disabled) {
@@ -685,7 +685,7 @@ pre, code {
     content: ' ';
     height: 8px;
     width: 1px;
-    background-color: #1A242B; }
+    background-color: #343b40; }
   .fy-btn.-al:before {
     transform: rotate(45deg);
     top: 14px; }
@@ -702,7 +702,7 @@ pre, code {
     content: ' ';
     height: 8px;
     width: 1px;
-    background-color: #1A242B; }
+    background-color: #343b40; }
   .fy-btn.-ar:before {
     transform: rotate(-45deg);
     top: 14px; }
@@ -712,7 +712,7 @@ pre, code {
 
 .fy-card {
   padding: 30px;
-  border: 1px solid #6D7378; }
+  border: 1px solid #4f565a; }
   .fy-card.lp {
     padding: 50px; }
   .fy-card.sp {
@@ -736,14 +736,14 @@ pre, code {
   text-align: center;
   cursor: pointer; }
   .fy-cls:hover:before, .fy-cls:hover:after {
-    background-color: #6D7378; }
+    background-color: #4f565a; }
   .fy-cls:before, .fy-cls:after {
     position: absolute;
     left: 9px;
     content: ' ';
     height: 14px;
     width: 2px;
-    background-color: #1A242B;
+    background-color: #343b40;
     top: 2px; }
   .fy-cls:before {
     transform: rotate(45deg); }
@@ -812,7 +812,7 @@ pre, code {
   text-transform: uppercase; }
 
 a {
-  color: #0E56D9;
+  color: #186aff;
   text-decoration: none; }
   a:hover {
     text-decoration: underline; }
@@ -829,7 +829,7 @@ a {
     content: ' ';
     height: 8px;
     width: 1px;
-    background-color: #0E56D9; }
+    background-color: #186aff; }
   .fy-a.-al:before {
     transform: rotate(45deg);
     top: 4px; }
@@ -846,7 +846,7 @@ a {
     content: ' ';
     height: 8px;
     width: 1px;
-    background-color: #0E56D9; }
+    background-color: #186aff; }
   .fy-a.-ar:before {
     transform: rotate(-45deg);
     top: 4px; }
