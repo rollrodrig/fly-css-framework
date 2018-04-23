@@ -164,6 +164,12 @@ fy-twnw
 # close button
 .fy-cls
 
+# large
+.fy-cls.-l
+
+# small
+.fy-cls.-s
+
 # close button container
 .fy-cls-c
 

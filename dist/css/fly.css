@@ -926,20 +926,32 @@ pre, code {
   height: 20px;
   text-align: center;
   cursor: pointer; }
-  .fy-cls:hover:before, .fy-cls:hover:after {
-    background-color: #4f565a; }
   .fy-cls:before, .fy-cls:after {
     position: absolute;
     left: 9px;
     content: ' ';
     height: 14px;
     width: 2px;
-    background-color: #343b40;
+    background-color: #777777;
     top: 2px; }
+  .fy-cls:hover:before, .fy-cls:hover:after {
+    background-color: #636363; }
   .fy-cls:before {
     transform: rotate(45deg); }
   .fy-cls:after {
     transform: rotate(-45deg); }
+  .fy-cls.-s {
+    width: 14px;
+    height: 14px; }
+    .fy-cls.-s:before, .fy-cls.-s:after {
+      height: 10px;
+      left: 6px; }
+  .fy-cls.-l {
+    width: 30px;
+    height: 30px; }
+    .fy-cls.-l:before, .fy-cls.-l:after {
+      height: 24px;
+      left: 14px; }
 
 .fy-cls-c {
   position: relative; }
