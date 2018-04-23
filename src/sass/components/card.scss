@@ -1,27 +1,91 @@
-.fy-card {
-	padding: 30px;
-	border:1px solid $color-dark-lighter;
-	
-	&.lp {
-		padding: 50px;
+
+$card-boder-color: $color-light-darker;
+$card-footer-color: $color-secondary-lighter;
+
+$card-image-padding: 25px 25px 10px 25px;
+$card-header-padding: 10px 25px 10px 25px;
+$card-body-padding: 20px 25px 20px 25px;
+$card-footer-padding: 10px 25px 10px 25px;
+
+$card-image-small-padding: 8px 8px 10px 8px;
+$card-header-small-padding: 10px 8px 10px 8px;
+$card-body-small-padding: 8px 8px 8px 8px;
+$card-footer-small-padding: 10px 8px 10px 8px;
+
+$card-image-large-padding: 35px 35px 15px 35px;
+$card-header-large-padding: 18px 35px 15px 35px;
+$card-body-large-padding: 24px 35px 24px 35px;
+$card-footer-large-padding: 15px 35px 15px 35px;
+
+
+.fy-crd {
+	border:1px solid $card-boder-color;
+	> img {
+		display: block;
+		width: 100%;
 	}
-	&.sp {
-		padding: 15px;
+	p {
+		margin-bottom: 12px;
+	}
+	.fy-crd_i {
+		padding: $card-image-padding;
+		img {
+			display: block;
+			width: 100%;
+		}
+	}
+	.fy-crd_h {
+		border-bottom: 1px solid $card-boder-color;
+		padding: $card-header-padding;
+		font-size: 20px;
+		font-weight: normal;
+		margin-bottom: 0;
+	}
+	.fy-crd_b {
+		padding: $card-body-padding;
+	}
+	.fy-crd_f {
+		padding: $card-footer-padding;
+		font-size: 12;
+		border-top: 1px solid $card-boder-color;
+		color: $card-footer-color;	
 	}
 
-	
+	&.-sp {
+		.fy-crd_i {
+			padding: $card-image-small-padding;
+		}
+		.fy-crd_h {
+			padding: $card-header-small-padding;
+			
+		}
+		.fy-crd_b {
+			padding: $card-body-small-padding;
+		}
+		.fy-crd_f {
+			padding: $card-footer-small-padding;
+		}
+	}
+
+	&.-lp {
+		.fy-crd_i {
+			padding: $card-image-large-padding;
+		}
+		.fy-crd_h {
+			padding: $card-header-large-padding;
+			
+		}
+		.fy-crd_b {
+			padding: $card-body-large-padding;
+		}
+		.fy-crd_f {
+			padding: $card-footer-large-padding;
+		}
+	}
 	
 }
 
-.fy-card-h {
-	margin-bottom: 30px;
-	border-bottom: 1px solid black;
-}
-.fy-card-b {
-	margin-bottom: 30px;
-}
-.fy-card-f {
-	font-size: 80%;
-}
+
+
 
 			

@@ -330,12 +330,25 @@ fy-twnw
 
 
 ### Card
-.fy-card
+.fy-crd
+
+# image
+.fy-crd_i
+
+# header
+.fy-crd_h
+
+# body
+.fy-crd_b
+
+# footer
+.fy-crd_f
 
 # large padding
-.fy-card.lp
+.fy-crd.-lp
+
 # small padding
-.fy-card.sp
+.fy-crd.-sp
 
 
 

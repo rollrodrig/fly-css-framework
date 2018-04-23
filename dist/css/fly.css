@@ -877,23 +877,47 @@ pre, code {
   padding-left: 42px;
   padding-right: 38px; }
 
-.fy-card {
-  padding: 30px;
-  border: 1px solid #4f565a; }
-  .fy-card.lp {
-    padding: 50px; }
-  .fy-card.sp {
-    padding: 15px; }
-
-.fy-card-h {
-  margin-bottom: 30px;
-  border-bottom: 1px solid black; }
-
-.fy-card-b {
-  margin-bottom: 30px; }
-
-.fy-card-f {
-  font-size: 80%; }
+.fy-crd {
+  border: 1px solid #ececec; }
+  .fy-crd > img {
+    display: block;
+    width: 100%; }
+  .fy-crd p {
+    margin-bottom: 12px; }
+  .fy-crd .fy-crd_i {
+    padding: 25px 25px 10px 25px; }
+    .fy-crd .fy-crd_i img {
+      display: block;
+      width: 100%; }
+  .fy-crd .fy-crd_h {
+    border-bottom: 1px solid #ececec;
+    padding: 10px 25px 10px 25px;
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 0; }
+  .fy-crd .fy-crd_b {
+    padding: 20px 25px 20px 25px; }
+  .fy-crd .fy-crd_f {
+    padding: 10px 25px 10px 25px;
+    font-size: 12;
+    border-top: 1px solid #ececec;
+    color: #a9a9a9; }
+  .fy-crd.-sp .fy-crd_i {
+    padding: 8px 8px 10px 8px; }
+  .fy-crd.-sp .fy-crd_h {
+    padding: 10px 8px 10px 8px; }
+  .fy-crd.-sp .fy-crd_b {
+    padding: 8px 8px 8px 8px; }
+  .fy-crd.-sp .fy-crd_f {
+    padding: 10px 8px 10px 8px; }
+  .fy-crd.-lp .fy-crd_i {
+    padding: 35px 35px 15px 35px; }
+  .fy-crd.-lp .fy-crd_h {
+    padding: 18px 35px 15px 35px; }
+  .fy-crd.-lp .fy-crd_b {
+    padding: 24px 35px 24px 35px; }
+  .fy-crd.-lp .fy-crd_f {
+    padding: 15px 35px 15px 35px; }
 
 .fy-cls {
   display: block;
