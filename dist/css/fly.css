@@ -837,120 +837,45 @@ pre, code {
   .fy-btn.-xl.-ar:before, .fy-btn.-xl.-ar:after {
     right: 32px; }
 
-.fy-btn.-al, .fy-btn.-ar {
-  position: relative; }
-  .fy-btn.-al:before, .fy-btn.-al:after, .fy-btn.-ar:before, .fy-btn.-ar:after {
-    position: absolute;
-    content: ' ';
-    height: 8px;
-    width: 1px;
-    background-color: #343b40; }
-  .fy-btn.-al:before, .fy-btn.-ar:before {
-    top: 14px; }
-  .fy-btn.-al:after, .fy-btn.-ar:after {
-    top: 19px; }
+.fy-btn.-il {
+  padding-left: 16px;
+  padding-right: 18px; }
 
-.fy-btn.-al {
-  padding-left: 26px; }
-  .fy-btn.-al:before, .fy-btn.-al:after {
-    left: 13px; }
-  .fy-btn.-al:before {
-    transform: rotate(45deg); }
-  .fy-btn.-al:after {
-    transform: rotate(-45deg); }
+.fy-btn.-ir {
+  padding-left: 21px;
+  padding-right: 18px; }
 
-.fy-btn.-ar {
-  padding-right: 26px; }
-  .fy-btn.-ar:before, .fy-btn.-ar:after {
-    right: 13px; }
-  .fy-btn.-ar:before {
-    transform: rotate(-45deg); }
-  .fy-btn.-ar:after {
-    transform: rotate(45deg); }
+.fy-btn.-xs.-il {
+  padding-left: 5px;
+  padding-right: 7px; }
 
-.fy-btn.-xs.-al:before, .fy-btn.-xs.-al:after, .fy-btn.-xs.-ar:before, .fy-btn.-xs.-ar:after {
-  height: 6px; }
+.fy-btn.-xs.-ir {
+  padding-left: 9px;
+  padding-right: 5px; }
 
-.fy-btn.-xs.-al:before, .fy-btn.-xs.-ar:before {
-  top: 3px; }
+.fy-btn.-s.-il {
+  padding-left: 12px;
+  padding-right: 14px; }
 
-.fy-btn.-xs.-al:after, .fy-btn.-xs.-ar:after {
-  top: 7px; }
+.fy-btn.-s.-ir {
+  padding-right: 12px;
+  padding-left: 14px; }
 
-.fy-btn.-xs.-al {
-  padding-left: 18px;
-  padding-right: 8px; }
-  .fy-btn.-xs.-al:before, .fy-btn.-xs.-al:after {
-    left: 9px; }
+.fy-btn.-l.-il {
+  padding-left: 26px;
+  padding-right: 36px; }
 
-.fy-btn.-xs.-ar {
-  padding-right: 18px;
-  padding-left: 8px; }
-  .fy-btn.-xs.-ar:before, .fy-btn.-xs.-ar:after {
-    right: 9px; }
+.fy-btn.-l.-ir {
+  padding-left: 34px;
+  padding-right: 28px; }
 
-.fy-btn.-s.-al:before, .fy-btn.-s.-al:after, .fy-btn.-s.-ar:before, .fy-btn.-s.-ar:after {
-  height: 7px; }
-
-.fy-btn.-s.-al:before, .fy-btn.-s.-ar:before {
-  top: 10px; }
-
-.fy-btn.-s.-al:after, .fy-btn.-s.-ar:after {
-  top: 15px; }
-
-.fy-btn.-s.-al {
-  padding-left: 22px;
-  padding-right: 12px; }
-  .fy-btn.-s.-al:before, .fy-btn.-s.-al:after {
-    left: 11px; }
-
-.fy-btn.-s.-ar {
-  padding-right: 22px;
-  padding-left: 12px; }
-  .fy-btn.-s.-ar:before, .fy-btn.-s.-ar:after {
-    right: 11px; }
-
-.fy-btn.-l.-al:before, .fy-btn.-l.-al:after, .fy-btn.-l.-ar:before, .fy-btn.-l.-ar:after {
-  height: 10px; }
-
-.fy-btn.-l.-al:before, .fy-btn.-l.-ar:before {
-  top: 24px; }
-
-.fy-btn.-l.-al:after, .fy-btn.-l.-ar:after {
-  top: 31px; }
-
-.fy-btn.-l.-al {
+.fy-btn.-xl.-il {
   padding-left: 38px;
-  padding-right: 26px; }
-  .fy-btn.-l.-al:before, .fy-btn.-l.-al:after {
-    left: 22px; }
+  padding-right: 42px; }
 
-.fy-btn.-l.-ar {
-  padding-right: 38px;
-  padding-left: 26px; }
-  .fy-btn.-l.-ar:before, .fy-btn.-l.-ar:after {
-    right: 22px; }
-
-.fy-btn.-xl.-al:before, .fy-btn.-xl.-al:after, .fy-btn.-xl.-ar:before, .fy-btn.-xl.-ar:after {
-  height: 16px; }
-
-.fy-btn.-xl.-al:before, .fy-btn.-xl.-ar:before {
-  top: 35px; }
-
-.fy-btn.-xl.-al:after, .fy-btn.-xl.-ar:after {
-  top: 46px; }
-
-.fy-btn.-xl.-al {
-  padding-left: 62px;
+.fy-btn.-xl.-ir {
+  padding-left: 42px;
   padding-right: 38px; }
-  .fy-btn.-xl.-al:before, .fy-btn.-xl.-al:after {
-    left: 32px; }
-
-.fy-btn.-xl.-ar {
-  padding-right: 62px;
-  padding-left: 38px; }
-  .fy-btn.-xl.-ar:before, .fy-btn.-xl.-ar:after {
-    right: 32px; }
 
 .fy-card {
   padding: 30px;
