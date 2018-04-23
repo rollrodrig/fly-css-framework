@@ -642,13 +642,17 @@ pre, code {
   padding-top: 13px;
   padding-bottom: 13px;
   text-align: center;
-  border: 1px solid #4f565a;
+  border: 1px solid #a9a9a9;
   font-size: 14px;
-  color: #4f565a;
+  color: #636363;
   text-decoration: none;
-  line-height: 1.12; }
+  line-height: 1.12;
+  text-decoration: none; }
   .fy-btn:not(:disabled) {
     cursor: pointer; }
+  .fy-btn:hover {
+    text-decoration: none;
+    border: 1px solid #777777; }
   .fy-btn.-br {
     border-radius: 3px; }
   .fy-btn.-fw {
@@ -663,13 +667,12 @@ pre, code {
     left: 50%;
     transform: translateX(-50%); }
 
-.fy-btn.-l {
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  font-size: 18px;
-  line-height: 1.5; }
+.fy-btn.-xs {
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-size: 11px; }
 
 .fy-btn.-s {
   padding-left: 10px;
@@ -678,6 +681,22 @@ pre, code {
   padding-bottom: 10px;
   font-size: 12px;
   line-height: 1.1; }
+
+.fy-btn.-l {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 18px;
+  line-height: 1.5; }
+
+.fy-btn.-xl {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 24px;
+  line-height: 1.6; }
 
 .fy-btn.-al {
   position: relative;
