@@ -667,6 +667,30 @@ pre, code {
     left: 50%;
     transform: translateX(-50%); }
 
+.fy-btn.-br {
+  border-radius: 3px; }
+
+.fy-btn.-fw {
+  width: 100%;
+  max-width: 100%; }
+
+.fy-btn.-ds {
+  color: #a9a9a9;
+  background-color: #FAFAFA;
+  border: 1px solid #ececec;
+  cursor: auto; }
+  .fy-btn.-ds:hover {
+    color: #a9a9a9;
+    background-color: #FAFAFA;
+    border: 1px solid #ececec; }
+
+.fy-btn.-ctr {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  left: 50%;
+  transform: translateX(-50%); }
+
 .fy-btn.-xs {
   padding-left: 4px;
   padding-right: 4px;

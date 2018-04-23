@@ -1,0 +1,46 @@
+$button-disabled-color: $color-secondary-lighter;
+$button-disabled-color-hover: $color-secondary-lighter;
+
+$button-disabled-border-color: $color-light-darker;
+$button-disabled-border-color-hover: $color-light-darker;
+
+$button-disabled-background-color: $color-light-lighter;
+$button-disabled-background-color-hover: $color-light-lighter;
+
+.fy-btn  {
+	
+	&.-br {
+		border-radius: 3px;
+	}
+	
+	&.-fw {
+		width: 100%;
+		max-width: 100%;
+	}
+	&.-ds {
+		color: $button-disabled-color;
+		background-color: $button-disabled-background-color;
+		border: 1px solid $button-disabled-border-color;
+		cursor: auto;
+		&:hover {
+			color: $button-disabled-color-hover;
+			background-color: $button-disabled-background-color-hover;
+			border: 1px solid $button-disabled-border-color-hover;
+		}
+	}
+	
+	&.-ctr {
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+		left: 50%;
+		transform: translateX(-50%);		
+	}
+}
+
+
+
+
+
+
+
