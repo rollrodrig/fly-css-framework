@@ -998,17 +998,44 @@ pre, code {
   height: 0;
   clear: both; }
 
-.fy-lb {
+.fy-lbl {
   border-radius: 3px;
   background-color: #c2c2c2;
-  font-size: 12px;
+  font-size: 11px;
   min-width: 22px;
-  text-align: center;
-  padding: 0 6px;
+  height: 17px;
   vertical-align: middle;
-  display: inline-flex;
   justify-content: center;
-  text-transform: uppercase; }
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-bottom: 2px;
+  display: inline; }
+  .fy-lbl.-l {
+    font-size: 18px;
+    padding-left: 4px;
+    padding-right: 4px; }
+  .fy-lbl.-p {
+    background-color: #186aff;
+    color: #ffffff; }
+  .fy-lbl.-s {
+    background-color: #777777;
+    color: #ffffff; }
+  .fy-lbl.-ss {
+    background-color: #00D652;
+    color: #ffffff; }
+  .fy-lbl.-wa {
+    background-color: #F0BB0B; }
+  .fy-lbl.-da {
+    background-color: #D83838;
+    color: #ffffff; }
+  .fy-lbl.-in {
+    background-color: #55bdff;
+    color: #ffffff; }
+  .fy-lbl.-li {
+    background-color: #F5F5F6; }
+  .fy-lbl.-dk {
+    background-color: #343b40;
+    color: #ffffff; }
 
 a {
   color: #186aff;

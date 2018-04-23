@@ -277,7 +277,29 @@ fy-twnw
 
 
 ### Label
-.fy-lb
+.fy-lbl
+
+# large
+.fy-lbl.-l
+
+# colors
+	# primary
+	.fy-lbl.-p
+	# secondary
+	.fy-lbl.-s
+	# succes
+	.fy-lbl.-ss
+	# warning
+	.fy-lbl.-wa
+	# dark
+	.fy-lbl.-da
+	# info
+	.fy-lbl.-in
+	# light
+	.fy-lbl.-li
+	# dark
+	.fy-lbl.-dk
+
 
 ### Breadcrumb
 
