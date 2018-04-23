@@ -370,6 +370,8 @@ fy-twnw
 # full width
 .fy-ctrn.-fw
 
+# with break points
+.fy-ctrn.-bp
 
 ### Grid
 

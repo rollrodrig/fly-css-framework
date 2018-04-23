@@ -3,13 +3,21 @@
 	max-width: $container-max-width;
 	margin-left: auto;
 	margin-right: auto;
+
 	@include media($container-max-width + $small-device-margin-left + $small-device-margin-right) {
 		width: auto;
 		margin-left: $small-device-margin-left;
 		margin-right: $small-device-margin-right;
 	}
 
-	&.-brk {
+	&.-fw {
+		width: auto;
+		max-width: 100%;
+		margin-left: $small-device-margin-left;
+		margin-right: $small-device-margin-right;
+	}
+	
+	&.-bp {
 		@include media($max-tablet){
 			max-width: $max-mobile;
 			margin-left: auto;
@@ -27,15 +35,4 @@
 		}
 	}
 
-}
-
-.grt {
-	width: 100%;
-	max-width: 800px;
-	margin-left: 10px;
-	margin-right: 10px;
-	@include tablet(){
-		width: auto;
-
-	}
 }
