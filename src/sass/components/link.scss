@@ -1,57 +1,114 @@
 a {
-	color: $color-primary;
+	color: $color-hiperlink;
 	text-decoration: none;
 
 	&:hover {
+		color: $color-hiperlink-hover;
 		text-decoration: underline;
 	}
 	
 }
 .fy-a {
-	&:hover {
-		text-decoration: underline;
-	}
+
 	&.-al {
 		position: relative;
 		padding-left: 26px;
+
+		&:hover {
+			&:before, &:after {
+				background-color:$color-hiperlink-hover;
+			}
+		}
+
+		&:active {
+			color: $color-hiperlink-visited;	
+			&:before, &:after {
+				background-color:$color-hiperlink-visited;
+			}
+		}
+		
+		&:visited {
+			color: $color-hiperlink-active;	
+			&:before, &:after {
+				background-color:$color-hiperlink-active;
+			}
+		}
+		
+		&:focus {
+			color: $color-hiperlink-focus;	
+			&:before, &:after {
+				background-color:$color-hiperlink-focus;
+			}
+		}
+
 	    &:before, &:after {
 	        position: absolute;
 	        left: 13px;
 	        content: ' ';
 	        height: 8px;
 	        width: 1px;
-	        background-color: $color-primary;
+	        background-color: $color-hiperlink;
+	        
 	    }
 
 	    &:before {
 			transform: rotate(45deg);
-			top: 4px;	
+			top: 2px;	
 	    }
 	    &:after {
 	    	transform: rotate(-45deg);
-			top: 9px;
+			top: 7px;
 	     	
 	    } 
 	}
 	&.-ar {
 		position: relative;
 		padding-right: 26px;
+
+		&:hover {
+			&:before, &:after {
+				background-color:$color-hiperlink-hover;
+			}
+		}
+
+		&:active {
+			color: $color-hiperlink-visited;	
+			&:before, &:after {
+				background-color:$color-hiperlink-visited;
+			}
+		}
+		
+		&:visited {
+			color: $color-hiperlink-active;	
+			&:before, &:after {
+				background-color:$color-hiperlink-active;
+			}
+		}
+		
+		&:focus {
+			color: $color-hiperlink-focus;	
+			&:before, &:after {
+				background-color:$color-hiperlink-focus;
+			}
+		}		
+
 	    &:before, &:after {
 	        position: absolute;
 	        right: 13px;
 	        content: ' ';
 	        height: 8px;
 	        width: 1px;
-	        background-color: $color-primary;
+	        background-color: $color-hiperlink;
+	        
 	    }
 
 	    &:before {
 			transform: rotate(-45deg);
-			top: 4px;	
+			top: 2px;	
 	    }
 	    &:after {
 	    	transform: rotate(45deg);
-			top: 9px;
+			top: 7px;
 	     	
 	    } 		
 	}
