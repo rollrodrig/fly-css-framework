@@ -325,6 +325,9 @@ fy-twnw
 # border radius
 .fy-btn.-br
 
+# rounded
+.fy-btn.-rd
+
 # full width
 .fy-btn.-fw
 

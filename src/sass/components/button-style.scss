@@ -12,6 +12,8 @@ $button-disabled-background-color-hover: $color-light-lighter;
 	&.-br {
 		border-radius: 3px;
 	}
+
+
 	
 	&.-fw {
 		width: 100%;
@@ -38,7 +40,35 @@ $button-disabled-background-color-hover: $color-light-lighter;
 	}
 }
 
+.fy-btn  {
+	&.-rd {
+		border-radius: 22px;
+	}	
+	&.-xs {
+		&.-rd {
+			border-radius: 10px;
+		}
 
+	}
+	&.-s {
+		&.-rd {
+			border-radius: 18px;
+		}
+
+	}
+	&.-m {
+		&.-rd {
+			
+		}
+		
+	}
+	&.-l {
+		&.-rd {
+			border-radius: 36px;
+		}
+		
+	}	
+}
 
 
 

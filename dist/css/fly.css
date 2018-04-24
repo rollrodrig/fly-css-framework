@@ -691,6 +691,18 @@ pre, code {
   left: 50%;
   transform: translateX(-50%); }
 
+.fy-btn.-rd {
+  border-radius: 22px; }
+
+.fy-btn.-xs.-rd {
+  border-radius: 10px; }
+
+.fy-btn.-s.-rd {
+  border-radius: 18px; }
+
+.fy-btn.-l.-rd {
+  border-radius: 36px; }
+
 .fy-btn.-xs {
   padding-left: 4px;
   padding-right: 4px;
