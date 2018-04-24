@@ -512,19 +512,24 @@ fy-bxv
 .fy-cg
 
 
+### Loading
+fy-ldg
 
+# sizes
+fy-ldg.-xs
+fy-ldg.-s
+fy-ldg.-l
+fy-ldg.-xl
 
-
-
-
-
-
-
-
-
-
-
-
+# colors
+fy-ldg.-p
+fy-ldg.-s
+fy-ldg.-ss
+fy-ldg.-da
+fy-ldg.-wa
+fy-ldg.-in
+fy-ldg.-li
+fy-ldg.-dk
 
 
 

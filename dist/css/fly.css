@@ -1713,6 +1713,80 @@ a {
     margin-top: 80px;
     margin-bottom: 80px; }
 
+@keyframes fy-ldg {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); } }
+
+.fy-ldg {
+  display: inline-block;
+  width: 22px;
+  height: 22px; }
+
+.fy-ldg:after {
+  content: " ";
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin: 1px;
+  border-radius: 50%;
+  border: 2px solid #000;
+  border-color: #a9a9a9 transparent #a9a9a9 transparent;
+  animation: fy-ldg 0.9s linear infinite; }
+
+.fy-ldg.-s {
+  width: 15px;
+  height: 15px; }
+  .fy-ldg.-s:after {
+    width: 10px;
+    height: 10px;
+    border: 2px solid #a9a9a9;
+    border-color: #a9a9a9 transparent #a9a9a9 transparent;
+    animation: fy-ldg 0.7s linear infinite; }
+
+.fy-ldg.-l {
+  width: 40px;
+  height: 40px; }
+  .fy-ldg.-l:after {
+    width: 32px;
+    height: 32px;
+    border: 3px solid #a9a9a9;
+    border-color: #a9a9a9 transparent #a9a9a9 transparent; }
+
+.fy-ldg.-xl {
+  width: 64px;
+  height: 64px; }
+  .fy-ldg.-xl:after {
+    width: 46px;
+    height: 46px;
+    border: 3px solid #a9a9a9;
+    border-color: #a9a9a9 transparent #a9a9a9 transparent; }
+
+.fy-ldg.-p:after {
+  border-color: #186aff transparent #186aff transparent; }
+
+.fy-ldg.-se:after {
+  border-color: #777777 transparent #777777 transparent; }
+
+.fy-ldg.-su:after {
+  border-color: #00D652 transparent #00D652 transparent; }
+
+.fy-ldg.-da:after {
+  border-color: #F0BB0B transparent #F0BB0B transparent; }
+
+.fy-ldg.-wa:after {
+  border-color: #D83838 transparent #D83838 transparent; }
+
+.fy-ldg.-in:after {
+  border-color: #55bdff transparent #55bdff transparent; }
+
+.fy-ldg.-li:after {
+  border-color: #F5F5F6 transparent #F5F5F6 transparent; }
+
+.fy-ldg.-dk:after {
+  border-color: #343b40 transparent #343b40 transparent; }
+
 .fy-ti {
   margin-top: 0;
   margin-bottom: 30px;
