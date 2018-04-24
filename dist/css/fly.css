@@ -1807,10 +1807,13 @@ a {
 
 .fy-ss_t {
   padding-right: 5px;
-  display: inline-block; }
+  display: block;
+  float: left;
+  margin-top: 3px; }
 
 .fy-ss_i {
-  display: inline-block;
+  display: block;
+  float: left;
   width: 29px;
   height: 27px;
   background-color: #909090;
@@ -1826,6 +1829,8 @@ a {
 /* Variations */
 .fy-ss.-s {
   font-size: 12px; }
+  .fy-ss.-s .fy-ss_t {
+    margin-top: 2px; }
   .fy-ss.-s .fy-ss_i {
     width: 20px;
     height: 20px; }
@@ -1834,6 +1839,8 @@ a {
 
 .fy-ss.-l {
   font-size: 20px; }
+  .fy-ss.-l .fy-ss_t {
+    margin-top: 4px; }
   .fy-ss.-l .fy-ss_i {
     width: 45px;
     height: 40px;
