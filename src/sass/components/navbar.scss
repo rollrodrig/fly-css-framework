@@ -9,50 +9,108 @@ $navbar-link-background-color-hover: $color-light-darker;
 
 $navbar-link-border-bottom-color: $color-dark-lighter;
 
-
 .fy-nvb {
 	font-size: 14px;
 	background-color: $navbar-background-color;
+	min-height: 52px;
 	position: relative;
-	
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
 	@include media($medium-max-size){
-		padding-top: 52px;
+		justify-content: space-between;
 	}
-	&:after {
-		content: '.';
-		display: block;
-		visibility: hidden;
-		height: 0;
-		clear: both;
-	}
-
 	&_lgo {
-		display: inline-block;
-		float: left;
+		display: flex;
+	    align-items: center;
 		font-size: 18px;
 		padding-left: 10px;
 		padding-right: 10px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		margin-right: 10px;
+        line-height: 1.5;
+		min-height: 52px;
 		@include media($medium-max-size){
-			position: absolute;
-			top: 0;
-			left: 0;
+
 		}		
+	}
+	.bte33 {
+		@include media($medium-max-size) {
+			display: inline-block;
+		}
 	}
 
 	&_gl {
-		display: inline-block;
-		float: left;
-		@include media($medium-max-size){
-			float: none;
-			display: none;
+		flex-grow: 1;
+
+		&:after {
+			content: '.';
+			display: block;
+			visibility: hidden;
+			height: 0;
+			clear: both;
 		}
-		&.-or {
-			float: right;
-			@include media($medium-max-size){
+
+		&_ol {
+			display: inline-block;
+			float: left;
+			@include media($medium-max-size) {
+				display: block;
 				float: none;
-				display: none;
+			}
+
+		}
+		&_or {
+			display: inline-block;
+			float: right;
+			@include media($medium-max-size) {
+				display: block;
+				float: none;
+			}
+		}
+
+		@include media($medium-max-size){
+			flex-basis: 100%;
+		}
+		&.-spc {
+			display: flex;
+			justify-content: space-between;
+			
+			@include media($medium-max-size){
+				> div {
+					display: -webkit-flex;
+					display: -moz-flex;
+					display: -ms-flex;
+					display: -o-flex;
+					display: flex;
+				}
+				> div:last-child{
+				    flex-basis: 100%;
+				}
+			}	
+			.aaa {
 				
 			}
+			.bbb {
+				display: none;
+				@include media($medium-max-size) {
+					display: block;
+				}
+				
+			}
+			.ccc {
+				@include media($medium-max-size) {
+					flex-basis: 100%;
+				}
+			}
+
+
+
+		}
+
+		&.-or {
+
 		}
 		
 	}
@@ -111,11 +169,7 @@ $navbar-link-border-bottom-color: $color-dark-lighter;
 .fy-nvb {
 	.fy-mbt {
 		display: none;
-		position: absolute;
-		top: 0;
-		right: 0;
 		@include media($medium-max-size){
-
 			display: block;
 		}		
 	}

@@ -7,3 +7,9 @@ https://github.com/troxler/awesome-css-frameworks
 # galery lorem pixel
 https://placeholder.com/
 http://via.placeholder.com/350x150
+
+
+
+# flex
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+https://css-tricks.com/almanac/properties/f/flex-shrink/
