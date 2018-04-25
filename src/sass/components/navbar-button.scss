@@ -6,40 +6,31 @@ $navbar-button-row: $color-secondary-lighter;
 $navbar-button-row-hover: $color-secondary-lighter;
 
 .fy-nbb {
-	background-color: red;
-	display: inline-block;
 	cursor: pointer;
 	background-color: $navbar-button-background;
 	height: 52px;
 	width: 54px;
+	padding: 13px 12px;
+	display: inline-block;
 	position: relative;
 	
 	&:hover {
 		background-color: $navbar-button-background-hover;
 	}
+
 	> span {
 		display: block;
 		height: 3px;
-		width: 26px;
-		margin-bottom: 7px;
 		background-color: $navbar-button-row;
-		position: absolute;
-		left: 14px;
-		&:nth-child(1) {
-			top: 14px;			
-		}
-		&:nth-child(2) {
-			top: 24px;
-		}
-		&:nth-child(3) {
-			top: 34px;
-			margin-bottom: 0;
-		}
+		margin-bottom: 7px;
 	}
 
 	&.-on {
 		> span{
 			position: absolute;
+		    width: 30px;
+		    border-radius: 5px;
+		    left: 12px;
 			&:nth-child(1),&:nth-child(2) {
 				top: 24px;
 			}
@@ -58,7 +49,17 @@ $navbar-button-row-hover: $color-secondary-lighter;
 }
 .fy-nbb {
 	&.-s {
-		
+		height: 36px;
+		width: 38px;
+		padding: 6px 7px;
+
+		&.-on {
+			>span {
+				top: 17px;
+				left: 4px;	
+			}
+			
+		}
 	}
 }
 

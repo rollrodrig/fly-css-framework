@@ -2195,32 +2195,25 @@ a {
       display: block; } }
 
 .fy-nbb {
-  background-color: red;
-  display: inline-block;
   cursor: pointer;
   background-color: #777777;
   height: 52px;
   width: 54px;
+  padding: 13px 12px;
+  display: inline-block;
   position: relative; }
   .fy-nbb:hover {
     background-color: #636363; }
   .fy-nbb > span {
     display: block;
     height: 3px;
-    width: 26px;
-    margin-bottom: 7px;
     background-color: #a9a9a9;
-    position: absolute;
-    left: 14px; }
-    .fy-nbb > span:nth-child(1) {
-      top: 14px; }
-    .fy-nbb > span:nth-child(2) {
-      top: 24px; }
-    .fy-nbb > span:nth-child(3) {
-      top: 34px;
-      margin-bottom: 0; }
+    margin-bottom: 7px; }
   .fy-nbb.-on > span {
-    position: absolute; }
+    position: absolute;
+    width: 30px;
+    border-radius: 5px;
+    left: 12px; }
     .fy-nbb.-on > span:nth-child(1), .fy-nbb.-on > span:nth-child(2) {
       top: 24px; }
     .fy-nbb.-on > span:nth-child(1) {
@@ -2229,6 +2222,14 @@ a {
       transform: rotate(-45deg); }
     .fy-nbb.-on > span:nth-child(3) {
       display: none; }
+
+.fy-nbb.-s {
+  height: 36px;
+  width: 38px;
+  padding: 6px 7px; }
+  .fy-nbb.-s.-on > span {
+    top: 17px;
+    left: 4px; }
 
 .fy-nbb.-c > span {
   height: 5px;
