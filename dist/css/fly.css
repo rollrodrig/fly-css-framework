@@ -2177,4 +2177,10 @@ a {
     .fy-mbt.-on > span:nth-child(3) {
       display: none; }
 
+.fy-mbt.-c > span {
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  left: 24px; }
+
 /*# sourceMappingURL=maps/fly.css.map */

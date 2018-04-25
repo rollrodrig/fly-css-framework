@@ -58,7 +58,16 @@ $navbar-button-row-hover: $color-secondary-lighter;
 }
 
 
-
+.fy-mbt {
+	&.-c {
+		> span {
+			height: 5px;
+			width: 5px;
+			border-radius: 50%;
+			left: 24px;
+		}
+	}
+}
 
 
 
