@@ -2209,6 +2209,8 @@ a {
     height: 3px;
     background-color: #a9a9a9;
     margin-bottom: 7px; }
+    .fy-nbb > span:last-child {
+      margin-bottom: 0; }
   .fy-nbb.-on > span {
     position: absolute;
     width: 30px;

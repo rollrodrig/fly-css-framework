@@ -23,6 +23,9 @@ $navbar-button-row-hover: $color-secondary-lighter;
 		height: 3px;
 		background-color: $navbar-button-row;
 		margin-bottom: 7px;
+		&:last-child {
+			margin-bottom: 0;
+		}
 	}
 
 	&.-on {
