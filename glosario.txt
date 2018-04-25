@@ -532,6 +532,75 @@ fy-ldg.-li
 fy-ldg.-dk
 
 
+### nav bar
+.fy-nvb
+.fy-nvb_lg
+.fy-nvb_l
+
+
+### mobile buton
+.fy-mbt #off
+.-on #on
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
