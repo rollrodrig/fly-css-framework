@@ -9,7 +9,7 @@ $navbar-link-background-color-hover: $color-light-darker;
 
 $navbar-link-border-bottom-color: $color-dark-lighter;
 
-.fy-nvb {
+.fy-nb {
 	font-size: 14px;
 	background-color: $navbar-background-color;
 	min-height: 52px;
@@ -30,7 +30,6 @@ $navbar-link-border-bottom-color: $color-dark-lighter;
 		padding-bottom: 5px;
 		margin-right: 10px;
         line-height: 1.5;
-		min-height: 52px;
 		@include media($medium-max-size){
 
 		}		
@@ -43,13 +42,16 @@ $navbar-link-border-bottom-color: $color-dark-lighter;
 
 	&_gl {
 		flex-grow: 1;
-
 		&:after {
 			content: '.';
 			display: block;
 			visibility: hidden;
 			height: 0;
 			clear: both;
+		}
+
+		@include media($medium-max-size){
+			flex-basis: 100%;
 		}
 
 		&_ol {
@@ -70,48 +72,6 @@ $navbar-link-border-bottom-color: $color-dark-lighter;
 			}
 		}
 
-		@include media($medium-max-size){
-			flex-basis: 100%;
-		}
-		&.-spc {
-			display: flex;
-			justify-content: space-between;
-			
-			@include media($medium-max-size){
-				> div {
-					display: -webkit-flex;
-					display: -moz-flex;
-					display: -ms-flex;
-					display: -o-flex;
-					display: flex;
-				}
-				> div:last-child{
-				    flex-basis: 100%;
-				}
-			}	
-			.aaa {
-				
-			}
-			.bbb {
-				display: none;
-				@include media($medium-max-size) {
-					display: block;
-				}
-				
-			}
-			.ccc {
-				@include media($medium-max-size) {
-					flex-basis: 100%;
-				}
-			}
-
-
-
-		}
-
-		&.-or {
-
-		}
 		
 	}
 
@@ -135,10 +95,10 @@ $navbar-link-border-bottom-color: $color-dark-lighter;
 
 }
 
-
-.fy-nvb {
+.fy-nb {
 	&.-s {
-		.fy-nvb_l {
+		min-height: 37px;
+		.fy-nb_l {
 			font-size: 12px;
 			padding: 8px 18px;	
 		}
@@ -146,10 +106,9 @@ $navbar-link-border-bottom-color: $color-dark-lighter;
 	}
 }
 
-
-.fy-nvb {
+.fy-nb {
 	&.-ul {
-		.fy-nvb_l {
+		.fy-nb_l {
 			&:hover {
 				padding: 17px 18px 16px 18px;
 				border-bottom: 1px solid $navbar-link-border-bottom-color;
@@ -157,7 +116,7 @@ $navbar-link-border-bottom-color: $color-dark-lighter;
 		}
 	}
 	&.-s.-ul {
-		.fy-nvb_l {
+		.fy-nb_l {
 			&:hover {
 				padding: 8px 18px 7px 18px;
 				border-bottom: 1px solid $navbar-link-border-bottom-color;
@@ -166,7 +125,7 @@ $navbar-link-border-bottom-color: $color-dark-lighter;
 	}	
 }
 
-.fy-nvb {
+.fy-nb {
 	.fy-mbt {
 		display: none;
 		@include media($medium-max-size){

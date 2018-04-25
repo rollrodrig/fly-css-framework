@@ -533,17 +533,30 @@ fy-ldg.-dk
 
 
 ### nav bar
-.fy-nvb
-.fy-nvb_lg
-.fy-nvb_l
+.fy-nb
+
+# small nav bar
+.fy-nb.-s
+
+# link with underline
+.fy-nb.-ul
+
+#nav bar group links
+.fy-nb_lg
+
+# nav bar links
+.fy-nb_l
+
 
 
 ### mobile buton
-.fy-mbt #off
-.-on #on
+.fy-nbb #off
+
+#on
+.fy-nbb.-on 
 
 # circles
-.fy-mbt.-c
+.fy-nbb.-c
 
 
 

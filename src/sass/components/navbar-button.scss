@@ -5,7 +5,7 @@ $navbar-button-background-hover: $color-secondary-darker;
 $navbar-button-row: $color-secondary-lighter;
 $navbar-button-row-hover: $color-secondary-lighter;
 
-.fy-mbt {
+.fy-nbb {
 	background-color: red;
 	display: inline-block;
 	cursor: pointer;
@@ -56,9 +56,14 @@ $navbar-button-row-hover: $color-secondary-lighter;
 	}
 
 }
+.fy-nbb {
+	&.-s {
+		
+	}
+}
 
 
-.fy-mbt {
+.fy-nbb {
 	&.-c {
 		> span {
 			height: 5px;
