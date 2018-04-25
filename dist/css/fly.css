@@ -2112,22 +2112,56 @@ a {
 
 .fy-nvb {
   font-size: 14px;
-  background-color: #F5F5F6; }
+  background-color: #F5F5F6;
+  position: relative; }
+  @media only screen and (max-width: 980px) {
+    .fy-nvb {
+      padding-top: 52px; } }
+  .fy-nvb:after {
+    content: '.';
+    display: block;
+    visibility: hidden;
+    height: 0;
+    clear: both; }
   .fy-nvb_lgo {
     display: inline-block;
+    float: left;
     font-size: 18px;
     padding-left: 10px;
     padding-right: 10px; }
+    @media only screen and (max-width: 980px) {
+      .fy-nvb_lgo {
+        position: absolute;
+        top: 0;
+        left: 0; } }
+  .fy-nvb_gl {
+    display: inline-block;
+    float: left; }
+    @media only screen and (max-width: 980px) {
+      .fy-nvb_gl {
+        float: none;
+        display: none; } }
+    .fy-nvb_gl.-or {
+      float: right; }
+      @media only screen and (max-width: 980px) {
+        .fy-nvb_gl.-or {
+          float: none;
+          display: none; } }
   .fy-nvb_l {
     display: inline-block;
     padding: 17px 18px;
     text-decoration: none;
     color: #777777;
-    background-color: transparent; }
+    background-color: transparent;
+    text-align: center; }
     .fy-nvb_l:hover {
       color: #636363;
       background-color: #ececec;
       text-decoration: none; }
+    @media only screen and (max-width: 980px) {
+      .fy-nvb_l {
+        display: block;
+        width: 100%; } }
 
 .fy-nvb.-s .fy-nvb_l {
   font-size: 12px;
@@ -2140,6 +2174,15 @@ a {
 .fy-nvb.-s.-ul .fy-nvb_l:hover {
   padding: 8px 18px 7px 18px;
   border-bottom: 1px solid #4f565a; }
+
+.fy-nvb .fy-mbt {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0; }
+  @media only screen and (max-width: 980px) {
+    .fy-nvb .fy-mbt {
+      display: block; } }
 
 .fy-mbt {
   background-color: red;

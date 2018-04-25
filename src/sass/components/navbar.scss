@@ -13,12 +13,48 @@ $navbar-link-border-bottom-color: $color-dark-lighter;
 .fy-nvb {
 	font-size: 14px;
 	background-color: $navbar-background-color;
+	position: relative;
 	
+	@include media($medium-max-size){
+		padding-top: 52px;
+	}
+	&:after {
+		content: '.';
+		display: block;
+		visibility: hidden;
+		height: 0;
+		clear: both;
+	}
+
 	&_lgo {
 		display: inline-block;
+		float: left;
 		font-size: 18px;
 		padding-left: 10px;
 		padding-right: 10px;
+		@include media($medium-max-size){
+			position: absolute;
+			top: 0;
+			left: 0;
+		}		
+	}
+
+	&_gl {
+		display: inline-block;
+		float: left;
+		@include media($medium-max-size){
+			float: none;
+			display: none;
+		}
+		&.-or {
+			float: right;
+			@include media($medium-max-size){
+				float: none;
+				display: none;
+				
+			}
+		}
+		
 	}
 
 	&_l {
@@ -27,15 +63,21 @@ $navbar-link-border-bottom-color: $color-dark-lighter;
 		text-decoration: none;
 		color: $navbar-link-color;
 		background-color: $navbar-link-background-color;
+		text-align: center;
 		&:hover {
 			color: $navbar-link-color-hover;
 			background-color: $navbar-link-background-color-hover;
 			text-decoration: none;
-			
+		}
+		@include media($medium-max-size){
+			display: block;
+			width: 100%;
 		}
 	}
 
 }
+
+
 .fy-nvb {
 	&.-s {
 		.fy-nvb_l {
@@ -66,6 +108,18 @@ $navbar-link-border-bottom-color: $color-dark-lighter;
 	}	
 }
 
+.fy-nvb {
+	.fy-mbt {
+		display: none;
+		position: absolute;
+		top: 0;
+		right: 0;
+		@include media($medium-max-size){
+
+			display: block;
+		}		
+	}
+}
 
 
 
