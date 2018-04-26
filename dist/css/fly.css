@@ -2239,6 +2239,36 @@ a {
   border-radius: 50%;
   left: 24px; }
 
+.fy-cmnu {
+  display: inline-block;
+  padding: 20px;
+  font-size: 12px;
+  min-width: 140px; }
+  .fy-cmnu.-sp {
+    padding: 10px; }
+  .fy-cmnu.-bd {
+    border: 1px solid #ececec; }
+  .fy-cmnu.-sh {
+    box-shadow: 1px 2px 7px #e8e8e8; }
+  .fy-cmnu a {
+    display: block;
+    margin-bottom: 4px;
+    color: #a9a9a9; }
+    .fy-cmnu a:hover {
+      color: #777777; }
+  .fy-cmnu_t {
+    font-size: 14px;
+    color: #777777;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #ececec;
+    margin-bottom: 5px;
+    margin-top: 20px; }
+    .fy-cmnu_t.-cp {
+      font-size: 10px;
+      text-transform: uppercase; }
+    .fy-cmnu_t:first-child {
+      margin-top: 0; }
+
 .fbox {
   display: inline-block;
   width: 100px;
