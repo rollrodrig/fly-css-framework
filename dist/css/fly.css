@@ -1956,19 +1956,21 @@ a {
   margin-top: 3px; }
 
 .fy-ss_i {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   float: left;
   width: 29px;
-  height: 27px;
-  background-color: #909090;
+  height: 29px;
+  background-color: #777777;
   text-align: center;
-  margin-right: 5px;
+  margin-right: 6px;
   color: #ffffff;
   cursor: pointer; }
+  .fy-ss_i:hover {
+    background-color: #636363; }
   .fy-ss_i:last-child {
     margin-right: 0px; }
-  .fy-ss_i > i {
-    margin-top: 5px; }
 
 /* Variations */
 .fy-ss.-s {
@@ -1987,10 +1989,8 @@ a {
     margin-top: 4px; }
   .fy-ss.-l .fy-ss_i {
     width: 45px;
-    height: 40px;
+    height: 45px;
     font-size: 29px; }
-    .fy-ss.-l .fy-ss_i > i {
-      margin-top: 6px; }
   .fy-ss.-l.-r .fy-ss_i {
     border-radius: 4px; }
 
@@ -1999,6 +1999,9 @@ a {
 
 .fy-ss.-r .fy-ss_i {
   border-radius: 3px; }
+
+.fy-ss.-c .fy-ss_i {
+  border-radius: 50%; }
 
 /* padding top */
 .fy-pt0 {

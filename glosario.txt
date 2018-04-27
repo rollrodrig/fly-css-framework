@@ -497,8 +497,13 @@ fy-bxv
 
 # normal
 .fy-ss
+
+# circle version
+.fy-ss.-c
+
 # child text
 .fy-ss_t
+
 # child icon
 .fy-ss_i
 

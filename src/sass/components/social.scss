@@ -1,3 +1,7 @@
+
+$social-share-background-color: $color-secondary;
+$social-share-background-color-hover: $color-secondary-darker;
+
 .fy-ss {
 	font-size: 16px;
 	color: #656565;
@@ -11,21 +15,27 @@
     
 }
 .fy-ss_i {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     float: left;
 	width: 29px;
-	height: 27px;
-	background-color: #909090;
+	height: 29px;
+	background-color: $social-share-background-color;
 	text-align: center;
-	margin-right: 5px;
+	margin-right: 6px;
 	color: #ffffff;
 	cursor: pointer;
 	
+	&:hover {
+		background-color: $social-share-background-color-hover;
+	}
+
 	&:last-child {
 		margin-right: 0px;
 	}
 	> i {
-		margin-top: 5px;
+
 	}
 }
 
@@ -55,10 +65,9 @@
 		}
 		.fy-ss_i {
 			width: 45px;
-			height: 40px;
+			height: 45px;
 			font-size: 29px;
 			> i {
-				margin-top: 6px;
 			}
 		}
 
@@ -87,7 +96,15 @@
 
 
 
+.fy-ss {
+	&.-c {
+		.fy-ss_i {
+			border-radius: 50%;
 
+		}	
+	}
+	
+}
 
 
 
