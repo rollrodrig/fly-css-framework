@@ -103,6 +103,34 @@ $list-group-item-hover: $color-light-lighter;
 	}
 }
 
+.fy-lg {
+	.fy-lg_f {
+		background-color: $color-light;
+		border-left: 4px solid $color-light-darker;
+		padding-left: 9px;
+	}
+}
+
+
+// sub items
+
+.fy-lg {
+	&.-ic {
+		.fy-lg {
+			margin-top: 7px;
+			> div {
+				padding-left: 23px;
+			}
+			&.-s {
+				margin-top: 3px;
+				> div {
+					padding-left: 17px;
+				}
+			}
+		}
+	}
+
+}
 
 
 

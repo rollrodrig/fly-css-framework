@@ -2439,6 +2439,20 @@ a {
 .fy-lg.-s .fy-lg_c {
   top: 6px; }
 
+.fy-lg .fy-lg_f {
+  background-color: #F5F5F6;
+  border-left: 4px solid #ececec;
+  padding-left: 9px; }
+
+.fy-lg.-ic .fy-lg {
+  margin-top: 7px; }
+  .fy-lg.-ic .fy-lg > div {
+    padding-left: 23px; }
+  .fy-lg.-ic .fy-lg.-s {
+    margin-top: 3px; }
+    .fy-lg.-ic .fy-lg.-s > div {
+      padding-left: 17px; }
+
 .fbox {
   display: inline-block;
   width: 100px;
