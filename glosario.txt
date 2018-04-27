@@ -667,19 +667,33 @@ fy-ldg.-dk
 .fy-lg.-ic
 
 # has sub items
+.fy-lg .fy-lg
 
 
+### Description list
+fy-dl
+
+# with lines
+fy-dl.-ln
+
+# with lines
+fy-dl.-uc
+
+# bordered
+fy-dl.-bd
 
 
+### Profile
+.fy-pf
 
+# align right
+.fy-pf.-ar
 
+# picture rounded
+.fy-pf.-pr
 
-
-
-
-
-
-
+# detail vertical center
+.fy-pf.-dvc
 
 
 

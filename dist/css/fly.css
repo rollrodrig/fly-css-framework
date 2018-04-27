@@ -2453,6 +2453,77 @@ a {
     .fy-lg.-ic .fy-lg.-s > div {
       padding-left: 17px; }
 
+.fy-dl > div {
+  padding: 11px 16px;
+  font-size: 16px; }
+  .fy-dl > div span {
+    display: block;
+    font-size: 12px; }
+
+.fy-dl.-ln > div {
+  border-bottom: 1px solid #ececec; }
+  .fy-dl.-ln > div:last-child {
+    border-bottom: none; }
+
+.fy-dl.-uc > div {
+  font-size: 11px; }
+
+.fy-dl.-bd {
+  border: 1px solid #ececec; }
+
+.fy-pf {
+  display: inline-block;
+  padding: 10px;
+  position: relative;
+  font-size: 16px; }
+  .fy-pf_p {
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin-right: 10px; }
+  .fy-pf_d {
+    float: left; }
+  .fy-pf_m {
+    font-size: 12px;
+    color: #a9a9a9; }
+
+.fy-pf.-ar .fy-pf_p {
+  float: right;
+  margin-left: 10px;
+  margin-right: 0; }
+
+.fy-pf.-ar .fy-pf_d {
+  float: right;
+  text-align: right; }
+
+.fy-pf.-pr .fy-pf_p {
+  border-radius: 50%;
+  overflow: hidden; }
+
+.fy-pf.-dvc {
+  display: flex;
+  align-items: center; }
+
+.fy-pf.-s {
+  padding: 5px;
+  font-size: 14px; }
+  .fy-pf.-s .fy-pf_p {
+    width: 40px;
+    height: 40px;
+    margin-right: 6px; }
+  .fy-pf.-s .fy-pf_m {
+    font-size: 11px; }
+
+.fy-pf.-l {
+  padding: 14px;
+  font-size: 20px; }
+  .fy-pf.-l .fy-pf_p {
+    width: 80px;
+    height: 80px;
+    margin-right: 15px; }
+  .fy-pf.-l .fy-pf_m {
+    font-size: 13px; }
+
 .fbox {
   display: inline-block;
   width: 100px;
