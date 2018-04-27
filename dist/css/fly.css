@@ -2386,6 +2386,59 @@ a {
     .fy-tbl.-nh tr:first-child th {
       border: none; }
 
+.fy-lg {
+  display: block;
+  font-size: 15px; }
+  .fy-lg > div {
+    padding: 8px 26px 8px 13px;
+    display: block;
+    border-bottom: 1px solid #ececec;
+    cursor: pointer;
+    position: relative; }
+    .fy-lg > div:last-child {
+      border-bottom: none; }
+    .fy-lg > div:hover {
+      background-color: #FAFAFA; }
+    .fy-lg > div a {
+      color: #343b40; }
+      .fy-lg > div a:hover {
+        text-decoration: none;
+        color: #343b40; }
+    .fy-lg > div i {
+      width: 18px;
+      margin-right: 2px;
+      text-align: center; }
+
+.fy-lg.-s {
+  font-size: 12px; }
+  .fy-lg.-s > div {
+    padding: 6px 12px 6px 8px; }
+    .fy-lg.-s > div i {
+      width: 12px; }
+
+.fy-lg.-ln {
+  border: 1px solid #ececec; }
+
+.fy-lg.-br {
+  border-radius: 6px; }
+
+.fy-lg.-s.-br {
+  border-radius: 3px; }
+
+.fy-lg.-h > div:first-child {
+  background-color: #ececec; }
+
+.fy-lg_c {
+  display: inline-block;
+  font-size: 10px;
+  position: absolute;
+  right: 8px;
+  top: 11px;
+  color: #a9a9a9; }
+
+.fy-lg.-s .fy-lg_c {
+  top: 6px; }
+
 .fbox {
   display: inline-block;
   width: 100px;

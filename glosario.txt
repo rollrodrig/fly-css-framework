@@ -646,11 +646,21 @@ fy-ldg.-dk
 
 
 
+### List group
 
+.fy-lg
 
+# small
+.fy-lg.-s
 
+# with lines
+.fy-lg.-ln
 
+# with border rounded
+.fy-lg.-br
 
+# header
+.fy-lg.-h
 
 
 
