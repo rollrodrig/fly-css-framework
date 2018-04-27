@@ -2345,6 +2345,47 @@ a {
     .fy-cmnu_t:first-child {
       margin-top: 0; }
 
+.fy-tbl {
+  font-size: 16px;
+  border-spacing: 0;
+  border-collapse: collapse; }
+  .fy-tbl th, .fy-tbl td {
+    padding: 10px; }
+  .fy-tbl.-s {
+    font-size: 12px; }
+    .fy-tbl.-s th, .fy-tbl.-s td {
+      padding: 5px; }
+  .fy-tbl.-l {
+    font-size: 16px; }
+    .fy-tbl.-l th, .fy-tbl.-l td {
+      padding: 15px; }
+  .fy-tbl.-ct {
+    text-align: center; }
+  .fy-tbl.-h tr:first-child {
+    background-color: #ececec; }
+  .fy-tbl.-lh tr th, .fy-tbl.-lh tr td {
+    border-bottom: 1px solid #ececec; }
+  .fy-tbl.-lh tr:last-child td {
+    border-bottom: none; }
+  .fy-tbl.-lv tr th, .fy-tbl.-lv tr td {
+    border-right: 1px solid #ececec; }
+    .fy-tbl.-lv tr th:last-child, .fy-tbl.-lv tr td:last-child {
+      border-right: none; }
+  .fy-tbl.-ln tr th, .fy-tbl.-ln tr td {
+    border: 1px solid #ececec; }
+  .fy-tbl.-hv tr:hover {
+    background-color: #FAFAFA; }
+  .fy-tbl.-hv.-h tr:first-child:hover {
+    background-color: #ececec; }
+  .fy-tbl.-str tr:nth-child(odd) {
+    background-color: #F5F5F6; }
+  .fy-tbl.-str.-h tr:first-child {
+    background-color: #ececec; }
+  .fy-tbl.-nh tr:first-child {
+    background-color: transparent; }
+    .fy-tbl.-nh tr:first-child th {
+      border: none; }
+
 .fbox {
   display: inline-block;
   width: 100px;

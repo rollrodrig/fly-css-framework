@@ -609,10 +609,40 @@ fy-ldg.-dk
 .fy-mts.-d
 
 
+### Table
+
+.fy-tbl
+
+# small
+.fy-tbl.-s
+
+#large
+.fy-tbl.-l
+
+# center info
+.fy-tbl.-ct
+
+# heading
+.fy-tbl.-h
+
+# line horizontal
+.fy-tbl.-lh
+
+# line vertical
+.fy-tbl.-lv
+
+# linen / bordered
+.fy-tbl.-ln
+
+# hoverable
+.fy-tbl.-hv
+
+# striped
+.fy-tbl.-str
 
 
-
-
+# heading transparent
+.fy-tbl.-nh
 
 
 
