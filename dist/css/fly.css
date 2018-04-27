@@ -965,6 +965,17 @@ pre, code {
       height: 24px;
       left: 14px; }
 
+.fy-cls.-c {
+  border-radius: 50%;
+  box-shadow: 1px 1px 3px #c3c3c3;
+  background-color: #ffffff; }
+
+.fy-cls.-sq {
+  box-shadow: 1px 1px 3px #c3c3c3;
+  background-color: #ffffff; }
+  .fy-cls.-sq:before, .fy-cls.-sq:after {
+    top: 3px; }
+
 .fy-cls-c {
   position: relative; }
   .fy-cls-c .fy-cls {

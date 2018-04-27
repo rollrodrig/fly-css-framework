@@ -56,6 +56,24 @@ $close-background-color-hover: $color-secondary-darker;
 
 
 }
+.fy-cls {
+    &.-c {
+        border-radius: 50%;
+        box-shadow: 1px 1px 3px #c3c3c3;
+        background-color: #ffffff;
+    }
+}
+.fy-cls {
+    &.-sq {
+        box-shadow: 1px 1px 3px #c3c3c3;
+        background-color: #ffffff;
+
+        &:before, &:after {
+            top: 3px;
+        }
+    }
+}
+
 
 // close button container
 .fy-cls-c {
@@ -68,4 +86,29 @@ $close-background-color-hover: $color-secondary-darker;
 	}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

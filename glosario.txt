@@ -173,6 +173,14 @@ fy-twnw
 # close button container
 .fy-cls-c
 
+# circle
+.fy-cls.-c
+
+# square
+.fy-cls.-sq
+
+
+
 
 ### Color 
 
