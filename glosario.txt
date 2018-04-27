@@ -568,13 +568,28 @@ fy-ldg.-dk
 
 
 
+### Meta data
+
+.fy-mta
+
+# medium
+.fy-mta.-m
+
+# large
+.fy-mta.-l
+
+# space between without pipe
+.fy-mta.-sb
 
 
+### Meta data stacked
+.fy-mts
 
+# with icons
+.fy-mts.-ic
 
-
-
-
+# detail
+.fy-mts.-d
 
 
 

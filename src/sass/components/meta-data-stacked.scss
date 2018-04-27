@@ -1,0 +1,60 @@
+
+$meta-data-stacked-color: $color-secondary;
+$meta-data-stacked-border-color: $color-secondary-lighter;
+
+.fy-mts {
+	display: inline-block;
+	font-size: 14px;
+	color: $meta-data-color;
+	
+	> span {
+		display: block;
+		padding: 6px 10px;
+		border-bottom: 1px solid $meta-data-stacked-border-color;
+		text-align: center;
+		
+		&:last-child {
+			border: none;
+		}
+	}
+
+	&.-ic {
+		> span {
+			text-align: right;
+			> i {
+				margin-left: 5px;
+
+			}
+		}
+		
+	}
+
+	&.-d {
+		> span {
+			padding: 10px;
+			> span {
+				display: block;
+				font-size: 11px;
+			}
+		}
+	}	
+	&.-l {
+		> span {
+			font-size: 18px;
+			padding: 10px 14px;
+		}
+	}
+	&.-l {
+		&.-d {
+			> span {
+				padding: 10px;
+				> span {
+					display: block;
+					font-size: 13px;
+				}
+			}
+		}
+	}
+
+
+}
