@@ -944,7 +944,7 @@ pre, code {
     content: ' ';
     height: 14px;
     width: 2px;
-    background-color: #777777;
+    background-color: #a9a9a9;
     top: 2px; }
   .fy-cls:hover:before, .fy-cls:hover:after {
     background-color: #636363; }
@@ -975,6 +975,9 @@ pre, code {
   background-color: #ffffff; }
   .fy-cls.-sq:before, .fy-cls.-sq:after {
     top: 3px; }
+
+.fy-cls.-slm:before, .fy-cls.-slm:after {
+  width: 1px; }
 
 .fy-cls-c {
   position: relative; }

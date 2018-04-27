@@ -164,6 +164,10 @@ fy-twnw
 # close button
 .fy-cls
 
+
+# close button thing
+.fy-cls.-slm
+
 # large
 .fy-cls.-l
 

@@ -1,4 +1,4 @@
-$close-background-color: $color-secondary;
+$close-background-color: $color-secondary-lighter;
 $close-background-color-hover: $color-secondary-darker;
 
 // close button
@@ -74,6 +74,14 @@ $close-background-color-hover: $color-secondary-darker;
     }
 }
 
+
+.fy-cls {
+    &.-slm {
+        &:before, &:after {
+            width: 1px;
+        }
+    }
+}
 
 // close button container
 .fy-cls-c {
