@@ -1,5 +1,7 @@
-.fy-gc {
 
+$grid-gutter-padding: 10px;
+
+.fy-gc {
 	&:after {
 		content: '.';
 		display: block;
@@ -7,7 +9,6 @@
 		height: 0;
 		clear: both;
 	}
-
 }
 
 @for $i from 1 through $max-cols-number {
@@ -46,15 +47,63 @@
 
 
 
-/*.fy-gc-s- {
+.fy-gc {
 
+	&.-g {
+		> * {
+			padding-left: $grid-gutter-padding;
+			padding-right: $grid-gutter-padding;
+		}
+		&\@l {
+			> * {
+				@include min-media($large-min-size) {
+					padding-left: $grid-gutter-padding;
+					padding-right: $grid-gutter-padding;
+				}			
+			}
+		}		
+		&\@m {
+			> * {
+				@include min-media($medium-min-size) {
+					padding-left: $grid-gutter-padding;
+					padding-right: $grid-gutter-padding;
+				}			
+			}
+		}
+		&\@s {
+			> * {
+				@include min-media($small-min-size) {
+					padding-left: $grid-gutter-padding;
+					padding-right: $grid-gutter-padding;
+				}			
+			}
+		}
+		&\@xs {
+			> * {
+				@include min-media($extra-small-min-size) {
+					padding-left: $grid-gutter-padding;
+					padding-right: $grid-gutter-padding;
+				}			
+			}
+		}
+	}
+
+	&.-gsp {
+		> * {
+			&:first-child {
+				padding-left: 0;
+			}
+			&:last-child {
+				padding-right: 0;
+			}
+		}
+	}
 }
-.fy-gc-m- {
 
-}
-.fy-gc-l- {
 
-}
-.fy-gc-xl- {
 
-}*/
+
+
+
+
+

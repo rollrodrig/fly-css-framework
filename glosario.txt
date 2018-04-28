@@ -419,7 +419,11 @@ fy-twnw
 .fy-gcl* > 980
 .fy-gcxl* > 1281
 
+# grid gutter, 10px border
+.fy-gc.-g
 
+# grid gutter, first child paddng 0, last child padding 0 
+.fy-gc.-gsp
 
 ### Width
 width from 1 to 12
@@ -696,10 +700,42 @@ fy-dl.-bd
 .fy-pf.-dvc
 
 
+### form tag
+
+# form container
+.fy-fc
+
+# form row
+.fy-fr
 
 
+### form fields
 
+# field
+.fy-f*
 
+# sizes
+.fy-f*.-xs
+.fy-f*.-s
+.fy-f*.-l
+
+# label
+.fy-fl
+
+# input
+.fy-fi
+
+# select
+.fy-fs
+
+# radio, checkbox
+.fy-fo
+
+# textarea
+.fy-ft
+
+# error
+.fy-fe
 
 
 
