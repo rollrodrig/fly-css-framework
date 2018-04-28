@@ -417,13 +417,20 @@ fy-twnw
 .fy-gcs*	< 768
 .fy-gcm* < 980
 .fy-gcl* > 980
-.fy-gcxl* > 1281
 
 # grid gutter, 10px border
 .fy-gc.-g
 
+# grid gutter responsive
+.fy-gc.-g@l
+.fy-gc.-g@m
+.fy-gc.-g@s
+.fy-gc.-g@xs
+
 # grid gutter, first child paddng 0, last child padding 0 
 .fy-gc.-gsp
+
+
 
 ### Width
 width from 1 to 12
@@ -434,6 +441,12 @@ width from 1 to 12
 
 #  override float to right
 .fy-wda.fy-ar
+
+# responsive
+.fy-wd*@l
+.fy-wd*@m
+.fy-wd*@s
+.fy-wd*@xs
 
 
 ### remaining width
@@ -738,11 +751,16 @@ fy-dl.-bd
 .fy-fe
 
 
+### block spacing
+
+# block spacing top, from 1 to 12
+fy-bst*
+
+# block spacing bottom,  from 1 to 12
+fy-bsb*
 
 
-
-
-
+### block spacing multiplay
 
 
 

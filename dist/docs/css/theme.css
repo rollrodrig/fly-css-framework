@@ -29,3 +29,9 @@ a {
 .width-test > div {
 	background-color: #c3c3c3;
 }
+
+
+.ex-box-spacing {
+	display: block;
+	background-color: orange;
+}
