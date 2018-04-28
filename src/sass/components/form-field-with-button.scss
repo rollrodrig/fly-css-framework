@@ -1,0 +1,93 @@
+
+
+.fy-fd {
+	display: flex;
+	.fy-fd_e {
+		display: flex;
+		text-align: center;
+		align-items: center;
+		justify-content: center;
+		width: 50px;
+		font-size: 20px;
+		border-top: 1px solid $field-border-color;
+		border-bottom: 1px solid $field-border-color;
+		border-left: none;
+		border-right: 1px solid $field-border-color;
+		color: $color-secondary-lighter;
+	}
+	select, input {
+		flex-grow: 1;
+		flex-shrink: 1;
+		flex-basis: auto;
+		border-right: none;
+	}
+
+	&.-dl {
+		> .fy-fd_e  {
+			border-left: 1px solid $field-border-color;
+			border-right: none;
+		}
+		> select, input  {
+			border-right: 1px solid $field-border-color;
+			border-left: none;
+		}
+	}
+}
+
+.fy-fd {
+	&.-s {
+		.fy-fd_e  {
+			width: 40px;
+			font-size: 16px;
+		}
+	}
+	&.-l {
+		.fy-fd_e  {
+			width: 70px;
+			font-size: 28px;
+		}
+	}	
+}
+
+
+/*.b + .a {
+	background-color: red;
+}
+.b + .c {
+	background-color: red;
+}
+
+.b ~ .c {
+	background-color: orange;
+}
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

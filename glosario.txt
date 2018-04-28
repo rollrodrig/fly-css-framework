@@ -750,6 +750,15 @@ fy-dl.-bd
 # error
 .fy-fe
 
+# field group
+.fy-fg
+
+# field decorator
+.fy-fd
+# the element inside decorator
+.fy-fd_e
+
+
 
 ### block spacing
 
