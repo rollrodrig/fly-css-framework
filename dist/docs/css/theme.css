@@ -25,3 +25,7 @@ code, code.hljs {
 a {
 	color: #585858;
 }
+
+.width-test > div {
+	background-color: #c3c3c3;
+}
