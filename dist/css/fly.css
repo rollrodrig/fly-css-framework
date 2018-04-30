@@ -365,6 +365,10 @@ pre, code {
   tab-size: 4;
   font-family: 'Roboto Mono',monospace; }
 
+form {
+  margin-top: 0;
+  margin-bottom: 0; }
+
 @font-face {
   font-family: 'Open Sans';
   src: url("../fonts/open-sans/OpenSans-Light-webfont.eot");
@@ -2718,6 +2722,9 @@ a {
 .fy-nb .fy-btn {
   margin-top: 5px; }
 
+.fy-nb .fy-fc {
+  margin-top: 5px; }
+
 .fy-nbb {
   cursor: pointer;
   background-color: #777777;
@@ -3065,6 +3072,7 @@ a {
 .fy-fd {
   display: flex; }
   .fy-fd .fy-fd_e {
+    background-color: #ffffff;
     display: flex;
     text-align: center;
     align-items: center;
