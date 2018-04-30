@@ -36,7 +36,11 @@ a {
 	background-color: orange;
 }
 
-.flex-example .fy-fx > div{
+.flex-example .fy-fx\@l > div,
+.flex-example .fy-fx\@m > div,
+.flex-example .fy-fx\@s > div,
+.flex-example .fy-fx\@xs > div{
 	padding: 10px;
 	border:1px solid #c3c3c3;
 }
+

@@ -25,16 +25,86 @@
 			display: flex;
 		}
 	}
-	
+
+
 	@for $i from 1 through $max-cols-number {
 		&_b#{$i} {
 			flex-basis: $column-width*$i;
 			flex-shrink: 0; 				
 		}
-	}	
+	}
 
+
+	@for $i from 1 through $max-cols-number {
+		&xs#{$i} {
+			flex-basis: $column-width*$i;
+			flex-shrink: 0; 
+		}
+	}
+
+	@for $i from 1 through $max-cols-number {
+		&s#{$i} {
+			@include min-media($small-min-size) {
+				flex-basis: $column-width*$i;
+				flex-shrink: 0; 
+			}
+		}
+	}
+
+	@for $i from 1 through $max-cols-number {
+		&m#{$i} {
+			@include min-media($medium-min-size) {
+				flex-basis: $column-width*$i;
+				flex-shrink: 0; 
+			}
+		}
+	}
+
+	@for $i from 1 through $max-cols-number {
+		&l#{$i} {
+			@include min-media($large-min-size) {
+				flex-basis: $column-width*$i;
+				flex-shrink: 0; 
+			}
+		}
+	}
+
+	&g,
 	&_g {
 		flex-grow: 1;
 	}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
