@@ -28,7 +28,7 @@
 
 
 	@for $i from 1 through $max-cols-number {
-		&_b#{$i} {
+		&#{$i} {
 			flex-basis: $column-width*$i;
 			flex-shrink: 0; 				
 		}
@@ -69,8 +69,7 @@
 		}
 	}
 
-	&g,
-	&_g {
+	&g {
 		flex-grow: 1;
 	}
 

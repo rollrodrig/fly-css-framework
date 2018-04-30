@@ -35,7 +35,7 @@ a {
 	display: block;
 	background-color: orange;
 }
-
+.flex-example .fy-fx > div,
 .flex-example .fy-fx\@l > div,
 .flex-example .fy-fx\@m > div,
 .flex-example .fy-fx\@s > div,

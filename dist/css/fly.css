@@ -3276,40 +3276,40 @@ a {
     @media only screen and (min-width: 0px) {
       .fy-fx\@xs {
         display: flex; } }
-  .fy-fx_b1 {
+  .fy-fx1 {
     flex-basis: 97px;
     flex-shrink: 0; }
-  .fy-fx_b2 {
+  .fy-fx2 {
     flex-basis: 194px;
     flex-shrink: 0; }
-  .fy-fx_b3 {
+  .fy-fx3 {
     flex-basis: 291px;
     flex-shrink: 0; }
-  .fy-fx_b4 {
+  .fy-fx4 {
     flex-basis: 388px;
     flex-shrink: 0; }
-  .fy-fx_b5 {
+  .fy-fx5 {
     flex-basis: 485px;
     flex-shrink: 0; }
-  .fy-fx_b6 {
+  .fy-fx6 {
     flex-basis: 582px;
     flex-shrink: 0; }
-  .fy-fx_b7 {
+  .fy-fx7 {
     flex-basis: 679px;
     flex-shrink: 0; }
-  .fy-fx_b8 {
+  .fy-fx8 {
     flex-basis: 776px;
     flex-shrink: 0; }
-  .fy-fx_b9 {
+  .fy-fx9 {
     flex-basis: 873px;
     flex-shrink: 0; }
-  .fy-fx_b10 {
+  .fy-fx10 {
     flex-basis: 970px;
     flex-shrink: 0; }
-  .fy-fx_b11 {
+  .fy-fx11 {
     flex-basis: 1067px;
     flex-shrink: 0; }
-  .fy-fx_b12 {
+  .fy-fx12 {
     flex-basis: 1164px;
     flex-shrink: 0; }
   .fy-fxxs1 {
@@ -3492,7 +3492,7 @@ a {
     .fy-fxl12 {
       flex-basis: 1164px;
       flex-shrink: 0; } }
-  .fy-fxg, .fy-fx_g {
+  .fy-fxg {
     flex-grow: 1; }
 
 /*# sourceMappingURL=maps/fly.css.map */
