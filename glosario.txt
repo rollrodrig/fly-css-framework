@@ -520,16 +520,16 @@ column align right
 .fy-nv
 
 # title
-.fy-nv.--t
+.fy-nv.-t
 
 # title capitalize
-.fy-nv.--tc
+.fy-nv.-tc
 
 # title underline
-.fy-nv.--tu
+.fy-nv.-tu
 
 # child padding
-.fy-nv.--cp
+.fy-nv.-cp
 
 
 

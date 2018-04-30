@@ -2602,35 +2602,35 @@ a {
     padding-left: 0; }
   .fy-nv a {
     color: #525252; }
-  .fy-nv.--t > *:first-child {
+  .fy-nv.-t > *:first-child {
     padding-top: 6px;
     padding-bottom: 10px;
     padding-left: 0; }
-    .fy-nv.--t > *:first-child a {
+    .fy-nv.-t > *:first-child a {
       font-size: 16px; }
-  .fy-nv.--tu > *:first-child {
+  .fy-nv.-tu > *:first-child {
     padding-top: 6px;
     padding-left: 0;
     border-bottom: 1px solid #c3c3c3;
     padding-bottom: 4px;
     margin-bottom: 5px; }
-    .fy-nv.--tu > *:first-child a {
+    .fy-nv.-tu > *:first-child a {
       font-size: 16px; }
-      .fy-nv.--tu > *:first-child a:hover {
+      .fy-nv.-tu > *:first-child a:hover {
         text-decoration: none; }
-  .fy-nv.--tc > *:first-child {
+  .fy-nv.-tc > *:first-child {
     padding-top: 6px;
     padding-left: 0;
     border-bottom: 1px solid #c3c3c3;
     padding-bottom: 4px;
     margin-bottom: 8px;
     text-transform: uppercase;
-    font-size: 10px; }
-    .fy-nv.--tc > *:first-child a:hover {
+    font-size: 11px; }
+    .fy-nv.-tc > *:first-child a:hover {
       text-decoration: none; }
-  .fy-nv.--cp > * {
+  .fy-nv.-cp > * {
     padding-left: 10px; }
-    .fy-nv.--cp > *:first-child {
+    .fy-nv.-cp > *:first-child {
       padding-left: 0; }
 
 .fy-nb {

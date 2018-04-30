@@ -18,7 +18,7 @@
 		color: #525252;
 	}
 
-	&.--t {
+	&.-t {
 		> * {
 			&:first-child {
 				padding-top: 6px;
@@ -31,7 +31,7 @@
 		}
 	}
 
-	&.--tu {
+	&.-tu {
 		> * {
 			&:first-child {
 				padding-top: 6px;
@@ -50,7 +50,7 @@
 	}
 
 
-	&.--tc {
+	&.-tc {
 		> * {
 			&:first-child {
 				padding-top: 6px;
@@ -60,7 +60,7 @@
 			    margin-bottom: 8px;
 			    text-transform: uppercase;
 
-			    font-size: 10px;
+			    font-size: 11px;
 				a {
 					&:hover {
 						text-decoration: none;
@@ -69,7 +69,7 @@
 			}
 		}
 	}
-	&.--cp {
+	&.-cp {
 		> * {
 			padding-left: 10px;
 			&:first-child {
