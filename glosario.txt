@@ -771,7 +771,18 @@ fy-bsb*
 
 ### block spacing multiplay
 
+ex. multiply the value by 1
+fy-bst1*
 
+ex. multiply the value by 5
+fy-bst5*
+
+
+### grid flex
+.fy-fx*
+
+# container
+.fy-fxc
 
 
 

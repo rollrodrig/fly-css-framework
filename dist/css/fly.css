@@ -3254,6 +3254,67 @@ a {
 .fy-bsb12\* {
   margin-bottom: 1440px; }
 
+.fy-fx {
+  display: flex; }
+  .fy-fx\@l {
+    display: block; }
+    @media only screen and (min-width: 981px) {
+      .fy-fx\@l {
+        display: flex; } }
+  .fy-fx\@m {
+    display: block; }
+    @media only screen and (min-width: 781px) {
+      .fy-fx\@m {
+        display: flex; } }
+  .fy-fx\@s {
+    display: block; }
+    @media only screen and (min-width: 541px) {
+      .fy-fx\@s {
+        display: flex; } }
+  .fy-fx\@xs {
+    display: block; }
+    @media only screen and (min-width: 0px) {
+      .fy-fx\@xs {
+        display: flex; } }
+  .fy-fx_b1 {
+    flex-basis: 97px;
+    flex-shrink: 0; }
+  .fy-fx_b2 {
+    flex-basis: 194px;
+    flex-shrink: 0; }
+  .fy-fx_b3 {
+    flex-basis: 291px;
+    flex-shrink: 0; }
+  .fy-fx_b4 {
+    flex-basis: 388px;
+    flex-shrink: 0; }
+  .fy-fx_b5 {
+    flex-basis: 485px;
+    flex-shrink: 0; }
+  .fy-fx_b6 {
+    flex-basis: 582px;
+    flex-shrink: 0; }
+  .fy-fx_b7 {
+    flex-basis: 679px;
+    flex-shrink: 0; }
+  .fy-fx_b8 {
+    flex-basis: 776px;
+    flex-shrink: 0; }
+  .fy-fx_b9 {
+    flex-basis: 873px;
+    flex-shrink: 0; }
+  .fy-fx_b10 {
+    flex-basis: 970px;
+    flex-shrink: 0; }
+  .fy-fx_b11 {
+    flex-basis: 1067px;
+    flex-shrink: 0; }
+  .fy-fx_b12 {
+    flex-basis: 1164px;
+    flex-shrink: 0; }
+  .fy-fx_g {
+    flex-grow: 1; }
+
 .fbox {
   display: inline-block;
   width: 100px;

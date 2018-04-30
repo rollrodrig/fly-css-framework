@@ -13,3 +13,11 @@ http://via.placeholder.com/350x150
 # flex
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 https://css-tricks.com/almanac/properties/f/flex-shrink/
+
+https://css-tricks.com/flex-grow-is-weird/
+https://codepen.io/matuzo/pen/QyWEBb
+https://codepen.io/matuzo/pen/jbRjMG
+https://codepen.io/matuzo/pen/GoRqOP
+https://codepen.io/matuzo/pen/pgobag
+https://codepen.io/matuzo/pen/zvXQyj
+https://codepen.io/matuzo/pen/ZQEWjg

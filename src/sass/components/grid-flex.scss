@@ -1,0 +1,40 @@
+.fy-fx {
+	display: flex;
+
+	&\@l {
+		display: block;
+		@include min-media($large-min-size) {
+			display: flex;
+		}
+	}
+	&\@m {
+		display: block;
+		@include min-media($medium-min-size) {
+			display: flex;
+		}
+	}
+	&\@s {
+		display: block;
+		@include min-media($small-min-size) {
+			display: flex;
+		}
+	}
+	&\@xs {
+		display: block;
+		@include min-media($extra-small-min-size) {
+			display: flex;
+		}
+	}
+	
+	@for $i from 1 through $max-cols-number {
+		&_b#{$i} {
+			flex-basis: $column-width*$i;
+			flex-shrink: 0; 				
+		}
+	}	
+
+	&_g {
+		flex-grow: 1;
+	}
+
+}
