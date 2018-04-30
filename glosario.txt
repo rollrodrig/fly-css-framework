@@ -57,6 +57,18 @@ fy-mtn4
 fy-mtn5
 
 
+### remove margin
+# left
+fy-mgrl
+
+# right
+fy-mgrr
+
+# bottom
+fy-mgrb
+
+# top
+fy-mgrt
 
 ### Padding
 
@@ -78,6 +90,19 @@ fy-pt2
 fy-pt3
 fy-pt4
 fy-pt5
+
+### remove padding
+# left
+fy-pdrl
+
+# right
+fy-pdrr
+
+# bottom
+fy-pdrb
+
+# top
+fy-pdrt
 
 
 ### Text

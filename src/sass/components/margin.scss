@@ -1,24 +1,91 @@
 
 /* margin top */
 
-@for $i from 0 through $helper-loop-max-through {
+@for $i from 0 through $margin-loop-max-through {
 	.fy-mt#{$i*10} {
-		margin-top: $i*$helper-loop-constant;
+		margin-top: $i*$margin-loop-constant;
+	}
+	.fy-mtxs#{$i*10} {
+		@include min-media($extra-small-min-size) {
+			margin-top: $i*$margin-loop-constant;
+		}
+	}
+	.fy-mts#{$i*10} {
+		@include min-media($small-min-size) {
+			margin-top: $i*$margin-loop-constant;
+		}
+	}
+	.fy-mtm#{$i*10} {
+		@include min-media($medium-min-size) {
+			margin-top: $i*$margin-loop-constant;
+		}
+	}
+	.fy-mtl#{$i*10} {
+		@include min-media($large-min-size) {
+			margin-top: $i*$margin-loop-constant;
+		}
 	}	
+
 }
 
 /* margin bottom */
 
-@for $i from 0 through $helper-loop-max-through {
+@for $i from 0 through $margin-loop-max-through {
 	.fy-mb#{$i*10} {
-		margin-bottom: $i*$helper-loop-constant;
+		margin-bottom: $i*$margin-loop-constant;
 	}	
+	.fy-mbxs#{$i*10} {
+		@include min-media($extra-small-min-size) {
+			margin-bottom: $i*$margin-loop-constant;
+		}
+	}
+	.fy-mbs#{$i*10} {
+		@include min-media($small-min-size) {
+			margin-bottom: $i*$margin-loop-constant;
+		}
+	}
+	.fy-mbm#{$i*10} {
+		@include min-media($medium-min-size) {
+			margin-bottom: $i*$margin-loop-constant;
+		}
+	}
+	.fy-mbl#{$i*10} {
+		@include min-media($large-min-size) {
+			margin-bottom: $i*$margin-loop-constant;
+		}
+	}
+
 }
 
 /* marbin top negative */
 
-@for $i from 0 through $helper-loop-max-through {
+@for $i from 0 through $margin-loop-max-through {
 	.fy-mtn#{$i*10} {
-		margin-top: -$i*$helper-loop-constant;
+		margin-top: -$i*$margin-loop-constant;
 	}	
+	.fy-mtnxs#{$i*10} {
+		@include min-media($extra-small-min-size) {
+			margin-top: -$i*$margin-loop-constant;
+		}
+	}
+	.fy-mtns#{$i*10} {
+		@include min-media($small-min-size) {
+			margin-top: -$i*$margin-loop-constant;
+		}
+	}
+	.fy-mtnm#{$i*10} {
+		@include min-media($medium-min-size) {
+			margin-top: -$i*$margin-loop-constant;
+		}
+	}
+	.fy-mtnl#{$i*10} {
+		@include min-media($large-min-size) {
+			margin-top: -$i*$margin-loop-constant;
+		}
+	}
+
+	
 }
+
+
+
