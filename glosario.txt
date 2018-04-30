@@ -288,6 +288,8 @@ fy-twnw
 ### Label
 .fy-lbl
 
+# border rounded
+.fy-lbl.-r
 # large
 .fy-lbl.-l
 
@@ -779,13 +781,31 @@ fy-bst5*
 
 
 ### grid flex
-.fy-fx*
 
 # container
-.fy-fxc
+.fy-fx
+
+# fixed size
+.fy-fx[1-12]
+- example
+.fy-fx2
+.fy-fx15
+
+# responsive container
+.fy-fx@l
+.fy-fx@m
+.fy-fx@s
+.fy-fx@xs
 
 
+# responsive column
+.fy-fxl[1-12]
+.fy-fxm[1-12]
+.fy-fxs[1-12]
+.fy-fxxs[1-12]
 
+# container
+.fy-fx -j
 
 
 

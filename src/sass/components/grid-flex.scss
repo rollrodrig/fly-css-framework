@@ -1,26 +1,42 @@
 .fy-fx {
 	display: flex;
 
+	&.-jcsb {
+	  justify-content: space-between;
+	}
+
 	&\@l {
 		display: block;
+		&.-jcsb {
+		  justify-content: space-between;
+		}		
 		@include min-media($large-min-size) {
 			display: flex;
 		}
 	}
 	&\@m {
 		display: block;
+		&.-jcsb {
+		  justify-content: space-between;
+		}	
 		@include min-media($medium-min-size) {
 			display: flex;
 		}
 	}
 	&\@s {
 		display: block;
+		&.-jcsb {
+		  justify-content: space-between;
+		}	
 		@include min-media($small-min-size) {
 			display: flex;
 		}
 	}
 	&\@xs {
 		display: block;
+		&.-jcsb {
+		  justify-content: space-between;
+		}	
 		@include min-media($extra-small-min-size) {
 			display: flex;
 		}
