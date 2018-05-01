@@ -3802,6 +3802,64 @@ a {
   .fy-fxg {
     flex-grow: 1; }
 
+.fy-tab_h:after {
+  content: '.';
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both; }
+
+.fy-tab_b {
+  padding: 10px;
+  margin-top: -1px; }
+
+.fy-tab_i {
+  display: block;
+  float: left;
+  background-color: #F5F5F6;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 14px;
+  color: #636363;
+  text-decoration: none;
+  line-height: 1.12;
+  text-decoration: none;
+  z-index: 10;
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 1px;
+  border-bottom: 1px;
+  border-style: solid;
+  border-color: #F5F5F6 #F5F5F6 #F5F5F6 #F5F5F6; }
+  .fy-tab_i:hover {
+    background-color: #ececec; }
+  .fy-tab_i-a {
+    border-top: 1px;
+    border-left: 1px;
+    border-right: 1px;
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: #ffffff;
+    background-color: #ffffff;
+    cursor: default; }
+    .fy-tab_i-a:hover {
+      background-color: #ffffff; }
+  .fy-tab_i:hover {
+    text-decoration: none;
+    /*border:1px solid $button-border-color-hover;*/ }
+
+.fy-tab.-ln .fy-tab_i {
+  border-color: #F5F5F6 #F5F5F6 #a9a9a9 #F5F5F6; }
+  .fy-tab.-ln .fy-tab_i-a {
+    border-color: #a9a9a9 #a9a9a9 #ffffff #a9a9a9; }
+
+.fy-tab.-ln .fy-tab_b {
+  border-top: 1px solid #a9a9a9; }
+
 .fy-pdrl {
   padding-left: 0 !important; }
 
