@@ -2668,7 +2668,8 @@ a {
       clear: both; }
     @media only screen and (max-width: 980px) {
       .fy-nb_gl {
-        flex-basis: 100%; } }
+        flex-basis: 100%;
+        padding-bottom: 15px; } }
     .fy-nb_gl_ol {
       display: inline-block;
       float: left; }
@@ -2723,7 +2724,9 @@ a {
   margin-top: 5px; }
 
 .fy-nb .fy-fc {
-  margin-top: 5px; }
+  margin-top: 5px;
+  padding-left: 15px;
+  padding-right: 15px; }
 
 .fy-nbb {
   cursor: pointer;

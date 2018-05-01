@@ -20,6 +20,7 @@ $navbar-link-border-bottom-color: $color-dark-lighter;
 	@include media($medium-max-size){
 		justify-content: space-between;
 	}
+
 	&_lgo {
 		display: flex;
 	    align-items: center;
@@ -49,6 +50,7 @@ $navbar-link-border-bottom-color: $color-dark-lighter;
 
 		@include media($medium-max-size){
 			flex-basis: 100%;
+			padding-bottom: 15px;
 		}
 
 		&_ol {
@@ -138,8 +140,10 @@ $navbar-link-border-bottom-color: $color-dark-lighter;
 .fy-nb {
 	.fy-fc {
 		margin-top: 5px;
+		padding-left: 15px;
+		padding-right: 15px;
 	}
-	
+
 }
 
 
