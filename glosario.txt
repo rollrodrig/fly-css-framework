@@ -475,6 +475,8 @@ width from 1 to 12
 .fy-wd*@s
 .fy-wd*@xs
 
+# center element
+.fy-cntr
 
 ### remaining width
 from 1 to 12

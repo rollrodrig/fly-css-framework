@@ -3919,6 +3919,10 @@ a {
   .fy-pg ._a {
     background-color: #ececec; }
 
+.fy-cntr {
+  margin-left: auto;
+  margin-right: auto; }
+
 .fy-pdrl {
   padding-left: 0 !important; }
 
