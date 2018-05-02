@@ -8,8 +8,6 @@ $tab-button-background-color-active: #ffffff;
 
 .fy-tab {
 	height: 44px;
-
-
 	&:after {
 		content: '.';
 		display: block;
@@ -17,20 +15,6 @@ $tab-button-background-color-active: #ffffff;
 		height: 0;
 		clear: both;
 	}
-	&_h {
-		&:after {
-			content: '.';
-			display: block;
-			visibility: hidden;
-			height: 0;
-			clear: both;
-		}		
-	}
-	&_b {
-		padding: 10px;
-		margin-top: -1px;
-	}
-
 
 	&_i {
 		display: block;

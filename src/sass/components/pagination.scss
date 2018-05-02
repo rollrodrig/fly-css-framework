@@ -1,0 +1,79 @@
+.fy-pg {
+	height: 24px;
+	font-size: 16px;
+	> * {
+		display: block;
+		float: left;
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+		text-align: center;
+		&:hover {
+			text-decoration:none;
+		}
+	}
+	._p {
+		position: relative;
+		width: 30px;
+		cursor: pointer;
+		
+		&:hover {
+			text-decoration:none;
+		}
+	    &:before, &:after {
+	        position: absolute;
+	        left: 13px;
+	        content: ' ';
+	        height: 15px;
+	        width: 1px;
+	        background-color: $color-hiperlink;
+	        
+	    }
+
+	    &:before {
+			transform: rotate(45deg);
+			top: 0px;	
+	    }
+	    &:after {
+	    	transform: rotate(-45deg);
+			top: 10px;
+	     	
+	    } 
+	}
+
+	._n {
+		position: relative;
+		width: 30px;
+		cursor: pointer;
+		
+		&:hover {
+			text-decoration:none;
+		}
+	    &:before, &:after {
+	        position: absolute;
+	        left: 13px;
+	        content: ' ';
+	        height: 15px;
+	        width: 1px;
+	        background-color: $color-hiperlink;
+	        
+	    }
+
+	    &:before {
+			transform: rotate(-45deg);
+			top: 0px;	
+	    }
+	    &:after {
+	    	transform: rotate(45deg);
+			top: 10px;
+	     	
+	    } 
+	}
+
+	._a {
+		background-color: $color-light-darker;
+	}
+
+
+}

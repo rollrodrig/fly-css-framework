@@ -836,6 +836,19 @@ fy-bst5*
 ### tab
 fy-tab
 
+# tab with line
+fy-tab.-ln
+
+# orientatino right
+fy-tab.-or
+
+# small
+fy-tab.-s
+
+
+
+### pagination
+fy-pg
 
 
 

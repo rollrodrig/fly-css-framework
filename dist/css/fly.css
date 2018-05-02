@@ -3810,15 +3810,6 @@ a {
     visibility: hidden;
     height: 0;
     clear: both; }
-  .fy-tab_h:after {
-    content: '.';
-    display: block;
-    visibility: hidden;
-    height: 0;
-    clear: both; }
-  .fy-tab_b {
-    padding: 10px;
-    margin-top: -1px; }
   .fy-tab_i {
     display: block;
     float: left;
@@ -3874,6 +3865,60 @@ a {
     font-size: 13px; }
     .fy-tab.-s .fy-tab_i-a {
       padding-bottom: 7px; }
+
+.fy-pg {
+  height: 24px;
+  font-size: 16px; }
+  .fy-pg > * {
+    display: block;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: center; }
+    .fy-pg > *:hover {
+      text-decoration: none; }
+  .fy-pg ._p {
+    position: relative;
+    width: 30px;
+    cursor: pointer; }
+    .fy-pg ._p:hover {
+      text-decoration: none; }
+    .fy-pg ._p:before, .fy-pg ._p:after {
+      position: absolute;
+      left: 13px;
+      content: ' ';
+      height: 15px;
+      width: 1px;
+      background-color: #07C; }
+    .fy-pg ._p:before {
+      transform: rotate(45deg);
+      top: 0px; }
+    .fy-pg ._p:after {
+      transform: rotate(-45deg);
+      top: 10px; }
+  .fy-pg ._n {
+    position: relative;
+    width: 30px;
+    cursor: pointer; }
+    .fy-pg ._n:hover {
+      text-decoration: none; }
+    .fy-pg ._n:before, .fy-pg ._n:after {
+      position: absolute;
+      left: 13px;
+      content: ' ';
+      height: 15px;
+      width: 1px;
+      background-color: #07C; }
+    .fy-pg ._n:before {
+      transform: rotate(-45deg);
+      top: 0px; }
+    .fy-pg ._n:after {
+      transform: rotate(45deg);
+      top: 10px; }
+  .fy-pg ._a {
+    background-color: #ececec; }
 
 .fy-pdrl {
   padding-left: 0 !important; }
