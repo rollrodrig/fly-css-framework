@@ -7,7 +7,19 @@ $tab-button-background-color-hover: $color-light-darker;
 $tab-button-background-color-active: #ffffff;
 
 .fy-tab {
+	height: 44px;
+	border-bottom: 1px solid $tab-border-color-active;
+	.fy-tab_i-a {
+		margin-top: 1px;
+	}
 
+	&:after {
+		content: '.';
+		display: block;
+		visibility: hidden;
+		height: 0;
+		clear: both;
+	}
 	&_h {
 		&:after {
 			content: '.';
@@ -78,8 +90,15 @@ $tab-button-background-color-active: #ffffff;
 			}
 		}
 		.fy-tab_b {
-			border-top: 1px solid $tab-border-color-active;
+			/*border-top: 1px solid $tab-border-color-active;*/
 		}
+		
+	}
+
+	&.-or {
+		.fy-tab_i {
+			float: right;	
+		} 
 		
 	}
 
