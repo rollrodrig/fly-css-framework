@@ -8,10 +8,7 @@ $tab-button-background-color-active: #ffffff;
 
 .fy-tab {
 	height: 44px;
-	border-bottom: 1px solid $tab-border-color-active;
-	.fy-tab_i-a {
-		margin-top: 1px;
-	}
+
 
 	&:after {
 		content: '.';
@@ -51,13 +48,13 @@ $tab-button-background-color-active: #ffffff;
 		line-height: 1.12;
 		text-decoration: none;
 		z-index: 10;
-		border-left: 0px;
-		border-right: 0px;
+		border-left: 1px;
+		border-right: 1px;
 		border-top: 1px;
 		border-bottom: 1px;
 		border-style: solid;
 		border-color: $tab-border-color $tab-border-color $tab-border-color $tab-border-color;
-
+		
 		&:hover {
 			background-color: $tab-button-background-color-hover;
 		}
@@ -67,6 +64,7 @@ $tab-button-background-color-active: #ffffff;
 			border-left: 1px;
 			border-right: 1px;	
 			border-bottom: 1px;
+			padding-bottom: 14px;
 			border-style: solid;
 			border-color: #ffffff;
 			background-color: $tab-button-background-color-active;
@@ -78,29 +76,52 @@ $tab-button-background-color-active: #ffffff;
 	
 		&:hover {
 			text-decoration: none;
-			/*border:1px solid $button-border-color-hover;*/
 		}
 	}
 
 	&.-ln {
+		border-bottom: 1px solid $tab-border-color-active;
 		.fy-tab_i {
-			border-color: $tab-border-color $tab-border-color $tab-border-color-active $tab-border-color;	
 			&-a {
 				border-color: $tab-border-color-active $tab-border-color-active #ffffff $tab-border-color-active;
 			}
-		}
-		.fy-tab_b {
-			/*border-top: 1px solid $tab-border-color-active;*/
 		}
 		
 	}
 
 	&.-or {
 		.fy-tab_i {
-			float: right;	
+			float: right;
 		} 
 		
 	}
 
 
 }
+
+
+.fy-tab {
+	&.-s {
+		height: 29px;
+		.fy-tab_i {
+		    padding-left: 10px;
+		    padding-right: 10px;
+		    padding-top: 6px;
+		    padding-bottom: 6px;
+		    font-size: 13px;	
+			&-a {
+				padding-bottom: 7px;
+			}
+		}
+
+	}
+}
+
+
+
+
+
+
+
+
+
