@@ -621,21 +621,21 @@ form {
       text-decoration: underline; }
   .fy-brc > span {
     color: #c2c2c2; }
-  .fy-brc > span.--a {
+  .fy-brc > span.-a {
     position: relative;
     padding-left: 15px;
     padding-right: 15px; }
-    .fy-brc > span.--a:before, .fy-brc > span.--a:after {
+    .fy-brc > span.-a:before, .fy-brc > span.-a:after {
       position: absolute;
       left: 13px;
       content: ' ';
       height: 8px;
       width: 1px;
       background-color: #343b40; }
-    .fy-brc > span.--a:before {
+    .fy-brc > span.-a:before {
       transform: rotate(-45deg);
       top: 3px; }
-    .fy-brc > span.--a:after {
+    .fy-brc > span.-a:after {
       transform: rotate(45deg);
       top: 8px; }
 
