@@ -3,3 +3,20 @@
 	margin-bottom: 20px;
 	font-size: 13px;
 }
+
+.fy-dl > div {
+	padding: 11px 0;
+}
+
+
+@media screen and (max-width: 600px) {
+	.canswer {
+	    flex-basis: 40px;
+	}
+	.canswer .fy-bx {
+		padding: 10px;
+	}	
+	.canswer .fy-txl {
+		font-size: 22px;
+	}
+}

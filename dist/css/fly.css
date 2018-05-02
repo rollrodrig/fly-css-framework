@@ -1880,6 +1880,9 @@ a {
   margin-bottom: 40px; }
   .fy-hr.-nb {
     border-bottom: none; }
+  .fy-hr.-xs {
+    margin-top: 5px;
+    margin-bottom: 5px; }
   .fy-hr.-s {
     margin-top: 20px;
     margin-bottom: 20px; }
@@ -2912,11 +2915,7 @@ a {
       padding-left: 17px; }
 
 .fy-dl > div {
-  padding: 11px 16px;
-  font-size: 16px; }
-  .fy-dl > div span {
-    display: block;
-    font-size: 12px; }
+  padding: 11px 16px; }
 
 .fy-dl.-ln > div {
   border-bottom: 1px solid #ececec; }
@@ -3040,7 +3039,7 @@ a {
 .fy-ft {
   display: block;
   width: 100%;
-  min-height: 80px;
+  min-height: 200px;
   font-size: 16px;
   border: 1px solid #ececec;
   padding: 10px;
