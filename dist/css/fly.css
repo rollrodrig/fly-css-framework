@@ -653,14 +653,14 @@ form {
   background-color: transparent;
   padding-left: 18px;
   padding-right: 18px;
-  padding-top: 13px;
-  padding-bottom: 13px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   text-align: center;
   border: 1px solid #a9a9a9;
   font-size: 14px;
   color: #636363;
   text-decoration: none;
-  line-height: 1.12;
+  line-height: 3.1;
   text-decoration: none; }
   .fy-btn:not(:disabled) {
     cursor: pointer; }
@@ -720,33 +720,26 @@ form {
 .fy-btn.-xs {
   padding-left: 4px;
   padding-right: 4px;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  font-size: 11px; }
+  font-size: 11px;
+  line-height: 1.5; }
 
 .fy-btn.-s {
   padding-left: 10px;
   padding-right: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
   font-size: 12px;
-  line-height: 1.1; }
+  line-height: 2.8; }
 
 .fy-btn.-l {
   padding-left: 30px;
   padding-right: 30px;
-  padding-top: 20px;
-  padding-bottom: 20px;
   font-size: 18px;
-  line-height: 1.5; }
+  line-height: 3.8; }
 
 .fy-btn.-xl {
   padding-left: 40px;
   padding-right: 40px;
-  padding-top: 30px;
-  padding-bottom: 30px;
   font-size: 24px;
-  line-height: 1.6; }
+  line-height: 4.1; }
 
 .fy-btn.-al, .fy-btn.-ar {
   position: relative; }
@@ -2652,7 +2645,7 @@ a {
 .fy-nb {
   font-size: 14px;
   background-color: #F5F5F6;
-  min-height: 52px;
+  min-height: 50px;
   position: relative;
   display: flex;
   flex-wrap: wrap;
@@ -2698,7 +2691,8 @@ a {
           float: none; } }
   .fy-nb_l {
     display: inline-block;
-    padding: 17px 18px;
+    padding: 0 18px;
+    line-height: 3.6;
     text-decoration: none;
     color: #777777;
     background-color: transparent;
@@ -2716,14 +2710,17 @@ a {
   min-height: 37px; }
   .fy-nb.-s .fy-nb_l {
     font-size: 12px;
-    padding: 11px 18px; }
+    padding: 0 18px;
+    line-height: 3.1; }
 
 .fy-nb.-ul .fy-nb_l:hover {
-  padding: 17px 18px 16px 18px;
+  padding: 0 18px;
+  line-height: 3.45;
   border-bottom: 1px solid #4f565a; }
 
 .fy-nb.-s.-ul .fy-nb_l:hover {
-  padding: 11px 18px 10px 18px;
+  padding: 0 18px;
+  line-height: 2.9;
   border-bottom: 1px solid #4f565a; }
 
 .fy-nb .fy-nbb {
@@ -2733,12 +2730,15 @@ a {
       display: block; } }
 
 .fy-nb .fy-btn {
-  margin-top: 5px; }
+  margin-top: 2px; }
 
 .fy-nb .fy-fc {
-  margin-top: 5px;
+  margin-top: 2px;
   padding-left: 15px;
   padding-right: 15px; }
+
+.fy-nb .fy-fc .fy-btn {
+  margin-top: 0; }
 
 .fy-nbb {
   cursor: pointer;

@@ -12,7 +12,7 @@ $navbar-link-border-bottom-color: $color-dark-lighter;
 .fy-nb {
 	font-size: 14px;
 	background-color: $navbar-background-color;
-	min-height: 52px;
+	min-height: 50px;
 	position: relative;
 	display: flex;
 	flex-wrap: wrap;
@@ -76,7 +76,8 @@ $navbar-link-border-bottom-color: $color-dark-lighter;
 
 	&_l {
 		display: inline-block;
-		padding: 17px 18px;
+		padding: 0 18px;
+     	line-height: 3.6;
 		text-decoration: none;
 		color: $navbar-link-color;
 		background-color: $navbar-link-background-color;
@@ -99,7 +100,8 @@ $navbar-link-border-bottom-color: $color-dark-lighter;
 		min-height: 37px;
 		.fy-nb_l {
 			font-size: 12px;
-			padding: 11px 18px;
+			padding: 0 18px;
+			line-height: 3.1;
 		}
 		
 	}
@@ -109,7 +111,8 @@ $navbar-link-border-bottom-color: $color-dark-lighter;
 	&.-ul {
 		.fy-nb_l {
 			&:hover {
-				padding: 17px 18px 16px 18px;
+				padding: 0 18px;
+			    line-height: 3.45;
 				border-bottom: 1px solid $navbar-link-border-bottom-color;
 			}
 		}
@@ -117,7 +120,8 @@ $navbar-link-border-bottom-color: $color-dark-lighter;
 	&.-s.-ul {
 		.fy-nb_l {
 			&:hover {
-				padding: 11px 18px 10px 18px;
+				padding: 0 18px;
+				line-height: 2.9;
 				border-bottom: 1px solid $navbar-link-border-bottom-color;
 			}
 		}
@@ -134,18 +138,24 @@ $navbar-link-border-bottom-color: $color-dark-lighter;
 }
 .fy-nb {
 	.fy-btn {
-		margin-top: 5px;
+		margin-top: 2px;
 	}
 }
 .fy-nb {
 	.fy-fc {
-		margin-top: 5px;
+		margin-top: 2px;
 		padding-left: 15px;
 		padding-right: 15px;
 	}
-
 }
 
+.fy-nb {
+	.fy-fc {
+		.fy-btn {
+			margin-top: 0;
+		}		
+	}
+}
 
 
 
