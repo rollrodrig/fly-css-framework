@@ -782,11 +782,18 @@ fy-dl.-bd
 # field group
 .fy-fg
 
-# field decorator
+### field decorator
 .fy-fd
+# decorator to left
+.fy-fd.-dl
+
 # the element inside decorator
 .fy-fd_e
 
+### form field with button
+.fy-fb
+# button orientation left
+.fy-fb.-bl
 
 
 ### block spacing

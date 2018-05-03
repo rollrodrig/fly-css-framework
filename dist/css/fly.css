@@ -3018,7 +3018,7 @@ a {
     font-size: 14px; }
   .fy-fi.-l,
   .fy-fs.-l {
-    height: 60px;
+    height: 70px;
     font-size: 18px;
     padding: 0 20px; }
 
@@ -3107,7 +3107,7 @@ a {
     border-left: none;
     border-right: 1px solid #ececec;
     color: #a9a9a9; }
-  .fy-fd select, .fy-fd input {
+  .fy-fd .fy-fs, .fy-fd .fy-fi {
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: auto;
@@ -3115,7 +3115,7 @@ a {
   .fy-fd.-dl > .fy-fd_e {
     border-left: 1px solid #ececec;
     border-right: none; }
-  .fy-fd.-dl > select, .fy-fd.-dl input {
+  .fy-fd.-dl > .fy-fs, .fy-fd.-dl .fy-fi {
     border-right: 1px solid #ececec;
     border-left: none; }
 
@@ -3139,6 +3139,14 @@ a {
 }
 
 */
+.fy-fb {
+  display: flex; }
+  .fy-fb .fy-fs, .fy-fb .fy-fi {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    border-right: none; }
+
 .fy-bst1 {
   margin-top: 10px; }
   @media only screen and (min-width: 981px) {
