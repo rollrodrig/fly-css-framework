@@ -10,6 +10,13 @@
 		border-right: none;
 	}
 
+
+	&.-al {
+		> .fy-fs, .fy-fi  {
+			border-right: 1px solid $field-border-color;
+			border-left: none;
+		}
+	}
 }
 
 

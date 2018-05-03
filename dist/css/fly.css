@@ -3146,6 +3146,9 @@ a {
     flex-shrink: 1;
     flex-basis: auto;
     border-right: none; }
+  .fy-fb.-al > .fy-fs, .fy-fb.-al .fy-fi {
+    border-right: 1px solid #ececec;
+    border-left: none; }
 
 .fy-bst1 {
   margin-top: 10px; }
