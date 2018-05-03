@@ -131,5 +131,24 @@ $field-color: $color-secondary-darker;
 }
 
 
+.fy-fc {
+	&.-iln {
+
+	}
+
+}
+
+.fy-fl {
+	&.-va {
+		display: flex;
+		height: 45px;
+		align-items: center;
+		justify-content: flex-end;
+	}
+	&.-ar {
+		text-align: right;
+	}
+}
+
 
 

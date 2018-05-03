@@ -3083,6 +3083,15 @@ a {
 				margin-bottom: 0;
 			}*/ }
 
+.fy-fl.-va {
+  display: flex;
+  height: 45px;
+  align-items: center;
+  justify-content: flex-end; }
+
+.fy-fl.-ar {
+  text-align: right; }
+
 .fy-fd {
   display: flex; }
   .fy-fd .fy-fd_e {
