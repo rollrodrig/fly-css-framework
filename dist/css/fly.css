@@ -477,6 +477,15 @@ form {
   .fy-alrt.-lp {
     padding: 40px; }
 
+.fy-hro {
+  display: block;
+  padding: 120px 30px;
+  font-size: 40px; }
+  .fy-hro.-s {
+    padding: 60px 30px; }
+  .fy-hro.-l {
+    padding: 220px 30px; }
+
 .fy-all {
   float: left; }
 
@@ -2980,6 +2989,9 @@ a {
     margin-right: 15px; }
   .fy-pf.-l .fy-pf_m {
     font-size: 13px; }
+
+.fy-fc {
+  font-size: 14px; }
 
 .fy-fr {
   margin-bottom: 20px; }
