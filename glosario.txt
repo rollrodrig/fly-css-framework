@@ -890,9 +890,24 @@ fy-bu
 .fy-ul
 
 
+### visiblity
+hide on extra small
+fy-hdxs
+hide on small
+fy-hds
+hide on medium
+fy-hdms
+hide on large
+fy-hdl
 
-
-
+### show
+fy-shxs
+show on small
+fy-shs
+show on medium
+fy-shms
+show on large
+fy-sh
 
 
 
