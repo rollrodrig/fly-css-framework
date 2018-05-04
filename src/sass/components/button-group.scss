@@ -1,0 +1,61 @@
+.fy-btng {
+
+	&:after {
+		content: '.';
+		display: block;
+		visibility: hidden;
+		height: 0;
+		clear: both;
+	}
+
+	> .fy-btn {
+		float: left;
+		margin-left: -1px;
+		&:first-child {
+			margin-left: 0;
+		}
+		&:hover {
+			position: relative;
+			z-index: 100;
+		}
+	}
+
+
+
+}
+
+.fy-btng {
+	&.-rd {
+		.fy-btn {
+			&:first-child {
+				border-top-left-radius:3px;
+				border-bottom-left-radius:3px;
+			}
+			&:last-child {
+				border-top-right-radius:3px;
+				border-bottom-right-radius:3px;
+			}
+
+			&.-xs {
+				&:first-child {
+					border-top-left-radius:2px;
+					border-bottom-left-radius:2px;
+				}
+				&:last-child {
+					border-top-right-radius:2px;
+					border-bottom-right-radius:2px;
+				}				
+			}
+			&.-xl {
+				&:first-child {
+					border-top-left-radius:5px;
+					border-bottom-left-radius:5px;
+				}
+				&:last-child {
+					border-top-right-radius:5px;
+					border-bottom-right-radius:5px;
+				}				
+			}
+		}
+	}
+}

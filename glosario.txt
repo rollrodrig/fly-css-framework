@@ -360,6 +360,11 @@ fy-twnw
 # extra small
 .fy-btn.-xs
 
+### Button group
+
+.fy-btng
+
+
 ## Buton styles 
 # border radius
 .fy-btn.-br
@@ -865,8 +870,18 @@ fy-pg
 fy-hro
 
 
+#### highlight text
 
+fy-hl
 
+fy-hlp
+fy-hls
+fy-hlsu
+fy-hlwa
+fy-hlda
+fy-hlin
+fy-hlli
+fy-hldk
 
 
 

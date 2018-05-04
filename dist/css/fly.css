@@ -363,7 +363,8 @@ pre, code {
   font-size: 13px;
   line-height: 1.4;
   tab-size: 4;
-  font-family: 'Roboto Mono',monospace; }
+  font-family: 'Roboto Mono',monospace;
+  background-color: #fffbe5; }
 
 form {
   margin-top: 0;
@@ -479,12 +480,15 @@ form {
 
 .fy-hro {
   display: block;
-  padding: 120px 30px;
-  font-size: 40px; }
+  padding: 120px 30px; }
   .fy-hro.-s {
     padding: 60px 30px; }
   .fy-hro.-l {
     padding: 220px 30px; }
+  .fy-hro_b h1 {
+    font-size: 40px; }
+  .fy-hro_b p {
+    font-size: 24px; }
 
 .fy-all {
   float: left; }
@@ -680,6 +684,46 @@ form {
     margin-right: auto;
     left: 50%;
     transform: translateX(-50%); }
+
+.fy-btng:after {
+  content: '.';
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both; }
+
+.fy-btng > .fy-btn {
+  float: left;
+  margin-left: -1px; }
+  .fy-btng > .fy-btn:first-child {
+    margin-left: 0; }
+  .fy-btng > .fy-btn:hover {
+    position: relative;
+    z-index: 100; }
+
+.fy-btng.-rd .fy-btn:first-child {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px; }
+
+.fy-btng.-rd .fy-btn:last-child {
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px; }
+
+.fy-btng.-rd .fy-btn.-xs:first-child {
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px; }
+
+.fy-btng.-rd .fy-btn.-xs:last-child {
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px; }
+
+.fy-btng.-rd .fy-btn.-xl:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px; }
+
+.fy-btng.-rd .fy-btn.-xl:last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px; }
 
 .fy-btn.-br {
   border-radius: 3px; }
@@ -3954,6 +3998,26 @@ a {
 .fy-cntr {
   margin-left: auto;
   margin-right: auto; }
+
+.fy-hl {
+  background-color: #fffbe5;
+  padding: 0 2px; }
+  .fy-hl.-p {
+    background-color: #cbeeff; }
+  .fy-hl.-s {
+    background-color: #ececec; }
+  .fy-hl.-su {
+    background-color: #d3ffbc; }
+  .fy-hl.-wa {
+    background-color: #fff2cf; }
+  .fy-hl.-da {
+    background-color: #ffe6e6; }
+  .fy-hl.-in {
+    background-color: #e0f3ff; }
+  .fy-hl.-li {
+    background-color: #f9f9f9; }
+  .fy-hl.-dk {
+    background-color: #dedede; }
 
 .fy-pdrl {
   padding-left: 0 !important; }

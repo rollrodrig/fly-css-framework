@@ -1,0 +1,51 @@
+$hightlight-text-background-color-default: #fffbe5;
+$hightlight-text-background-color-primary: #cbeeff;
+$hightlight-text-background-color-secondary: #ececec;
+$hightlight-text-background-color-success: #d3ffbc;
+$hightlight-text-background-color-warning: #fff2cf;
+$hightlight-text-background-color-danger: #ffe6e6;
+$hightlight-text-background-color-info: #e0f3ff;
+$hightlight-text-background-color-light: #f9f9f9;
+$hightlight-text-background-color-dark: #dedede;
+
+
+.fy-hl {
+	background-color: $hightlight-text-background-color-default;
+	padding: 0 2px;
+	&.-p {
+		background-color: $hightlight-text-background-color-primary;
+	}
+		
+	&.-s {
+		background-color: $hightlight-text-background-color-secondary;
+	}
+		
+	&.-su {
+		background-color: $hightlight-text-background-color-success;
+	}
+
+	&.-wa {
+		background-color: $hightlight-text-background-color-warning;
+	}
+		
+	&.-da {
+		background-color: $hightlight-text-background-color-danger;
+	}
+	
+	&.-in {
+		background-color: $hightlight-text-background-color-info;
+	}
+	
+	&.-li {
+		background-color: $hightlight-text-background-color-light;
+	}
+	
+	&.-dk {
+		background-color: $hightlight-text-background-color-dark;
+		
+	}
+}
+
+
+
+
