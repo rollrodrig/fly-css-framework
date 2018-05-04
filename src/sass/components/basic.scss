@@ -63,5 +63,16 @@ form {
 
 }
 
+ul {
+  line-height: 1.4;
+  padding-left: 16px;
+  li {
 
+  }
+}
+li > ul {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-left: 28px;
+}
 

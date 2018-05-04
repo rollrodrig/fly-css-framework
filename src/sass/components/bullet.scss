@@ -1,0 +1,28 @@
+.fy-bu {
+	&n {
+		&:before  {
+			content: '# ';
+			opacity: 0.3;
+		}
+	}
+	&d {
+		&:before  {
+			content: '— ';
+			opacity: 0.3;
+		}
+	}
+
+	&c {
+		&:before  {
+			content: '• ';
+			opacity: 0.3;	
+		}
+	}
+
+	&t {
+		&:before  {
+			content: '› ';
+			opacity: 0.3;
+		}
+	}
+}

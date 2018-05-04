@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -369,6 +370,15 @@ pre, code {
 form {
   margin-top: 0;
   margin-bottom: 0; }
+
+ul {
+  line-height: 1.4;
+  padding-left: 16px; }
+
+li > ul {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-left: 28px; }
 
 @font-face {
   font-family: 'Open Sans';
@@ -4018,6 +4028,44 @@ a {
     background-color: #f9f9f9; }
   .fy-hl.-dk {
     background-color: #dedede; }
+
+.fy-bun:before {
+  content: '# ';
+  opacity: 0.3; }
+
+.fy-bud:before {
+  content: '— ';
+  opacity: 0.3; }
+
+.fy-buc:before {
+  content: '• ';
+  opacity: 0.3; }
+
+.fy-but:before {
+  content: '› ';
+  opacity: 0.3; }
+
+.fy-ul {
+  list-style: none;
+  padding-left: 0; }
+  .fy-ul > li {
+    position: relative;
+    padding-left: 17px; }
+    .fy-ul > li:before {
+      opacity: 0.3;
+      position: absolute;
+      left: 0;
+      top: 0; }
+    .fy-ul > li > ul {
+      padding-left: 28px; }
+  .fy-ul.-n > li:before {
+    content: '#'; }
+  .fy-ul.-d > li:before {
+    content: '—'; }
+  .fy-ul.-c > li:before {
+    content: '•'; }
+  .fy-ul.-t > li:before {
+    content: '›'; }
 
 .fy-pdrl {
   padding-left: 0 !important; }
