@@ -910,6 +910,22 @@ show on large
 fy-sh
 
 
+### off canvas
+.fy-offc
+
+# sidebar
+.fy-offc_s
+
+# sidebar content
+.fy-offc_sc 
+
+# body
+.fy-offc_b
+
+
+
+
+
 
 
 

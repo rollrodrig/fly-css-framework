@@ -4082,6 +4082,24 @@ a {
   .fy-shl {
     display: none; } }
 
+.fy-offc {
+  display: flex;
+  overflow: hidden; }
+  .fy-offc_s {
+    flex-basis: 250px;
+    flex-shrink: 0; }
+    @media only screen and (max-width: 980px) {
+      .fy-offc_s {
+        position: absolute;
+        top: 0;
+        left: -250px;
+        height: 100%;
+        width: 250px;
+        transition: 0.5s; } }
+  .fy-offc_b {
+    overflow: hidden;
+    flex-grow: 1; }
+
 .fy-pdrl {
   padding-left: 0 !important; }
 
