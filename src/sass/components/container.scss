@@ -18,12 +18,12 @@
 	}
 	
 	&.-bp {
-		@include media($max-tablet){
-			max-width: $max-mobile;
+		@include media($medium-max-size){
+			max-width: $small-max-size;
 			margin-left: auto;
 			margin-right: auto;
 		}
-		@include media($max-mobile){
+		@include media($small-max-size){
 			max-width: 320px;
 			margin-left: auto;
 			margin-right: auto;

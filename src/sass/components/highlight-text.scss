@@ -1,16 +1,13 @@
-$hightlight-text-background-color-default: #fffbe5;
-$hightlight-text-background-color-primary: #cbeeff;
-$hightlight-text-background-color-secondary: #ececec;
-$hightlight-text-background-color-success: #d3ffbc;
-$hightlight-text-background-color-warning: #fff2cf;
-$hightlight-text-background-color-danger: #ffe6e6;
-$hightlight-text-background-color-info: #e0f3ff;
-$hightlight-text-background-color-light: #f9f9f9;
-$hightlight-text-background-color-dark: #dedede;
-
+$hightlight-text-background-color-primary: $color-soft-primary;
+$hightlight-text-background-color-secondary: $color-soft-secondary;
+$hightlight-text-background-color-success: $color-soft-success;
+$hightlight-text-background-color-warning: $color-soft-warning;
+$hightlight-text-background-color-danger: $color-soft-danger;
+$hightlight-text-background-color-info: $color-soft-info;
+$hightlight-text-background-color-light: $color-soft-light;
+$hightlight-text-background-color-dark: $color-soft-dark;
 
 .fy-hl {
-	background-color: $hightlight-text-background-color-default;
 	padding: 0 2px;
 	&.-p {
 		background-color: $hightlight-text-background-color-primary;
