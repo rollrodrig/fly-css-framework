@@ -1,26 +1,19 @@
 (function(){
-	var q, o = false, on, off, navbar, navbarHight, btn;
-	
-	q = function(e){
-		return document.querySelector(e);
-	}
-
-	navbar = q('[fly-navbar]');
-	navbarHight = navbar.clientHeight;
-	btn = q('[fly-navbar-btn]');
-
+	var q, o = false, on, off, nb, nbh, b;
+	q = function(e){ return document.querySelector(e);}
+	nb = q('[fly-navbar]');
+	nbh = nb.clientHeight;
+	b = q('[fly-navbar-btn]');
 	off = function(){
-		navbar.style.height = navbarHight;
+		nb.style.height = nbh;
+		b.classList.remove('-on');
 	}
-
 	on = function(){
-		navbar.style.height = "auto";
+		nb.style.height = "auto";
+		b.classList.add('-on');
 	}
-
-	btn.onclick = function(){
+	b.onclick = function(){
 		o?off():on();
 		o = !o;
 	}	
-
-
 })();
