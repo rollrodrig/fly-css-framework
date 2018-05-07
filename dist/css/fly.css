@@ -2687,14 +2687,16 @@ a {
 .fy-nb {
   font-size: 14px;
   background-color: #F5F5F6;
-  min-height: 50px;
+  height: 50px;
   position: relative;
   display: flex;
   flex-wrap: wrap;
-  align-items: center; }
+  align-items: flex-start;
+  transition: 0.5s; }
   @media only screen and (max-width: 980px) {
     .fy-nb {
-      justify-content: space-between; } }
+      justify-content: space-between;
+      overflow: hidden; } }
   .fy-nb_lgo {
     display: flex;
     align-items: center;
@@ -2715,8 +2717,7 @@ a {
       clear: both; }
     @media only screen and (max-width: 980px) {
       .fy-nb_gl {
-        flex-basis: 100%;
-        padding-bottom: 15px; } }
+        flex-basis: 100%; } }
     .fy-nb_gl_ol {
       display: inline-block;
       float: left; }
@@ -2749,7 +2750,7 @@ a {
         width: 100%; } }
 
 .fy-nb.-s {
-  min-height: 37px; }
+  height: 37px; }
   .fy-nb.-s .fy-nb_l {
     font-size: 12px;
     padding: 0 18px;
@@ -2784,14 +2785,14 @@ a {
 
 .fy-nbb {
   cursor: pointer;
-  background-color: #777777;
-  height: 52px;
+  background-color: #F5F5F6;
+  height: 50px;
   width: 54px;
   padding: 13px 12px;
   display: inline-block;
   position: relative; }
   .fy-nbb:hover {
-    background-color: #636363; }
+    background-color: #ececec; }
   .fy-nbb > span {
     display: block;
     height: 3px;

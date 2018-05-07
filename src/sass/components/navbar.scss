@@ -12,13 +12,16 @@ $navbar-link-border-bottom-color: $color-dark-lighter;
 .fy-nb {
 	font-size: 14px;
 	background-color: $navbar-background-color;
-	min-height: 50px;
+	height: 50px;
 	position: relative;
 	display: flex;
 	flex-wrap: wrap;
-	align-items: center;
+	align-items: flex-start;
+	transition: 0.5s;
+	
 	@include media($medium-max-size){
 		justify-content: space-between;
+		overflow: hidden;
 	}
 
 	&_lgo {
@@ -50,7 +53,6 @@ $navbar-link-border-bottom-color: $color-dark-lighter;
 
 		@include media($medium-max-size){
 			flex-basis: 100%;
-			padding-bottom: 15px;
 		}
 
 		&_ol {
@@ -97,7 +99,7 @@ $navbar-link-border-bottom-color: $color-dark-lighter;
 
 .fy-nb {
 	&.-s {
-		min-height: 37px;
+		height: 37px;
 		.fy-nb_l {
 			font-size: 12px;
 			padding: 0 18px;

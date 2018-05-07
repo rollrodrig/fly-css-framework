@@ -1,6 +1,6 @@
 
-$navbar-button-background: $color-secondary;
-$navbar-button-background-hover: $color-secondary-darker;
+$navbar-button-background: $color-light;
+$navbar-button-background-hover: $color-light-darker;
 
 $navbar-button-row: $color-secondary-lighter;
 $navbar-button-row-hover: $color-secondary-lighter;
@@ -8,12 +8,11 @@ $navbar-button-row-hover: $color-secondary-lighter;
 .fy-nbb {
 	cursor: pointer;
 	background-color: $navbar-button-background;
-	height: 52px;
+	height: 50px;
 	width: 54px;
 	padding: 13px 12px;
 	display: inline-block;
 	position: relative;
-	
 	&:hover {
 		background-color: $navbar-button-background-hover;
 	}
