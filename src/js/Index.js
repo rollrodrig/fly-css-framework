@@ -1,1 +1,2 @@
-console.log("Hello Fly Css Framework");
+require('./Fly');
+//require('./other scripts');

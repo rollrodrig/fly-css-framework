@@ -20,7 +20,7 @@ gulp.task('connect', function(){
 gulp.task('browserify', function() {
     return browserify('./src/js/Index.js')
         .bundle()
-        .pipe(source('main.js'))
+        .pipe(source('fly.js'))
         .pipe(gulp.dest(publicPath+'js'));
 });
 
