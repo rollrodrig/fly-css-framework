@@ -18,10 +18,10 @@ gulp.task('connect', function(){
 
 
 gulp.task('browserify', function() {
-    return browserify('./src/js/Index.js')
+    return browserify('./dist/js/fly/src/Fly.js')
         .bundle()
         .pipe(source('fly.js'))
-        .pipe(gulp.dest(publicPath+'js'));
+        .pipe(gulp.dest(publicPath+'js/fly/dist/'));
 });
 
 
@@ -37,7 +37,7 @@ gulp.task('sass', function () {
 
 // Watch
 gulp.task('watch', function () {
-    watch('./src/js/**/*.js', function(event) {
+    watch('./dist/js/fly/src/components/*.js', function(event) {
         gulp.start('browserify');
     });
     watch('./src/sass/**/*.scss', function(event) {

@@ -1,2 +1,0 @@
-require('./OffCanvas');
-require('./NavBar');
