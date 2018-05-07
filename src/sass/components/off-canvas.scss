@@ -1,11 +1,10 @@
-
-
 .fy-offc {
 	display: flex;
 	overflow: hidden;
 	&_s {
 		flex-basis: 250px;
 		flex-shrink: 0;
+		z-index: 100;
 		@include media($medium-max-size){
 			position: absolute;
 			top: 0;

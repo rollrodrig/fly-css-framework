@@ -1,16 +1,19 @@
 (function(){
-	var q, o = false, on, off;
-	q = function(e){
-		return document.querySelector(e);
-	}
+	var q, o = false, on, off, c, b;
+	q = function(e){return document.querySelector(e);}
+	c = q('[fy-offc-s]');
+	b = q('[fy-offc-b]');
+	if (c == undefined || b == undefined) { return;}
 	on = function(){
-		q('[fy-offc-s]').style.left = "0";
+		c.style.left = "0";
+		b.classList.add('-on');
 	}
 	off = function(){
-		q('[fy-offc-s]').style.left = "-250px";
+		c.style.left = "-250px";
+		b.classList.remove('-on');
 	}
-	q('[fy-offc-t]').onclick = function(){
+	b.onclick = function(){
 		o?off():on();
 		o = !o;
-	}			
+	}
 })();

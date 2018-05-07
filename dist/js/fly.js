@@ -5,21 +5,47 @@ require('./Fly');
 //require('./other scripts');
 },{"./Fly":1}],3:[function(require,module,exports){
 require('./OffCanvas');
-},{"./OffCanvas":4}],4:[function(require,module,exports){
+require('./NavBar');
+},{"./NavBar":4,"./OffCanvas":5}],4:[function(require,module,exports){
 (function(){
-	var q, o = false, on, off;
-	q = function(e){
-		return document.querySelector(e);
+	var q, o = false, on, off, nb, nbh, b;
+	q = function(e){ return document.querySelector(e);}
+	nb = q('[fly-navbar]');
+	b = q('[fly-navbar-btn]');
+	if (nb == undefined || b  == undefined) { return;}
+	nbh = nb.clientHeight;
+	off = function(){
+		nb.style.height = nbh;
+		b.classList.remove('-on');
 	}
 	on = function(){
-		q('[fy-offc-s]').style.left = "0";
+		nb.style.height = "auto";
+		b.classList.add('-on');
 	}
-	off = function(){
-		q('[fy-offc-s]').style.left = "-250px";
-	}
-	q('[fy-offc-t]').onclick = function(){
+	b.onclick = function(){
 		o?off():on();
 		o = !o;
-	}			
+	}
+
+})();
+},{}],5:[function(require,module,exports){
+(function(){
+	var q, o = false, on, off, c, b;
+	q = function(e){return document.querySelector(e);}
+	c = q('[fy-offc-s]');
+	b = q('[fy-offc-b]');
+	if (c == undefined || b == undefined) { return;}
+	on = function(){
+		c.style.left = "0";
+		b.classList.add('-on');
+	}
+	off = function(){
+		c.style.left = "-250px";
+		b.classList.remove('-on');
+	}
+	b.onclick = function(){
+		o?off():on();
+		o = !o;
+	}
 })();
 },{}]},{},[2]);
