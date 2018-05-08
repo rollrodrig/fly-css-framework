@@ -4,6 +4,9 @@ https://github.com/skounis/montserrat-webfont
 https://github.com/troxler/awesome-css-frameworks
 
 
+# convert html to html visible
+https://stackoverflow.com/a/430240/5708097
+
 # galery lorem pixel
 https://placeholder.com/
 http://via.placeholder.com/350x150
@@ -21,3 +24,5 @@ https://codepen.io/matuzo/pen/GoRqOP
 https://codepen.io/matuzo/pen/pgobag
 https://codepen.io/matuzo/pen/zvXQyj
 https://codepen.io/matuzo/pen/ZQEWjg
+
+

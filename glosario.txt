@@ -261,7 +261,8 @@ fy-twnw
 
 
 ### Background color
-
+# transparent
+fy-bct
 # primary
 .fy-bcp
 

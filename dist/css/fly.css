@@ -494,6 +494,9 @@ li > ul {
 .fy-alr {
   float: right; }
 
+.fy-bct {
+  background-color: transparent !important; }
+
 .fy-bcp {
   background-color: #186aff; }
   .fy-bcpl {
