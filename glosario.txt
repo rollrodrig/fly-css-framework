@@ -431,7 +431,7 @@ fy-bct
 
 ### Container
 
-# basic container full width
+# basic container
 .fy-ctnr
 
 # full width
@@ -439,6 +439,10 @@ fy-bct
 
 # with break points
 .fy-ctrn.-bp
+
+
+# no margin at small
+.fy-ctrn.-nm
 
 ### Grid
 

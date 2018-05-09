@@ -10,6 +10,11 @@
 		margin-right: $small-device-margin-right;
 	}
 
+	&.-nm {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
 	&.-fw {
 		width: auto;
 		max-width: 100%;
