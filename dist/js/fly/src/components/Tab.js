@@ -1,6 +1,27 @@
 (function(){
-	var q, o = false, on, open, off, s, b, bt;
-	q = function(e){return document.querySelector(e);}
+	
+	var q = function(e){return document.querySelector(e);}
+
+
+
+	function Tab(){
+
+	}
+
+	Tab.prototype.on = function(){
+		var t = q('[fy-tab-h]');
+		t.getElementsByClassName('-a')[0].classList.remove('-a');
+		tab.classList.add('-a');
+		var i = tab.getAttribute('fy-tab-i');
+		open(i);
+	}
+	Tab.prototype.off = function(){
+		console.log(i);
+		q('[fy-tab-b] > .-a').classList.remove('-a');
+		q('[fy-tab-b="'+i+'"]').classList.add('-a');		
+	}
+
+
 
 
 	var tbs = document.querySelectorAll('[fy-tab]');

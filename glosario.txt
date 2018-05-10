@@ -853,7 +853,14 @@ fy-bst5*
 
 
 ### tab
+
 fy-tab
+
+# header
+fy-tab_h
+
+# body
+fy-tab_b
 
 # tab with line
 fy-tab.-ln
