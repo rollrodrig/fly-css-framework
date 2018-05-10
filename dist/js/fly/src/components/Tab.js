@@ -1,7 +1,6 @@
 (function(){
-	var q, o = false, on, off, s, b, bt;
+	var q, o = false, on, open, off, s, b, bt;
 	q = function(e){return document.querySelector(e);}
-
 
 
 	var tbs = document.querySelectorAll('[fy-tab]');
@@ -10,6 +9,7 @@
 		var ctb = tbs[i];
 		(function(ctb){
 			var tb = ctb;
+			// console.log(tb);
 			function b(){
 				var tbh, tbb;
 				tbh = tb.querySelector('[fy-tab-h]');
@@ -47,9 +47,8 @@
 	}
 
 	on = function(tab){
-		var t = document.querySelector('[fy-tab-h]');
-		console.log(t);
-		t.querySelector('-a').classList.remove('-a');
+		var t = q('[fy-tab-h]');
+		t.getElementsByClassName('-a')[0].classList.remove('-a');
 		tab.classList.add('-a');
 		var i = tab.getAttribute('fy-tab-i');
 		open(i);
