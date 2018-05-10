@@ -23,7 +23,7 @@
 	var t = q('[fy-tab-h]').children;
 	var b = q('[fy-tab-b]');
 
-	var cc = q('[fy-tab]')
+	// var cc = q('[fy-tab]')
 	// var childs = cc.querySelector('[fy-tab-h]');
 	// console.log(cc)
 
@@ -47,7 +47,9 @@
 	}
 
 	on = function(tab){
-		q('[fy-tab-h] > .-a').classList.remove('-a');
+		var t = document.querySelector('[fy-tab-h]');
+		console.log(t);
+		t.querySelector('-a').classList.remove('-a');
 		tab.classList.add('-a');
 		var i = tab.getAttribute('fy-tab-i');
 		open(i);
