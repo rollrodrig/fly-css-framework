@@ -7,6 +7,9 @@ $tab-button-background-color-hover: $color-light-darker;
 $tab-button-background-color-active: #ffffff;
 
 .fy-tab {
+
+}
+.fy-tab_h {
 	height: 44px;
 	&:after {
 		content: '.';
@@ -16,7 +19,7 @@ $tab-button-background-color-active: #ffffff;
 		clear: both;
 	}
 
-	&_i {
+	.fy-tab_i {
 		display: block;
 		float: left;
 		background-color: $tab-button-background-color;
@@ -62,22 +65,27 @@ $tab-button-background-color-active: #ffffff;
 			text-decoration: none;
 		}
 	}
-
+}
+.fy-tab {
 	&.-ln {
-		border-bottom: 1px solid $tab-border-color-active;
-		.fy-tab_i {
-			&.-a {
-				border-color: $tab-border-color-active $tab-border-color-active #ffffff $tab-border-color-active;
+		.fy-tab_h {
+			border-bottom: 1px solid $tab-border-color-active;
+			.fy-tab_i {
+				&.-a {
+					border-color: $tab-border-color-active $tab-border-color-active #ffffff $tab-border-color-active;
+				}
 			}
+
 		}
-		
+
 	}
 
 	&.-or {
-		.fy-tab_i {
-			float: right;
-		} 
-		
+		.fy-tab_h {
+			.fy-tab_i {
+				float: right;
+			} 			
+		}
 	}
 
 
@@ -94,18 +102,19 @@ $tab-button-background-color-active: #ffffff;
 
 .fy-tab {
 	&.-s {
-		height: 29px;
-		.fy-tab_i {
-		    padding-left: 10px;
-		    padding-right: 10px;
-		    padding-top: 6px;
-		    padding-bottom: 6px;
-		    font-size: 13px;	
-			&.-a {
-				padding-bottom: 7px;
-			}
+		.fy-tab_h {
+			height: 29px;
+			.fy-tab_i {
+			    padding-left: 10px;
+			    padding-right: 10px;
+			    padding-top: 6px;
+			    padding-bottom: 6px;
+			    font-size: 13px;	
+				&.-a {
+					padding-bottom: 7px;
+				}
+			}			
 		}
-
 	}
 }
 
