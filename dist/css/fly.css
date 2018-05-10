@@ -3949,10 +3949,10 @@ a {
 .fy-tab.-or .fy-tab_h .fy-tab_i {
   float: right; }
 
-.fy-tab-b > div {
+.fy-tab_b > div {
   display: none; }
 
-.fy-tab-b > .-a {
+.fy-tab_b > .-a {
   display: block; }
 
 .fy-tab.-s .fy-tab_h {
