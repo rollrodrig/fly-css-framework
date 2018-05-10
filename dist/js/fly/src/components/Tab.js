@@ -1,32 +1,36 @@
 (function(){
-	
 	var q = function(e){return document.querySelector(e);}
-
 	function Tab(tab){
 		this._tab = tab;
 		this._h;
 		this._b;
 		this._getElements();
-		this._getHeaderItems();
 		this._bindClick();
 		this._log();
+		this.tabActiveClass = '-a';
 	}
 	Tab.prototype._getElements = function(){
 		this._h = this._tab.getElementsByClassName('fy-tab_h')[0];
 		this._b = this._tab.getElementsByClassName('fy-tab_b')[0];
-	
-	}
-	Tab.prototype._getHeaderItems = function(){
 		this._headerItems = this._h.getElementsByClassName('fy-tab_i');
 	}
 	Tab.prototype._bindClick = function(){
 		var l = this._headerItems.length;
+		var _that = this;
 		for (var i = 0; i < l; i++) {
 			var current = this._headerItems[i];
 			current.addEventListener('click', function(a){
-				console.log(this);
+				_that._handleClick(this);
 			});
 		}
+	}
+	Tab.prototype._handleClick = function(tab){
+		this._h.getElementsByClassName(this.tabActiveClass)[0]
+			.classList
+			.remove(this.tabActiveClass);
+		tab.classList
+			.add(this.tabActiveClass);
+		// current.classList.add(this.tabActiveClass);
 	}
 	Tab.prototype._log = function(){
 		// console.log(this._h);
