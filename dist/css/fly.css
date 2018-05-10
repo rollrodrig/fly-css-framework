@@ -2076,13 +2076,15 @@ a {
       display: block;
       font-size: 12px; }
 
-.fy-code pre, .fy-code code {
-  margin: 0;
-  font-size: 13px;
-  line-height: 1.4;
-  tab-size: 4;
-  font-family: 'Roboto Mono',monospace;
-  background-color: #fffbe5; }
+.fy-code {
+  margin-bottom: 20px; }
+  .fy-code pre, .fy-code code {
+    margin: 0;
+    font-size: 13px;
+    line-height: 1.4;
+    tab-size: 4;
+    font-family: 'Roboto Mono',monospace;
+    background-color: #fffbe5; }
 
 .fy-ti {
   margin-top: 0;
@@ -2912,6 +2914,8 @@ a {
     background-color: transparent; }
     .fy-tbl.-nh tr:first-child th {
       border: none; }
+  .fy-tbl.-fw {
+    width: 100%; }
 
 .fy-lg {
   display: block;
@@ -3922,7 +3926,7 @@ a {
     border-color: #F5F5F6 #F5F5F6 #F5F5F6 #F5F5F6; }
     .fy-tab_i:hover {
       background-color: #ececec; }
-    .fy-tab_i-a {
+    .fy-tab_i.-a {
       border-top: 1px;
       border-left: 1px;
       border-right: 1px;
@@ -3932,16 +3936,22 @@ a {
       border-color: #ffffff;
       background-color: #ffffff;
       cursor: default; }
-      .fy-tab_i-a:hover {
+      .fy-tab_i.-a:hover {
         background-color: #ffffff; }
     .fy-tab_i:hover {
       text-decoration: none; }
   .fy-tab.-ln {
     border-bottom: 1px solid #a9a9a9; }
-    .fy-tab.-ln .fy-tab_i-a {
+    .fy-tab.-ln .fy-tab_i.-a {
       border-color: #a9a9a9 #a9a9a9 #ffffff #a9a9a9; }
   .fy-tab.-or .fy-tab_i {
     float: right; }
+
+.fy-tab-b > div {
+  display: none; }
+
+.fy-tab-b > .-a {
+  display: block; }
 
 .fy-tab.-s {
   height: 29px; }
@@ -3951,7 +3961,7 @@ a {
     padding-top: 6px;
     padding-bottom: 6px;
     font-size: 13px; }
-    .fy-tab.-s .fy-tab_i-a {
+    .fy-tab.-s .fy-tab_i.-a {
       padding-bottom: 7px; }
 
 .fy-pg {

@@ -43,7 +43,7 @@ $tab-button-background-color-active: #ffffff;
 			background-color: $tab-button-background-color-hover;
 		}
 
-		&-a {
+		&.-a {
 			border-top: 1px;
 			border-left: 1px;
 			border-right: 1px;	
@@ -66,7 +66,7 @@ $tab-button-background-color-active: #ffffff;
 	&.-ln {
 		border-bottom: 1px solid $tab-border-color-active;
 		.fy-tab_i {
-			&-a {
+			&.-a {
 				border-color: $tab-border-color-active $tab-border-color-active #ffffff $tab-border-color-active;
 			}
 		}
@@ -83,6 +83,14 @@ $tab-button-background-color-active: #ffffff;
 
 }
 
+.fy-tab-b {
+	> div {
+		display: none;
+	}
+	>.-a {
+		display: block;
+	}
+}
 
 .fy-tab {
 	&.-s {
@@ -93,7 +101,7 @@ $tab-button-background-color-active: #ffffff;
 		    padding-top: 6px;
 		    padding-bottom: 6px;
 		    font-size: 13px;	
-			&-a {
+			&.-a {
 				padding-bottom: 7px;
 			}
 		}
