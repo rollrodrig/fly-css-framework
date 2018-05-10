@@ -9,19 +9,13 @@ $tab-button-background-color-active: #ffffff;
 .fy-tab {
 
 }
+
 .fy-tab_h {
 	height: 44px;
-	&:after {
-		content: '.';
-		display: block;
-		visibility: hidden;
-		height: 0;
-		clear: both;
-	}
+	display: flex;
+	justify-content: flex-start;
 
 	.fy-tab_i {
-		display: block;
-		float: left;
 		background-color: $tab-button-background-color;
 	    padding-left: 18px;
 	    padding-right: 18px;
@@ -56,6 +50,7 @@ $tab-button-background-color-active: #ffffff;
 			border-color: #ffffff;
 			background-color: $tab-button-background-color-active;
 			cursor: default;
+			height: 45px;
 			&:hover {
 				background-color: $tab-button-background-color-active;
 			}		
@@ -82,8 +77,8 @@ $tab-button-background-color-active: #ffffff;
 
 	&.-or {
 		.fy-tab_h {
+			justify-content: flex-end;
 			.fy-tab_i {
-				float: right;
 			} 			
 		}
 	}
@@ -112,6 +107,7 @@ $tab-button-background-color-active: #ffffff;
 			    font-size: 13px;	
 				&.-a {
 					padding-bottom: 7px;
+					height: 30px;
 				}
 			}			
 		}
