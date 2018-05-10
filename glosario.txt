@@ -440,7 +440,6 @@ fy-bct
 # with break points
 .fy-ctrn.-bp
 
-
 # no margin at small
 .fy-ctrn.-nm
 
@@ -877,9 +876,14 @@ fy-tab.-s
 fy-pg
 
 
-
 ### hero
 fy-hro
+
+# small
+fy-hro.-s
+
+# large
+fy-hro.-l
 
 
 #### highlight text

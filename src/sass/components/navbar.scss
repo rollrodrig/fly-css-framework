@@ -111,10 +111,11 @@ $navbar-link-border-bottom-color: $color-dark-lighter;
 
 .fy-nb {
 	&.-ul {
+	    margin-bottom: 1px;
 		.fy-nb_l {
 			&:hover {
 				padding: 0 18px;
-			    line-height: 3.45;
+			    line-height: 3.6;
 				border-bottom: 1px solid $navbar-link-border-bottom-color;
 			}
 		}

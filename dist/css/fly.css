@@ -2772,10 +2772,12 @@ a {
     padding: 0 18px;
     line-height: 3.1; }
 
-.fy-nb.-ul .fy-nb_l:hover {
-  padding: 0 18px;
-  line-height: 3.45;
-  border-bottom: 1px solid #4f565a; }
+.fy-nb.-ul {
+  margin-bottom: 1px; }
+  .fy-nb.-ul .fy-nb_l:hover {
+    padding: 0 18px;
+    line-height: 3.6;
+    border-bottom: 1px solid #4f565a; }
 
 .fy-nb.-s.-ul .fy-nb_l:hover {
   padding: 0 18px;
@@ -3930,7 +3932,7 @@ a {
       border-color: #ffffff;
       background-color: #ffffff;
       cursor: default;
-      height: 45px; }
+      height: 44px; }
       .fy-tab_h .fy-tab_i.-a:hover {
         background-color: #ffffff; }
     .fy-tab_h .fy-tab_i:hover {
@@ -3960,7 +3962,7 @@ a {
     font-size: 13px; }
     .fy-tab.-s .fy-tab_h .fy-tab_i.-a {
       padding-bottom: 7px;
-      height: 30px; }
+      height: 29px; }
 
 .fy-pg {
   height: 24px;
