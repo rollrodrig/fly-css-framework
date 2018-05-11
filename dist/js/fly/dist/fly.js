@@ -4,24 +4,44 @@ require('./components/NavBar');
 require('./components/Tab');
 },{"./components/NavBar":2,"./components/OffCanvas":3,"./components/Tab":4}],2:[function(require,module,exports){
 (function(){
-	var q, o = false, on, off, nb, nbh, b;
-	q = function(e){ return document.querySelector(e);}
-	nb = q('[fy-navbar]');
-	b = q('[fy-navbar-btn]');
-	if (nb == undefined || b  == undefined) { return;}
-	nbh = nb.clientHeight;
-	off = function(){
-		nb.style.height = nbh+"px";
-		b.classList.remove('-on');
+	function NavBar(navbar) {
+		this.navbar = navbar;
+		this.btn;
+		this.navbarHeigh = navbar.clientHeight;
+		this.open = false;
+		this.getElements();
+		this.bindClick();
+		this.log();
 	}
-	on = function(){
-		nb.style.height = "auto";
-		b.classList.add('-on');
+	NavBar.prototype.getElements = function(){
+		this.btn = this.navbar.getElementsByClassName('fy-nbb')[0];
 	}
-	b.onclick = function(){
-		o?off():on();
-		o = !o;
+	NavBar.prototype.bindClick = function(){
+		this.btn.addEventListener('click', function(){
+			this.handleClick();
+		}.bind(this));
 	}
+	NavBar.prototype.handleClick = function(){
+		this.open?this.off():this.on();
+		this.open = !this.open;
+	}
+	NavBar.prototype.on = function(){
+		this.navbar.style.height = "auto";
+		this.btn.classList.add('-on');
+	}
+	NavBar.prototype.off = function(){
+		this.navbar.style.height = this.navbarHeigh+"px";
+		this.btn.classList.remove('-on');
+	}
+	NavBar.prototype.log = function(){
+		console.log(this.btn);
+	}
+
+	var e = document.querySelectorAll('[fy-navbar]');
+	for(var i = 0; i < e.length; i++ ) {
+		new NavBar(e[i]);
+	}
+
 })();
 },{}],3:[function(require,module,exports){
 (function(){
@@ -57,63 +77,63 @@ require('./components/Tab');
 (function(){
 	var q = function(e){return document.querySelector(e);}
 	function Tab(tab){
-		this._tab = tab;
-		this._currentOpenTab;
-		this._h;
-		this._b;
+		this.tab = tab;
+		this.currentOpenTab;
+		this.h;
+		this.b;
 
-		this._tabHeaderClass = 'fy-tab_h';
-		this._tabBodyClass = 'fy-tab_b';
+		this.tabHeaderClass = 'fy-tab_h';
+		this.tabBodyClass = 'fy-tab_b';
 
-		this._tabHeaderItemsName = 'fy-tab-i';
-		this._taBodyitemsName = 'fy-tab-b';
+		this.tabHeaderItemsName = 'fy-tab-i';
+		this.taBodyitemsName = 'fy-tab-b';
 
-		this._tabActiveClass = '-a';
-		this._getElements();
-		this._addHeaderItemsIndex();
-		this._addBodyItemsIndex();
+		this.tabActiveClass = '-a';
+		this.getElements();
+		this.addHeaderItemsIndex();
+		this.addBodyItemsIndex();
 	}
-	Tab.prototype._getElements = function(){
-		this._h = this._tab.getElementsByClassName(this._tabHeaderClass)[0];
-		this._b = this._tab.getElementsByClassName(this._tabBodyClass)[0];
-		this._headerItems = this._h.children;
-		this._bodyItems = this._b.children;
+	Tab.prototype.getElements = function(){
+		this.h = this.tab.getElementsByClassName(this.tabHeaderClass)[0];
+		this.b = this.tab.getElementsByClassName(this.tabBodyClass)[0];
+		this.headerItems = this.h.children;
+		this.bodyItems = this.b.children;
 	}
-	Tab.prototype._addHeaderItemsIndex = function(){
-		var l = this._headerItems.length;
+	Tab.prototype.addHeaderItemsIndex = function(){
+		var l = this.headerItems.length;
 		var _that = this;
 		for (var i = 0; i < l; i++) {
-			var c = this._headerItems[i];
-			c.setAttribute(this._tabHeaderItemsName,i);
+			var c = this.headerItems[i];
+			c.setAttribute(this.tabHeaderItemsName,i);
 			c.addEventListener('click', function(a){
-				_that._handleClick(this);
+				_that.handleClick(this);
 			});
 		}
 	}
-	Tab.prototype._addBodyItemsIndex = function(current,i){
-		var l = this._bodyItems.length;
+	Tab.prototype.addBodyItemsIndex = function(current,i){
+		var l = this.bodyItems.length;
 		for (var i = 0; i < l; i++) {
-			var c = this._bodyItems[i];
-			c.setAttribute(this._taBodyitemsName,i);
+			var c = this.bodyItems[i];
+			c.setAttribute(this.taBodyitemsName,i);
 		}	
 	}
-	Tab.prototype._handleClick = function(tab){
-		this._h.getElementsByClassName(this._tabActiveClass)[0]
+	Tab.prototype.handleClick = function(tab){
+		this.h.getElementsByClassName(this.tabActiveClass)[0]
 			.classList
-			.remove(this._tabActiveClass);
+			.remove(this.tabActiveClass);
 		tab.classList
-			.add(this._tabActiveClass);
-		var index = tab.getAttribute(this._tabHeaderItemsName);
-		this._openBodyElem(index);
+			.add(this.tabActiveClass);
+		var index = tab.getAttribute(this.tabHeaderItemsName);
+		this.openBodyElem(index);
 		// current.classList.add(this.tabActiveClass);
 	}
-	Tab.prototype._openBodyElem = function(index){
-		this._b.getElementsByClassName(this._tabActiveClass)[0]
+	Tab.prototype.openBodyElem = function(index){
+		this.b.getElementsByClassName(this.tabActiveClass)[0]
 			.classList
-			.remove(this._tabActiveClass);
-		this._b.querySelector('['+this._taBodyitemsName+'="'+index+'"]')
+			.remove(this.tabActiveClass);
+		this.b.querySelector('['+this.taBodyitemsName+'="'+index+'"]')
 			.classList
-			.add(this._tabActiveClass);
+			.add(this.tabActiveClass);
 	}
 	var t = document.querySelectorAll('[fy-tab]');
 	for(var i = 0; i < t.length; i++ ) {

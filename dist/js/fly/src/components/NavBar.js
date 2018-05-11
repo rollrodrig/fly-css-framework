@@ -1,20 +1,40 @@
 (function(){
-	var q, o = false, on, off, nb, nbh, b;
-	q = function(e){ return document.querySelector(e);}
-	nb = q('[fy-navbar]');
-	b = q('[fy-navbar-btn]');
-	if (nb == undefined || b  == undefined) { return;}
-	nbh = nb.clientHeight;
-	off = function(){
-		nb.style.height = nbh+"px";
-		b.classList.remove('-on');
+	function NavBar(navbar) {
+		this.navbar = navbar;
+		this.btn;
+		this.navbarHeigh = navbar.clientHeight;
+		this.open = false;
+		this.getElements();
+		this.bindClick();
+		this.log();
 	}
-	on = function(){
-		nb.style.height = "auto";
-		b.classList.add('-on');
+	NavBar.prototype.getElements = function(){
+		this.btn = this.navbar.getElementsByClassName('fy-nbb')[0];
 	}
-	b.onclick = function(){
-		o?off():on();
-		o = !o;
+	NavBar.prototype.bindClick = function(){
+		this.btn.addEventListener('click', function(){
+			this.handleClick();
+		}.bind(this));
 	}
+	NavBar.prototype.handleClick = function(){
+		this.open?this.off():this.on();
+		this.open = !this.open;
+	}
+	NavBar.prototype.on = function(){
+		this.navbar.style.height = "auto";
+		this.btn.classList.add('-on');
+	}
+	NavBar.prototype.off = function(){
+		this.navbar.style.height = this.navbarHeigh+"px";
+		this.btn.classList.remove('-on');
+	}
+	NavBar.prototype.log = function(){
+		console.log(this.btn);
+	}
+
+	var e = document.querySelectorAll('[fy-navbar]');
+	for(var i = 0; i < e.length; i++ ) {
+		new NavBar(e[i]);
+	}
+
 })();
