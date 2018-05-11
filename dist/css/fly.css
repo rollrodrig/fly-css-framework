@@ -2720,9 +2720,6 @@ a {
     padding: 5px 10px 5px 10px;
     margin-right: 10px;
     line-height: 1.5; }
-  @media only screen and (max-width: 980px) {
-    .fy-nb .bte33 {
-      display: inline-block; } }
   .fy-nb_gl {
     flex-grow: 1; }
     .fy-nb_gl:after {
@@ -2757,6 +2754,10 @@ a {
     background-color: transparent;
     text-align: center; }
     .fy-nb_l:hover {
+      color: #636363;
+      background-color: #ececec;
+      text-decoration: none; }
+    .fy-nb_l.-a {
       color: #636363;
       background-color: #ececec;
       text-decoration: none; }
