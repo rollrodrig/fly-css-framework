@@ -4212,7 +4212,7 @@ a {
     content: '—'; }
   .fy-ul.-c > li:before {
     content: '•'; }
-  .fy-ul.-t > li:before {
+  .fy-ul.-a > li:before {
     content: '›'; }
 
 @media only screen and (max-width: 540px) {

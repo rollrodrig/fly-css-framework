@@ -917,6 +917,10 @@ fy-buaa
 
 ### ul list
 .fy-ul
+.fy-ul.-n
+.fy-ul.-d
+.fy-ul.-c
+.fy-ul.-a
 
 
 ### visiblity
