@@ -3215,7 +3215,7 @@ a {
 .fy-ft {
   display: block;
   width: 100%;
-  min-height: 200px;
+  min-height: 80px;
   font-size: 16px;
   border: 1px solid #ececec;
   padding: 10px;
