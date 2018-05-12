@@ -1,6 +1,13 @@
 
 @for $i from 1 through $max-cols-number {
 	.fy-rw#{$i} {
+		&:after {
+			content: '.';
+			display: block;
+			visibility: hidden;
+			height: 0;
+			clear: both;
+		}		
 		> div:first-child {
 			display: block;
 			float: left;
@@ -11,7 +18,7 @@
 			display: block;
 		}
 
-		&.fy-rw-r {
+		&.-r {
 			> div:first-child {
 				float: right;
 			}

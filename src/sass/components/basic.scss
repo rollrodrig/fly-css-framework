@@ -55,6 +55,7 @@ pre,code {
   tab-size: 4;
   font-family: 'Roboto Mono',monospace;
   background-color: #fffbe5;
+  margin: 0;
 }
 
 form {
@@ -75,4 +76,6 @@ li > ul {
   margin-bottom: 5px;
   padding-left: 28px;
 }
-
+img {
+  vertical-align: middle;
+}

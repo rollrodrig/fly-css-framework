@@ -107,17 +107,19 @@ fy-pdrt
 
 ### Text
 
+# text large 
+fy-txl
+			
+# text small
+fy-txs
+
 # text basic
 fy-tx
 
 # text lead
 fy-txld
 
-# text large 
-fy-txl
-			
-# text small
-fy-txs
+
 
 # text mute, little smal and grey
 fy-txmu
@@ -472,20 +474,23 @@ fy-bct
 width from 1 to 12
 .fy-wd*
 
-### width float elements to left
-.fy-wda
-
-#  override float to right
-.fy-wda.fy-ar
-
 # responsive
 .fy-wd*@l
 .fy-wd*@m
 .fy-wd*@s
 .fy-wd*@xs
 
+
+### Align childs
+# float elements to left
+.fy-alc
+
+#  override float to right
+.fy-alc.-ar
+
 # center element
-.fy-cntr
+.fy-alc.-cntr
+
 
 ### remaining width
 from 1 to 12
@@ -940,7 +945,21 @@ fy-sh
 
 
 
+### Code
+.fy-code
 
+# text code style
+fy-cd
+
+# colors
+.-p primary lighter
+.-s secondary lighter
+.-ss success lighter
+.-w warning lighter
+.-d danger lighter
+.-i info lighter
+.-l light lighter
+.-dk dark lighter
 
 
 
