@@ -1,45 +1,51 @@
-$hightlight-text-background-color-primary: $color-soft-primary;
-$hightlight-text-background-color-secondary: $color-soft-secondary;
-$hightlight-text-background-color-success: $color-soft-success;
-$hightlight-text-background-color-warning: $color-soft-warning;
-$hightlight-text-background-color-danger: $color-soft-danger;
-$hightlight-text-background-color-info: $color-soft-info;
-$hightlight-text-background-color-light: $color-soft-light;
-$hightlight-text-background-color-dark: $color-soft-dark;
+$highlight-text-background-color-primary: $color-soft-primary;
+$highlight-text-background-color-secondary: $color-soft-secondary;
+$highlight-text-background-color-success: $color-soft-success;
+$highlight-text-background-color-warning: $color-soft-warning;
+$highlight-text-background-color-danger: $color-soft-danger;
+$highlight-text-background-color-info: $color-soft-info;
+$highlight-text-background-color-light: $color-soft-light;
+$highlight-text-background-color-dark: $color-soft-dark;
 
 .fy-hl {
-	padding: 0 2px;
-	&.-p {
-		background-color: $hightlight-text-background-color-primary;
+	&p {
+		background-color: $highlight-text-background-color-primary;
+		padding: 0 2px;
 	}
 		
-	&.-s {
-		background-color: $hightlight-text-background-color-secondary;
+	&s {
+		background-color: $highlight-text-background-color-secondary;
+		padding: 0 2px;
 	}
 		
-	&.-su {
-		background-color: $hightlight-text-background-color-success;
+	&su {
+		background-color: $highlight-text-background-color-success;
+		padding: 0 2px;
 	}
 
-	&.-wa {
-		background-color: $hightlight-text-background-color-warning;
+	&wa {
+		background-color: $highlight-text-background-color-warning;
+		padding: 0 2px;
 	}
 		
-	&.-da {
-		background-color: $hightlight-text-background-color-danger;
+	&da {
+		background-color: $highlight-text-background-color-danger;
+		padding: 0 2px;
 	}
 	
-	&.-in {
-		background-color: $hightlight-text-background-color-info;
+	&in {
+		background-color: $highlight-text-background-color-info;
+		padding: 0 2px;
 	}
 	
-	&.-li {
-		background-color: $hightlight-text-background-color-light;
+	&li {
+		background-color: $highlight-text-background-color-light;
+		padding: 0 2px;
 	}
 	
-	&.-dk {
-		background-color: $hightlight-text-background-color-dark;
-		
+	&dk {
+		background-color: $highlight-text-background-color-dark;
+		padding: 0 2px;
 	}
 }
 

@@ -2406,6 +2406,9 @@ a {
 .fy-fz6 {
   font-size: 46px; }
 
+.fy-fz7 {
+  font-size: 54px; }
+
 /* margin top */
 .fy-mt0 {
   margin-top: 0px; }
@@ -4120,40 +4123,75 @@ a {
   margin-left: auto;
   margin-right: auto; }
 
-.fy-hl {
+.fy-hlp {
+  background-color: #cbeeff;
   padding: 0 2px; }
-  .fy-hl.-p {
-    background-color: #cbeeff; }
-  .fy-hl.-s {
-    background-color: #ececec; }
-  .fy-hl.-su {
-    background-color: #d3ffbc; }
-  .fy-hl.-wa {
-    background-color: #fff9cf; }
-  .fy-hl.-da {
-    background-color: #ffe6e6; }
-  .fy-hl.-in {
-    background-color: #e0f3ff; }
-  .fy-hl.-li {
-    background-color: #f9f9f9; }
-  .fy-hl.-dk {
-    background-color: #dedede; }
 
+.fy-hls {
+  background-color: #ececec;
+  padding: 0 2px; }
+
+.fy-hlsu {
+  background-color: #d3ffbc;
+  padding: 0 2px; }
+
+.fy-hlwa {
+  background-color: #fff9cf;
+  padding: 0 2px; }
+
+.fy-hlda {
+  background-color: #ffe6e6;
+  padding: 0 2px; }
+
+.fy-hlin {
+  background-color: #e0f3ff;
+  padding: 0 2px; }
+
+.fy-hlli {
+  background-color: #f9f9f9;
+  padding: 0 2px; }
+
+.fy-hldk {
+  background-color: #dedede;
+  padding: 0 2px; }
+
+/*https://www.w3schools.com/charsets/ref_utf_punctuation.asp*/
 .fy-bun:before {
   content: '# ';
+  opacity: 0.3; }
+
+.fy-bunn:before, .fy-bunn:after {
+  content: ' # ';
   opacity: 0.3; }
 
 .fy-bud:before {
   content: '— ';
   opacity: 0.3; }
 
+.fy-budd:before, .fy-budd:after {
+  content: ' — ';
+  opacity: 0.3; }
+
 .fy-buc:before {
   content: '• ';
   opacity: 0.3; }
 
-.fy-but:before {
+.fy-bucc:before, .fy-bucc:after {
+  content: ' • ';
+  opacity: 0.3; }
+
+.fy-bua:before {
   content: '› ';
   opacity: 0.3; }
+
+.fy-buaa:before, .fy-buaa:after {
+  opacity: 0.3; }
+
+.fy-buaa:before {
+  content: ' › '; }
+
+.fy-buaa:after {
+  content: ' ‹ '; }
 
 .fy-ul {
   list-style: none;

@@ -892,20 +892,28 @@ fy-hro.-l
 
 
 #### highlight text
-
-fy-hl
-fy-hl.-p
-fy-hl.-s
-fy-hl.-su
-fy-hl.-wa
-fy-hl.-da
-fy-hl.-in
-fy-hl.-li
-fy-hl.-dk
+fy-hlp
+fy-hls
+fy-hlsu
+fy-hlwa
+fy-hlda
+fy-hlin
+fy-hlli
+fy-hldk
 
 
 ### List bullet
-fy-bu
+fy-bun
+fy-bunn
+
+fy-bud
+fy-budd
+
+fy-buc
+fy-bucc
+
+fy-bua
+fy-buaa
 
 ### ul list
 .fy-ul
