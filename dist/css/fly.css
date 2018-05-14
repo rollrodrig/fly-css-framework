@@ -654,10 +654,10 @@ img {
       background-color: #343b40; }
     .fy-brc > span.-a:before {
       transform: rotate(-45deg);
-      top: 3px; }
+      top: 1px; }
     .fy-brc > span.-a:after {
       transform: rotate(45deg);
-      top: 8px; }
+      top: 6px; }
 
 .fy-btn {
   display: inline-block;
@@ -739,17 +739,17 @@ img {
   width: 100%;
   max-width: 100%; }
 
-.fy-btn.-ds {
+.fy-btn.-di {
   color: #a9a9a9;
   background-color: #FAFAFA;
   border: 1px solid #ececec;
   cursor: auto; }
-  .fy-btn.-ds:hover {
+  .fy-btn.-di:hover {
     color: #a9a9a9;
     background-color: #FAFAFA;
     border: 1px solid #ececec; }
 
-.fy-btn.-ctr {
+.fy-btn.-ce {
   position: relative;
   margin-left: auto;
   margin-right: auto;

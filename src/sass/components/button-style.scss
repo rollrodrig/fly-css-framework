@@ -19,7 +19,7 @@ $button-disabled-background-color-hover: $color-light-lighter;
 		width: 100%;
 		max-width: 100%;
 	}
-	&.-ds {
+	&.-di {
 		color: $button-disabled-color;
 		background-color: $button-disabled-background-color;
 		border: 1px solid $button-disabled-border-color;
@@ -31,7 +31,7 @@ $button-disabled-background-color-hover: $color-light-lighter;
 		}
 	}
 	
-	&.-ctr {
+	&.-ce {
 		position: relative;
 		margin-left: auto;
 		margin-right: auto;

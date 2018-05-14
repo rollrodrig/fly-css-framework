@@ -381,10 +381,10 @@ fy-bct
 .fy-btn.-fw
 
 # disabled
-.fy-btn.-dis
+.fy-btn.-di
 
 # center button
-.fy-btn.-ctr
+.fy-btn.-ce
 
 ## button with icons
 
