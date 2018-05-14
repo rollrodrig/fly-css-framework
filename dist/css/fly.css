@@ -1087,13 +1087,14 @@ img {
 
 .fy-lbl {
   background-color: #c2c2c2;
-  font-size: 12px;
+  font-size: 11px;
   min-width: 22px;
   padding-left: 5px;
-  padding-right: 5px;
-  display: inline-block; }
+  padding-right: 5px; }
   .fy-lbl.-r {
     border-radius: 3px; }
+  .fy-lbl.-m {
+    font-size: 13px; }
   .fy-lbl.-l {
     font-size: 18px;
     padding-left: 4px;
@@ -2265,18 +2266,14 @@ a {
 /*# Text wrapping nowrap*/
 .fy-bx {
   padding: 30px; }
-  .fy-bx.--sv {
-    padding-top: 15px;
-    padding-bottom: 15px; }
-  .fy-bx.--sh {
-    padding-left: 15px;
-    padding-right: 15px; }
-  .fy-bx.--lv {
-    padding-top: 60px;
-    padding-bottom: 60px; }
-  .fy-bx.--lh {
-    padding-left: 60px;
-    padding-top: 60px; }
+  .fy-bxsv {
+    padding: 15px 30px; }
+  .fy-bxsh {
+    padding: 30px 15px; }
+  .fy-bxlv {
+    padding: 60px 30px; }
+  .fy-bxlh {
+    padding: 30px 60px; }
 
 .fy-bxs {
   padding: 15px; }
@@ -3090,19 +3087,34 @@ a {
       padding-left: 17px; }
 
 .fy-dl > div {
-  padding: 11px 16px; }
-
-.fy-dl.-ln > div {
+  padding: 11px 16px;
   border-bottom: 1px solid #ececec; }
-  .fy-dl.-ln > div:last-child {
+  .fy-dl > div:last-child {
     border-bottom: none; }
 
-.fy-dl.-uc > div {
-  font-size: 11px; }
-
+/*.fy-dl {
+	&.-ln {
+		> div  {
+			border-bottom: 1px solid $color-light-darker;
+			&:last-child {
+				border-bottom: none;
+			}
+		}
+		
+	}
+}*/
 .fy-dl.-bd {
   border: 1px solid #ececec; }
 
+/*.fy-dl {
+	&.-uc {
+		> div  {
+			font-size: 11px;
+		}
+		
+	}
+}
+*/
 .fy-pf {
   display: inline-block;
   padding: 10px;

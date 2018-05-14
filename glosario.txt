@@ -561,11 +561,15 @@ fy-bxs
 large
 fy-bxl
 
-horizontal
-fy-bxh
+small horizontal/vertical
+fy-bxsh
+fy-bxsv
 
-vertical
-fy-bxv
+large horizontal/vertical
+fy-bxlh
+fy-bxlv
+
+
 
 ### social share
 

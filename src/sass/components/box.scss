@@ -1,22 +1,18 @@
 .fy-bx {
 	padding: 30px;
 
-	&.--sv {
-		padding-top: 15px;
-		padding-bottom: 15px;
+	&sv {
+		padding: 15px 30px;
 	}
-	&.--sh {
-		padding-left: 15px;
-		padding-right: 15px;
+	&sh {
+		padding: 30px 15px;
 	}	
 
-	&.--lv {
-		padding-top: 60px;
-		padding-bottom: 60px;
+	&lv {
+		padding: 60px 30px;
 	}
-	&.--lh {
-		padding-left: 60px;
-		padding-top: 60px;
+	&lh {
+		padding: 30px 60px;
 	}
 }
 
