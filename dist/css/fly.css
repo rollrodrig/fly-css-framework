@@ -475,9 +475,9 @@ img {
 .fy-alrt {
   padding: 25px;
   background-color: #f3f3f3; }
-  .fy-alrt.-sp {
+  .fy-alrt.-s {
     padding: 10px; }
-  .fy-alrt.-lp {
+  .fy-alrt.-l {
     padding: 40px; }
 
 .fy-hro {
@@ -626,6 +626,8 @@ img {
   padding-right: 6px;
   vertical-align: middle;
   justify-content: center; }
+  .fy-bdg.-m {
+    font-size: 13px; }
   .fy-bdg.-l {
     font-size: 18px; }
 
