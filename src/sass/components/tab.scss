@@ -63,7 +63,7 @@ $tab-button-background-color-active: #ffffff;
 }
 .fy-tab {
 	&.-ln {
-		.fy-tab_h {
+		> .fy-tab_h {
 			border-bottom: 1px solid $tab-border-color-active;
 			.fy-tab_i {
 				&.-a {
@@ -76,7 +76,7 @@ $tab-button-background-color-active: #ffffff;
 	}
 
 	&.-or {
-		.fy-tab_h {
+		> .fy-tab_h {
 			justify-content: flex-end;
 			.fy-tab_i {
 			} 			
@@ -97,9 +97,9 @@ $tab-button-background-color-active: #ffffff;
 
 .fy-tab {
 	&.-s {
-		.fy-tab_h {
+		> .fy-tab_h {
 			height: 29px;
-			.fy-tab_i {
+			> .fy-tab_i {
 			    padding-left: 10px;
 			    padding-right: 10px;
 			    padding-top: 6px;

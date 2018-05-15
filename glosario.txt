@@ -505,11 +505,11 @@ column align right
 .fy-cfx
 
 
-### align
-# align left
-.fy-all
-# align right
-.fy-alr
+### self align
+# self align left
+.fy-sal
+# self align right
+.fy-sar
 
 
 ### mobile override
@@ -580,10 +580,10 @@ fy-bxlv
 .fy-ss.-c
 
 # child text
-.fy-ss_t
+.fy-ss._t
 
 # child icon
-.fy-ss_i
+.fy-ss._i
 
 # small
 .fy-ss.-s

@@ -6,53 +6,54 @@ $social-share-background-color-hover: $color-secondary-darker;
 	font-size: 16px;
 	color: #656565;
     display: inline-block;
-}
-.fy-ss_t {
-	padding-right: 5px;
-    display: block;
-    float: left;
-    margin-top: 3px;
-    
-}
-.fy-ss_i {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    float: left;
-	width: 29px;
-	height: 29px;
-	background-color: $social-share-background-color;
-	text-align: center;
-	margin-right: 6px;
-	color: #ffffff;
-	cursor: pointer;
-	
-	&:hover {
-		background-color: $social-share-background-color-hover;
-	}
 
-	&:last-child {
-		margin-right: 0px;
+	._t {
+		padding-right: 5px;
+	    display: block;
+	    float: left;
+	    margin-top: 3px;
+	    
 	}
-	> i {
+	._i {
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+	    float: left;
+		width: 29px;
+		height: 29px;
+		background-color: $social-share-background-color;
+		text-align: center;
+		margin-right: 6px;
+		color: #ffffff;
+		cursor: pointer;
+		
+		&:hover {
+			background-color: $social-share-background-color-hover;
+		}
 
-	}
+		&:last-child {
+			margin-right: 0px;
+		}
+		> i {
+
+		}
+	} 
 }
 
 /* Variations */
 .fy-ss {
 	&.-s {
 		font-size: 12px;
-		.fy-ss_t {
+		._t {
 			margin-top: 2px;
 		}
-		.fy-ss_i {
+		._i {
 			width: 20px;
 			height: 20px;
 		}
 
 		&.-r {
-			.fy-ss_i {
+			._i {
 				border-radius: 2px;
 			}			
 		}
@@ -60,10 +61,10 @@ $social-share-background-color-hover: $color-secondary-darker;
 	}
 	&.-l {
 		font-size: 20px;
-		.fy-ss_t {
+		._t {
 			margin-top: 4px;
 		}
-		.fy-ss_i {
+		._i {
 			width: 45px;
 			height: 45px;
 			font-size: 29px;
@@ -72,7 +73,7 @@ $social-share-background-color-hover: $color-secondary-darker;
 		}
 
 		&.-r {
-			.fy-ss_i {
+			._i {
 				border-radius: 4px;
 			}			
 		}		
@@ -80,14 +81,14 @@ $social-share-background-color-hover: $color-secondary-darker;
 	}
 
 	&.-nm {
-		.fy-ss_i {
+		._i {
 			margin-right: 0;	
 		}
 		
 	}
 
 	&.-r {
-		.fy-ss_i {
+		._i {
 			border-radius: 3px;
 		}
 	}
@@ -98,7 +99,7 @@ $social-share-background-color-hover: $color-secondary-darker;
 
 .fy-ss {
 	&.-c {
-		.fy-ss_i {
+		._i {
 			border-radius: 50%;
 
 		}	

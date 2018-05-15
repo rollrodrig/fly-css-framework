@@ -492,10 +492,10 @@ img {
   .fy-hro_b p {
     font-size: 24px; }
 
-.fy-all {
+.fy-sal {
   float: left; }
 
-.fy-alr {
+.fy-sar {
   float: right; }
 
 .fy-bct {
@@ -2285,59 +2285,57 @@ a {
   font-size: 16px;
   color: #656565;
   display: inline-block; }
-
-.fy-ss_t {
-  padding-right: 5px;
-  display: block;
-  float: left;
-  margin-top: 3px; }
-
-.fy-ss_i {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  float: left;
-  width: 29px;
-  height: 29px;
-  background-color: #777777;
-  text-align: center;
-  margin-right: 6px;
-  color: #ffffff;
-  cursor: pointer; }
-  .fy-ss_i:hover {
-    background-color: #636363; }
-  .fy-ss_i:last-child {
-    margin-right: 0px; }
+  .fy-ss ._t {
+    padding-right: 5px;
+    display: block;
+    float: left;
+    margin-top: 3px; }
+  .fy-ss ._i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    width: 29px;
+    height: 29px;
+    background-color: #777777;
+    text-align: center;
+    margin-right: 6px;
+    color: #ffffff;
+    cursor: pointer; }
+    .fy-ss ._i:hover {
+      background-color: #636363; }
+    .fy-ss ._i:last-child {
+      margin-right: 0px; }
 
 /* Variations */
 .fy-ss.-s {
   font-size: 12px; }
-  .fy-ss.-s .fy-ss_t {
+  .fy-ss.-s ._t {
     margin-top: 2px; }
-  .fy-ss.-s .fy-ss_i {
+  .fy-ss.-s ._i {
     width: 20px;
     height: 20px; }
-  .fy-ss.-s.-r .fy-ss_i {
+  .fy-ss.-s.-r ._i {
     border-radius: 2px; }
 
 .fy-ss.-l {
   font-size: 20px; }
-  .fy-ss.-l .fy-ss_t {
+  .fy-ss.-l ._t {
     margin-top: 4px; }
-  .fy-ss.-l .fy-ss_i {
+  .fy-ss.-l ._i {
     width: 45px;
     height: 45px;
     font-size: 29px; }
-  .fy-ss.-l.-r .fy-ss_i {
+  .fy-ss.-l.-r ._i {
     border-radius: 4px; }
 
-.fy-ss.-nm .fy-ss_i {
+.fy-ss.-nm ._i {
   margin-right: 0; }
 
-.fy-ss.-r .fy-ss_i {
+.fy-ss.-r ._i {
   border-radius: 3px; }
 
-.fy-ss.-c .fy-ss_i {
+.fy-ss.-c ._i {
   border-radius: 50%; }
 
 /* padding top */
@@ -2983,7 +2981,7 @@ a {
   .fy-tbl th, .fy-tbl td {
     padding: 10px; }
   .fy-tbl.-s {
-    font-size: 12px; }
+    font-size: 13px; }
     .fy-tbl.-s th, .fy-tbl.-s td {
       padding: 5px; }
   .fy-tbl.-l {
@@ -4053,12 +4051,12 @@ a {
     .fy-tab_h .fy-tab_i:hover {
       text-decoration: none; }
 
-.fy-tab.-ln .fy-tab_h {
+.fy-tab.-ln > .fy-tab_h {
   border-bottom: 1px solid #a9a9a9; }
-  .fy-tab.-ln .fy-tab_h .fy-tab_i.-a {
+  .fy-tab.-ln > .fy-tab_h .fy-tab_i.-a {
     border-color: #a9a9a9 #a9a9a9 #ffffff #a9a9a9; }
 
-.fy-tab.-or .fy-tab_h {
+.fy-tab.-or > .fy-tab_h {
   justify-content: flex-end; }
 
 .fy-tab_b > div {
@@ -4067,15 +4065,15 @@ a {
 .fy-tab_b > .-a {
   display: block; }
 
-.fy-tab.-s .fy-tab_h {
+.fy-tab.-s > .fy-tab_h {
   height: 29px; }
-  .fy-tab.-s .fy-tab_h .fy-tab_i {
+  .fy-tab.-s > .fy-tab_h > .fy-tab_i {
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 6px;
     padding-bottom: 6px;
     font-size: 13px; }
-    .fy-tab.-s .fy-tab_h .fy-tab_i.-a {
+    .fy-tab.-s > .fy-tab_h > .fy-tab_i.-a {
       padding-bottom: 7px;
       height: 29px; }
 
