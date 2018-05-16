@@ -1,2 +1,3 @@
-# fly-css-framework
-Simple and beautiful css framework to build suits and prototypes on the fly
+# fly-css-framework (beta)
+Simple and beauty css framework to build awesome websites in short time.
+Please visit the  [oficial website](http://flycssframework.com/)
