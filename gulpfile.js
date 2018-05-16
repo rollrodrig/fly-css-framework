@@ -7,7 +7,7 @@ var source = require('vinyl-source-stream');
 var connect       = require('gulp-connect');
 var gulp = require('gulp');
 var cleanCSS = require('gulp-clean-css');
-
+var zip = require('gulp-zip');
 var publicPath = './dev/';
 
 gulp.task('connect', function(){
@@ -32,10 +32,16 @@ gulp.task('build', function () {
     
     gulp.src(publicPath+'/css/fly.css')
         .pipe(gulp.dest('./dist/'));
+        
     gulp.src(publicPath+'/css/fly.min.css')
             .pipe(gulp.dest('./dist/'));
+
     gulp.src(publicPath+'/js/fly/dev/fly.js')
             .pipe(gulp.dest('./dist/'));
+
+    gulp.src('./dist/*')
+        .pipe(zip('fly.zip'))
+        .pipe(gulp.dest('./'))            
 
 });
 
