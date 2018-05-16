@@ -8,37 +8,40 @@ var connect       = require('gulp-connect');
 var gulp = require('gulp');
 var cleanCSS = require('gulp-clean-css');
 
-var publicPath = './dist/';
-
+var publicPath = './dev/';
 
 gulp.task('connect', function(){
     connect.server({
         port:9797,
-        root:'./dist'
+        root:'./dev'
     })
 });
 
-// gulp.task('minify-css', () => {
-//   return gulp.src('./dist/css/fly.css')
-//     .pipe(cleanCSS({compatibility: 'ie8'}))
-//     .pipe(source('fly.min.css'))
-//     .pipe(gulp.dest('./dist/css'));
-// });
-
-
 gulp.task('browserify', function() {
-    return browserify('./dist/js/fly/src/Fly.js')
+    return browserify('./dev/js/fly/src/Fly.js')
         .bundle()
         .pipe(source('fly.js'))
-        .pipe(gulp.dest(publicPath+'js/fly/dist/'));
+        .pipe(gulp.dest(publicPath+'js/fly/dev/'));
 });
 
-
-// Sass minify
-gulp.task('minify-sass', function () {
+// Build
+gulp.task('build', function () {
     gulp.src('./src/sass/fly.min.scss')
         .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
         .pipe(gulp.dest(publicPath+'css'));
+    
+    gulp.src(publicPath+'/css/fly.css')
+        .pipe(gulp.dest('./dist/'));
+    gulp.src(publicPath+'/css/fly.min.css')
+            .pipe(gulp.dest('./dist/'));
+    gulp.src(publicPath+'/js/fly/dev/fly.js')
+            .pipe(gulp.dest('./dist/'));
+
+});
+
+gulp.task('copy', function () {
+    gulp.src('./src/templates/index.html')
+        .pipe(gulp.dest('./public/'));
 });
 
 // Sass
@@ -53,7 +56,7 @@ gulp.task('sass', function () {
 
 // Watch
 gulp.task('watch', function () {
-    watch('./dist/js/fly/src/components/*.js', function(event) {
+    watch('./dev/js/fly/src/components/*.js', function(event) {
         gulp.start('browserify');
     });
     watch('./src/sass/**/*.scss', function(event) {
