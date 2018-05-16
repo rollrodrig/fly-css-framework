@@ -2306,6 +2306,10 @@ a {
       background-color: #636363; }
     .fy-ss ._i:last-child {
       margin-right: 0px; }
+    .fy-ss ._i > a {
+      color: #ffffff;
+      justify-content: center;
+      align-items: center; }
 
 /* Variations */
 .fy-ss.-s {
