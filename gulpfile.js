@@ -5,6 +5,8 @@ var sass = require('gulp-sass');
 var browserify = require('browserify');
 var source = require('vinyl-source-stream');
 var connect       = require('gulp-connect');
+var gulp = require('gulp');
+var cleanCSS = require('gulp-clean-css');
 
 var publicPath = './dist/';
 
@@ -16,6 +18,13 @@ gulp.task('connect', function(){
     })
 });
 
+// gulp.task('minify-css', () => {
+//   return gulp.src('./dist/css/fly.css')
+//     .pipe(cleanCSS({compatibility: 'ie8'}))
+//     .pipe(source('fly.min.css'))
+//     .pipe(gulp.dest('./dist/css'));
+// });
+
 
 gulp.task('browserify', function() {
     return browserify('./dist/js/fly/src/Fly.js')
@@ -24,6 +33,13 @@ gulp.task('browserify', function() {
         .pipe(gulp.dest(publicPath+'js/fly/dist/'));
 });
 
+
+// Sass minify
+gulp.task('minify-sass', function () {
+    gulp.src('./src/sass/fly.min.scss')
+        .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
+        .pipe(gulp.dest(publicPath+'css'));
+});
 
 // Sass
 gulp.task('sass', function () {
