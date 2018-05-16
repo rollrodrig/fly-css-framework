@@ -1,0 +1,90 @@
+// primary
+.fy-bct {
+	background-color: transparent !important;
+}
+.fy-bcp {
+	background-color: $color-primary;
+	&l {
+		background-color: $color-primary-lighter;
+	}
+	&d {
+		background-color: $color-primary-darker;
+	}
+}
+
+// secondary
+.fy-bcs {
+	background-color: $color-secondary;
+	&l {
+		background-color: $color-secondary-lighter;
+	}
+	&d {
+		background-color: $color-secondary-darker;
+	}
+}
+
+// success
+.fy-bcss {
+	background-color: $color-success;
+	&l {
+		background-color: $color-success-lighter;
+	}
+	&d {
+		background-color: $color-success-darker;
+	}
+}
+
+// warning
+.fy-bcw {
+	background-color: $color-warning;
+	&l {
+		background-color: $color-warning-lighter;
+	}
+	&d {
+		background-color: $color-warning-darker;
+	}
+}
+
+// danger
+.fy-bcd {
+	background-color: $color-danger;
+	&l {
+		background-color: $color-danger-lighter;
+	}
+	&d {
+		background-color: $color-danger-darker;
+	}
+}
+
+// info
+.fy-bci {
+	background-color: $color-info;
+	&l {
+		background-color: $color-info-lighter;
+	}
+	&d {
+		background-color: $color-info-darker;
+	}
+}
+
+// light
+.fy-bcl {
+	background-color: $color-light;
+	&l {
+		background-color: $color-light-lighter;
+	}
+	&d {
+		background-color: $color-light-darker;
+	}
+}
+
+// dark
+.fy-bcdk {
+	background-color: $color-dark;
+	&l {
+		background-color: $color-dark-lighter;
+	}
+	&d {
+		background-color: $color-dark-darker;
+	}
+}

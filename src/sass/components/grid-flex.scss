@@ -1,0 +1,125 @@
+.fy-fx {
+	display: flex;
+
+	&.-jcsb {
+	  justify-content: space-between;
+	}
+
+	&\@l {
+		display: block;
+		&.-jcsb {
+		  justify-content: space-between;
+		}		
+		@include min-media($large-min-size) {
+			display: flex;
+		}
+	}
+	&\@m {
+		display: block;
+		&.-jcsb {
+		  justify-content: space-between;
+		}	
+		@include min-media($medium-min-size) {
+			display: flex;
+		}
+	}
+	&\@s {
+		display: block;
+		&.-jcsb {
+		  justify-content: space-between;
+		}	
+		@include min-media($small-min-size) {
+			display: flex;
+		}
+	}
+	&\@xs {
+		display: block;
+		&.-jcsb {
+		  justify-content: space-between;
+		}	
+		@include min-media($extra-small-min-size) {
+			display: flex;
+		}
+	}
+
+
+	@for $i from 1 through $max-cols-number {
+		&#{$i} {
+			flex-basis: $column-width*$i;
+			flex-shrink: 0; 				
+		}
+	}
+
+
+	@for $i from 1 through $max-cols-number {
+		&xs#{$i} {
+			flex-basis: $column-width*$i;
+			flex-shrink: 0; 
+		}
+	}
+
+	@for $i from 1 through $max-cols-number {
+		&s#{$i} {
+			@include min-media($small-min-size) {
+				flex-basis: $column-width*$i;
+				flex-shrink: 0; 
+			}
+		}
+	}
+
+	@for $i from 1 through $max-cols-number {
+		&m#{$i} {
+			@include min-media($medium-min-size) {
+				flex-basis: $column-width*$i;
+				flex-shrink: 0; 
+			}
+		}
+	}
+
+	@for $i from 1 through $max-cols-number {
+		&l#{$i} {
+			@include min-media($large-min-size) {
+				flex-basis: $column-width*$i;
+				flex-shrink: 0; 
+			}
+		}
+	}
+
+	&g {
+		flex-grow: 1;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

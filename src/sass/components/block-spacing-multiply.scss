@@ -1,0 +1,11 @@
+
+@for $i from 1 through $max-cols-number {
+	
+	.fy-bst#{$i}\* {
+		margin-top: $block-spacing-constant * $i * $i;
+	}
+	.fy-bsb#{$i}\* {
+		margin-bottom: $block-spacing-constant * $i * $i;
+	}
+
+}

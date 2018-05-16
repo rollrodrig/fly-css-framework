@@ -1,0 +1,48 @@
+.fy-ul {
+	list-style: none;
+	padding-left: 0;
+	> li {
+		position: relative;
+		padding-left: 17px;
+		&:before  {
+			opacity: 0.3;
+	   		position: absolute;
+	   		left: 0;
+	   		top: 0;
+		}
+		> ul {
+			padding-left: 28px;
+		}
+	}
+
+	&.-n {
+		> li {
+			&:before  {
+				content: '#';
+			}
+		}
+	}
+	&.-d {
+		> li {
+			&:before  {
+				content: '—';
+			}
+		}
+	}
+
+	&.-c {
+		> li {
+			&:before  {
+				content: '•';
+			}
+		}
+	}
+
+	&.-a {
+		> li {
+			&:before  {
+				content: '›';
+			}
+		}
+	}	
+}

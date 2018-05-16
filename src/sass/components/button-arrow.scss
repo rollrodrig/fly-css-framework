@@ -1,0 +1,170 @@
+.fy-btn  {
+	&.-al,&.-ar {
+		position: relative;
+
+		&:before, &:after {
+	        position: absolute;
+	        content: ' ';
+	        height: 8px;
+	        width: 1px;
+	        background-color: $color-dark;
+		}
+
+	    &:before {
+	    	top: 14px;
+	    }
+	    &:after {
+	    	top: 19px;
+	    } 
+	}	
+	&.-al {
+		padding-left: 26px;
+	    &:before, &:after {
+	        left: 13px;
+	    }
+	    &:before {
+			transform: rotate(45deg);
+	    }
+	    &:after {
+	    	transform: rotate(-45deg);
+	    }  		
+	}
+	&.-ar {
+		padding-right: 26px;
+	    &:before, &:after {
+	        right: 13px;
+	    }
+
+	    &:before {
+	    	transform: rotate(-45deg);
+	    }
+	    &:after {
+			transform: rotate(45deg);
+	    }  		
+	}	
+
+	&.-xs {
+		&.-al,&.-ar {
+			&:before, &:after {
+				height: 6px;
+			}
+		    &:before {
+				top: 3px;	
+		    }
+		    &:after {
+				top: 7px;
+		    } 
+		}		
+		&.-al {
+			padding-left: 18px;
+		    padding-right: 8px;
+			&:before, &:after {
+				left: 9px;
+			}
+			
+		}
+		&.-ar {
+			padding-right: 18px;
+			padding-left: 8px;
+			&:before, &:after {
+				right: 9px;
+			}
+		}
+	}
+	
+	&.-s {
+		&.-al,&.-ar {
+			&:before, &:after {
+				height: 7px;
+			}
+		    &:before {
+				top: 10px;	
+		    }
+		    &:after {
+				top: 15px;
+		    } 
+		}
+		&.-al {
+			padding-left: 22px;
+		    padding-right: 12px;
+
+			&:before, &:after {
+				left: 11px;
+			}
+ 			
+		}
+		&.-ar {
+			padding-right: 22px;
+			padding-left: 12px;
+			&:before, &:after {
+				right: 11px;
+			}
+			
+		}
+	}
+
+	&.-l {
+		&.-al,&.-ar {
+			&:before, &:after {
+				height: 10px;
+			}
+		    &:before {
+				top: 24px;	
+		    }
+		    &:after {
+				top: 31px;
+		    } 
+		}
+		&.-al {
+			padding-left: 38px;
+		    padding-right: 26px;
+			&:before, &:after {
+				left: 22px;
+			} 			
+		}
+		&.-ar {
+			padding-right: 38px;
+			padding-left: 26px;
+			&:before, &:after {
+				right: 22px;
+			}
+		}
+	}
+
+	&.-xl {
+		&.-al,&.-ar {
+			&:before, &:after {
+				height: 16px;
+			}
+		    &:before {
+				top: 35px;	
+		    }
+		    &:after {
+				top: 46px;
+		    } 
+		}
+		&.-al {
+			padding-left: 62px;
+		    padding-right: 38px;
+			&:before, &:after {
+				left: 32px;
+			} 			
+		}
+		&.-ar {
+			padding-right: 62px;
+			padding-left: 38px;
+			&:before, &:after {
+				right: 32px;
+			}
+		}
+	}
+
+
+}
+
+
+
+
+
+
+

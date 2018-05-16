@@ -1,0 +1,122 @@
+$close-background-color: $color-secondary-lighter;
+$close-background-color-hover: $color-secondary-darker;
+
+// close button
+.fy-cls {
+    display: block;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    cursor: pointer;
+    
+
+    &:before, &:after {
+        position: absolute;
+        left: 9px;
+        content: ' ';
+        height: 14px;
+        width: 2px;
+        background-color: $close-background-color;
+        top: 2px;
+    }
+
+    &:hover {
+        &:before, &:after {
+            background-color: $close-background-color-hover;
+        }
+    }
+
+    &:before {
+      transform: rotate(45deg);
+    }
+    &:after {
+      transform: rotate(-45deg);
+    }
+
+
+    &.-s {
+        width: 14px;
+        height: 14px;
+        &:before, &:after {
+            height: 10px;
+            left: 6px;
+        }
+    }
+
+    &.-l {
+        width: 30px;
+        height: 30px;
+        &:before, &:after {
+            height: 24px;
+            left: 14px;
+        }        
+    }
+
+
+
+}
+.fy-cls {
+    &.-c {
+        border-radius: 50%;
+        box-shadow: 1px 1px 3px #c3c3c3;
+        background-color: #ffffff;
+    }
+}
+.fy-cls {
+    &.-sq {
+        box-shadow: 1px 1px 3px #c3c3c3;
+        background-color: #ffffff;
+
+        &:before, &:after {
+            top: 3px;
+        }
+    }
+}
+
+
+.fy-cls {
+    &.-slm {
+        &:before, &:after {
+            width: 1px;
+        }
+    }
+}
+
+// close button container
+.fy-cls-c {
+	position: relative;
+	
+	.fy-cls {
+		position: absolute;
+        top: 5px;
+        right: 5px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

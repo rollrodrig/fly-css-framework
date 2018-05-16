@@ -1,0 +1,42 @@
+.fy-brc {
+	font-size: 12px;
+	> a {
+		font-size: 12px;
+		color: $color-dark;
+		text-decoration: none;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+	> span {
+		color: $color-neutral;
+
+	}
+
+	> span.-a {
+		position: relative;
+	    padding-left: 15px;
+	    padding-right: 15px;	
+
+	    &:before, &:after {
+	        position: absolute;
+            left: 13px;
+	        content: ' ';
+	        height: 8px;
+	        width: 1px;
+	        background-color: $color-dark;
+	        
+	    }
+
+	    &:before {
+			transform: rotate(-45deg);
+			top: 1px;	
+	    }
+	    &:after {
+	    	transform: rotate(45deg);
+			top: 6px;
+	     	
+	    }  
+
+	}
+}

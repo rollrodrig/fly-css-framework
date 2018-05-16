@@ -1,0 +1,49 @@
+
+@for $i from 1 through $max-cols-number {
+	.fy-rw#{$i} {
+		&:after {
+			content: '.';
+			display: block;
+			visibility: hidden;
+			height: 0;
+			clear: both;
+		}		
+		> div:first-child {
+			display: block;
+			float: left;
+			width: $column-width*$i;
+		}
+		> div:last-child {
+			padding-left: $column-width*$i;
+			display: block;
+		}
+
+		&.-r {
+			> div:first-child {
+				float: right;
+			}
+			> div:last-child {
+				padding-left: 0;
+				padding-right: $column-width*$i;
+			}			
+		}
+	}
+}
+
+
+
+/*
+
+.fy-w200 {
+	> div:first-child {
+		display: block;
+		float: left;
+		width: 200px;
+		background-color: orange;
+	}
+	> div:last-child {
+		padding-left: 200px;
+		display: block;
+		background-color: blue;
+	}
+}*/

@@ -1,0 +1,21 @@
+.fy-bdg {
+    border-radius: 10px;
+    background-color: $color-neutral;
+    font-size: 11px;
+    min-width: 22px;
+    height: 17px;
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 6px;
+    padding-right: 6px;
+    vertical-align: middle;
+    justify-content: center;
+
+    &.-m {
+        font-size: 13px;
+    }
+    &.-l {
+        font-size: 18px;
+    }
+}

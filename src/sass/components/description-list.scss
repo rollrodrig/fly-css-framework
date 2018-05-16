@@ -1,0 +1,41 @@
+.fy-dl {
+	> div {
+		padding: 11px 16px;
+		border-bottom: 1px solid $color-light-darker;
+		&:last-child {
+			border-bottom: none;
+		}		
+	}
+	
+}
+/*.fy-dl {
+	&.-ln {
+		> div  {
+			border-bottom: 1px solid $color-light-darker;
+			&:last-child {
+				border-bottom: none;
+			}
+		}
+		
+	}
+}*/
+
+
+.fy-dl {
+	&.-bd {
+		border: 1px solid $color-light-darker;
+	}
+}
+
+
+/*.fy-dl {
+	&.-uc {
+		> div  {
+			font-size: 11px;
+		}
+		
+	}
+}
+*/
+
+

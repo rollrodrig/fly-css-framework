@@ -1,0 +1,55 @@
+
+$block-spacing-constant: 10px;
+
+@for $i from 1 through $max-cols-number {
+	
+	.fy-bst#{$i} {
+		margin-top: $block-spacing-constant * $i;
+		&\@l {
+			@include min-media($large-min-size) {
+				margin-top: $block-spacing-constant * $i;
+			}
+
+		}
+		&\@m {
+			@include min-media($medium-min-size) {
+				margin-top: $block-spacing-constant * $i;
+			}
+		}
+		&\@s {
+			@include min-media($small-min-size) {
+				margin-top: $block-spacing-constant * $i;
+			}
+		}
+		&\@xs {
+			@include min-media($extra-small-min-size) {
+				margin-top: $block-spacing-constant * $i;
+			}
+		}		
+	}
+	.fy-bsb#{$i} {
+		margin-bottom: $block-spacing-constant * $i;
+		&\@l {
+			@include min-media($large-min-size) {
+				margin-bottom: $block-spacing-constant * $i;
+			}
+
+		}
+		&\@m {
+			@include min-media($medium-min-size) {
+				margin-bottom: $block-spacing-constant * $i;
+			}
+		}
+		&\@s {
+			@include min-media($small-min-size) {
+				margin-bottom: $block-spacing-constant * $i;
+			}
+		}
+		&\@xs {
+			@include min-media($extra-small-min-size) {
+				margin-bottom: $block-spacing-constant * $i;
+			}
+		}
+	}
+}
+

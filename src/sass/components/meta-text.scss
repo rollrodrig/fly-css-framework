@@ -1,0 +1,57 @@
+
+$meta-data-color: $color-secondary-lighter;
+$meta-data-color-hover: $color-secondary;
+
+$meta-data-pipe-color: $color-secondary-lighter;
+
+.fy-mta {
+	font-size: 12px;
+	color: $meta-data-color;
+	a {
+		color: $meta-data-color;
+		&:hover {
+			text-decoration: none;
+			color: $meta-data-color-hover;
+		}
+	}
+	> span {
+		padding-left: 5px;
+		padding-right: 5px;
+		&::after {
+			content:' ';
+			height: 12px;
+			width: 1px;
+			margin-bottom: -3px;
+			display: inline-block;
+			background-color: $meta-data-pipe-color;
+		}
+		/*color: $meta-data-pipe-color;*/
+	}
+
+	&.-m {
+		font-size: 14px;
+			> span  {
+				&::after {
+					height: 14px;
+				}
+			}
+	}
+
+	&.-l {
+		font-size: 16px;
+			> span  {
+				&::after {
+					height: 16px;
+				}
+			}
+	}
+
+	&.-sb {
+		> span {
+			&::after  {
+				background-color: transparent;
+			}
+		}
+	}
+
+}

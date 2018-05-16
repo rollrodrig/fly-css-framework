@@ -1,0 +1,87 @@
+// primary
+.fy-cop {
+	color: $color-primary;
+	&l {
+		color: $color-primary-lighter;
+	}
+	&d {
+		color: $color-primary-darker;
+	}
+}
+
+// secondary
+.fy-cos {
+	color: $color-secondary;
+	&l {
+		color: $color-secondary-lighter;
+	}
+	&d {
+		color: $color-secondary-darker;
+	}
+}
+
+// success
+.fy-coss {
+	color: $color-success;
+	&l {
+		color: $color-success-lighter;
+	}
+	&d {
+		color: $color-success-darker;
+	}
+}
+
+// warning
+.fy-cow {
+	color: $color-warning;
+	&l {
+		color: $color-warning-lighter;
+	}
+	&d {
+		color: $color-warning-darker;
+	}
+}
+
+// danger
+.fy-cod {
+	color: $color-danger;
+	&l {
+		color: $color-danger-lighter;
+	}
+	&d {
+		color: $color-danger-darker;
+	}
+}
+
+// info
+.fy-coi {
+	color: $color-info;
+	&l {
+		color: $color-info-lighter;
+	}
+	&d {
+		color: $color-info-darker;
+	}
+}
+
+// light
+.fy-col {
+	color: $color-light;
+	&l {
+		color: $color-light-lighter;
+	}
+	&d {
+		color: $color-light-darker;
+	}
+}
+
+// dark
+.fy-codk {
+	color: $color-dark;
+	&l {
+		color: $color-dark-lighter;
+	}
+	&d {
+		color: $color-dark-darker;
+	}
+}

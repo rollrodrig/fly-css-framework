@@ -1,0 +1,41 @@
+.fy-code {
+	margin-bottom: 20px;
+	pre, code {
+	
+	}
+	code {
+		
+	}
+}
+.fy-cd {
+	font-size: 14px;
+ 	font-family: 'Roboto Mono',monospace;
+	color: $color-danger-lighter;
+
+	&.-p {
+		color: $color-primary;
+	}
+	&.-s {
+		color: $color-secondary;
+	}
+	&.-ss {
+		color: $color-success;
+	}
+	&.-w {
+		color: $color-warning;
+	}
+	&.-d {
+		color: $color-danger;
+	}
+	&.-i {
+		color: $color-info;
+	}
+	&.-l {
+		color: $color-light;
+	}
+	&.-dk {
+		color: $color-dark;
+	}
+
+
+}

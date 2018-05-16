@@ -1,0 +1,29 @@
+.fy-hr {
+	height: 0;
+	overflow: hidden;
+    box-sizing: content-box;
+	border: 0;
+	border-bottom: 1px solid #e2e2e2;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	&.-nb {
+		border-bottom: none;
+	}
+	&.-xs {
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+	&.-s {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	&.-l {
+		margin-top: 60px;
+		margin-bottom: 60px;
+	}
+	&.-xl {
+		margin-top: 80px;
+		margin-bottom: 80px;
+	}
+
+}

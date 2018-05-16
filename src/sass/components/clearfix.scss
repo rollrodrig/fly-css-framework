@@ -1,0 +1,9 @@
+.fy-cfx {
+	&:after {
+		content: '.';
+		display: block;
+		visibility: hidden;
+		height: 0;
+		clear: both;
+	}
+}

@@ -1,0 +1,988 @@
+
+# Title
+fy-ti
+
+# Title sizes from 1 to 7
+
+# sizes
+
+fy-ti.-s1
+fy-ti.-s2
+fy-ti.-s3
+fy-ti.-s4
+fy-ti.-s5
+fy-ti.-s6
+fy-ti.-s7
+	
+### font size
+fy-fz1
+fy-fz2
+fy-fz3
+fy-fz4
+fy-fz5
+fy-fz6
+
+### Font weight
+fy-fwb
+fy-fwn
+fy-fwl
+
+
+### Margin
+
+# margin bottom from 0 to 50
+
+fy-mb0
+fy-mb1
+fy-mb2
+fy-mb3
+fy-mb4
+fy-mb5
+
+# margin top from 0 to 50
+
+fy-mt0
+fy-mt1
+fy-mt2
+fy-mt3
+fy-mt4
+fy-mt5
+
+# margin negative from 0 to 50
+fy-mtn0
+fy-mtn1
+fy-mtn2
+fy-mtn3
+fy-mtn4
+fy-mtn5
+
+
+### remove margin
+# left
+fy-mgrl
+
+# right
+fy-mgrr
+
+# bottom
+fy-mgrb
+
+# top
+fy-mgrt
+
+### Padding
+
+# padding bottom from 0 to 50
+
+fy-pb0
+fy-pb1
+fy-pb2
+fy-pb3
+fy-pb4
+fy-pb5
+
+
+# padding top from 0 to 50
+
+fy-pt0
+fy-pt1
+fy-pt2
+fy-pt3
+fy-pt4
+fy-pt5
+
+### remove padding
+# left
+fy-pdrl
+
+# right
+fy-pdrr
+
+# bottom
+fy-pdrb
+
+# top
+fy-pdrt
+
+
+### Text
+
+# text large 
+fy-txl
+			
+# text small
+fy-txs
+
+# text basic
+fy-tx
+
+# text lead
+fy-txld
+
+
+
+# text mute, little smal and grey
+fy-txmu
+
+
+## Text style
+
+# text with underline
+fy-txul
+
+# text with no underline
+fy-txnul
+
+### Text transform
+
+# text to uppercase
+fy-txuc
+
+# text to lowecase
+fy-txlc
+
+# text capitalize
+fy-txcp
+
+
+
+### Text align
+
+# Text align left
+fy-tal
+
+# Text align right
+fy-tar
+
+# Text align center
+fy-tac
+
+# Text justify
+fy-taj
+
+
+
+###  Text wrapping
+
+# Text wrapping truncate
+fy-twt
+
+# Text wrapping break
+fy-twb
+
+# Text wrapping nowrap
+fy-twnw
+
+
+
+
+### Vertical align
+
+
+### Alert
+
+.fy-alrt
+.fy-alrt.-s
+.fy-alrt.-l
+
+
+
+
+### Close button
+
+# close button
+.fy-cls
+
+
+# close button thing
+.fy-cls.-slm
+
+# large
+.fy-cls.-l
+
+# small
+.fy-cls.-s
+
+# close button container
+.fy-cls-c
+
+# circle
+.fy-cls.-c
+
+# square
+.fy-cls.-sq
+
+
+
+
+### Color 
+
+# primary
+.fy-cop
+
+# secondary
+.fy-cos
+
+# success
+.fy-coss
+
+# warning
+.fy-cow
+
+# danger
+.fy-cod
+
+# info
+.fy-coi
+
+# light
+.fy-col
+
+# dark
+.fy-codk
+
+
+
+# the lighter version
+.fy-copl
+.fy-cosl
+.fy-cossl
+.fy-cowl
+.fy-codl
+.fy-coil
+.fy-coll
+.fy-codkl
+
+# the darker version
+.fy-copd
+.fy-cossd
+.fy-cosd
+.fy-cowd
+.fy-codd
+.fy-coid
+.fy-cold
+.fy-codkd
+
+
+### Background color
+# transparent
+fy-bct
+# primary
+.fy-bcp
+
+# secondary
+.fy-bcs
+
+# success
+.fy-bcss
+
+# warning
+.fy-bcw
+
+# danger
+.fy-bcd
+
+# info
+.fy-bci
+
+# light
+.fy-bcl
+
+# dark
+.fy-bcdk
+
+# the lighter version
+.fy-bcpl
+.fy-bcsl
+.fy-bcssl
+.fy-bcwl
+.fy-bcdl
+.fy-bcil
+.fy-bcll
+.fy-bcdkl
+
+# the darker version
+.fy-bcpd
+.fy-bcsd
+.fy-bcssd
+.fy-bcwd
+.fy-bcdd
+.fy-bcid
+.fy-bcld
+.fy-bcdkd
+
+### Badge
+.fy-bdg
+
+
+### Label
+.fy-lbl
+
+# border rounded
+.fy-lbl.-r
+# large
+.fy-lbl.-l
+
+# colors
+	# primary
+	.fy-lbl.-p
+	# secondary
+	.fy-lbl.-s
+	# succes
+	.fy-lbl.-ss
+	# warning
+	.fy-lbl.-wa
+	# dark
+	.fy-lbl.-da
+	# info
+	.fy-lbl.-in
+	# light
+	.fy-lbl.-li
+	# dark
+	.fy-lbl.-dk
+
+
+### Breadcrumb
+
+.fy-brc
+
+
+
+### Button
+
+## Button size
+.fy-btn
+
+# large
+.fy-btn.-l
+
+# medium
+.fy-btn.-m
+
+# small
+.fy-btn.-s
+
+# extra small
+.fy-btn.-xs
+
+### Button group
+
+.fy-btng
+
+
+## Buton styles 
+# border radius
+.fy-btn.-br
+
+# rounded
+.fy-btn.-rd
+
+# full width
+.fy-btn.-fw
+
+# disabled
+.fy-btn.-di
+
+# center button
+.fy-btn.-ce
+
+## button with icons
+
+# arrow left
+.fy-btn.-al
+
+# arrow right
+.fy-btn.-ar
+
+
+.fy-btn.-ic
+
+### Link
+
+# link arrow to left
+.fy-ll
+
+# link arrow to right
+.fy-lr
+
+
+### Card
+.fy-crd
+
+# image
+.fy-crd_i
+
+# header
+.fy-crd_h
+
+# body
+.fy-crd_b
+
+# footer
+.fy-crd_f
+
+# large padding
+.fy-crd.-lp
+
+# small padding
+.fy-crd.-sp
+
+
+
+### sizer
+
+.fy-szr
+
+### Container
+
+# basic container
+.fy-ctnr
+
+# full width
+.fy-ctrn.-fw
+
+# with break points
+.fy-ctrn.-bp
+
+# no margin at small
+.fy-ctrn.-nm
+
+### Grid
+
+# grid container
+.fy-gc
+
+# grid col
+.fy-gcxs* < 560
+.fy-gcs*	< 768
+.fy-gcm* < 980
+.fy-gcl* > 980
+
+# grid gutter, 10px border
+.fy-gc.-g
+
+# grid gutter responsive
+.fy-gc.-g@l
+.fy-gc.-g@m
+.fy-gc.-g@s
+.fy-gc.-g@xs
+
+# grid gutter, first child paddng 0, last child padding 0 
+.fy-gc.-gsp
+
+
+
+### Width
+width from 1 to 12
+.fy-wd*
+
+# responsive
+.fy-wd*@l
+.fy-wd*@m
+.fy-wd*@s
+.fy-wd*@xs
+
+
+### Align childs
+# float elements to left
+.fy-alc
+
+#  override float to right
+.fy-alc.-ar
+
+# center element
+.fy-alc.-cntr
+
+
+### remaining width
+from 1 to 12
+.fy-rw* 
+column align right
+.fy-rw-r
+
+
+### Clearfix
+.fy-cfx
+
+
+### self align
+# self align left
+.fy-sal
+# self align right
+.fy-sar
+
+
+### mobile override
+.fy-
+.fy-mbk
+
+
+### Expand elements
+
+# for individual element
+.fy-exp-xs #extra small
+.fy-exp-s #small
+.fy-exp-m #medium 
+
+# for direct child elements
+.fy-exp-cs-xs > * #extra small
+.fy-exp-cs-s > * #small
+.fy-exp-cs-m > * #medium 
+
+
+
+
+### Nav
+
+# nav
+.fy-nv
+
+# title
+.fy-nv.-t
+
+# title capitalize
+.fy-nv.-tc
+
+# title underline
+.fy-nv.-tu
+
+# child padding
+.fy-nv.-cp
+
+
+
+### box
+
+normal
+fy-bx
+
+small
+fy-bxs
+large
+fy-bxl
+
+small horizontal/vertical
+fy-bxsh
+fy-bxsv
+
+large horizontal/vertical
+fy-bxlh
+fy-bxlv
+
+
+
+### social share
+
+# normal
+.fy-ss
+
+# circle version
+.fy-ss.-c
+
+# child text
+.fy-ss._t
+
+# child icon
+.fy-ss._i
+
+# small
+.fy-ss.-s
+# large
+.fy-ss.-l
+
+
+# center group
+.fy-cg
+
+
+### Loading
+fy-ldg
+
+# sizes
+fy-ldg.-xs
+fy-ldg.-s
+fy-ldg.-l
+fy-ldg.-xl
+
+# colors
+fy-ldg.-p
+fy-ldg.-s
+fy-ldg.-ss
+fy-ldg.-da
+fy-ldg.-wa
+fy-ldg.-in
+fy-ldg.-li
+fy-ldg.-dk
+
+
+### nav bar
+.fy-nb
+
+# small nav bar
+.fy-nb.-s
+
+# link with underline
+.fy-nb.-ul
+
+#nav bar group links
+.fy-nb_lg
+
+# nav bar links
+.fy-nb_l
+
+
+
+### mobile buton
+.fy-nbb #off
+
+#on
+.fy-nbb.-on 
+
+# circles
+.fy-nbb.-c
+
+
+
+### Contextual menu
+.fy-cmnu
+
+# title
+.fy-cmnu_t
+
+
+
+### Meta data
+
+.fy-mta
+
+# medium
+.fy-mta.-m
+
+# large
+.fy-mta.-l
+
+# space between without pipe
+.fy-mta.-sb
+
+
+### Meta data stacked
+.fy-mts
+
+# with icons
+.fy-mts.-ic
+
+# detail
+.fy-mts.-d
+
+
+### Table
+
+.fy-tbl
+
+# small
+.fy-tbl.-s
+
+#large
+.fy-tbl.-l
+
+# center info
+.fy-tbl.-ct
+
+# heading
+.fy-tbl.-h
+
+# line horizontal
+.fy-tbl.-lh
+
+# line vertical
+.fy-tbl.-lv
+
+# linen / bordered
+.fy-tbl.-ln
+
+# hoverable
+.fy-tbl.-hv
+
+# striped
+.fy-tbl.-str
+
+
+# heading transparent
+.fy-tbl.-nh
+
+
+
+### List group
+
+.fy-lg
+
+# small
+.fy-lg.-s
+
+# with lines
+.fy-lg.-ln
+
+# with border rounded
+.fy-lg.-br
+
+# header
+.fy-lg.-h
+
+
+# with icon
+.fy-lg.-ic
+
+# has sub items
+.fy-lg .fy-lg
+
+
+### Description list
+fy-dl
+
+# with lines
+fy-dl.-ln
+
+# with lines
+fy-dl.-uc
+
+# bordered
+fy-dl.-bd
+
+
+### Profile
+.fy-pf
+
+# align right
+.fy-pf.-ar
+
+# picture rounded
+.fy-pf.-pr
+
+# detail vertical center
+.fy-pf.-dvc
+
+
+### form tag
+
+# form container
+.fy-fc
+
+# form row
+.fy-fr
+
+
+### form fields
+
+# field
+.fy-f*
+
+# sizes
+.fy-f*.-xs
+.fy-f*.-s
+.fy-f*.-l
+
+# label
+.fy-fl
+
+# input
+.fy-fi
+
+# select
+.fy-fs
+
+# radio, checkbox
+.fy-fo
+
+# textarea
+.fy-ft
+
+# error
+.fy-fe
+
+# field group
+.fy-fg
+
+### field decorator
+.fy-fd
+# decorator to left
+.fy-fd.-dl
+
+# the element inside decorator
+.fy-fd_e
+
+### form field with button
+.fy-fb
+# button orientation left
+.fy-fb.-bl
+
+
+### block spacing
+
+# block spacing top, from 1 to 12
+fy-bst*
+
+# block spacing bottom,  from 1 to 12
+fy-bsb*
+
+
+### block spacing multiplay
+
+ex. multiply the value by 1
+fy-bst1*
+
+ex. multiply the value by 5
+fy-bst5*
+
+
+### grid flex
+
+# container
+.fy-fx
+
+# fixed size
+.fy-fx[1-12]
+- example
+.fy-fx2
+.fy-fx15
+
+# responsive container
+.fy-fx@l
+.fy-fx@m
+.fy-fx@s
+.fy-fx@xs
+
+
+# responsive column
+.fy-fxl[1-12]
+.fy-fxm[1-12]
+.fy-fxs[1-12]
+.fy-fxxs[1-12]
+
+# container
+.fy-fx -j
+
+
+### tab
+# container
+fy-tab
+
+# header
+fy-tab_h
+
+# body
+fy-tab_b
+
+# tab with line
+fy-tab.-ln
+
+# orientatino right
+fy-tab.-or
+
+# small
+fy-tab.-s
+
+
+
+### pagination
+fy-pg
+
+
+### hero
+fy-hro
+
+# small
+fy-hro.-s
+
+# large
+fy-hro.-l
+
+
+#### highlight text
+fy-hlp
+fy-hls
+fy-hlsu
+fy-hlwa
+fy-hlda
+fy-hlin
+fy-hlli
+fy-hldk
+
+
+### List bullet
+fy-bun
+fy-bunn
+
+fy-bud
+fy-budd
+
+fy-buc
+fy-bucc
+
+fy-bua
+fy-buaa
+
+### ul list
+.fy-ul
+.fy-ul.-n
+.fy-ul.-d
+.fy-ul.-c
+.fy-ul.-a
+
+
+### visiblity
+hide on extra small
+fy-hdxs
+hide on small
+fy-hds
+hide on medium
+fy-hdms
+hide on large
+fy-hdl
+
+### show
+fy-shxs
+show on small
+fy-shs
+show on medium
+fy-shms
+show on large
+fy-sh
+
+
+### off canvas
+.fy-offc
+
+# sidebar
+.fy-offc_s
+
+# sidebar content
+.fy-offc_sc 
+
+# body
+.fy-offc_b
+
+
+
+### Code
+.fy-code
+
+# text code style
+fy-cd
+
+# colors
+.-p primary lighter
+.-s secondary lighter
+.-ss success lighter
+.-w warning lighter
+.-d danger lighter
+.-i info lighter
+.-l light lighter
+.-dk dark lighter
+
+
+
+
+
+
+
+

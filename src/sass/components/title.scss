@@ -1,0 +1,36 @@
+.fy-ti {
+	margin-top: 0;
+	margin-bottom: 30px;
+	font-size: 32px;
+	font-weight: normal;
+	line-height: 1.1;
+	&.-s1 {
+		font-size: $heading-font-size-is1;
+		margin-bottom: 12px;
+	}
+	&.-s2 {
+		font-size: $heading-font-size-is2;
+		margin-bottom: 15px;
+	}
+	&.-s3 {
+		font-size: $heading-font-size-is3;
+		margin-bottom: 20px;
+	}
+	&.-s4 {
+		font-size: $heading-font-size-is4;
+		margin-bottom: 30px;
+	}
+	&.-s5 {
+		font-size: $heading-font-size-is5;
+		margin-bottom: 30px;
+	}
+	&.-s6 {
+		font-size: $heading-font-size-is6;
+		margin-bottom: 30px;
+	}
+	&.-s7 {
+		font-size: $heading-font-size-is7;
+		margin-bottom: 30px;
+	}
+
+}

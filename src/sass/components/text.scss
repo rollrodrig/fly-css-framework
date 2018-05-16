@@ -1,0 +1,49 @@
+.fy-tx {
+	font-size: 16px;
+	&s {
+		font-size: 13px;
+	}
+		
+	&m {
+		font-size: 20px;
+	}
+
+	&l {
+		font-size: 30px;
+	}
+
+	&ld {
+		font-size: 24px;
+		margin-bottom: 50px;
+	}
+
+	&mu {
+		font-size: 12px;
+		color: #777777;
+	}
+
+
+	&ul {
+		text-decoration: underline;
+	}
+	&nul {
+		text-decoration: none;
+	}
+
+	&uc {
+		text-transform: uppercase;
+	}
+
+	&lc {
+		text-transform: lowercase;
+	}
+
+	&cp {
+		text-transform: capitalize;
+	}
+
+}
+
+
+
+

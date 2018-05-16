@@ -1,0 +1,49 @@
+@mixin media($maxwidth) {
+	@media only screen and (max-width: $maxwidth) {
+		@content;
+	}
+}
+
+@mixin tablet() {
+	@media only screen and (max-width: $max-tablet) {
+		@content;
+	}
+}
+
+@mixin mobile() {
+	@media only screen and (max-width: $max-mobile) {
+		@content;
+	}
+}
+
+@mixin min-media($maxwidth) {
+	@media only screen and (min-width: $maxwidth) {
+		@content;
+	}
+}
+
+@mixin min-tablet() {
+	@media only screen and (min-width: $max-tablet) {
+		@content;
+	}
+}
+
+@mixin min-mobile() {
+	@media only screen and (min-width: $max-mobile) {
+		@content;
+	}
+}
+
+@mixin mm-media($min, $max) {
+	@media screen and (min-width: $min) and (max-width: $max) {
+		@content;
+	}	
+}
+
+.clearfix::after {
+	content: '.';
+	display: block;
+	visibility: hidden;
+	height: 0;
+	clear: both;
+}

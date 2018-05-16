@@ -1,0 +1,34 @@
+{
+  "name": "fly-css-framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rollrodrig/fly-css-framework.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rollrodrig/fly-css-framework/issues"
+  },
+  "homepage": "https://github.com/rollrodrig/fly-css-framework#readme",
+  "devDependencies": {
+    "browserify": "^16.1.1",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.4",
+    "gulp-connect": "^5.5.0",
+    "gulp-sass": "^4.0.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-watch": "^5.0.0",
+    "gulp-zip": "^4.1.0",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "jquery": "^1.12.4"
+  }
+}

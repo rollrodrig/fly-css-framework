@@ -1,0 +1,62 @@
+/*https://www.w3schools.com/charsets/ref_utf_punctuation.asp*/
+.fy-bu {
+	&n {
+		&:before  {
+			content: '# ';
+			opacity: 0.3;
+		}
+		&n {
+			&:before,
+			&:after  {
+				content: ' # ';
+				opacity: 0.3;
+			}
+		}
+	}
+	&d {
+		&:before  {
+			content: '— ';
+			opacity: 0.3;
+		}
+		&d {
+			&:before,
+			&:after  {
+				content: ' — ';
+				opacity: 0.3;
+			}
+		}
+	}
+
+	&c {
+		&:before  {
+			content: '• ';
+			opacity: 0.3;	
+		}
+		&c {
+			&:before,
+			&:after  {
+				content: ' • ';
+				opacity: 0.3;
+			}
+		}
+	}
+
+	&a {
+		&:before  {
+			content: '› ';
+			opacity: 0.3;
+		}
+		&a {
+			&:before,
+			&:after {
+				opacity: 0.3;
+			}
+			&:before {
+				content: ' › ';
+			}
+			&:after  {
+				content: ' ‹ ';
+			}
+		}
+	}
+}

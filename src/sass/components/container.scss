@@ -1,0 +1,43 @@
+.fy-ctnr {
+	width: 100%;
+	max-width: $container-max-width;
+	margin-left: auto;
+	margin-right: auto;
+
+	@include media($container-max-width + $small-device-margin-left + $small-device-margin-right) {
+		width: auto;
+		margin-left: $small-device-margin-left;
+		margin-right: $small-device-margin-right;
+	}
+
+	&.-nm {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	&.-fw {
+		width: auto;
+		max-width: 100%;
+		margin-left: $small-device-margin-left;
+		margin-right: $small-device-margin-right;
+	}
+	
+	&.-bp {
+		@include media($medium-max-size){
+			max-width: $small-max-size;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		@include media($small-max-size){
+			max-width: 320px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		@include media(320px + $small-device-margin-left + $small-device-margin-right){
+			max-width: 100%;
+			margin-left: $small-device-margin-left;
+			margin-right: $small-device-margin-right;
+		}
+	}
+
+}

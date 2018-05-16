@@ -1,0 +1,46 @@
+.fy-fb {
+	display: flex;
+	.fy-btn {
+		
+	}
+	.fy-fs, .fy-fi {
+		flex-grow: 1;
+		flex-shrink: 1;
+		flex-basis: auto;
+		border-right: none;
+	}
+
+
+	&.-al {
+		> .fy-fs, .fy-fi  {
+			border-right: 1px solid $field-border-color;
+			border-left: none;
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

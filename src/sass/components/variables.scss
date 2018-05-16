@@ -1,0 +1,169 @@
+/* fly prefix */
+
+$prefix: 'fy-';
+
+// columna width value
+$column-width: 97px;
+
+// Columns number
+$max-cols-number: 12;
+
+// Screen max size 
+$container-max-width: $column-width * $max-cols-number;
+
+// Mobile margins
+$small-device-margin-left: 10px;
+$small-device-margin-right: 10px;
+
+
+// responsive sizes 
+
+$extra-small-min-size: 0px;
+$extra-small-max-size: 540px;
+
+$small-min-size: 541px;
+$small-max-size: 768px;
+
+$medium-min-size: 769px;
+$medium-max-size: 980px;
+
+$large-min-size: 981px;
+
+
+// Basic colors
+
+$color-light-full: #ffffff;
+$color-primary: #186aff;
+$color-secondary: #777777;
+$color-success: #00D652;
+$color-warning: #F0BB0B;
+$color-danger: #D83838;
+$color-info: #55bdff;
+$color-light: #F5F5F6;
+$color-dark: #343b40;
+
+// Basic colors soft version
+$color-soft-light-full: #ffffff;
+$color-soft-primary: #cbeeff;
+$color-soft-secondary: #ececec;
+$color-soft-success: #d3ffbc;
+$color-soft-warning: #fff9cf;
+$color-soft-danger: #ffe6e6;
+$color-soft-info: #e0f3ff;
+$color-soft-light: #f9f9f9;
+$color-soft-dark: #dedede;
+
+// Basic colos Lighter version
+$color-primary-lighter: #1892ff;
+$color-secondary-lighter: #a9a9a9;
+$color-success-lighter: #4eec8b;
+$color-warning-lighter: #fbd24b;
+$color-danger-lighter: #FF5454;
+$color-info-lighter: #9ad8ff;
+$color-light-lighter: #FAFAFA;
+$color-dark-lighter: #4f565a;
+
+// Basic colos darker version
+$color-primary-darker: #0043bd;
+$color-secondary-darker: #636363;
+$color-success-darker: #009C3C;
+$color-warning-darker: #DBAA0A;
+$color-danger-darker: #b90d0d;
+$color-info-darker: #1c9aea;
+$color-light-darker: #ececec;
+$color-dark-darker: #0F1418;
+
+
+$color-neutral: #c2c2c2;
+$color-default: #ffffff;
+
+// Hiperlink default colors
+$color-hiperlink: #07C;
+$color-hiperlink-hover: #34a9fd;
+$color-hiperlink-visited: #005999;
+$color-hiperlink-active: #005999;
+$color-hiperlink-focus: #005999;
+
+
+// Meta small text color
+$color-meta: $color-secondary-lighter;
+
+
+
+// Global variables
+
+$global-font-size: 16px;
+$global-font-family: Arial, Helvetica;
+$global-font-style: normal;
+$global-font-weight: 400;
+$global-font-color: $color-dark;
+
+// heading 
+$heading-font-size-is1: 14px;
+$heading-font-size-is2: 18px;
+$heading-font-size-is3: 24px;
+$heading-font-size-is4: 30px;
+$heading-font-size-is5: 40px;
+$heading-font-size-is6: 50px;
+$heading-font-size-is7: 60px;
+
+
+// margin loop
+$margin-loop-max-through: 5;
+$margin-loop-constant: 10px;
+
+// padding loop
+$padding-loop-max-through: 5;
+$padding-loop-constant: 10px;
+
+
+
+// background colors
+$background-color-primary: $color-primary;
+$background-color-secondary: $color-secondary;
+$background-color-neutral: $color-neutral;
+$background-color-warning: $color-warning;
+$background-color-success: $color-success;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
