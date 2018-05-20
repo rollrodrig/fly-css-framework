@@ -1936,6 +1936,92 @@ a {
 .fy-nb .fy-fc .fy-btn {
   margin-top: 0; }
 
+.fy-nb_dd {
+  display: inline-block;
+  padding-left: 18px;
+  padding-right: 28px;
+  line-height: 3.6;
+  text-decoration: none;
+  color: #777777;
+  background-color: transparent;
+  text-align: center;
+  position: relative; }
+  .fy-nb_dd:hover {
+    color: #636363;
+    background-color: #ececec;
+    text-decoration: none; }
+  .fy-nb_dd.-a {
+    color: #636363;
+    background-color: #ececec;
+    text-decoration: none; }
+  @media only screen and (max-width: 980px) {
+    .fy-nb_dd {
+      display: block;
+      width: 100%; } }
+  .fy-nb_dd:before, .fy-nb_dd:after {
+    position: absolute;
+    content: ' ';
+    height: 8px;
+    width: 1px;
+    top: 22px;
+    background-color: #343b40; }
+  .fy-nb_dd:before {
+    right: 16px;
+    transform: rotate(-45deg); }
+  .fy-nb_dd:after {
+    right: 11px;
+    transform: rotate(45deg); }
+  .fy-nb_dd:hover:before {
+    transform: rotate(45deg); }
+  .fy-nb_dd:hover:after {
+    transform: rotate(-45deg); }
+  .fy-nb_dd ._b {
+    display: none;
+    /*display: block;*/
+    /*background-color: orange;*/
+    width: 164px;
+    position: absolute;
+    z-index: 1000;
+    padding-top: 10px;
+    top: 49px;
+    left: 50%;
+    margin-left: -82px; }
+  .fy-nb_dd ._t {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 7.5px 10px 7.5px;
+    border-color: transparent transparent #ececec transparent;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -7px; }
+  .fy-nb_dd:hover ._b {
+    display: block; }
+  .fy-nb_dd ._l {
+    background-color: #ffffff;
+    border: 1px solid #ececec;
+    box-shadow: 2px 2px 4px #ececec; }
+    .fy-nb_dd ._l a {
+      line-height: 2.5;
+      display: block; }
+      .fy-nb_dd ._l a:last-child {
+        border-bottom: none; }
+      .fy-nb_dd ._l a:hover {
+        text-decoration: none;
+        background-color: #FAFAFA; }
+
+.fy-nb.-s .fy-nb_dd {
+  font-size: 12px;
+  line-height: 3.1; }
+  .fy-nb.-s .fy-nb_dd:before, .fy-nb.-s .fy-nb_dd:after {
+    top: 15px;
+    height: 6px; }
+  .fy-nb.-s .fy-nb_dd:after {
+    right: 12px; }
+  .fy-nb.-s .fy-nb_dd ._b {
+    top: 36px; }
+
 .fy-nbb {
   cursor: pointer;
   background-color: #F5F5F6;
