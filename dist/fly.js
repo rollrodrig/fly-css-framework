@@ -8,7 +8,8 @@
 require('./components/OffCanvas');
 require('./components/NavBar');
 require('./components/Tab');
-},{"./components/NavBar":2,"./components/OffCanvas":3,"./components/Tab":4}],2:[function(require,module,exports){
+require('./components/NavBarDropDown');
+},{"./components/NavBar":2,"./components/NavBarDropDown":3,"./components/OffCanvas":4,"./components/Tab":5}],2:[function(require,module,exports){
 (function(){
 	function NavBar(navbar) {
 		this.navbar = navbar;
@@ -51,6 +52,54 @@ require('./components/Tab');
 })();
 },{}],3:[function(require,module,exports){
 (function(){
+	var q = function(e){return document.querySelector(e);}
+	
+	function NavBarDropDown(dropDown) {
+		this.dropDown = dropDown;
+		this.open = false;
+		this.childMinHeight = '50px';
+		this.childMaxHeight = 'auto';
+		this.hh();
+		this.run();
+	}
+
+	NavBarDropDown.prototype.hh = function() {
+		this.childMinHeight = this.dropDown.clientHeight+'px';
+	}
+	
+	NavBarDropDown.prototype.run = function(){
+		var that = this;
+		this.dropDown.addEventListener('click', function(){
+			if (this.open) {
+				this.classList.remove('-o');
+				this.style.height = that.childMinHeight;
+			}else {
+				this.classList.add('-o');
+				this.style.height = that.childMaxHeight;
+			}
+			this.open = !this.open;
+		});
+	}
+
+	var t = document.querySelectorAll('[fy-nb-dd]');
+	for(var i = 0; i < t.length; i++ ) {
+		new NavBarDropDown(t[i]);
+	}
+})();
+
+
+
+
+
+
+
+
+
+
+
+
+},{}],4:[function(require,module,exports){
+(function(){
 	var q, o = false, on, off, s, b, bt;
 	q = function(e){return document.querySelector(e);}
 	s = q('[fy-offc-s]');
@@ -79,7 +128,7 @@ require('./components/Tab');
 		o = !o;
 	}
 })();
-},{}],4:[function(require,module,exports){
+},{}],5:[function(require,module,exports){
 (function(){
 	var q = function(e){return document.querySelector(e);}
 	function Tab(tab){
