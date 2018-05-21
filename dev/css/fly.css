@@ -1946,6 +1946,12 @@ a {
   background-color: transparent;
   text-align: center;
   position: relative; }
+  @media only screen and (max-width: 980px) {
+    .fy-nb_dd {
+      padding-left: 0;
+      padding-right: 0;
+      overflow: hidden;
+      height: 50px; } }
   .fy-nb_dd:hover {
     color: #636363;
     background-color: #ececec;
@@ -1975,7 +1981,13 @@ a {
     transform: rotate(45deg); }
   .fy-nb_dd:hover:after {
     transform: rotate(-45deg); }
-  .fy-nb_dd ._b {
+  .fy-nb_dd.-o {
+    background-color: #ececec; }
+    .fy-nb_dd.-o:before {
+      transform: rotate(45deg); }
+    .fy-nb_dd.-o:after {
+      transform: rotate(-45deg); }
+  .fy-nb_dd > ._b {
     display: none;
     /*display: block;*/
     /*background-color: orange;*/
@@ -1986,22 +1998,36 @@ a {
     top: 49px;
     left: 50%;
     margin-left: -82px; }
-  .fy-nb_dd ._t {
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 0 7.5px 10px 7.5px;
-    border-color: transparent transparent #ececec transparent;
-    position: absolute;
-    top: 0;
-    left: 50%;
-    margin-left: -7px; }
+    @media only screen and (max-width: 980px) {
+      .fy-nb_dd > ._b {
+        display: block;
+        position: static;
+        width: 100%;
+        margin-left: 0;
+        overflow: hidden;
+        padding-top: 0; } }
+    .fy-nb_dd > ._b > ._t {
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 0 7.5px 10px 7.5px;
+      border-color: transparent transparent #ececec transparent;
+      position: absolute;
+      top: 0;
+      left: 50%;
+      margin-left: -7px; }
+      @media only screen and (max-width: 980px) {
+        .fy-nb_dd > ._b > ._t {
+          display: none; } }
   .fy-nb_dd:hover ._b {
     display: block; }
   .fy-nb_dd ._l {
     background-color: #ffffff;
     border: 1px solid #ececec;
     box-shadow: 2px 2px 4px #ececec; }
+    @media only screen and (max-width: 980px) {
+      .fy-nb_dd ._l {
+        background-color: #ececec; } }
     .fy-nb_dd ._l a {
       line-height: 2.5;
       display: block; }
@@ -2010,10 +2036,16 @@ a {
       .fy-nb_dd ._l a:hover {
         text-decoration: none;
         background-color: #FAFAFA; }
+        @media only screen and (max-width: 980px) {
+          .fy-nb_dd ._l a:hover {
+            background-color: #ececec; } }
 
 .fy-nb.-s .fy-nb_dd {
   font-size: 12px;
   line-height: 3.1; }
+  @media only screen and (max-width: 980px) {
+    .fy-nb.-s .fy-nb_dd {
+      height: 37px; } }
   .fy-nb.-s .fy-nb_dd:before, .fy-nb.-s .fy-nb_dd:after {
     top: 15px;
     height: 6px; }
