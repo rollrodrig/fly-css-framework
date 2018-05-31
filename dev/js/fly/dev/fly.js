@@ -18,7 +18,7 @@ require('./components/NavBarDropDown');
 		this.open = false;
 		this.getElements();
 		this.bindClick();
-		this.log();
+		// this.log();
 	}
 	NavBar.prototype.getElements = function(){
 		this.btn = this.navbar.getElementsByClassName('fy-nbb')[0];
