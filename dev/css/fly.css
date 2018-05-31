@@ -2820,6 +2820,18 @@ a {
 .fy-dd.-xl ._b {
   top: 98px; }
 
+.fy-fbg {
+  animation-name: fy-fbg;
+  animation-duration: 0.9s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out; }
+
+@-webkit-keyframes fy-fbg {
+  0% {
+    background-color: #fbd24b; }
+  100% {
+    background-color: transparent; } }
+
 .fy-cntr {
   margin-left: auto;
   margin-right: auto; }

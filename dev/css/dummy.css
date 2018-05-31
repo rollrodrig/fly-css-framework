@@ -5,3 +5,12 @@
 	float: left;
 	padding: 10px;
 }
+
+.box-flash {
+	display: block;
+	width: 200px;
+	height: 200px;
+	background-color: orange;
+
+}
+
