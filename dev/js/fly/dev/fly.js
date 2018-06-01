@@ -9,7 +9,78 @@ require('./components/OffCanvas');
 require('./components/NavBar');
 require('./components/Tab');
 require('./components/NavBarDropDown');
-},{"./components/NavBar":2,"./components/NavBarDropDown":3,"./components/OffCanvas":4,"./components/Tab":5}],2:[function(require,module,exports){
+require('./components/ConfirmationPop');
+},{"./components/ConfirmationPop":2,"./components/NavBar":3,"./components/NavBarDropDown":4,"./components/OffCanvas":5,"./components/Tab":6}],2:[function(require,module,exports){
+(function(){
+	function ConfirmationPop(btn) {
+		this.btn = btn;
+		this.close;
+		this.popId;
+		this.pop;
+		this.getPopId();
+		this.getPop();
+		this.getClose();
+		this.bindClick();
+		this.open = false;
+		// this.log();
+	}
+
+	ConfirmationPop.prototype.getPopId = function(){
+		this.popId = this.btn.getAttribute('fly-cpop-o');
+	}
+
+	ConfirmationPop.prototype.getPop = function(){
+		this.pop = document.querySelectorAll('[fly-cpop-w="'+this.popId+'"]')[0];
+	}
+	ConfirmationPop.prototype.getClose = function(){
+		this.popId = this.btn.getAttribute('fly-cpop-o');
+		this.closes = this.pop.querySelectorAll('[fly-cpop-c]');
+
+		for (var i = this.closes.length - 1; i >= 0; i--) {
+			var c = this.closes[i]
+			c.addEventListener('click', function(e){
+				e.preventDefault()
+				this.off();
+			}.bind(this));
+		}
+
+
+	}
+
+	ConfirmationPop.prototype.bindClick = function(){
+		this.btn.addEventListener('click', function(e){
+			e.preventDefault();
+			this.handleClick();
+		}.bind(this));
+	}
+
+	ConfirmationPop.prototype.handleClick = function(){
+		this.open == false?this.on():this.off();
+	}
+
+	ConfirmationPop.prototype.off = function(){
+		this.pop.classList.remove('-on');
+		this.pop.classList.add('-off');
+		this.open = !this.open;
+	}
+
+	ConfirmationPop.prototype.on = function(){
+		this.pop.classList.remove('-off');
+		this.pop.classList.add('-on');
+		this.open = !this.open;
+	}	
+
+	ConfirmationPop.prototype.log = function(){
+		console.log(this.btn);
+	}
+
+	var e = document.querySelectorAll('[fly-cpop-o]');
+	for(var i = 0; i < e.length; i++ ) {
+		new ConfirmationPop(e[i]);
+	}
+
+})();
+},{}],3:[function(require,module,exports){
 (function(){
 	function NavBar(navbar) {
 		this.navbar = navbar;
@@ -50,7 +121,7 @@ require('./components/NavBarDropDown');
 	}
 
 })();
-},{}],3:[function(require,module,exports){
+},{}],4:[function(require,module,exports){
 (function(){
 	var q = function(e){return document.querySelector(e);}
 	
@@ -98,7 +169,7 @@ require('./components/NavBarDropDown');
 
 
 
-},{}],4:[function(require,module,exports){
+},{}],5:[function(require,module,exports){
 (function(){
 	var q, o = false, on, off, s, b, bt;
 	q = function(e){return document.querySelector(e);}
@@ -128,7 +199,7 @@ require('./components/NavBarDropDown');
 		o = !o;
 	}
 })();
-},{}],5:[function(require,module,exports){
+},{}],6:[function(require,module,exports){
 (function(){
 	var q = function(e){return document.querySelector(e);}
 	function Tab(tab){

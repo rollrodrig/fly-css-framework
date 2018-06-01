@@ -284,9 +284,9 @@ img {
   border: 1px solid #a9a9a9;
   font-size: 14px;
   color: #636363;
-  text-decoration: none;
   line-height: 3.1;
-  text-decoration: none; }
+  text-decoration: none;
+  vertical-align: top; }
   .fy-btn:not(:disabled) {
     cursor: pointer; }
   .fy-btn:hover {
@@ -2831,6 +2831,38 @@ a {
     background-color: #fbd24b; }
   100% {
     background-color: transparent; } }
+
+.fy-cpop {
+  padding: 40px 25px;
+  border: 1px solid #ececec;
+  text-align: center;
+  background-color: #ffffff; }
+  .fy-cpop.-f {
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    max-width: 360px;
+    left: 50%;
+    margin-left: -180px;
+    z-index: 1000;
+    box-shadow: 1px 3px 7px rgba(195, 195, 195, 0.62); }
+    @media only screen and (max-width: 360px) {
+      .fy-cpop.-f {
+        width: 94%;
+        left: 3%;
+        margin-left: 0; } }
+    .fy-cpop.-f.-off {
+      opacity: 0;
+      top: 0px;
+      transition: top .3s, opacity .3s; }
+    .fy-cpop.-f.-on {
+      opacity: 1;
+      top: 80px;
+      transition: top .3s, opacity .3s; }
+  .fy-cpop.-fx {
+    position: fixed; }
+  .fy-cpop .fy-btn {
+    margin-bottom: 4px; }
 
 .fy-cntr {
   margin-left: auto;

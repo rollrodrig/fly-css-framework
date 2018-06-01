@@ -984,8 +984,10 @@ fy-cd
 ### drop down
 .fy-dd
 
+### Flash bg
+fy-fbg
 
-
-
+### Confirmation popup
+fy-cpop
 
 

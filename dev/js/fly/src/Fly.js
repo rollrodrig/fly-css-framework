@@ -8,3 +8,4 @@ require('./components/OffCanvas');
 require('./components/NavBar');
 require('./components/Tab');
 require('./components/NavBarDropDown');
+require('./components/ConfirmationPop');

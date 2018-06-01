@@ -1,0 +1,40 @@
+.fy-cpop {
+	padding: 40px 25px;
+	border: 1px solid $color-light-darker;
+	text-align: center;
+	background-color: #ffffff;
+	
+	&.-f {
+		position: absolute;
+		top: 10%;
+		width: 100%;
+		max-width: 360px;
+		left: 50%;
+		margin-left: -180px;
+		z-index: 1000;
+		box-shadow: 1px 3px 7px rgba(195, 195, 195, 0.62);
+		@include media(360px){
+			width: 94%;
+			left: 3%;
+			margin-left: 0;
+		}
+		&.-off {
+			opacity: 0;
+			top: 0px;
+			transition: top .3s, opacity .3s;
+		}
+		&.-on {
+			opacity: 1;
+			top: 80px;
+			transition: top .3s, opacity .3s;
+		}
+	}
+	&.-fx {
+		position: fixed;
+	}
+
+	.fy-btn {
+		margin-bottom: 4px;
+	}
+
+}

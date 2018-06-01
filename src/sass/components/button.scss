@@ -16,9 +16,9 @@ $button-background-color-hover: $color-secondary-lighter;
 	border:1px solid $button-border-color;
 	font-size: 14px;
 	color: $button-color;
-	text-decoration: none;
     line-height: 3.1;
 	text-decoration: none;
+	vertical-align: top;
 
 	&:not(:disabled) {
 	    cursor: pointer;
