@@ -2822,7 +2822,7 @@ a {
 
 .fy-fbg {
   animation-name: fy-fbg;
-  animation-duration: 0.9s;
+  animation-duration: 1.2s;
   animation-iteration-count: 1;
   animation-timing-function: ease-in-out; }
 
@@ -2845,24 +2845,36 @@ a {
     left: 50%;
     margin-left: -180px;
     z-index: 1000;
-    box-shadow: 1px 3px 7px rgba(195, 195, 195, 0.62); }
+    box-shadow: 2px 4px 10px rgba(195, 195, 195, 0.47); }
     @media only screen and (max-width: 360px) {
       .fy-cpop.-f {
         width: 94%;
         left: 3%;
         margin-left: 0; } }
     .fy-cpop.-f.-off {
+      display: none;
       opacity: 0;
       top: 0px;
-      transition: top .3s, opacity .3s; }
+      /*transition: top .3s, opacity .3s;*/ }
     .fy-cpop.-f.-on {
+      display: block;
       opacity: 1;
       top: 80px;
-      transition: top .3s, opacity .3s; }
+      /*transition: top .3s, opacity .3s;*/ }
   .fy-cpop.-fx {
     position: fixed; }
   .fy-cpop .fy-btn {
     margin-bottom: 4px; }
+
+.fy-tt {
+  padding: 10px;
+  width: 300px;
+  position: absolute;
+  border: 1px solid red;
+  background-color: orange;
+  z-index: 1000;
+  text-align: center;
+  display: none; }
 
 .fy-cntr {
   margin-left: auto;

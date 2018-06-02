@@ -1,7 +1,7 @@
 (function(){
 	function ConfirmationPop(btn) {
 		this.btn = btn;
-		this.close;
+		this.closes;
 		this.popId;
 		this.pop;
 		this.getPopId();
@@ -48,13 +48,13 @@
 	ConfirmationPop.prototype.off = function(){
 		this.pop.classList.remove('-on');
 		this.pop.classList.add('-off');
-		this.open = !this.open;
+		this.open = false;
 	}
 
 	ConfirmationPop.prototype.on = function(){
 		this.pop.classList.remove('-off');
 		this.pop.classList.add('-on');
-		this.open = !this.open;
+		this.open = true;
 	}	
 
 	ConfirmationPop.prototype.log = function(){
