@@ -4,8 +4,11 @@
  * Copyright 2018 Supervectorcode, Inc.
  * Licensed under MIT
  */
+require('./components/Base');
 require('./components/OffCanvas');
 require('./components/NavBar');
 require('./components/Tab');
 require('./components/NavBarDropDown');
 require('./components/ConfirmationPop');
+require('./components/Tooltip');
+

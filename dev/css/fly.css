@@ -2870,11 +2870,12 @@ a {
   padding: 10px;
   width: 300px;
   position: absolute;
-  border: 1px solid red;
-  background-color: orange;
+  border: 1px solid #ececec;
+  background-color: #ffffff;
   z-index: 1000;
   text-align: center;
-  display: none; }
+  display: none;
+  box-shadow: 2px 4px 10px rgba(195, 195, 195, 0.47); }
 
 .fy-cntr {
   margin-left: auto;
