@@ -1,4 +1,8 @@
 (function(){
+	
+	var e = document.querySelectorAll('[fly-cpop-o]');
+	if(e.length <= 0 || e.length == null) { return; }
+
 	function ConfirmationPop(btn) {
 		this.btn = btn;
 		this.closes;
@@ -61,7 +65,6 @@
 		console.log(this.btn);
 	}
 
-	var e = document.querySelectorAll('[fly-cpop-o]');
 	for(var i = 0; i < e.length; i++ ) {
 		new ConfirmationPop(e[i]);
 	}

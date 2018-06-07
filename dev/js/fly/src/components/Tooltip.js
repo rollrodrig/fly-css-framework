@@ -1,4 +1,6 @@
 (function(){
+	var e = document.querySelectorAll('[fly-tt-o]');
+	if(e.length <= 0 || e.length == null) { return; }
 	function Tooltip(btn) {
 		this.btn = btn;
 		this.closes;
@@ -89,8 +91,7 @@
 		this.tooltip.style.top = top+'px';
 
 	}
-
-	var e = document.querySelectorAll('[fly-tt-o]');
+	
 	for(var i = 0; i < e.length; i++ ) {
 		new Tooltip(e[i]);
 	}

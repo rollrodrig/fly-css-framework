@@ -1,5 +1,6 @@
 (function(){
-	var q = function(e){return document.querySelector(e);}
+	var t = document.querySelectorAll('[fy-nb-dd]');
+	if(t.length <= 0 || t.length == null) { return; }
 	
 	function NavBarDropDown(dropDown) {
 		this.dropDown = dropDown;
@@ -27,11 +28,11 @@
 			this.open = !this.open;
 		});
 	}
-
-	var t = document.querySelectorAll('[fy-nb-dd]');
+	
 	for(var i = 0; i < t.length; i++ ) {
 		new NavBarDropDown(t[i]);
 	}
+	
 })();
 
 

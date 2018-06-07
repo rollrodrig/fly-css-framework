@@ -32,6 +32,10 @@ var Flycssframework = (function(){
 }());	
 },{}],3:[function(require,module,exports){
 (function(){
+	
+	var e = document.querySelectorAll('[fly-cpop-o]');
+	if(e.length <= 0 || e.length == null) { return; }
+
 	function ConfirmationPop(btn) {
 		this.btn = btn;
 		this.closes;
@@ -94,7 +98,6 @@ var Flycssframework = (function(){
 		console.log(this.btn);
 	}
 
-	var e = document.querySelectorAll('[fly-cpop-o]');
 	for(var i = 0; i < e.length; i++ ) {
 		new ConfirmationPop(e[i]);
 	}
@@ -102,6 +105,9 @@ var Flycssframework = (function(){
 })();
 },{}],4:[function(require,module,exports){
 (function(){
+	var e = document.querySelectorAll('[fy-navbar]');
+	if(e.length <= 0 || e.length == null) { return; }
+
 	function NavBar(navbar) {
 		this.navbar = navbar;
 		this.btn;
@@ -109,7 +115,6 @@ var Flycssframework = (function(){
 		this.open = false;
 		this.getElements();
 		this.bindClick();
-		// this.log();
 	}
 	NavBar.prototype.getElements = function(){
 		this.btn = this.navbar.getElementsByClassName('fy-nbb')[0];
@@ -131,11 +136,7 @@ var Flycssframework = (function(){
 		this.navbar.style.height = this.navbarHeigh+"px";
 		this.btn.classList.remove('-on');
 	}
-	NavBar.prototype.log = function(){
-		console.log(this.btn);
-	}
 
-	var e = document.querySelectorAll('[fy-navbar]');
 	for(var i = 0; i < e.length; i++ ) {
 		new NavBar(e[i]);
 	}
@@ -143,7 +144,8 @@ var Flycssframework = (function(){
 })();
 },{}],5:[function(require,module,exports){
 (function(){
-	var q = function(e){return document.querySelector(e);}
+	var t = document.querySelectorAll('[fy-nb-dd]');
+	if(t.length <= 0 || t.length == null) { return; }
 	
 	function NavBarDropDown(dropDown) {
 		this.dropDown = dropDown;
@@ -171,11 +173,11 @@ var Flycssframework = (function(){
 			this.open = !this.open;
 		});
 	}
-
-	var t = document.querySelectorAll('[fy-nb-dd]');
+	
 	for(var i = 0; i < t.length; i++ ) {
 		new NavBarDropDown(t[i]);
 	}
+	
 })();
 
 
@@ -221,7 +223,8 @@ var Flycssframework = (function(){
 })();
 },{}],7:[function(require,module,exports){
 (function(){
-	var q = function(e){return document.querySelector(e);}
+	var t = document.querySelectorAll('[fy-tab]');
+	if(t.length <= 0 || t.length == null) { return; }	
 	function Tab(tab){
 		this.tab = tab;
 		this.currentOpenTab;
@@ -297,7 +300,7 @@ var Flycssframework = (function(){
 			.classList
 			.add(this.tabActiveClass);
 	}
-	var t = document.querySelectorAll('[fy-tab]');
+
 	for(var i = 0; i < t.length; i++ ) {
 		new Tab(t[i]);
 	}
@@ -305,6 +308,8 @@ var Flycssframework = (function(){
 })();
 },{}],8:[function(require,module,exports){
 (function(){
+	var e = document.querySelectorAll('[fly-tt-o]');
+	if(e.length <= 0 || e.length == null) { return; }
 	function Tooltip(btn) {
 		this.btn = btn;
 		this.closes;
@@ -395,8 +400,7 @@ var Flycssframework = (function(){
 		this.tooltip.style.top = top+'px';
 
 	}
-
-	var e = document.querySelectorAll('[fly-tt-o]');
+	
 	for(var i = 0; i < e.length; i++ ) {
 		new Tooltip(e[i]);
 	}
