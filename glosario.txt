@@ -984,6 +984,10 @@ fy-cd
 ### drop down
 .fy-dd
 
+Turn the arrow up
+-o 
+
+
 ### Flash bg
 fy-fbg
 
