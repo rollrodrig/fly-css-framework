@@ -2820,6 +2820,8 @@ a {
 .fy-dd.-xl ._b {
   top: 98px; }
 
+<<<<<<< HEAD
+=======
 .fy-fbg {
   animation-name: fy-fbg;
   animation-duration: 1.2s;
@@ -2877,6 +2879,7 @@ a {
   display: none;
   box-shadow: 2px 4px 10px rgba(195, 195, 195, 0.47); }
 
+>>>>>>> release/0.1.0
 .fy-cntr {
   margin-left: auto;
   margin-right: auto; }
