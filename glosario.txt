@@ -993,8 +993,8 @@ fy-fbg
 
 ### Confirmation popup
 fy-cpop
-
-
+-f # add positiona absolue
+-fx #  change position absolute to fixed
 
 ### tooltip
 fy-tt
