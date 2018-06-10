@@ -2832,12 +2832,12 @@ a {
   100% {
     background-color: transparent; } }
 
-.fy-cpop {
+.fy-pop {
   padding: 40px 25px;
   border: 1px solid #ececec;
   text-align: center;
   background-color: #ffffff; }
-  .fy-cpop.-f {
+  .fy-pop.-f {
     position: absolute;
     top: 10%;
     width: 100%;
@@ -2847,23 +2847,23 @@ a {
     z-index: 1000;
     box-shadow: 2px 4px 10px rgba(195, 195, 195, 0.47); }
     @media only screen and (max-width: 360px) {
-      .fy-cpop.-f {
+      .fy-pop.-f {
         width: 94%;
         left: 3%;
         margin-left: 0; } }
-    .fy-cpop.-f.-off {
+    .fy-pop.-f.-off {
       display: none;
       opacity: 0;
       top: 0px;
       /*transition: top .3s, opacity .3s;*/ }
-    .fy-cpop.-f.-on {
+    .fy-pop.-f.-on {
       display: block;
       opacity: 1;
       top: 80px;
       /*transition: top .3s, opacity .3s;*/ }
-  .fy-cpop.-fx {
+  .fy-pop.-fx {
     position: fixed; }
-  .fy-cpop .fy-btn {
+  .fy-pop .fy-btn {
     margin-bottom: 4px; }
 
 .fy-tt {

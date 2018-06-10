@@ -9,6 +9,6 @@ require('./components/OffCanvas');
 require('./components/NavBar');
 require('./components/Tab');
 require('./components/NavBarDropDown');
-require('./components/ConfirmationPop');
+require('./components/Popup');
 require('./components/Tooltip');
 

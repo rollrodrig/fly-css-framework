@@ -1,6 +1,6 @@
 (function(){
 	
-	var e = document.querySelectorAll('[fly-cpop-o]');
+	var e = document.querySelectorAll('[fly-pop-o]');
 	if(e.length <= 0 || e.length == null) { return; }
 
 	function ConfirmationPop(btn) {
@@ -17,15 +17,15 @@
 	}
 
 	ConfirmationPop.prototype.getPopId = function(){
-		this.popId = this.btn.getAttribute('fly-cpop-o');
+		this.popId = this.btn.getAttribute('fly-pop-o');
 	}
 
 	ConfirmationPop.prototype.getPop = function(){
-		this.pop = document.querySelectorAll('[fly-cpop-w="'+this.popId+'"]')[0];
+		this.pop = document.querySelectorAll('[fly-pop-w="'+this.popId+'"]')[0];
 	}
 	ConfirmationPop.prototype.getClose = function(){
-		this.popId = this.btn.getAttribute('fly-cpop-o');
-		this.closes = this.pop.querySelectorAll('[fly-cpop-c]');
+		this.popId = this.btn.getAttribute('fly-pop-o');
+		this.closes = this.pop.querySelectorAll('[fly-pop-c]');
 
 		for (var i = this.closes.length - 1; i >= 0; i--) {
 			var c = this.closes[i]

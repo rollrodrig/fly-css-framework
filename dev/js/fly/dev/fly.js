@@ -10,11 +10,11 @@ require('./components/OffCanvas');
 require('./components/NavBar');
 require('./components/Tab');
 require('./components/NavBarDropDown');
-require('./components/ConfirmationPop');
+require('./components/Popup');
 require('./components/Tooltip');
 
 
-},{"./components/Base":2,"./components/ConfirmationPop":3,"./components/NavBar":4,"./components/NavBarDropDown":5,"./components/OffCanvas":6,"./components/Tab":7,"./components/Tooltip":8}],2:[function(require,module,exports){
+},{"./components/Base":2,"./components/NavBar":3,"./components/NavBarDropDown":4,"./components/OffCanvas":5,"./components/Popup":6,"./components/Tab":7,"./components/Tooltip":8}],2:[function(require,module,exports){
 var Flycssframework = (function(){
 	var instance;
 	function init(){
@@ -31,79 +31,6 @@ var Flycssframework = (function(){
 	}
 }());	
 },{}],3:[function(require,module,exports){
-(function(){
-	
-	var e = document.querySelectorAll('[fly-cpop-o]');
-	if(e.length <= 0 || e.length == null) { return; }
-
-	function ConfirmationPop(btn) {
-		this.btn = btn;
-		this.closes;
-		this.popId;
-		this.pop;
-		this.getPopId();
-		this.getPop();
-		this.getClose();
-		this.bindClick();
-		this.open = false;
-		// this.log();
-	}
-
-	ConfirmationPop.prototype.getPopId = function(){
-		this.popId = this.btn.getAttribute('fly-cpop-o');
-	}
-
-	ConfirmationPop.prototype.getPop = function(){
-		this.pop = document.querySelectorAll('[fly-cpop-w="'+this.popId+'"]')[0];
-	}
-	ConfirmationPop.prototype.getClose = function(){
-		this.popId = this.btn.getAttribute('fly-cpop-o');
-		this.closes = this.pop.querySelectorAll('[fly-cpop-c]');
-
-		for (var i = this.closes.length - 1; i >= 0; i--) {
-			var c = this.closes[i]
-			c.addEventListener('click', function(e){
-				e.preventDefault()
-				this.off();
-			}.bind(this));
-		}
-
-
-	}
-
-	ConfirmationPop.prototype.bindClick = function(){
-		this.btn.addEventListener('click', function(e){
-			e.preventDefault();
-			this.handleClick();
-		}.bind(this));
-	}
-
-	ConfirmationPop.prototype.handleClick = function(){
-		this.open == false?this.on():this.off();
-	}
-
-	ConfirmationPop.prototype.off = function(){
-		this.pop.classList.remove('-on');
-		this.pop.classList.add('-off');
-		this.open = false;
-	}
-
-	ConfirmationPop.prototype.on = function(){
-		this.pop.classList.remove('-off');
-		this.pop.classList.add('-on');
-		this.open = true;
-	}	
-
-	ConfirmationPop.prototype.log = function(){
-		console.log(this.btn);
-	}
-
-	for(var i = 0; i < e.length; i++ ) {
-		new ConfirmationPop(e[i]);
-	}
-
-})();
-},{}],4:[function(require,module,exports){
 (function(){
 	var e = document.querySelectorAll('[fy-navbar]');
 	if(e.length <= 0 || e.length == null) { return; }
@@ -142,7 +69,7 @@ var Flycssframework = (function(){
 	}
 
 })();
-},{}],5:[function(require,module,exports){
+},{}],4:[function(require,module,exports){
 (function(){
 	var t = document.querySelectorAll('[fy-nb-dd]');
 	if(t.length <= 0 || t.length == null) { return; }
@@ -191,7 +118,7 @@ var Flycssframework = (function(){
 
 
 
-},{}],6:[function(require,module,exports){
+},{}],5:[function(require,module,exports){
 (function(){
 	var q, o = false, on, off, s, b, bt;
 	q = function(e){return document.querySelector(e);}
@@ -220,6 +147,79 @@ var Flycssframework = (function(){
 		o?off():on();
 		o = !o;
 	}
+})();
+},{}],6:[function(require,module,exports){
+(function(){
+	
+	var e = document.querySelectorAll('[fly-pop-o]');
+	if(e.length <= 0 || e.length == null) { return; }
+
+	function ConfirmationPop(btn) {
+		this.btn = btn;
+		this.closes;
+		this.popId;
+		this.pop;
+		this.getPopId();
+		this.getPop();
+		this.getClose();
+		this.bindClick();
+		this.open = false;
+		// this.log();
+	}
+
+	ConfirmationPop.prototype.getPopId = function(){
+		this.popId = this.btn.getAttribute('fly-pop-o');
+	}
+
+	ConfirmationPop.prototype.getPop = function(){
+		this.pop = document.querySelectorAll('[fly-pop-w="'+this.popId+'"]')[0];
+	}
+	ConfirmationPop.prototype.getClose = function(){
+		this.popId = this.btn.getAttribute('fly-pop-o');
+		this.closes = this.pop.querySelectorAll('[fly-pop-c]');
+
+		for (var i = this.closes.length - 1; i >= 0; i--) {
+			var c = this.closes[i]
+			c.addEventListener('click', function(e){
+				e.preventDefault()
+				this.off();
+			}.bind(this));
+		}
+
+
+	}
+
+	ConfirmationPop.prototype.bindClick = function(){
+		this.btn.addEventListener('click', function(e){
+			e.preventDefault();
+			this.handleClick();
+		}.bind(this));
+	}
+
+	ConfirmationPop.prototype.handleClick = function(){
+		this.open == false?this.on():this.off();
+	}
+
+	ConfirmationPop.prototype.off = function(){
+		this.pop.classList.remove('-on');
+		this.pop.classList.add('-off');
+		this.open = false;
+	}
+
+	ConfirmationPop.prototype.on = function(){
+		this.pop.classList.remove('-off');
+		this.pop.classList.add('-on');
+		this.open = true;
+	}	
+
+	ConfirmationPop.prototype.log = function(){
+		console.log(this.btn);
+	}
+
+	for(var i = 0; i < e.length; i++ ) {
+		new ConfirmationPop(e[i]);
+	}
+
 })();
 },{}],7:[function(require,module,exports){
 (function(){

@@ -991,8 +991,8 @@ Turn the arrow up
 ### Flash bg
 fy-fbg
 
-### Confirmation popup
-fy-cpop
+### popup 
+fy-pop
 -f # add positiona absolue
 -fx #  change position absolute to fixed
 
