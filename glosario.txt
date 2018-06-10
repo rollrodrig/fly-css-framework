@@ -984,7 +984,20 @@ fy-cd
 ### drop down
 .fy-dd
 
+Turn the arrow up
+-o 
 
+
+### Flash bg
+fy-fbg
+
+### Confirmation popup
+fy-cpop
+-f # add positiona absolue
+-fx #  change position absolute to fixed
+
+### tooltip
+fy-tt
 
 
 

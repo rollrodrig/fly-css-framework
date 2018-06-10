@@ -1,5 +1,6 @@
 (function(){
-	var q = function(e){return document.querySelector(e);}
+	var t = document.querySelectorAll('[fy-tab]');
+	if(t.length <= 0 || t.length == null) { return; }	
 	function Tab(tab){
 		this.tab = tab;
 		this.currentOpenTab;
@@ -75,7 +76,7 @@
 			.classList
 			.add(this.tabActiveClass);
 	}
-	var t = document.querySelectorAll('[fy-tab]');
+
 	for(var i = 0; i < t.length; i++ ) {
 		new Tab(t[i]);
 	}

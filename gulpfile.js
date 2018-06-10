@@ -10,6 +10,10 @@ var cleanCSS = require('gulp-clean-css');
 var zip = require('gulp-zip');
 var publicPath = './dev/';
 
+// used for minify
+var uglify = require('gulp-uglify');
+var buffer = require('vinyl-buffer');
+
 gulp.task('connect', function(){
     connect.server({
         port:9797,
@@ -39,10 +43,19 @@ gulp.task('build', function () {
     gulp.src(publicPath+'/js/fly/dev/fly.js')
             .pipe(gulp.dest('./dist/'));
 
+    browserify('./dev/js/fly/src/Fly.js')
+        .bundle()
+        .pipe(source('fly.min.js'))
+        .pipe(buffer())
+        .pipe(uglify())
+        .pipe(gulp.dest('./dist/'));
+
+});
+
+gulp.task('zip', function () {
     gulp.src('./dist/*')
         .pipe(zip('fly.zip'))
         .pipe(gulp.dest('./'))            
-
 });
 
 gulp.task('copy', function () {
