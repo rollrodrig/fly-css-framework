@@ -43,7 +43,6 @@ gulp.task('build', function () {
     gulp.src(publicPath+'/js/fly/dev/fly.js')
             .pipe(gulp.dest('./dist/'));
 
-
     browserify('./dev/js/fly/src/Fly.js')
         .bundle()
         .pipe(source('fly.min.js'))
@@ -51,11 +50,12 @@ gulp.task('build', function () {
         .pipe(uglify())
         .pipe(gulp.dest('./dist/'));
 
+});
 
+gulp.task('zip', function () {
     gulp.src('./dist/*')
         .pipe(zip('fly.zip'))
         .pipe(gulp.dest('./'))            
-
 });
 
 gulp.task('copy', function () {
