@@ -27,3 +27,9 @@ https://codepen.io/matuzo/pen/ZQEWjg
 
 
 # done
+
+# referencias
+https://www.blazeui.com/components/tabs
+
+
+
