@@ -1,5 +1,34 @@
 .hljs {
     background-color: transparent;
+    background:transparent;
+}
+.example {
+    margin-bottom: 10px;
+}
+.code {
+    margin-bottom: 10px;
+}
+
+pre {
+    padding: 5px;
+}
+
+.demo {
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.fy-offc,.fy-offc_s {
+    background-color: transparent;
+}
+.properties {
+    margin-bottom: 15px;
+}
+
+.comp-t {
+}
+.comp-st {
+    text-transform: capitalize;
 }
 
 .fy-nbb {

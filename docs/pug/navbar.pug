@@ -1,0 +1,290 @@
+extends _layout.pug
+include _mixins
+block content
+	article.fy-bx
+		+title('Navbar')
+		+resume
+			p Responsive horizontal navbar. It can contain menu link, logo, button, search bar, etc.
+		
+		//- spec
+		+section
+			+subtitle('usage')
+			+description
+				p Default hero has a max-width and center the content.
+			+demo
+				+example.
+						<div class="fy-nb">
+						    <div class="fy-nb_lgo">
+						        Logo
+						    </div>
+						    <div class="fy-nbb">
+						        <span></span>
+						        <span></span>
+						        <span></span>
+						    </div>
+						</div> 
+				+code.
+					<div class="fy-nb">
+					    <div class="fy-nb_lgo">
+					        Logo
+					    </div>
+					    <div class="fy-nbb">
+					        <span></span>
+					        <span></span>
+					        <span></span>
+					    </div>
+					</div>
+
+				+open_example('')
+
+		
+		//- spec
+		+section
+			+subtitle('Menu items')
+			+description
+				p Add link to menu in the <code class="fy-cd">fy-nb_gl</code> element.
+				p Highlight the current menu item adding the <code class="fy-cd">-a</code> to menu item.
+			
+			+demo
+				+example.
+					<div class="fy-nb">
+					    <div class="fy-nb_lgo">
+					        Logo
+					    </div>
+					    <div class="fy-nbb">
+					        <span></span>
+					        <span></span>
+					        <span></span>
+					    </div>
+					    <div class="fy-nb_gl">
+					        <a href="#" class="fy-nb_l">Home</a>
+					        <a href="#" class="fy-nb_l -a">About</a>
+					        <a href="#" class="fy-nb_l">Login</a>	
+					        <a href="#" class="fy-nb_l">Signup</a>
+					    </div>
+					</div>						
+				+code.
+					<div class="fy-nb">
+					    <div class="fy-nb_lgo">
+					        Logo
+					    </div>
+					    <div class="fy-nbb">
+					        <span></span>
+					        <span></span>
+					        <span></span>
+					    </div>
+					    <div class="fy-nb_gl">
+					        <a href="#" class="fy-nb_l">Home</a>
+					        <a href="#" class="fy-nb_l -a">About</a>
+					        <a href="#" class="fy-nb_l">Login</a>	
+					        <a href="#" class="fy-nb_l">Signup</a>
+					    </div>
+					</div>
+				+open_example('')
+
+
+
+		//- spec
+		+section
+			+subtitle('Menu items orientation')
+			+description
+				p Align group of link in the navbar to left or right. <code class="fy-cd">fy-nb_gl_ol</code> should be inside group link.
+			
+			+demo
+				+example.
+					<div class="fy-nb">
+					    <div class="fy-nb_lgo">
+					        Logo
+					    </div>
+					    <div class="fy-nbb">
+					        <span></span>
+					        <span></span>
+					        <span></span>
+					    </div>
+					    <div class="fy-nb_gl">
+					        <div class="fy-nb_gl_ol">
+					            <a href="#" class="fy-nb_l">About</a>
+					            <a href="#" class="fy-nb_l">Document</a>
+					            <a href="#" class="fy-nb_l">Example</a>
+					        </div>
+					        <div class="fy-nb_gl_or">
+					            <a href="#" class="fy-nb_l">Login</a>
+					            <a href="#" class="fy-nb_l">Register</a>
+					        </div>
+					    </div>
+					</div>					
+				+code.
+					<div class="fy-nb">
+					    <div class="fy-nb_lgo">
+					        Logo
+					    </div>
+					    <div class="fy-nbb">
+					        <span></span>
+					        <span></span>
+					        <span></span>
+					    </div>
+					    <div class="fy-nb_gl">
+					        <div class="fy-nb_gl_ol">
+					            <a href="#" class="fy-nb_l">About</a>
+					            <a href="#" class="fy-nb_l">Document</a>
+					            <a href="#" class="fy-nb_l">Example</a>
+					        </div>
+					        <div class="fy-nb_gl_or">
+					            <a href="#" class="fy-nb_l">Login</a>
+					            <a href="#" class="fy-nb_l">Register</a>
+					        </div>
+					    </div>
+					</div>
+				+open_example('')
+
+
+
+
+		//- spec
+		+section
+			+subtitle('Menu drop down')
+			+description
+				p Useful menu with drop down items
+			
+			+demo
+				+example.
+					<div class="fy-nb" fy-navbar>
+					    <div class="fy-nb_lgo">
+					        Logo
+					    </div>
+					    <div class="fy-nbb">
+					        <span></span>
+					        <span></span>
+					        <span></span>
+					    </div>
+					    <div class="fy-nb_gl">
+					        <a href="#" class="fy-nb_l">Normal</a>
+					        <div href="#" class="fy-nb_dd" fy-nb-dd>
+					            Drop down
+					            <div class="_b">
+					                <span class="_t"></span>
+					                <div class="_l">
+					                    <a href="">LoremIpsum</a>
+					                    <a href="">Consectetur</a>
+					                    <a href="">Wuibusdam</a>
+					                </div>
+					            </div>
+					        </div>
+
+					        <a href="#" class="fy-nb_l">Regular</a>
+
+					        <div href="#" class="fy-nb_dd" fy-nb-dd>
+					            Drop down
+
+					            <div class="_b">
+					                <span class="_t"></span>
+					                <div class="_l">
+					                    <a href="">LoremIpsum</a>
+					                    <a href="">Consectetur</a>
+					                    <a href="">Aadipisicing</a>
+					                    <a href="">Wuibusdam</a>
+					                </div>
+					            </div>
+					        </div>
+					        <a href="#" class="fy-nb_l">Something</a>
+					    </div>
+					</div>				
+				+code.
+					<div class="fy-nb" fy-navbar>
+					    <div class="fy-nb_lgo">
+					        Logo
+					    </div>
+					    <div class="fy-nbb">
+					        <span></span>
+					        <span></span>
+					        <span></span>
+					    </div>
+					    <div class="fy-nb_gl">
+					        <a href="#" class="fy-nb_l">Normal</a>
+					        <div href="#" class="fy-nb_dd" fy-nb-dd>
+					            Drop down
+					            <div class="_b">
+					                <span class="_t"></span>
+					                <div class="_l">
+					                    <a href="">LoremIpsum</a>
+					                    <a href="">Consectetur</a>
+					                    <a href="">Wuibusdam</a>
+					                </div>
+					            </div>
+					        </div>
+
+					        <a href="#" class="fy-nb_l">Regular</a>
+
+					        <div href="#" class="fy-nb_dd" fy-nb-dd>
+					            Drop down
+
+					            <div class="_b">
+					                <span class="_t"></span>
+					                <div class="_l">
+					                    <a href="">LoremIpsum</a>
+					                    <a href="">Consectetur</a>
+					                    <a href="">Aadipisicing</a>
+					                    <a href="">Wuibusdam</a>
+					                </div>
+					            </div>
+					        </div>
+					        <a href="#" class="fy-nb_l">Something</a>
+					    </div>
+					</div>
+				+open_example('')
+
+
+
+
+		//- spec
+		+section
+			+subtitle('Navbar Size')
+			+description
+				p An small version of the navbar. Useful as sub-menu
+			+properties([{'r':'-s','d':'	Navbar small'}])
+			+demo
+				+example.
+					<div class="fy-nb -s">
+					    <div class="fy-nb_lgo">
+					        Logo
+					    </div>
+					    <div class="fy-nbb">
+					        <span></span>
+					        <span></span>
+					        <span></span>
+					    </div>
+					    <div class="fy-nb_gl">
+					        <div class="fy-nb_gl_ol">
+					            <a href="#" class="fy-nb_l">About</a>
+					            <a href="#" class="fy-nb_l">Document</a>
+					            <a href="#" class="fy-nb_l">Example</a>
+					        </div>
+					        <div class="fy-nb_gl_or">
+					            <a href="#" class="fy-nb_l">Login</a>
+					            <a href="#" class="fy-nb_l">Register</a>
+					        </div>
+					    </div>
+					</div>			
+				+code.
+					<div class="fy-nb -s">
+					    <div class="fy-nb_lgo">
+					        Logo
+					    </div>
+					    <div class="fy-nbb">
+					        <span></span>
+					        <span></span>
+					        <span></span>
+					    </div>
+					    <div class="fy-nb_gl">
+					        <div class="fy-nb_gl_ol">
+					            <a href="#" class="fy-nb_l">About</a>
+					            <a href="#" class="fy-nb_l">Document</a>
+					            <a href="#" class="fy-nb_l">Example</a>
+					        </div>
+					        <div class="fy-nb_gl_or">
+					            <a href="#" class="fy-nb_l">Login</a>
+					            <a href="#" class="fy-nb_l">Register</a>
+					        </div>
+					    </div>
+					</div>
+				+open_example('')

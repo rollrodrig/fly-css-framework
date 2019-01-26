@@ -1,0 +1,119 @@
+.fy-bx
+	.fy-mb10.fy-mt30
+		a(href="/" onclick="gtag('event', 'go_home',{'event_category':'navigation'});")
+			img.logo(src="images/logo-.png" alt="")
+	.fy-mb10.fy-txac
+		|Simple and beauty<br>css framework
+
+	.fy-cg
+		.fy-ss.-s
+			._i
+				a(href="{{config('social.facebook')}}" target="_blank" onclick="gtag('event', 'go_fan_page',{'event_category':'social','event_label':'sidebar'});")
+					i.fab.fa-facebook-f
+			._i
+				a(href="{{config('social.twitter')}}" target="_blank" onclick="gtag('event', 'go_fan_page',{'event_category':'social','event_label':'sidebar'});")
+					i.fab.fa-twitter
+			._i
+				a(href="{{config('social.github')}}" target="_blank" onclick="gtag('event', 'go_fan_page',{'event_category':'social','event_label':'sidebar'});")
+					i.fab.fa-github
+
+	.fy-cg.fy-mt50
+		.fy-btng
+			a.fy-btn(href="https://github.com/rollrodrig/fly-css-framework" target="_blank" onclick="gtag('event', 'github_repo',{'event_category':'download','event_label':'home'});") Github
+			a.fy-btn(href="https://github.com/rollrodrig/fly-css-framework/archive/master.zip" onclick="gtag('event', 'download_zip',{'event_category':'download','event_label':'home'});") Download
+			a.fy-btn(href="docs.html" onclick="gtag('event', 'docs',{'event_category':'navigation','event_label':'home'});") Docs
+	
+
+
+
+	mixin uitem(href, name)
+		li
+			a(href="#{href}") #{name}
+
+	ul.fy-nv.-tc
+		+uitem('','Getting started')
+		+uitem("installation","Installation")
+		+uitem("breakpoints","Breakpoints")
+		+uitem("modifier","Modifier")
+		//- +uitem("column-size","Column size")
+		+uitem("css-names","Css names")
+
+	ul.fy-nv.-tc
+		+uitem("", "Colors")
+		+uitem("color", "Color")
+		+uitem("background-color", "Background Color")
+
+
+	ul.fy-nv.-tc
+		+uitem("", "Layout")
+		+uitem("color", "Container")
+		+uitem("hero", "Hero")
+		+uitem("navbar", "Navbar")
+		//- +uitem("off-canvas", "Off canvas")
+		+uitem("align", "Align")
+
+	ul.fy-nv.-tc
+		+uitem("", "Grid")
+		+uitem("grid", "Grid")
+		+uitem("grid-flex", "Grid-flex")
+		+uitem("width", "Width")
+
+	ul.fy-nv.-tc
+		+uitem("", "Layout")
+		+uitem("text", "Text")
+		+uitem("title", "Title")
+		+uitem("subtitle", "Subtitle")
+		+uitem("font-size", "Font size")
+		+uitem("font-weight", "Font weight")
+		+uitem("highlight-text", "Highlight text")
+		+uitem("bullet", "Bullet")
+		+uitem("ul-list", "Ul list")
+
+	ul.fy-nv.-tc
+		+uitem("", "Form")
+		+uitem("form-fields", "Form fields")
+
+	ul.fy-nv.-tc
+		+uitem("","Components")
+		+uitem("alert","Alert")
+		+uitem("badge","Badge")
+		+uitem("breadcrumb","Breadcrumb")
+		+uitem("button","Button")
+		+uitem("card","Card")
+		+uitem("close","Close")
+		+uitem("divider","Divider")
+		+uitem("drop-down","down")
+
+	ul.fy-nv.-tc
+		+uitem("link", "Link")
+		+uitem("loading", "Loading")
+		+uitem("box", "Box")
+		+uitem("description-list", "Description list")
+		+uitem("label", "Label")
+		+uitem("list-group", "List group")
+		+uitem("meta-text","Meta text")
+		+uitem("meta-stack", "Meta stack")
+		+uitem("nav", "Nav")
+		+uitem("navbar-button", "Navbar button")
+		+uitem("pagination", "Pagination")
+		+uitem("profile", "Profile")
+		+uitem("popup", "Popup")
+		+uitem("social", "Social")
+		+uitem("tab", "Tab")
+		+uitem("table", "Table")
+		+uitem("tooltip", "Tooltip")
+
+	ul.fy-nv.-tc
+		+uitem("", "Uilities")
+		+uitem("center", "Center")
+		+uitem("code", "Code")
+		+uitem("code-color", "Code color")
+		+uitem("center-group", "Center group")
+		+uitem("margin", "Margin")
+		+uitem("padding", "Padding")
+		+uitem("remove-margin","Remove margin")
+		+uitem("remove-padding","Remove padding")
+		+uitem("self-align", "Self align")
+		+uitem("hide", "Hide")
+		+uitem("show", "Show")
+		+uitem("clearfix", "Clearfix")

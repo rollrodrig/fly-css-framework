@@ -1,0 +1,26 @@
+extends _layout.pug
+include _mixins
+block content
+	article.fy-bx
+		+title('Width')
+		+resume
+			p Give any element a one or more column size. 
+
+
+		//- spec
+		+section
+			+subtitle('usage')
+			+description
+				p Default hero has a max-width and center the content.
+			+demo
+				+example
+					.example-width.
+						<div class="fy-wd1">
+							width 1
+						</div>
+				+code.
+					<div class="fy-wd1">
+						width 1
+					</div> 
+				+open_example('')
+

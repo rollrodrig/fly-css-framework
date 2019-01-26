@@ -1,0 +1,82 @@
+extends _layout.pug
+include _mixins
+block content
+	article.fy-bx
+		+title('Css names')
+		+resume
+			p A group of useful text colors.
+		
+		//- spec
+		+section
+			+subtitle('color')
+			+properties([{'r':'fy-cop','d':'color primary'},{'r':'fy-cos','d':'color secondary'},{'r':'fy-coss','d':'color success'},{'r':'fy-cow','d':'color warning'},{'r':'fy-cod','d':'color danger'},{'r':'fy-coi','d':'color info'},{'r':'fy-col','d':'color light'},{'r':'fy-codk','d':'color dark'}])
+			+demo
+				+example
+					|<div class="fy-cop">color primary</div>
+					|<div class="fy-cos">color secondary</div>
+					|<div class="fy-coss">color success</div>
+					|<div class="fy-cow">color warning</div>
+					|<div class="fy-cod">color danger</div>
+					|<div class="fy-coi">color info</div>
+					|<div class="fy-col">color light</div>
+					|<div class="fy-codk">color dark</div>
+				+code
+					|<div class="fy-cop">color primary</div>
+					|<div class="fy-cos">color secondary</div>
+					|<div class="fy-coss">color success</div>
+					|<div class="fy-cow">color warning</div>
+					|<div class="fy-cod">color danger</div>
+					|<div class="fy-coi">color info</div>
+					|<div class="fy-col">color light</div>
+					|<div class="fy-codk">color dark</div>
+
+
+		//- spec
+		+section
+			+subtitle('Lighter version')
+			+properties([{'r':'fy-copl', 'd':'color primary lighter'},{'r':'fy-cosl', 'd':'color secondary lighter'},{'r':'fy-cossl', 'd':'color success lighter'},{'r':'fy-cowl', 'd':'color warning lighter'},{'r':'fy-codl', 'd':'color danger lighter'},{'r':'fy-coil', 'd':'color info lighter'},{'r':'fy-coll', 'd':'color light lighter'},{'r':'fy-codkl', 'd':'color dark lighter'}])
+			+demo
+				+example
+					|<div class="fy-copl">color primary lighter</div>
+					|<div class="fy-cosl">color secondary lighter</div>
+					|<div class="fy-cossl">color success lighter</div>
+					|<div class="fy-cowl">color warning lighter</div>
+					|<div class="fy-cd">color danger lighter</div>
+					|<div class="fy-coil">color info lighter</div>
+					|<div class="fy-coll">color light lighter</div>
+					|<div class="fy-codkl">color dark lighter</div>
+				+code
+					|<div class="fy-copl">color primary lighter</div>
+					|<div class="fy-cosl">color secondary lighter</div>
+					|<div class="fy-cossl">color success lighter</div>
+					|<div class="fy-cowl">color warning lighter</div>
+					|<div class="fy-cd">color danger lighter</div>
+					|<div class="fy-coil">color info lighter</div>
+					|<div class="fy-coll">color light lighter</div>
+					|<div class="fy-codkl">color dark lighter</div>
+
+
+
+		//- spec
+		+section
+			+subtitle('Darker version')
+			+properties([{'r':'fy-copd', 'd':'color primary darker'},{'r':'fy-cosd', 'd':'color secondary darker'},{'r':'fy-cossd', 'd':'color success darker'},{'r':'fy-cowd', 'd':'color warning darker'},{'r':'fy-codd', 'd':'color danger darker'},{'r':'fy-coid', 'd':'color info darker'},{'r':'fy-cold', 'd':'color light darker'},{'r':'fy-codkd', 'd':'color dark darker'}])
+			+demo
+				+example
+					|<div class="fy-copd">color primary darker</div>
+					|<div class="fy-cosd">color secondary darker</div>
+					|<div class="fy-cossd">color success darker</div>
+					|<div class="fy-cowd">color warning darker</div>
+					|<div class="fy-codd">color danger darker</div>
+					|<div class="fy-coid">color info darker</div>
+					|<div class="fy-cold">color light darker</div>
+					|<div class="fy-codkd">color dark darker</div>
+				+code
+					|<div class="fy-copd">color primary darker</div>
+					|<div class="fy-cosd">color secondary darker</div>
+					|<div class="fy-cossd">color success darker</div>
+					|<div class="fy-cowd">color warning darker</div>
+					|<div class="fy-codd">color danger darker</div>
+					|<div class="fy-coid">color info darker</div>
+					|<div class="fy-cold">color light darker</div>
+					|<div class="fy-codkd">color dark darker</div>			

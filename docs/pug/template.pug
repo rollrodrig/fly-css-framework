@@ -1,16 +1,39 @@
 extends _layout.pug
+include _mixins
 block content
-	.fy-ctnr.-nm
-		.fy-nb.fy-bct.fy-shm
-			div
-			#btn-nav.fy-nbb(fy-offc-bt)
-				span
-				span
-				span
-		.fy-offc
-		.fy-offc_s(fy-offc-s)
-			|sidebar
-		.fy-offc_b(fy-offc-b)
-			div(class="fy-wd8@l")
-				article.fy-bx
-					|content
+	article.fy-bx
+		+title('Component Title')
+		+resume
+			p All the rules(except <a href="{{route('docs',[$version,'modifier'])}}">modifiers</a>) uses a <code class="fy-cd">fy-</code> prefix to avoid conflicts with another css frameworks.
+				
+		//- spec
+		+subtitle('example')
+		+description
+			p Clone the last version of the framework from
+				a(href="{{$github}}" onclick="gtag('event', 'github',{'event_category':'docs'});" target="_blank") github 
+				|or direct download from
+				a(href="{{$download}}" onclick="gtag('event', 'download',{'event_category':'docs'});") here
+		+demo
+			+example
+				button.fy-btn Button
+			+code
+				button.fy-btn Button
+
+			+open_example('')
+
+		//- spec
+		+subtitle('sizes')
+		+properties([{'r':'-xs','d':'extra small'},{'r':'-s','d':'small'},{'r':'','d':'medium'},{'r':'-l','d':'large'},{'r':'-xl','d':'extra large'}])
+		+demo
+			+example
+				button.fy-btn.-xs Button Extra Small
+				button.fy-btn.-s Button Small
+				button.fy-btn Button Medium
+				button.fy-btn.-l Button Large
+				button.fy-btn.-xl Extra Large
+			+code
+				button.fy-btn.-xs Button Extra Small
+				button.fy-btn.-s Button Small
+				button.fy-btn Button Medium
+				button.fy-btn.-l Button Large
+				button.fy-btn.-xl Extra Large A

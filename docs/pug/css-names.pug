@@ -1,0 +1,22 @@
+extends _layout.pug
+include _mixins
+block content
+	article.fy-bx
+		+title('Css names')
+		+resume
+			p All the rules(except <a href="{{route('docs',[$version,'modifier'])}}">modifiers</a>) uses a <code class="fy-cd">fy-</code> prefix to avoid conflicts with another css frameworks.		
+		
+		//- spec
+		+space
+		+subtitle('example')
+		+description
+			p We use small css names to optimize the final size of the compressed css file. <br> For example for button we use the name <code class="fy-cd">.fy-btn</code> and for larger button we use modifiers <code class="fy-cd">-l</code> and together becomes in a simple short rule like <code class="fy-cd">fy-btn -l</code>
+		+demo
+			+code
+				|<button class="fy-btn -l">Button</button>
+				|<button class="fy-btn -s">Button</button>
+				|<button class="fy-btn -xs">Button</button>
+			+example
+				|<button class="fy-btn -l">Button</button>
+				|<button class="fy-btn -s">Button</button>
+				|<button class="fy-btn -xs">Button</button>

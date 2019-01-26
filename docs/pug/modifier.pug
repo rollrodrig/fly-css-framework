@@ -1,0 +1,29 @@
+extends _layout.pug
+include _mixins
+block content
+	article.fy-bx
+		h1.fy-ti.-s5 Modifier
+		
+		//- spec
+		+subtitle('Screen Size', 'screen-size')
+		+description
+			p Simple modifier to alter the default properties of each element. Using the modifier you can change the size of the button or the color of a label only applying one extra css rule.
+		+properties([{'r':'-l','d':'Large'}])
+		+description
+			p if you apply the -l rule to an element it will be larger than the normal size.
+		+demo
+		
+
+		//- spec
+		+subtitle('example')
+		+description
+			p Add the modifier <span class="fy-cd">-l</span> to a class <span class="fy-cd">fy-btn</span> to element and alter its properties
+		+demo
+			+example
+				button.fy-btn Button Medium
+				button.fy-btn.-l Button Large
+
+			+code
+				|<button class="fy-btn">Button Medium</button>
+				|<button class="fy-btn -l">Button Large</button>
+

@@ -1,5 +1,5 @@
-doctype html
-html.aui(lang="es",class="no-js")
+|<!DOCTYPE html>
+html(lang="es")
 	head
 		title fly css framework
 		meta(charset="utf-8")
@@ -23,12 +23,27 @@ html.aui(lang="es",class="no-js")
 		meta(name="msapplication-TileColor" content="#ffffff")
 		meta(name="msapplication-TileImage" content="/ms-icon-144x144.png")
 		meta(name="theme-color" content="#ffffff")
-		link(rel="stylesheet", href="http://localhost:9797/dev/css/fly.css")
-		link(rel="stylesheet", href="css/fly-theme.css")
-		link(rel="stylesheet", href="css/font-awesome/font-awesome.css")
-		link(rel="stylesheet", href="css/xcode.css")
+		link(rel="stylesheet" type="text/css" href="http://localhost:9797/dev/css/fly.css")
+		link(rel="stylesheet" type="text/css" href="css/highlight/xcode.css")
+		link(rel="stylesheet" type="text/css" href="css/font-awesome/font-awesome.css")
+		link(rel="stylesheet" type="text/css" href="css/fly-theme.css")
 
 	body
-		block content
+		.fy-offc
+			.fy-offc_s
+				include _sidebar
+			.fy-offc_b
+				block content
 
-		script(src="js/highlight.js")
+		script(src="js/highlight.min.js")
+		script
+			.
+				var code = document.getElementsByTagName('code');
+				for(var i in code)
+				{
+					if(parseInt(i) == i) {
+						code[i].innerHTML = code[i].innerHTML.replace(/</g,'&lt;').replace(/>/g,'&gt;')
+					}
+				}
+				hljs.initHighlightingOnLoad();			
+

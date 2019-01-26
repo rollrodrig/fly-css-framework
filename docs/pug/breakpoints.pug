@@ -1,0 +1,24 @@
+extends _layout.pug
+include _mixins
+block content
+	article.fy-bx
+		h1.fy-ti.-s5 Breakpoints
+		
+		//- spec
+		+subtitle('Screen Size', 'screen-size')
+		+description
+			p Fly css use four breakpoints
+		+properties([{'r':'from 0 to 540px','d':'Extra small'},{'r':'from 541px to 768px','d':'Small'},{'r':'from 769px to 980px','d':'Medium'},{'r':'981px and larger','d':''}])
+		+demo
+
+		//- spec
+		+subtitle('example')
+		+description
+			p Many times in the documentation you will see something like
+		+properties([{'r':'...@m','d':'The grid flex is active when the screen > 768px'}])
+		+description
+			p It means that this css rule only works for screen from 769px and larger
+		+demo
+			+code
+				|&lt;link href="css/fly.css" rel="stylesheet"&gt;
+

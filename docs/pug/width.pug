@@ -1,0 +1,95 @@
+extends _layout.pug
+include _mixins
+block content
+	article.fy-bx
+		+title('Width')
+		+resume
+			p Give any element a one or more column size. 
+
+
+		//- spec
+		+section
+			+subtitle('usage')
+			+description
+				p Default hero has a max-width and center the content.
+			+demo
+				+example
+					.example-width.
+						<div class="fy-wd1">
+							width 1
+						</div>
+				+code.
+					<div class="fy-wd1">
+						width 1
+					</div> 
+				+open_example('')
+
+
+		//- spec
+		+section
+			+subtitle('Sizes')
+			+description
+				p Flexible sizes <code class="fy-cd">fy-wd[1-12]</code>
+			+demo
+				+example
+					.example-width.
+						<div class="fy-wd1">
+							width 1
+						</div>
+						<div class="fy-wd2">
+							width 2
+						</div>
+						<div class="fy-wd3">
+							width 3
+						</div>
+						<div class="fy-wd4">
+							width 4
+						</div>
+				+code.
+					<div class="fy-wd1">
+						width 1
+					</div>
+					<div class="fy-wd2">
+						width 2
+					</div>
+					<div class="fy-wd3">
+						width 3
+					</div>
+					<div class="fy-wd4">
+						width 4
+					</div>
+				+open_example('')
+
+		
+
+
+		//- spec
+		+section
+			+subtitle('Responsive')
+			+description
+				p Add the modifier <code class="fy-cd">fy-wd[1-12][@xs|@s|@m|@l]</code> to active the width for some screen sizes.
+			+properties([{'r':'fy-wd[1-12]@s', 'd':'Width active when the screen > 560px'},{'r':'fy-wd[[1-12]@m', 'd':'Width active when the screen > 768px'},{'r':'fy-wd[[1-12]@l', 'd':'Width active when the screen > 980px'}])
+			+demo
+				+example
+					.example-width.
+						<div class="fy-wd1@s">
+							width 1
+						</div>
+						<div class="fy-wd2@m">
+							width 2
+						</div>
+						<div class="fy-wd3@l">
+							width 3
+						</div>
+				+code.
+					<div class="fy-wd1@s">
+						width 1
+					</div>
+					<div class="fy-wd2@m">
+						width 2
+					</div>
+					<div class="fy-wd3@l">
+						width 3
+					</div>
+				+open_example('')
+

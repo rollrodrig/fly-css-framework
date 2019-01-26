@@ -1,0 +1,82 @@
+extends _layout.pug
+include _mixins
+block content
+	article.fy-bx
+		+title('Background color')
+		+resume
+			p A group of useful colors to override the default background color.
+		
+		//- spec
+		+section
+			+subtitle('Available Colors')
+			+properties([{'r':'fy-bcp','d':'background color primary'},{'r':'fy-bcs','d':'background color secondary'},{'r':'fy-bcss','d':'background color success'},{'r':'fy-bcw','d':'background color warning'},{'r':'fy-bcd','d':'background color danger'},{'r':'fy-bci','d':'background color info'},{'r':'fy-bcl','d':'background color light'},{'r':'fy-bcdk','d':'background color dark'}])
+			+demo
+				+example
+					|<div class="fy-bcp">backogrund color primary</div>
+					|<div class="fy-bcs">backogrund color secondary</div>
+					|<div class="fy-bcss">backogrund color success</div>
+					|<div class="fy-bcw">backogrund color warning</div>
+					|<div class="fy-bcd">backogrund color danger</div>
+					|<div class="fy-bci">backogrund color info</div>
+					|<div class="fy-bcl">backogrund color light</div>
+					|<div class="fy-bcdk">backogrund color dark</div>
+				+code
+					|<div class="fy-bcp">backogrund color primary</div>
+					|<div class="fy-bcs">backogrund color secondary</div>
+					|<div class="fy-bcss">backogrund color success</div>
+					|<div class="fy-bcw">backogrund color warning</div>
+					|<div class="fy-bcd">backogrund color danger</div>
+					|<div class="fy-bci">backogrund color info</div>
+					|<div class="fy-bcl">backogrund color light</div>
+					|<div class="fy-bcdk">backogrund color dark</div>
+
+
+		//- spec
+		+section
+			+subtitle('Light background color')
+			+properties([{'r':'fy-bcpl','d':'Lighter background color primary'},{'r':'fy-bcsl','d':'Lighter background color secondary'},{'r':'fy-bcssl','d':'Lighter background color success'},{'r':'fy-bcwl','d':'Lighter background color warning'},{'r':'fy-bcdl','d':'Lighter background color danger'},{'r':'fy-bcil','d':'Lighter background color info'},{'r':'fy-bcll','d':'Lighter background color light'},{'r':'fy-bcdkl','d':'Lighter background color dark'}])
+			+demo
+				+example
+					|<div class="fy-bcpl"> Lighter backogrund color primary</div>
+					|<div class="fy-bcsl"> Lighter backogrund color secondary</div>
+					|<div class="fy-bcssl"> Lighter backogrund color success</div>
+					|<div class="fy-bcwl"> Lighter backogrund color warning</div>
+					|<div class="fy-bcdl"> Lighter backogrund color danger</div>
+					|<div class="fy-bcil"> Lighter backogrund color info</div>
+					|<div class="fy-bcll"> Lighter backogrund color light</div>
+					|<div class="fy-bcdkl"> Lighter backogrund color dark</div>
+				+code
+					|<div class="fy-bcpl"> Lighter backogrund color primary</div>
+					|<div class="fy-bcsl"> Lighter backogrund color secondary</div>
+					|<div class="fy-bcssl"> Lighter backogrund color success</div>
+					|<div class="fy-bcwl"> Lighter backogrund color warning</div>
+					|<div class="fy-bcdl"> Lighter backogrund color danger</div>
+					|<div class="fy-bcil"> Lighter backogrund color info</div>
+					|<div class="fy-bcll"> Lighter backogrund color light</div>
+					|<div class="fy-bcdkl"> Lighter backogrund color dark</div>
+
+
+
+		//- spec
+		+section
+			+subtitle('Darker background color')
+			+properties([{'r':'fy-bcpd','d':'Darker background color primary'},{'r':'fy-bcsd','d':'Darker background color secondary'},{'r':'fy-bcssd','d':'Darker background color success'},{'r':'fy-bcwd','d':'Darker background color warning'},{'r':'fy-bcdd','d':'Darker background color danger'},{'r':'fy-bcid','d':'Darker background color info'},{'r':'fy-bcld','d':'Darker background color light'},{'r':'fy-bcdkd','d':'Darker background color dark'}])
+			+demo
+				+example
+					|<div class="fy-bcpd"> Darker backogrund color primary</div>
+					|<div class="fy-bcsd"> Darker backogrund color secondary</div>
+					|<div class="fy-bcssd"> Darker backogrund color success</div>
+					|<div class="fy-bcwd"> Darker backogrund color warning</div>
+					|<div class="fy-bcdd"> Darker backogrund color danger</div>
+					|<div class="fy-bcid"> Darker backogrund color info</div>
+					|<div class="fy-bcld"> Darker backogrund color light</div>
+					|<div class="fy-bcdkd"> Darker backogrund color dark</div>
+				+code
+					|<div class="fy-bcpd"> Darker backogrund color primary</div>
+					|<div class="fy-bcsd"> Darker backogrund color secondary</div>
+					|<div class="fy-bcssd"> Darker backogrund color success</div>
+					|<div class="fy-bcwd"> Darker backogrund color warning</div>
+					|<div class="fy-bcdd"> Darker backogrund color danger</div>
+					|<div class="fy-bcid"> Darker backogrund color info</div>
+					|<div class="fy-bcld"> Darker backogrund color light</div>
+					|<div class="fy-bcdkd"> Darker backogrund color dark</div>		

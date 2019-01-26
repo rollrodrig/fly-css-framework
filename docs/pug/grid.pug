@@ -1,0 +1,200 @@
+extends _layout.pug
+include _mixins
+block content
+	article.fy-bx
+		+title('Grid')
+		+resume
+		
+		//- spec
+		+section
+			+subtitle('usage')
+			+description
+				p Default hero has a max-width and center the content.
+			+demo
+				+example
+					.example-grid.
+						<div class="fy-gc">
+						    <div class="fy-gcm3">Column size 3</div>
+						    <div class="fy-gcm4">Column size 4</div>
+						    <div class="fy-gcm5">Column size 5</div>
+						</div>  
+				+code.
+					<div class="fy-gc">
+					    <div class="fy-gcm3">Column size 3</div>
+					    <div class="fy-gcm4">Column size 4</div>
+					    <div class="fy-gcm5">Column size 5</div>
+					</div>  
+				+open_example('')
+
+		
+		//- spec
+		+section
+			+subtitle('Grid container')
+			+description
+				p Is the wrapper for all the columns
+			+properties([{'r':'-ar','d':'Align element to right'},{'r':'-ctr','d':'center elements'}])
+			+demo
+				+example
+					.example-grid.
+						<div class="fy-gc">
+						    this is the grid container
+						</div>				
+				+code.
+					<div class="fy-gc">
+					    this is the grid container
+					</div>	
+				+open_example('')
+
+
+		//- spec
+		+section
+			+subtitle('Grid columns')
+			+description
+				p The grid numeration start from 1 to 12, example <span class="fy-codl">fy-gcs5</span>
+			+properties([{'r':'fy-gcxs[1-12]','d':'The grid is always active'},{'r':'fy-gcs[1-12]','d':'Active the grid only when the screen is > 560px'},{'r':'fy-gcm[1-12]','d':'Active the grid only when the screen is > 768px'},{'r':'fy-gcl[1-12]','d':'Active the grid only when the screen is > 980px'}])
+			+demo
+				+example
+					.example-grid.
+						<div class="fy-gc">
+						    <div class="fy-gcl6">large 6</div>
+						    <div class="fy-gcl6">large 6</div>
+						</div>
+						<div class="fy-gc">
+						    <div class="fy-gcm4">medium 4</div>
+						    <div class="fy-gcm8">medium 8</div>
+						</div>
+						<div class="fy-gc">
+						    <div class="fy-gcs7">small 7</div>
+						    <div class="fy-gcs5">small 5</div>
+						</div>
+						<div class="fy-gc">
+						    <div class="fy-gcxs8">extra small  8</div>
+						    <div class="fy-gcxs4">extra small  4</div>
+						</div>			
+				+code.
+					<div class="fy-gc">
+					    <div class="fy-gcl6">large 6</div>
+					    <div class="fy-gcl6">large 6</div>
+					</div>
+					<div class="fy-gc">
+					    <div class="fy-gcm4">medium 4</div>
+					    <div class="fy-gcm8">medium 8</div>
+					</div>
+					<div class="fy-gc">
+					    <div class="fy-gcs7">small 7</div>
+					    <div class="fy-gcs5">small 5</div>
+					</div>
+					<div class="fy-gc">
+					    <div class="fy-gcxs8">extra small  8</div>
+					    <div class="fy-gcxs4">extra small  4</div>
+					</div>
+				+open_example('')
+
+
+		
+		//- spec
+		+section
+			+subtitle('Mixing columns')
+			+description
+				p You can have different columns size depending on the screen size
+			+demo
+				+example
+					.example-grid.
+						<div class="fy-gc ">
+							<div class="fy-gcl6 fy-gcm4">lg6, sm4</div>
+							<div class="fy-gcl6 fy-gcm4">lg6, sm4</div>
+							<div class="fy-gcl6 fy-gcm4">lg6, sm4</div>
+						</div>			
+				+code.
+					<div class="fy-gc ">
+						<div class="fy-gcl6 fy-gcm4">lg6, sm4</div>
+						<div class="fy-gcl6 fy-gcm4">lg6, sm4</div>
+						<div class="fy-gcl6 fy-gcm4">lg6, sm4</div>
+					</div>
+				+open_example('')
+
+
+		
+		//- spec
+		+section
+			+subtitle('Nested grid')
+			+description
+				p You can have different columns size depending on the screen size
+			+demo
+				+example
+					.example-grid.
+						<div class="fy-gc">
+							<div class="fy-gcl6">
+								<div class="fy-gc">
+									<div class="fy-gcl6">nested large 6</div>
+									<div class="fy-gcl6">nested large 6</div>
+								</div>
+							</div>
+							<div class="fy-gcl6">
+								<div class="fy-gc">
+									<div class="fy-gcl6">nested large 6</div>
+									<div class="fy-gcl6">nested large 6</div>
+								</div>
+							</div>
+						</div>		
+				+code.
+					<div class="fy-gc">
+						<div class="fy-gcl6">
+							<div class="fy-gc">
+								<div class="fy-gcl6">nested large 6</div>
+								<div class="fy-gcl6">nested large 6</div>
+							</div>
+						</div>
+						<div class="fy-gcl6">
+							<div class="fy-gc">
+								<div class="fy-gcl6">nested large 6</div>
+								<div class="fy-gcl6">nested large 6</div>
+							</div>
+						</div>
+					</div>
+				+open_example('')
+
+
+		//- spec
+		+section
+			+subtitle('Grid gutter')
+			+description
+				p Add the modifier <code class="fy-cd">-g</code> to <code class="fy-cd">fy-gc</code> and add small padding to each child column
+			+demo
+				+example
+					.example-grid.
+						<div class="fy-gc -g">
+							<div class="fy-gcxs4">xs4</div>
+							<div class="fy-gcxs4">xs4</div>
+							<div class="fy-gcxs4">xs4</div>
+						</div>	
+				+code.
+					<div class="fy-gc -g">
+						<div class="fy-gcxs4">xs4</div>
+						<div class="fy-gcxs4">xs4</div>
+						<div class="fy-gcxs4">xs4</div>
+					</div>	
+				+open_example('')
+
+
+		//- spec
+		+section
+			+subtitle('Grid gutter responsive')
+			+description
+				p Sometimes we want gutter only when the grid is active, add the <code class="fy-cd">@l | @m | @s | @xs</code> modifier to make it work
+			+properties([{'r':'-g@xs','d':'Gutter active for all screen sizes'},{'r':'-g@s','d':'Gutter active on screen > 560'},{'r':'-g@m','d':'Gutter active on screen > 768'},{'r':'-g@l','d':'Gutter active on screen > 980'}])
+			+demo
+				+example
+					.example-grid.
+						<div class="fy-gc -g@m">
+							<div class="fy-gcm4">m4</div>
+							<div class="fy-gcm4">m4</div>
+							<div class="fy-gcm4">m4</div>
+						</div>
+				+code.
+					<div class="fy-gc -g@m">
+						<div class="fy-gcm4">m4</div>
+						<div class="fy-gcm4">m4</div>
+						<div class="fy-gcm4">m4</div>
+					</div>
+				+open_example('')
