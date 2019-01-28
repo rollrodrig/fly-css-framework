@@ -36,15 +36,56 @@ block content
 					</div>
 
 				+open_example('')
-
 		
 		//- spec
 		+section
 			+subtitle('Menu items')
 			+description
-				p Add link to menu in the <code class="fy-cd">fy-nb_gl</code> element.
-				p Highlight the current menu item adding the <code class="fy-cd">-a</code> to menu item.
-			
+				p Add items with <code class="fy-cd">fy-nb_gl</code> element.
+
+			+demo
+				+example.
+					<div class="fy-nb">
+					    <div class="fy-nb_lgo">
+					        Logo
+					    </div>
+					    <div class="fy-nbb">
+					        <span></span>
+					        <span></span>
+					        <span></span>
+					    </div>
+					    <div class="fy-nb_gl">
+					        <a href="#" class="fy-nb_l">Home</a>
+					        <a href="#" class="fy-nb_l">About</a>
+					        <a href="#" class="fy-nb_l">Login</a>	
+					        <a href="#" class="fy-nb_l">Signup</a>
+					    </div>
+					</div>						
+				+code.
+					<div class="fy-nb">
+					    <div class="fy-nb_lgo">
+					        Logo
+					    </div>
+					    <div class="fy-nbb">
+					        <span></span>
+					        <span></span>
+					        <span></span>
+					    </div>
+					    <div class="fy-nb_gl">
+					        <a href="#" class="fy-nb_l">Home</a>
+					        <a href="#" class="fy-nb_l">About</a>
+					        <a href="#" class="fy-nb_l">Login</a>	
+					        <a href="#" class="fy-nb_l">Signup</a>
+					    </div>
+					</div>
+				+open_example('')
+
+		//- spec
+		+section
+			+subtitle('Highlight menu item')
+			+description
+				p Highlight the current menu item adding the css rule <code class="fy-cd">-a</code>
+
 			+demo
 				+example.
 					<div class="fy-nb">
@@ -84,11 +125,13 @@ block content
 
 
 
+
 		//- spec
 		+section
 			+subtitle('Menu items orientation')
 			+description
-				p Align group of link in the navbar to left or right. <code class="fy-cd">fy-nb_gl_ol</code> should be inside group link.
+				p Align group of link in the navbar to left or right. <code class="fy-cd">fy-nb_gl_ol</code> should be inside group link   <code class="fy-cd">fy-nb_gl</code>.
+			
 			
 			+demo
 				+example.

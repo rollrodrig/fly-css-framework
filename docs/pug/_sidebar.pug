@@ -19,101 +19,97 @@
 
 	.fy-cg.fy-mt50
 		.fy-btng
-			a.fy-btn(href="https://github.com/rollrodrig/fly-css-framework" target="_blank" onclick="gtag('event', 'github_repo',{'event_category':'download','event_label':'home'});") Github
-			a.fy-btn(href="https://github.com/rollrodrig/fly-css-framework/archive/master.zip" onclick="gtag('event', 'download_zip',{'event_category':'download','event_label':'home'});") Download
-			a.fy-btn(href="docs.html" onclick="gtag('event', 'docs',{'event_category':'navigation','event_label':'home'});") Docs
+			a.fy-btn.-s(href="https://github.com/rollrodrig/fly-css-framework" target="_blank" onclick="gtag('event', 'github_repo',{'event_category':'download','event_label':'home'});") Github
+			a.fy-btn.-s(href="https://github.com/rollrodrig/fly-css-framework/archive/master.zip" onclick="gtag('event', 'download_zip',{'event_category':'download','event_label':'home'});") Download
+			a.fy-btn.-s(href="docs.html" onclick="gtag('event', 'docs',{'event_category':'navigation','event_label':'home'});") Docs
 	
-
-
 
 	mixin uitem(href, name)
 		li
-			a(href="#{href}") #{name}
+			a(href=href) #{name}
 
 	ul.fy-nv.-tc
 		+uitem('','Getting started')
-		+uitem("installation","Installation")
-		+uitem("breakpoints","Breakpoints")
-		+uitem("modifier","Modifier")
+		+uitem("installation.html","Installation")
+		+uitem("breakpoints.html","Breakpoints")
+		+uitem("modifier.html","Modifier")
 		//- +uitem("column-size","Column size")
-		+uitem("css-names","Css names")
+		+uitem("css-names.html","Css names")
 
 	ul.fy-nv.-tc
 		+uitem("", "Colors")
-		+uitem("color", "Color")
-		+uitem("background-color", "Background Color")
+		+uitem("color.html", "Color")
+		+uitem("background-color.html", "Background Color")
 
 
 	ul.fy-nv.-tc
 		+uitem("", "Layout")
-		+uitem("color", "Container")
-		+uitem("hero", "Hero")
-		+uitem("navbar", "Navbar")
+		+uitem("container.html", "Container")
+		+uitem("hero.html", "Hero")
+		+uitem("navbar.html", "Navbar")
 		//- +uitem("off-canvas", "Off canvas")
-		+uitem("align", "Align")
+		+uitem("align.html", "Align")
 
 	ul.fy-nv.-tc
 		+uitem("", "Grid")
-		+uitem("grid", "Grid")
-		+uitem("grid-flex", "Grid-flex")
-		+uitem("width", "Width")
+		+uitem("grid.html", "Grid")
+		+uitem("grid-flex.html", "Grid-flex")
+		+uitem("width.html", "Width")
 
 	ul.fy-nv.-tc
 		+uitem("", "Layout")
-		+uitem("text", "Text")
-		+uitem("title", "Title")
-		+uitem("subtitle", "Subtitle")
-		+uitem("font-size", "Font size")
-		+uitem("font-weight", "Font weight")
-		+uitem("highlight-text", "Highlight text")
-		+uitem("bullet", "Bullet")
-		+uitem("ul-list", "Ul list")
+		+uitem("text.html", "Text")
+		+uitem("title.html", "Title")
+		+uitem("subtitle.html", "Subtitle")
+		+uitem("font-size.html", "Font size")
+		+uitem("font-weight.html", "Font weight")
+		+uitem("highlight-text.html", "Highlight text")
+		+uitem("bullet.html", "Bullet")
+		+uitem("ul-list.html", "Ul list")
 
 	ul.fy-nv.-tc
 		+uitem("", "Form")
-		+uitem("form-fields", "Form fields")
+		+uitem("form-fields.html", "Form fields")
 
 	ul.fy-nv.-tc
 		+uitem("","Components")
-		+uitem("alert","Alert")
-		+uitem("badge","Badge")
-		+uitem("breadcrumb","Breadcrumb")
-		+uitem("button","Button")
-		+uitem("card","Card")
-		+uitem("close","Close")
-		+uitem("divider","Divider")
-		+uitem("drop-down","down")
-
-	ul.fy-nv.-tc
-		+uitem("link", "Link")
-		+uitem("loading", "Loading")
-		+uitem("box", "Box")
-		+uitem("description-list", "Description list")
-		+uitem("label", "Label")
-		+uitem("list-group", "List group")
-		+uitem("meta-text","Meta text")
-		+uitem("meta-stack", "Meta stack")
-		+uitem("nav", "Nav")
-		+uitem("navbar-button", "Navbar button")
-		+uitem("pagination", "Pagination")
-		+uitem("profile", "Profile")
-		+uitem("popup", "Popup")
-		+uitem("social", "Social")
-		+uitem("tab", "Tab")
-		+uitem("table", "Table")
-		+uitem("tooltip", "Tooltip")
+		+uitem("alert.html","Alert")
+		+uitem("badge.html","Badge")
+		+uitem("breadcrumb.html","Breadcrumb")
+		+uitem("button.html","Button")
+		+uitem("card.html","Card")
+		+uitem("close.html","Close")
+		+uitem("divider.html","Divider")
+		+uitem("drop-down.html","down")
+		+uitem("link.html", "Link")
+		+uitem("loading.html", "Loading")
+		+uitem("box.html", "Box")
+		+uitem("description-list.html", "Description list")
+		+uitem("label.html", "Label")
+		+uitem("list-group.html", "List group")
+		+uitem("meta-text.html","Meta text")
+		+uitem("meta-stack.html", "Meta stack")
+		+uitem("nav.html", "Nav")
+		+uitem("navbar-button.html", "Navbar button")
+		+uitem("pagination.html", "Pagination")
+		+uitem("profile.html", "Profile")
+		+uitem("popup.html", "Popup")
+		+uitem("social.html", "Social")
+		+uitem("tab.html", "Tab")
+		+uitem("table.html", "Table")
+		+uitem("tooltip.html", "Tooltip")
 
 	ul.fy-nv.-tc
 		+uitem("", "Uilities")
-		+uitem("center", "Center")
-		+uitem("code", "Code")
-		+uitem("code-color", "Code color")
-		+uitem("center-group", "Center group")
-		+uitem("margin", "Margin")
-		+uitem("padding", "Padding")
-		+uitem("remove-margin","Remove margin")
-		+uitem("remove-padding","Remove padding")
-		+uitem("self-align", "Self align")
-		+uitem("hide", "Hide")
-		+uitem("show", "Show")
-		+uitem("clearfix", "Clearfix")
+		+uitem("center.html", "Center")
+		+uitem("code.html", "Code")
+		+uitem("code-color.html", "Code color")
+		+uitem("center-group.html", "Center group")
+		+uitem("margin.html", "Margin")
+		+uitem("padding.html", "Padding")
+		+uitem("remove-margin.html","Remove margin")
+		+uitem("remove-padding.html","Remove padding")
+		+uitem("self-align.html", "Self align")
+		+uitem("hide.html", "Hide")
+		+uitem("show.html", "Show")
+		+uitem("clearfix.html", "Clearfix")
