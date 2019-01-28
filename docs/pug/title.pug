@@ -1,0 +1,100 @@
+extends _layout.pug
+include _mixins
+block content
+	article.fy-bx
+		+title('title')
+		+resume
+
+
+		//- spec
+		+section
+			+subtitle('Default')
+			+description
+				p Basic default title
+			+demo
+				+example.
+					<h1 class="fy-ti">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
+				+code.
+					<h1 class="fy-ti">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
+
+
+		//- spec
+		+section
+			+subtitle('Size')
+			+description
+				p Basic default title
+			+properties([{'r':'-s[1-7]',	'd':'Title size from 1 to 7'}])
+			+demo
+				+example.
+					<h3 class="fy-ti -s1">
+						Lorem ipsum dolor sit amet, consectetur
+					</h3>
+					<p class="fy-ti -s2">
+						Lorem ipsum dolor sit amet, consectetur
+					</p>
+					<h2 class="fy-ti -s3">
+						Lorem ipsum dolor sit amet, consectetur
+					</h2>
+					<p class="fy-ti -s4">
+						Lorem ipsum dolor sit amet, consectetur
+					</p>
+					<div class="fy-ti -s5">
+						Lorem ipsum dolor sit amet, consectetur
+					</div>
+					<div class="fy-ti -s6">
+						Lorem ipsum dolor sit amet, consectetur
+					</div>
+					<h3 class="fy-ti -s7">
+						Lorem ipsum dolor sit amet, consectetur
+					</h3>  
+				+code.
+					<h3 class="fy-ti -s1">
+						Lorem ipsum dolor sit amet, consectetur
+					</h3>
+					<p class="fy-ti -s2">
+						Lorem ipsum dolor sit amet, consectetur
+					</p>
+					<h2 class="fy-ti -s3">
+						Lorem ipsum dolor sit amet, consectetur
+					</h2>
+					<p class="fy-ti -s4">
+						Lorem ipsum dolor sit amet, consectetur
+					</p>
+					<div class="fy-ti -s5">
+						Lorem ipsum dolor sit amet, consectetur
+					</div>
+					<div class="fy-ti -s6">
+						Lorem ipsum dolor sit amet, consectetur
+					</div>
+					<h3 class="fy-ti -s7">
+						Lorem ipsum dolor sit amet, consectetur
+					</h3>  
+
+
+
+
+
+					
+
+
+
+
+
+
+
+
+
+
+
+					
+
+
+
+
+
+
+
+
+
+
+

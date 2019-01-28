@@ -1,0 +1,37 @@
+extends _layout.pug
+include _mixins
+block content
+	article.fy-bx
+		+title('Center element')
+		+resume
+			p Apply margin auto both sides
+
+		//- spec
+		+section
+			+subtitle('Usage')
+			+description
+			+demo
+				+example.
+					<div class="fy-wd3 fy-cntr">
+						column width 3 with center
+					</div>
+					<br>
+					<div class="fy-wd3@l fy-cntr">
+						column width 3 with center
+					</div>
+				+code.
+					<div class="fy-wd3 fy-cntr">
+						column width 3 with center
+					</div>
+					<br>
+					<div class="fy-wd3@l fy-cntr">
+						column width 3 with center
+					</div>
+
+
+
+
+
+
+
+

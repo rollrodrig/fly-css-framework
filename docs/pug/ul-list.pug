@@ -1,0 +1,106 @@
+extends _layout.pug
+include _mixins
+block content
+	article.fy-bx
+		+title('Ul List')
+		+resume
+
+
+		//- spec
+		+section
+			+subtitle('Usage')
+			+description
+			+demo
+				+example.
+					<ul class="fy-ul -n">
+						<li>Lorem ipsum </li>
+						<li>Dolor sit amet</li>
+						<li>Sit amet
+							<ul class="fy-ul -d">
+								<li>Lorem ipsum </li>
+								<li>Dolor sit amet</li>
+							</ul>                            
+						</li>
+						<li>Consectetur</li>
+					</ul>
+				+code.
+					<ul class="fy-ul -n">
+						<li>Lorem ipsum </li>
+						<li>Dolor sit amet</li>
+						<li>Sit amet
+							<ul class="fy-ul -d">
+								<li>Lorem ipsum </li>
+								<li>Dolor sit amet</li>
+							</ul>                            
+						</li>
+						<li>Consectetur</li>
+					</ul>
+
+		//- spec
+		+section
+			+subtitle('Styles')
+			+description
+			+properties([{'r':'fy-ul -n','d':'Numeral'},{'r':'fy-ul -d','d':'Dash'},{'r':'fy-ul -c','d':'Circle'},{'r':'fy-ul -a','d':'Arrrow'}])
+			+demo
+				+example.
+					<ul class="fy-ul -n">
+						<li>Lorem ipsum </li>
+						<li>Sit amet</li>
+						<li>Consectetur</li>
+					</ul>
+					<ul class="fy-ul -d">
+						<li>Lorem ipsum </li>
+						<li>Sit amet</li>
+						<li>Consectetur</li>
+					</ul>
+					<ul class="fy-ul -c">
+						<li>Lorem ipsum </li>
+						<li>Sit amet</li>
+						<li>Consectetur</li>
+					</ul>
+					<ul class="fy-ul -a">
+						<li>Lorem ipsum </li>
+						<li>Sit amet</li>
+						<li>Consectetur</li>
+					</ul>
+				+code.
+					<ul class="fy-ul -n">
+						<li>Lorem ipsum </li>
+						<li>Sit amet</li>
+						<li>Consectetur</li>
+					</ul>
+					<ul class="fy-ul -d">
+						<li>Lorem ipsum </li>
+						<li>Sit amet</li>
+						<li>Consectetur</li>
+					</ul>
+					<ul class="fy-ul -c">
+						<li>Lorem ipsum </li>
+						<li>Sit amet</li>
+						<li>Consectetur</li>
+					</ul>
+					<ul class="fy-ul -a">
+						<li>Lorem ipsum </li>
+						<li>Sit amet</li>
+						<li>Consectetur</li>
+					</ul>
+
+
+
+
+
+
+
+
+					
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,50 @@
+extends _layout.pug
+include _mixins
+block content
+	article.fy-bx
+		+title('Badge')
+		+resume
+
+
+		//- spec
+		+section
+			+subtitle('Usage')
+			+description
+			+demo
+				+example.
+					<span class="fy-bdg">1</span>
+					<span class="fy-bdg">1234</span>
+					<span class="fy-bdg">tag name</span>
+				+code.
+					<span class="fy-bdg">1</span>
+					<span class="fy-bdg">1234</span>
+					<span class="fy-bdg">tag name</span> 
+
+		//- spec
+		+section
+			+subtitle('Size')
+			+description
+			+properties([{'r':'','d':'default'},{'r':'-m','d':'Medium'},{'r':'-l','d':'Large'}])
+			+demo
+				+example.
+					<span class="fy-bdg">name</span>
+					<br>
+					<span class="fy-bdg -m">name</span>
+					<br>
+					<span class="fy-bdg -l">name</span>
+				+code.
+					<span class="fy-bdg">name</span>
+					<br>
+					<span class="fy-bdg -m">name</span>
+					<br>
+					<span class="fy-bdg -l">name</span>
+
+
+
+
+
+
+
+
+
+

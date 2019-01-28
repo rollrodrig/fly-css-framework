@@ -1,0 +1,71 @@
+extends _layout.pug
+include _mixins
+block content
+	article.fy-bx
+		+title('Highlight text')
+		+resume
+
+
+		//- spec
+		+section
+			+subtitle('Usage')
+			+description
+			+demo
+				+example.
+					<p class="fy-fwb">Lorem ipsum <span class="fy-hlp">dolor</span> sit amet</p>
+				+code.
+					<p class="fy-fwb">Lorem ipsum <span class="fy-hlp">dolor</span> sit amet</p>
+
+		//- spec
+		+section
+			+subtitle('Colors')
+			+description
+			+properties([{'r':'fy-hlp','d':'Primary'},{'r':'ffy-hls','d':'Secondary'},{'r':'fy-hlsu','d':'Success'},{'r':'fy-hlwa','d':'Warning'},{'r':'ffy-hlda','d':'Danger'},{'r':'fy-hlin','d':'Info'},{'r':'fy-hlli','d':'Light'},{'r':'ffy-hldk','d':'Dark'}])
+	
+			+demo
+				+example.
+					<p>Lorem ipsum <span class="fy-hlp">consectetur</span> elit.</p>
+					<p>Lorem ipsum <span class="fy-hls">consectetur</span> elit.</p>
+					<p>Lorem ipsum <span class="fy-hlsu">consectetur</span> elit.</p>
+					<p>Lorem ipsum <span class="fy-hlwa">consectetur</span> elit.</p>
+					<p>Lorem ipsum <span class="fy-hlda">consectetur</span> elit.</p>
+					<p>Lorem ipsum <span class="fy-hlin">consectetur</span> elit.</p>
+					<p>Lorem ipsum <span class="fy-hlli">consectetur</span> elit.</p>
+					<p>Lorem ipsum <span class="fy-hldk">consectetur</span> elit.</p>
+				+code.
+					<p>Lorem ipsum <span class="fy-hlp">consectetur</span> elit.</p>
+					<p>Lorem ipsum <span class="fy-hls">consectetur</span> elit.</p>
+					<p>Lorem ipsum <span class="fy-hlsu">consectetur</span> elit.</p>
+					<p>Lorem ipsum <span class="fy-hlwa">consectetur</span> elit.</p>
+					<p>Lorem ipsum <span class="fy-hlda">consectetur</span> elit.</p>
+					<p>Lorem ipsum <span class="fy-hlin">consectetur</span> elit.</p>
+					<p>Lorem ipsum <span class="fy-hlli">consectetur</span> elit.</p>
+					<p>Lorem ipsum <span class="fy-hldk">consectetur</span> elit.</p>
+
+
+
+
+					
+
+
+
+
+
+
+
+
+
+
+
+					
+
+
+
+
+
+
+
+
+
+
+

@@ -17,7 +17,10 @@ pre {
     margin-top: 20px;
     margin-bottom: 60px;
 }
+.example-tooltip .fy-tt {
+    display: block !important;
 
+}
 .fy-offc,.fy-offc_s {
     background-color: transparent;
 }

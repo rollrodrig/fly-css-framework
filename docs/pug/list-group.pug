@@ -1,0 +1,366 @@
+extends _layout.pug
+include _mixins
+block content
+	article.fy-bx
+		+title('List group')
+		+resume
+
+		//- spec
+		+section
+			+subtitle('Usage')
+			+description
+			+demo
+				+example
+					.example-lg.
+						<div class="fy-lg">
+							<div>
+								<a href="">LoremIpsum</a>
+							</div>
+							<div>
+								<a href="">Consectetur</a>
+							</div>
+							<div>
+								<a href="">Aadipisicing</a>
+							</div>
+							<div>
+								<a href="">Wuibusdam</a>
+							</div>
+						</div>
+				+code.
+						<div class="fy-lg">
+							<div>
+								<a href="">LoremIpsum</a>
+							</div>
+							<div>
+								<a href="">Consectetur</a>
+							</div>
+							<div>
+								<a href="">Aadipisicing</a>
+							</div>
+							<div>
+								<a href="">Wuibusdam</a>
+							</div>
+						</div>
+
+
+		//- spec
+		+section
+			+subtitle('Size')
+			+description
+			+properties([{'r':'-s','d':'Small'}])
+			+demo
+				+example
+					.example-lg.
+						<div class="fy-lg -s">
+							<div>
+								<a href="">LoremIpsum</a>
+							</div>
+							<div>
+								<a href="">Consectetur</a>
+							</div>
+							<div>
+								<a href="">Aadipisicing</a>
+							</div>
+							<div>
+								<a href="">Wuibusdam</a>
+							</div>
+						</div>
+				+code.
+					<div class="fy-lg -s">
+						<div>
+							<a href="">LoremIpsum</a>
+						</div>
+						<div>
+							<a href="">Consectetur</a>
+						</div>
+						<div>
+							<a href="">Aadipisicing</a>
+						</div>
+						<div>
+							<a href="">Wuibusdam</a>
+						</div>
+					</div>
+
+
+
+
+		//- spec
+		+section
+			+subtitle('Style')
+			+description
+			+properties([{'r':'-ln','d':'Border'},{'r':'-br','d':'Border radius'},{'r':'-h','d':'Header'}])
+			+demo
+				+example
+					.example-lg.
+
+						<div class="fy-lg -ln">
+							<div>
+								<a href="">LoremIpsum</a>
+							</div>
+							<div>
+								<a href="">Consectetur</a>
+							</div>
+							<div>
+								<a href="">Aadipisicing</a>
+							</div>
+							<div>
+								<a href="">Wuibusdam</a>
+							</div>
+						</div>
+
+						<div class="fy-lg -br -ln">
+							<div>
+								<a href="">LoremIpsum</a>
+							</div>
+							<div>
+								<a href="">Consectetur</a>
+							</div>
+							<div>
+								<a href="">Aadipisicing</a>
+							</div>
+							<div>
+								<a href="">Wuibusdam</a>
+							</div>
+						</div>
+
+						<div class="fy-lg -h -br -ln">
+							<div>
+								<a href="">LoremIpsum</a>
+							</div>
+							<div>
+								<a href="">Consectetur</a>
+							</div>
+							<div>
+								<a href="">Aadipisicing</a>
+							</div>
+							<div>
+								<a href="">Wuibusdam</a>
+							</div>
+						</div> 
+				+code.
+
+					<div class="fy-lg -ln">
+						<div>
+							<a href="">LoremIpsum</a>
+						</div>
+						<div>
+							<a href="">Consectetur</a>
+						</div>
+						<div>
+							<a href="">Aadipisicing</a>
+						</div>
+						<div>
+							<a href="">Wuibusdam</a>
+						</div>
+					</div>
+
+					<div class="fy-lg -br -ln">
+						<div>
+							<a href="">LoremIpsum</a>
+						</div>
+						<div>
+							<a href="">Consectetur</a>
+						</div>
+						<div>
+							<a href="">Aadipisicing</a>
+						</div>
+						<div>
+							<a href="">Wuibusdam</a>
+						</div>
+					</div>
+
+					<div class="fy-lg -h -br -ln">
+						<div>
+							<a href="">LoremIpsum</a>
+						</div>
+						<div>
+							<a href="">Consectetur</a>
+						</div>
+						<div>
+							<a href="">Aadipisicing</a>
+						</div>
+						<div>
+							<a href="">Wuibusdam</a>
+						</div>
+					</div> 
+
+
+		//- spec
+		+section
+			+subtitle('Icon')
+			+description
+			+demo
+				+example
+					.example-lg.
+						<div class="fy-lg">
+							<div>
+								<i class="fab fa-facebook-f"></i>
+								Lorem ipsum
+							</div>
+							<div>
+								<i class="fab fa-twitter"></i>
+								Consectetur
+							</div>
+							<div>
+								<i class="fab fa-youtube"></i>
+								Aadipisicing
+							</div>
+							<div>
+								<i class="fab fa-github"></i>
+								Wuibusdam
+							</div>
+						</div>
+				+code.
+					<div class="fy-lg">
+						<div>
+							<i class="fab fa-facebook-f"></i>
+							Lorem ipsum
+						</div>
+						<div>
+							<i class="fab fa-twitter"></i>
+							Consectetur
+						</div>
+						<div>
+							<i class="fab fa-youtube"></i>
+							Aadipisicing
+						</div>
+						<div>
+							<i class="fab fa-github"></i>
+							Wuibusdam
+						</div>
+					</div>
+
+
+
+
+		//- spec
+		+section
+			+subtitle('Meta info')
+			+description
+			+demo
+				+example
+					.example-lg.
+						<div class="fy-lg">
+							<div>
+								<i class="fab fa-facebook-f"></i>
+								Lorem ipsum
+							</div>
+							<div>
+								<i class="fab fa-twitter"></i>
+								Consectetur
+								<span class="fy-lg_c">12</span>
+
+							</div>
+							<div>
+								<i class="fab fa-youtube"></i>
+								Aadipisicing
+								<span class="fy-lg_c">online</span>
+							</div>
+							<div>
+								<i class="fab fa-github"></i>
+								Wuibusdam
+								<span class="fy-lg_c">offline</span>
+							</div>
+							<div>
+								<i class="fab fa-instagram"></i>
+								Commodi
+								<span class="fy-lg_c">
+									<span class="fy-lbl">
+										1234
+									</span>                         
+								</span>
+							</div>
+						</div>
+				+code.
+					<div class="fy-lg">
+						<div>
+							<i class="fab fa-facebook-f"></i>
+							Lorem ipsum
+						</div>
+						<div>
+							<i class="fab fa-twitter"></i>
+							Consectetur
+							<span class="fy-lg_c">12</span>
+
+						</div>
+						<div>
+							<i class="fab fa-youtube"></i>
+							Aadipisicing
+							<span class="fy-lg_c">online</span>
+						</div>
+						<div>
+							<i class="fab fa-github"></i>
+							Wuibusdam
+							<span class="fy-lg_c">offline</span>
+						</div>
+						<div>
+							<i class="fab fa-instagram"></i>
+							Commodi
+							<span class="fy-lg_c">
+								<span class="fy-lbl">
+									1234
+								</span>                         
+							</span>
+						</div>
+					</div>
+
+
+
+		//- spec
+		+section
+			+subtitle('Sub item')
+			+description
+			+demo
+				+example
+					.example-lg.
+						<div class="fy-lg">
+							<div>
+								<a href="">LoremIpsum</a>
+							</div>
+							<div>
+								<a href="">Consectetur</a>
+							</div>
+							<div class="fy-lg_f">
+								<a href="">Aadipisicing</a>
+								<div class="fy-lg">
+									<div>
+										<a href="">LoremIpsum</a>
+									</div>
+									<div>
+										<a href="">Consectetur</a>
+									</div>
+									<div>
+										<a href="">Aadipisicing</a>
+									</div>
+								</div>
+							</div>
+							<div>
+								<a href="">Wuibusdam</a>
+							</div>
+						</div>
+				+code.
+					<div class="fy-lg">
+						<div>
+							<a href="">LoremIpsum</a>
+						</div>
+						<div>
+							<a href="">Consectetur</a>
+						</div>
+						<div class="fy-lg_f">
+							<a href="">Aadipisicing</a>
+							<div class="fy-lg">
+								<div>
+									<a href="">LoremIpsum</a>
+								</div>
+								<div>
+									<a href="">Consectetur</a>
+								</div>
+								<div>
+									<a href="">Aadipisicing</a>
+								</div>
+							</div>
+						</div>
+						<div>
+							<a href="">Wuibusdam</a>
+						</div>
+					</div>

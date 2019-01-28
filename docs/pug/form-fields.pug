@@ -1,0 +1,409 @@
+extends _layout.pug
+include _mixins
+block content
+	article.fy-bx
+		+title('Form fields')
+		+resume
+
+
+		//- spec
+		+section
+			+subtitle('Usage')
+			+description
+			+demo
+				+example.
+					<input type="text" class="fy-fi" placeholder="Example...">
+				+code.
+					<input type="text" class="fy-fi" placeholder="Example...">
+
+		//- spec
+		+section
+			+subtitle('Fields')
+			+description
+			+properties([{'r':'fy-fl', 'd':'label'},{'r':'fy-fi', 'd':'input'},{'r':'fy-fs', 'd':'select'},{'r':'fy-fo', 'd':'radio - checkbox'},{'r':'fy-ft', 'd':'textarea'}])
+			+demo
+				+example.
+					<label for="" class="fy-fl">Lorem ipsum</label>
+					<br>
+					<input type="text" class="fy-fi">
+					<br>
+					<select name="" id="" class="fy-fs">
+						<option value="">Allam maiores</option>
+						<option value="">Earum</option>
+					</select>
+					<br>
+					<label for="radio00" class="fy-fo">
+						<input id="radio00" type="radio"> This is radio
+					</label>
+					<br>
+					<label for="cbox66" class="fy-fo">
+						<input id="cbox66" type="checkbox"> This is radio
+					</label>
+					<br>
+					<br>
+					<textarea class="fy-ft">Lorem ipsum dolor sit amet consectetur</textarea>
+				+code.
+					<label for="" class="fy-fl">Lorem ipsum</label>
+					<br>
+					<input type="text" class="fy-fi">
+					<br>
+					<select name="" id="" class="fy-fs">
+						<option value="">Allam maiores</option>
+						<option value="">Earum</option>
+					</select>
+					<br>
+					<label for="radio00" class="fy-fo">
+						<input id="radio00" type="radio"> This is radio
+					</label>
+					<br>
+					<label for="cbox66" class="fy-fo">
+						<input id="cbox66" type="checkbox"> This is radio
+					</label>
+					<br>
+					<br>
+					<textarea class="fy-ft">Lorem ipsum dolor sit amet consectetur</textarea>
+
+
+
+
+
+
+		//- spec
+		+section
+			+subtitle('Size')
+			+description
+			+properties([{'r':'-xs', 'd':'Extra small'},{'r':'-s', 'd':'Small'},{'r':'l', 'd':'Large'}])
+			+demo
+				+example
+					.example-fields.
+						<input type="text" class="fy-fi -xs" placeholder="Extra small..."> 
+						<input type="text" class="fy-fi -s" placeholder="Small...">
+						<input type="text" class="fy-fi" placeholder="Default...">
+						<input type="text" class="fy-fi -l" placeholder="Large...">
+						<br>
+						<select name="" id="" class="fy-fs -xs">
+							<option value="">Extra small</option>
+						</select>
+						<select name="" id="" class="fy-fs -s">
+							<option value="">Small</option>
+						</select>
+						<select name="" id="" class="fy-fs">
+							<option value="">Default</option>
+						</select>
+						<select name="" id="" class="fy-fs -l">
+							<option value="">Large</option>
+						</select>
+						<br>
+						<label for="_1" class="fy-fo -xs">
+							<input id="_1" type="radio"> Extra Small
+						</label>
+						<label for="_1" class="fy-fo -s">
+							<input id="_1" type="radio"> Small
+						</label>
+						<label for="_1" class="fy-fo">
+							<input id="_1" type="radio"> Default
+						</label>
+						<label for="_1" class="fy-fo -l">
+							<input id="_1" type="radio"> Large
+						</label>
+						<br>
+						<label for="cbox66" class="fy-fo -xs">
+							<input id="cbox66" type="checkbox"> Extra Small
+						</label>
+						<label for="cbox66" class="fy-fo -s">
+							<input id="cbox66" type="checkbox"> Small
+						</label>
+						<label for="cbox66" class="fy-fo">
+							<input id="cbox66" type="checkbox"> Default
+						</label>
+						<label for="cbox66" class="fy-fo -l">
+							<input id="cbox66" type="checkbox"> Large
+						</label>
+						<textarea class="fy-ft -xs">Extra Small</textarea>
+						<textarea class="fy-ft -s">Small</textarea>
+						<textarea class="fy-ft">Default</textarea>
+						<textarea class="fy-ft -l">Large</textarea>
+				+code.
+					<input type="text" class="fy-fi -xs" placeholder="Extra small..."> 
+					<input type="text" class="fy-fi -s" placeholder="Small...">
+					<input type="text" class="fy-fi" placeholder="Default...">
+					<input type="text" class="fy-fi -l" placeholder="Large...">
+					<br>
+					<select name="" id="" class="fy-fs -xs">
+						<option value="">Extra small</option>
+					</select>
+					<select name="" id="" class="fy-fs -s">
+						<option value="">Small</option>
+					</select>
+					<select name="" id="" class="fy-fs">
+						<option value="">Default</option>
+					</select>
+					<select name="" id="" class="fy-fs -l">
+						<option value="">Large</option>
+					</select>
+					<br>
+					<label for="_1" class="fy-fo -xs">
+						<input id="_1" type="radio"> Extra Small
+					</label>
+					<label for="_1" class="fy-fo -s">
+						<input id="_1" type="radio"> Small
+					</label>
+					<label for="_1" class="fy-fo">
+						<input id="_1" type="radio"> Default
+					</label>
+					<label for="_1" class="fy-fo -l">
+						<input id="_1" type="radio"> Large
+					</label>
+					<br>
+					<label for="cbox66" class="fy-fo -xs">
+						<input id="cbox66" type="checkbox"> Extra Small
+					</label>
+					<label for="cbox66" class="fy-fo -s">
+						<input id="cbox66" type="checkbox"> Small
+					</label>
+					<label for="cbox66" class="fy-fo">
+						<input id="cbox66" type="checkbox"> Default
+					</label>
+					<label for="cbox66" class="fy-fo -l">
+						<input id="cbox66" type="checkbox"> Large
+					</label>
+					<textarea class="fy-ft -xs">Extra Small</textarea>
+					<textarea class="fy-ft -s">Small</textarea>
+					<textarea class="fy-ft">Default</textarea>
+					<textarea class="fy-ft -l">Large</textarea>
+
+
+
+
+		//- spec
+		+section
+			+subtitle('Decorator')
+			+description
+			+properties([{'r':'fy-fd','d':'Decorator modifier'},{'r':'fy-fd -dl','d':'Align decorator left'}])
+			+demo
+				+example
+					<div class="fy-fd">
+						<input type="text" class="fy-fi">
+						<div class="fy-fd_e">SS</div>
+					</div>
+					<br>
+					<div class="fy-fd -dl">
+						<div class="fy-fd_e">SS</div>
+						<input type="text" class="fy-fi">
+					</div>
+					<br>
+					<div class="fy-fd -dl">
+						<div class="fy-fd_e">
+							<i class="far fa-envelope"></i>
+						</div>
+						<input type="text" class="fy-fi">
+					</div>
+				+code.
+					<div class="fy-fd">
+						<input type="text" class="fy-fi">
+						<div class="fy-fd_e">SS</div>
+					</div>
+					<br>
+					<div class="fy-fd -dl">
+						<div class="fy-fd_e">SS</div>
+						<input type="text" class="fy-fi">
+					</div>
+					<br>
+					<div class="fy-fd -dl">
+						<div class="fy-fd_e">
+							<i class="far fa-envelope"></i>
+						</div>
+						<input type="text" class="fy-fi">
+					</div>
+
+
+		//- spec
+		+section
+			+subtitle('Button')
+			+description
+			+properties([{'r':'fy-fb','d':'Button modifier'},{'r':'fy-fb -al','d':'Align button to left'}])
+			+demo
+				+example
+					<div class="fy-fb">
+						<input type="text" class="fy-fi" placeholder="Field example...">
+						<button class="fy-btn">Button</button>
+					</div>
+					<br>
+					<div class="fy-fb -al">
+						<button class="fy-btn">Button</button>
+						<input type="text" class="fy-fi" placeholder="Field example...">
+					</div>  
+					<br>
+					<div class="fy-fb">
+						<input type="text" class="fy-fi" placeholder="Field example...">
+						<button class="fy-btn"><i class="far fa-heart"></i></button>
+					</div>
+				+code.
+					<div class="fy-fb">
+						<input type="text" class="fy-fi" placeholder="Field example...">
+						<button class="fy-btn">Button</button>
+					</div>
+					<br>
+					<div class="fy-fb -al">
+						<button class="fy-btn">Button</button>
+						<input type="text" class="fy-fi" placeholder="Field example...">
+					</div>  
+					<br>
+					<div class="fy-fb">
+						<input type="text" class="fy-fi" placeholder="Field example...">
+						<button class="fy-btn"><i class="far fa-heart"></i></button>
+					</div>
+
+		//- spec
+		+section
+			+subtitle('Form layout')
+			+description
+			+properties([{'r':'fy-fc','d':'form container'},{'r':'fy-fr','d':'form row'}])
+			+demo
+				+example
+					<form action="" class="fy-fc">
+						<div class="fy-fr">
+							<label for="" class="fy-fl">Ipsum</label>
+							<input type="text" class="fy-fi" placeholder="Example...">
+
+						</div>
+						<div class="fy-fr">
+							<label for="" class="fy-fl">Dignissimos</label>
+							<select name="" id="" class="fy-fs">
+								<option value="">Select</option>
+								<option value="">Allam maiores</option>
+								<option value="">Earum</option>
+							</select>
+						</div>
+						<div class="fy-fr">
+							<input type="submit" class="fy-btn" value="Button">
+						</div>
+					</form>
+				+code.
+					<form action="" class="fy-fc">
+						<div class="fy-fr">
+							<label for="" class="fy-fl">Ipsum</label>
+							<input type="text" class="fy-fi" placeholder="Example...">
+
+						</div>
+						<div class="fy-fr">
+							<label for="" class="fy-fl">Dignissimos</label>
+							<select name="" id="" class="fy-fs">
+								<option value="">Select</option>
+								<option value="">Allam maiores</option>
+								<option value="">Earum</option>
+							</select>
+						</div>
+						<div class="fy-fr">
+							<input type="submit" class="fy-btn" value="Button">
+						</div>
+					</form>
+
+					
+
+
+
+		//- spec
+		+section
+			+subtitle('Form error')
+			+description
+			+properties([{'r':'fy-fc','d':'form container'},{'r':'fy-fr','d':'form row'}])
+			+demo
+				+example
+					.example-fields.
+						<form action="" class="fy-fc">
+							<div class="fy-fr">
+								<label for="" class="fy-fl">Lorem ipsum</label>
+								<input type="text" class="fy-fi" value=" temporibus sint">
+								<div class="fy-fe">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit
+								</div>
+							</div>
+						</form>
+				+code.
+					<form action="" class="fy-fc">
+						<div class="fy-fr">
+							<label for="" class="fy-fl">Lorem ipsum</label>
+							<input type="text" class="fy-fi" value=" temporibus sint">
+							<div class="fy-fe">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit
+							</div>
+						</div>
+					</form>
+
+
+		//- spec
+		+section
+			+subtitle('Using grid')
+			+description
+			+demo
+				+example
+					.example-fields.
+						<form action="" class="fy-fc">
+							<div class="fy-fr">
+								<label for="" class="fy-fl">Lorem ipsum</label>
+								<input type="text" class="fy-fi" value=" temporibus sint">
+							</div>
+							<div class="fy-gc -g@m -gsp">
+								<div class="fy-gcm6">
+									<div class="fy-fr">
+										<label for="" class="fy-fl">Dignissimos</label>
+										<select name="" id="" class="fy-fs">
+											<option value="">Select</option>
+											<option value="">Allam maiores</option>
+											<option value="">Earum</option>
+										</select>
+									</div>
+								</div>
+								<div class="fy-gcm6">
+									<div class="fy-fr">
+										<label for="" class="fy-fl">Consectetur adipisicing</label>
+										<div class="fy-fd">
+											<input type="text" class="fy-fi" value="Lorem ipsum dolor sit amet">
+											<div class="fy-fd_e">
+												<i class="far fa-envelope"></i>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</form>
+				+code.
+					<form action="" class="fy-fc">
+							<div class="fy-fr">
+								<label for="" class="fy-fl">Lorem ipsum</label>
+								<input type="text" class="fy-fi" value=" temporibus sint">
+							</div>
+							<div class="fy-gc -g@m -gsp">
+								<div class="fy-gcm6">
+									<div class="fy-fr">
+										<label for="" class="fy-fl">Dignissimos</label>
+										<select name="" id="" class="fy-fs">
+											<option value="">Select</option>
+											<option value="">Allam maiores</option>
+											<option value="">Earum</option>
+										</select>
+									</div>
+								</div>
+								<div class="fy-gcm6">
+									<div class="fy-fr">
+										<label for="" class="fy-fl">Consectetur adipisicing</label>
+										<div class="fy-fd">
+											<input type="text" class="fy-fi" value="Lorem ipsum dolor sit amet">
+											<div class="fy-fd_e">
+												<i class="far fa-envelope"></i>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</form>
+
+
+
+
+
+
+
+
+

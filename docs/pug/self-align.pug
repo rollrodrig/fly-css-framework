@@ -1,0 +1,30 @@
+extends _layout.pug
+include _mixins
+block content
+	article.fy-bx
+		+title('Self align')
+		+resume
+			p apply alignment to any element.
+
+		//- spec
+		+section
+			+subtitle('Usage')
+			+description
+			+demo
+				+example
+					.example-self-align.
+						<div class="fy-sal box-343">
+							Box align to left
+						</div>
+						<br>
+						<div class="fy-sar box-343">
+							Box align to right
+						</div>
+				+code.
+					<div class="fy-sal box-343">
+						Box align to left
+					</div>
+					<br>
+					<div class="fy-sar box-343">
+						Box align to right
+					</div>

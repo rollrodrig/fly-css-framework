@@ -1,0 +1,71 @@
+extends _layout.pug
+include _mixins
+block content
+	article.fy-bx
+		+title('Center group')
+		+resume
+			p Center any group of elements
+
+		//- spec
+		+section
+			+subtitle('Usage')
+			+description
+			+demo
+				+example
+					.example-cg.
+						<div class="fy-cg">
+							<div>
+								this is a simple text
+							</div>
+						</div>
+						<div class="fy-cg">
+							<div class="fy-btn">small text</div>
+							<span class="fy-btn">super super large text</span>
+							<a href="#" class="fy-btn">UPPERCASE TEXT</a>
+						</div>
+						<div class="fy-cg">
+							<div class="fy-ss">
+								<span class="_t">
+									share
+								</span><div class="_i">
+									<i class="fab fa-facebook-f"></i>
+								</div><div class="_i">
+									<i class="fab fa-twitter"></i>
+								</div><div class="_i">
+									<i class="fab fa-youtube"></i>
+								</div><div class="_i">
+									<i class="fab fa-github"></i>
+								</div><div class="_i">
+									<i class="fab fa-instagram"></i>
+								</div>
+							</div>
+						</div>
+				+code.
+						<div class="fy-cg">
+							<div>
+								this is a simple text
+							</div>
+						</div>
+						<div class="fy-cg">
+							<div class="fy-btn">small text</div>
+							<span class="fy-btn">super super large text</span>
+							<a href="#" class="fy-btn">UPPERCASE TEXT</a>
+						</div>
+						<div class="fy-cg">
+							<div class="fy-ss">
+								<span class="_t">
+									share
+								</span><div class="_i">
+									<i class="fab fa-facebook-f"></i>
+								</div><div class="_i">
+									<i class="fab fa-twitter"></i>
+								</div><div class="_i">
+									<i class="fab fa-youtube"></i>
+								</div><div class="_i">
+									<i class="fab fa-github"></i>
+								</div><div class="_i">
+									<i class="fab fa-instagram"></i>
+								</div>
+							</div>
+						</div>
+

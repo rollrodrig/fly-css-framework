@@ -1,0 +1,43 @@
+extends _layout.pug
+include _mixins
+block content
+	article.fy-bx
+		+title('Code')
+		+resume
+			p Apply margin auto both sides
+
+		//- spec
+		+section
+			+subtitle('Usage')
+			+description
+			+demo
+				+example.
+					<div class="fy-cd">text width code style default</div>
+				+code.
+					<div class="fy-cd">text width code style default</div>
+
+		//- spec
+		+section
+			+subtitle('Colors')
+			+description
+			+properties([{'r':'-p', 'd':'color primary'},{'r':'-s', 'd':'color secondary'},{'r':'-ss', 'd':'color success'},{'r':'-w', 'd':'color warning'},{'r':'-d', 'd':'color danger'},{'r':'-i', 'd':'color info'},{'r':'-l', 'd':'color light'},{'r':'-dk', 'd':'color dark'}])
+			+demo
+				+example.
+					<div class="fy-cd -p" > color primary lighter</div>
+					<div class="fy-cd -s" > color secondary lighter</div>
+					<div class="fy-cd -ss" >color  success lighter</div>
+					<div class="fy-cd -w" > color warning lighter</div>
+					<div class="fy-cd -d" > color danger lighter</div>
+					<div class="fy-cd -i" > color info lighter</div>
+					<div class="fy-cd -l" > color light lighter</div>
+					<div class="fy-cd -dk" >color  dark lighter</div>
+				+code.
+					<div class="fy-cd -p" > color primary lighter</div>
+					<div class="fy-cd -s" > color secondary lighter</div>
+					<div class="fy-cd -ss" >color  success lighter</div>
+					<div class="fy-cd -w" > color warning lighter</div>
+					<div class="fy-cd -d" > color danger lighter</div>
+					<div class="fy-cd -i" > color info lighter</div>
+					<div class="fy-cd -l" > color light lighter</div>
+					<div class="fy-cd -dk" >color  dark lighter</div>
+

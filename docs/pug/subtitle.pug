@@ -1,0 +1,78 @@
+extends _layout.pug
+include _mixins
+block content
+	article.fy-bx
+		+title('Sub title')
+		+resume
+			p Useful tex with a negative margin top. Works really good with a <a href="title.html">Title</a> component
+
+
+		//- spec
+		+section
+			+subtitle('Default')
+			+description
+				p Basic default title
+			+demo
+				+example.
+					<br>
+					<br>
+					<div class="fy-sti">Lorem ipsum dolor sit amet</div>
+				+code.
+					<div class="fy-sti">Lorem ipsum dolor sit amet</div>
+
+
+		//- spec
+		+section
+			+subtitle('Example')
+			+description
+			+demo
+				+example.
+					<h1 class="fy-ti s3">
+						Id earum ipsum minima voluptas
+					</h1>
+					<p class="fy-sti">
+						Lorem ipsum dolor sit amet, consectetur
+					</p>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+						Nostrum omnis asperiores, reiciendis pariatur voluptate amet.
+					</p> 
+				+code.
+					<h1 class="fy-ti s3">
+						Id earum ipsum minima voluptas
+					</h1>
+					<p class="fy-sti">
+						Lorem ipsum dolor sit amet, consectetur
+					</p>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+						Nostrum omnis asperiores, reiciendis pariatur voluptate amet.
+					</p> 
+
+
+
+
+					
+
+
+
+
+
+
+
+
+
+
+
+					
+
+
+
+
+
+
+
+
+
+
+

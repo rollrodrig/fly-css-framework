@@ -1,0 +1,58 @@
+extends _layout.pug
+include _mixins
+block content
+	article.fy-bx
+		+title('Margin')
+		+resume
+			p Apply margin top and bottom to any element
+
+		//- spec
+		+section
+			+subtitle('Usage')
+			+description
+			+demo
+				+example.
+					<div class="fy-mt10">
+						margin top 10
+					</div>
+				+code.
+					<div class="fy-mt10">
+						margin top 10
+					</div>
+
+		//- spec
+		+section
+			+subtitle('Size')
+			+description
+			+properties([{'r':'fy-mt[0-50]','d':'margin top from 0 to 50px'},{'r':'fy-mb[0-50]','d':'margin bottom from 0 to 50px'}])
+			+demo
+				+example.
+					<div class="fy-mt0">margin top 0</div>
+					<div class="fy-mt10">margin top 10</div>
+					<div class="fy-mt20">margin top 20</div>
+					<div class="fy-mt30">margin top 30</div>
+					<div class="fy-mt40">margin top 40</div>
+					<div class="fy-mt50">margin top 50</div>
+					<br>
+					<br>
+					<br>
+					<br>
+					<div class="fy-mb0">margin bottom 0</div>
+					<div class="fy-mb10">margin bottom 10</div>
+					<div class="fy-mb20">margin bottom 20</div>
+					<div class="fy-mb30">margin bottom 30</div>
+					<div class="fy-mb40">margin bottom 40</div>
+					<div class="fy-mb50">margin bottom 50</div>
+				+code.
+					<div class="fy-mt0">margin top 0</div>
+					<div class="fy-mt10">margin top 10</div>
+					<div class="fy-mt20">margin top 20</div>
+					<div class="fy-mt30">margin top 30</div>
+					<div class="fy-mt40">margin top 40</div>
+					<div class="fy-mt50">margin top 50</div>
+					<div class="fy-mb0">margin bottom 0</div>
+					<div class="fy-mb10">margin bottom 10</div>
+					<div class="fy-mb20">margin bottom 20</div>
+					<div class="fy-mb30">margin bottom 30</div>
+					<div class="fy-mb40">margin bottom 40</div>
+					<div class="fy-mb50">margin bottom 50</div>

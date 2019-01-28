@@ -1,0 +1,27 @@
+extends _layout.pug
+include _mixins
+block content
+	article.fy-bx
+		+title('Hide')
+		+resume
+			p Hide elements when the screen becomes smaller
+
+		//- spec
+		+section
+			+subtitle('Usage')
+			+description
+			+properties([{'r':'fy-hdm','d':'hide on mobile'},{'r':'fy-hds','d':'hide on small'},{'r':'fy-hdxs','d':'hide on extra small'}])
+			+demo
+				+example
+					.example-hide-mobile.
+						<div class="">Never hide</div>
+						<div class="fy-hdm">hide on medium</div>
+						<div class="fy-hds">hide on small</div>
+						<div class="fy-hdxs">hide on extra small</div>
+				+code.
+					<div class="">Never hide</div>
+					<div class="fy-hdm">hide on medium</div>
+					<div class="fy-hds">hide on small</div>
+					<div class="fy-hdxs">hide on extra small</div>
+
+	

@@ -2,25 +2,178 @@ extends _layout.pug
 include _mixins
 block content
 	article.fy-bx
-		+title('Width')
+		+title('Text')
 		+resume
-			p Give any element a one or more column size. 
+
+		//- spec
+		+section
+			+subtitle('Default')
+			+description
+				p Basic default text
+			+demo
+				+example.
+					<div>Lorem ipsum dolor sit amet</div>
+				+code.
+					<div>Lorem ipsum dolor sit amet</div>
 
 
 		//- spec
 		+section
-			+subtitle('usage')
+			+subtitle('Sizes')
 			+description
-				p Default hero has a max-width and center the content.
+				p Basic default text
+			+properties([{'r':'fy-txs','d':'Small text'},{'r':'fy-txm','d':'Medium text'},{'r':'fy-txl','d':'Large text'}])
+			+demo
+				+example.
+					<div>default text</div>
+					<div class="fy-txs">small text</div>
+					<div class="fy-txm">medium text</div>
+					<div class="fy-txl">large text</div>
+				+code.
+					<div>default text</div>
+					<div class="fy-txs">small text</div>
+					<div class="fy-txm">medium text</div>
+					<div class="fy-txl">large text</div>
+
+		//- spec
+		+section
+			+subtitle('Lead')
+			+description
+				p Medium size text used for titles. It also have a margin bottom. 
+			+properties([{'r':'fy-txs','d':'Small text'},{'r':'fy-txm','d':'Medium text'},{'r':'fy-txl','d':'Large text'}])
+			+demo
+				+example.
+					<div class="fy-txld">Lorem ipsum dolor sit amet</div>
+				+code.
+					<div class="fy-txld">Lorem ipsum dolor sit amet</div>
+
+
+
+
+		//- spec
+		+section
+			+subtitle('Mute')
+			+description
+				p Small text
+			+properties([{'r':'fy-txs','d':'Small text'},{'r':'fy-txm','d':'Medium text'},{'r':'fy-txl','d':'Large text'}])
+			+demo
+				+example.
+					<div class="fy-txmu">Lorem ipsum dolor sit amet</div>
+				+code.
+					<div class="fy-txmu">Lorem ipsum dolor sit amet</div>
+
+		//- spec
+		+section
+			+subtitle('Styles')
+			+description
+				p Medium size text used for titles. It also have a margin bottom. 
+			+properties([{'r':'fy-txul', 'd':'Underline'},{'r':'fy-txnul', 'd':'Remove underline'},{'r':'fy-txuc', 'd':'Transform uppercase'},{'r':'fy-txlc', 'd':'Transform lowecase'},{'r':'fy-txcp', 'd':'Transform capitalize'},{'r':'fy-txal', 'd':'Align left'},{'r':'fy-txar', 'd':'Align right'},{'r':'fy-txac', 'd':'Align center'},{'r':'fy-txaj', 'd':'Align justify'}])
 			+demo
 				+example
-					.example-width.
-						<div class="fy-wd1">
-							width 1
+					.example-text.
+						<div class="fy-txul">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						</div>
+						<div>
+							<a class="fy-txnul">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+							</a>
+						</div>
+						<div class="fy-txuc">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						</div>
+						<div class="fy-txlc">
+							LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING ELIT.
+						</div>
+						<div class="fy-txcp">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						</div>
+						<div class="fy-txal">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						</div>
+						<div class="fy-txar">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						</div>
+						<div class="fy-txac">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						</div>
+						<div class="fy-txaj">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 						</div>
 				+code.
-					<div class="fy-wd1">
-						width 1
-					</div> 
-				+open_example('')
+					<div class="fy-txul">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+					</div>
+					<div>
+						<a class="fy-txnul">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						</a>
+					</div>
+					<div class="fy-txuc">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+					</div>
+					<div class="fy-txlc">
+						LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING ELIT.
+					</div>
+					<div class="fy-txcp">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+					</div>
+					<div class="fy-txal">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+					</div>
+					<div class="fy-txar">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+					</div>
+					<div class="fy-txac">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+					</div>
+					<div class="fy-txaj">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+					</div>
+					
+
+
+
+
+
+
+
+
+
+
+					
+
+
+
+
+
+
+
+
+
+
+
+					
+
+
+
+
+
+
+
+
+
+
+
+					
+
+
+
+
+
+
+
+
+
+
 

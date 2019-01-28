@@ -1,0 +1,119 @@
+extends _layout.pug
+include _mixins
+block content
+	article.fy-bx
+		+title('Divider')
+		+resume
+
+		//- spec
+		+section
+			+subtitle('Usage')
+			+description
+			+demo
+				+example.
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+					</p>
+					<hr class="fy-hr">
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+					</p>
+				+code.
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+					</p>
+					<hr class="fy-hr">
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+					</p>
+
+
+		//- spec
+		+section
+			+subtitle('Sizes')
+			+description
+			+properties([{'r':'-xs','d':'Extra small'},{'r':'-s','d':'Small'},{'r':'-l','d':'Large'},{'r':'-xl','d':'Extra large'}])
+			+demo
+				+example.
+					<div>
+						Lorem ipsum dolor sit amet
+					</div>
+					<hr class="fy-hr -xs">
+					<div>
+						Lorem ipsum dolor sit amet
+					</div>
+					<hr class="fy-hr -s">
+					<div>
+						Lorem ipsum dolor sit amet
+					</div>
+					<hr class="fy-hr">
+					<div>
+						Lorem ipsum dolor sit amet
+					</div>
+					<hr class="fy-hr -l">
+					<div>
+						Lorem ipsum dolor sit amet
+					</div>
+					<hr class="fy-hr -xl">
+					<div>
+						Lorem ipsum dolor sit amet
+					</div>
+				+code.
+					<div>
+						Lorem ipsum dolor sit amet
+					</div>
+					<hr class="fy-hr -xs">
+					<div>
+						Lorem ipsum dolor sit amet
+					</div>
+					<hr class="fy-hr -s">
+					<div>
+						Lorem ipsum dolor sit amet
+					</div>
+					<hr class="fy-hr">
+					<div>
+						Lorem ipsum dolor sit amet
+					</div>
+					<hr class="fy-hr -l">
+					<div>
+						Lorem ipsum dolor sit amet
+					</div>
+					<hr class="fy-hr -xl">
+					<div>
+						Lorem ipsum dolor sit amet
+					</div>
+
+
+		//- spec
+		+section
+			+subtitle('Style')
+			+description
+			+properties([{'r':'-nb	','d':'No border'}])
+			+demo
+				+example.
+					<div>
+						Lorem ipsum dolor sit amet
+					</div>
+					<hr class="fy-hr -nb">
+					<div>
+						Lorem ipsum dolor sit amet
+					</div>
+				+code.
+					<div>
+						Lorem ipsum dolor sit amet
+					</div>
+					<hr class="fy-hr -nb">
+					<div>
+						Lorem ipsum dolor sit amet
+					</div>
+
+
+
+
+
+
+
+
+
+
+

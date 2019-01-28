@@ -1,0 +1,62 @@
+extends _layout.pug
+include _mixins
+block content
+	article.fy-bx
+		+title('Popup')
+		+resume
+
+		//- spec
+		+section
+			+subtitle('Usage')
+			+description
+			+demo
+				+example.
+					<div class="fy-pop">
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit
+						</p>
+						<button class="fy-btn">Yes</button>
+						<button class="fy-btn">No</button>
+					</div>
+				+code.
+					<div class="fy-pop">
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit
+						</p>
+						<button class="fy-btn">Yes</button>
+						<button class="fy-btn">No</button>
+					</div>
+
+
+		//- spec
+		+section
+			+subtitle('Style')
+			+description
+			+properties([{'r':'-f', 'd':'	width and position absolute'},{'r':'-fx', 'd':'	change the position absolute to position fixed'},{'r':'-off', 'd':'	Hide the popup'}])
+			+demo
+				+example.
+					
+				+code.
+					<div class="fy-pop -f">
+						<p>
+							pop up with <code>-f</code> position absolute 
+						</p>
+						<button class="fy-btn">Confirm</button>
+						<button class="fy-btn">Cancel</button>
+					</div>
+					<div class="fy-pop -fx">
+						<p>
+							pop up with <code>-f -fx</code> position fixed
+						</p>
+						<button class="fy-btn">Confirm</button>
+						<button class="fy-btn">Cancel</button>
+					</div>
+					<div class="fy-pop -off">
+						<p>
+							pop up with <code>-f -fx</code> position fixed
+						</p>
+						<button class="fy-btn">Confirm</button>
+						<button class="fy-btn">Cancel</button>
+					</div>
+
+

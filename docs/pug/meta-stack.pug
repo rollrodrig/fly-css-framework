@@ -1,0 +1,129 @@
+extends _layout.pug
+include _mixins
+block content
+	article.fy-bx
+		+title('Meta stack')
+		+resume
+
+		//- spec
+		+section
+			+subtitle('Usage')
+			+description
+			+demo
+				+example.
+					<div class="fy-mts">
+						<span>share</span>
+						<span>edit</span>
+						<span>delete</span>
+					</div>
+				+code.
+					<div class="fy-mts">
+						<span>share</span>
+						<span>edit</span>
+						<span>delete</span>
+					</div>
+
+
+
+		//- spec
+		+section
+			+subtitle('Size')
+			+description
+			+properties([{'r':'-l','d':'Large'}])
+			+demo
+				+example.
+					<div class="fy-mts -l">
+						<span>
+							share
+						</span>
+						<span>
+							views
+						 </span>
+						<span>
+							comments
+						</span>
+					</div>
+				+code.
+					<div class="fy-mts -l">
+						<span>
+							share
+						</span>
+						<span>
+							views
+						 </span>
+						<span>
+							comments
+						</span>
+					</div>
+
+
+
+
+		//- spec
+		+section
+			+subtitle('Icons')
+			+description
+			+demo
+				+example.
+					<div class="fy-mts -ic">
+						<span>share <i class="fas fa-share-alt"></i></span>
+						<span>edit <i class="fas fa-edit"></i></span>
+						<span>delete <i class="fas fa-trash-alt"></i></span>
+					</div>			
+				+code.
+					<div class="fy-mts -ic">
+						<span>share <i class="fas fa-share-alt"></i></span>
+						<span>edit <i class="fas fa-edit"></i></span>
+						<span>delete <i class="fas fa-trash-alt"></i></span>
+					</div>
+
+
+
+
+		//- spec
+		+section
+			+subtitle('Double text')
+			+description
+			+demo
+				+example.
+					<div class="fy-mts -d">
+						<span>
+							123
+							<span>
+								share
+							</span>
+						</span>
+						<span>
+							34
+							<span>
+								views
+							</span>
+						</span>
+						<span>
+							342
+							<span>
+								comments
+							</span>
+						</span>
+					</div>		
+				+code.
+					<div class="fy-mts -d">
+						<span>
+							123
+							<span>
+								share
+							</span>
+						</span>
+						<span>
+							34
+							<span>
+								views
+							</span>
+						</span>
+						<span>
+							342
+							<span>
+								comments
+							</span>
+						</span>
+					</div>

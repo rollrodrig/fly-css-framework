@@ -1,0 +1,422 @@
+extends _layout.pug
+include _mixins
+block content
+	article.fy-bx
+		+title('Table')
+		+resume
+
+		//- spec
+		+section
+			+subtitle('Usage')
+			+description
+			+demo
+				+example.
+					<table class="fy-tbl">
+						<tr>
+							<th>Columna A</th>
+							<th>Columna B</th>
+							<th>Columna C</th>
+						</tr>
+						<tr>
+							<td>Lorem</td>
+							<td>consectetur</td>
+							<td>adipisicing</td>
+						</tr>
+						<tr>
+							<td>Lorem</td>
+							<td>consectetur</td>
+							<td>adipisicing</td>
+						</tr>
+					</table>
+				+code.
+					<table class="fy-tbl">
+						<tr>
+							<th>Columna A</th>
+							<th>Columna B</th>
+							<th>Columna C</th>
+						</tr>
+						<tr>
+							<td>Lorem</td>
+							<td>consectetur</td>
+							<td>adipisicing</td>
+						</tr>
+						<tr>
+							<td>Lorem</td>
+							<td>consectetur</td>
+							<td>adipisicing</td>
+						</tr>
+					</table>
+
+
+		//- spec
+		+section
+			+subtitle('Size')
+			+description
+			+properties([{'r':'-s','d':'Small'},{'r':'-l','d':'Large'}])
+			+demo
+				+example
+					.example-table.
+						<table class="fy-tbl -s">
+							<tr>
+								<th>Columna A</th>
+								<th>Columna B</th>
+								<th>Columna C</th>
+							</tr>
+							<tr>
+								<td>Lorem</td>
+								<td>consectetur</td>
+								<td>adipisicing</td>
+							</tr>
+							<tr>
+								<td>Lorem</td>
+								<td>consectetur</td>
+								<td>adipisicing</td>
+							</tr>
+						</table>
+						<table class="fy-tbl">
+							<tr>
+								<th>Columna A</th>
+								<th>Columna B</th>
+								<th>Columna C</th>
+							</tr>
+							<tr>
+								<td>Lorem</td>
+								<td>consectetur</td>
+								<td>adipisicing</td>
+							</tr>
+							<tr>
+								<td>Lorem</td>
+								<td>consectetur</td>
+								<td>adipisicing</td>
+							</tr>
+						</table>
+						<table class="fy-tbl -l">
+							<tr>
+								<th>Columna A</th>
+								<th>Columna B</th>
+								<th>Columna C</th>
+							</tr>
+							<tr>
+								<td>Lorem</td>
+								<td>consectetur</td>
+								<td>adipisicing</td>
+							</tr>
+							<tr>
+								<td>Lorem</td>
+								<td>consectetur</td>
+								<td>adipisicing</td>
+							</tr>
+						</table>			
+				+code.
+
+					<table class="fy-tbl -s">
+						<tr>
+							<th>Columna A</th>
+							<th>Columna B</th>
+							<th>Columna C</th>
+						</tr>
+						<tr>
+							<td>Lorem</td>
+							<td>consectetur</td>
+							<td>adipisicing</td>
+						</tr>
+						<tr>
+							<td>Lorem</td>
+							<td>consectetur</td>
+							<td>adipisicing</td>
+						</tr>
+					</table>
+					<table class="fy-tbl">
+						<tr>
+							<th>Columna A</th>
+							<th>Columna B</th>
+							<th>Columna C</th>
+						</tr>
+						<tr>
+							<td>Lorem</td>
+							<td>consectetur</td>
+							<td>adipisicing</td>
+						</tr>
+						<tr>
+							<td>Lorem</td>
+							<td>consectetur</td>
+							<td>adipisicing</td>
+						</tr>
+					</table>
+					<table class="fy-tbl -l">
+						<tr>
+							<th>Columna A</th>
+							<th>Columna B</th>
+							<th>Columna C</th>
+						</tr>
+						<tr>
+							<td>Lorem</td>
+							<td>consectetur</td>
+							<td>adipisicing</td>
+						</tr>
+						<tr>
+							<td>Lorem</td>
+							<td>consectetur</td>
+							<td>adipisicing</td>
+						</tr>
+					</table>
+
+
+
+		//- spec
+		+section
+			+subtitle('Style')
+			+description
+			+properties([{'r':'-lh','d':'Line horizontal'},{'r':'-lv','d':'Line vertical'},{'r':'-h','d':'Heading'},{'r':'-nh','d':'No heading'},{'r':'-hv','d':'Hover'},{'r':'-str','d':'Stripped'}])
+			+demo
+				+example
+					.example-table.
+
+						<table class="fy-tbl -lh">
+							<tr>
+								<th>Columna A</th>
+								<th>Columna B</th>
+								<th>Columna C</th>
+							</tr>
+							<tr>
+								<td>Lorem</td>
+								<td>consectetur</td>
+								<td>adipisicing</td>
+							</tr>
+							<tr>
+								<td>Lorem</td>
+								<td>consectetur</td>
+								<td>adipisicing</td>
+							</tr>
+						</table>
+						<table class="fy-tbl -lv">
+							<tr>
+								<th>Columna A</th>
+								<th>Columna B</th>
+								<th>Columna C</th>
+							</tr>
+							<tr>
+								<td>Lorem</td>
+								<td>consectetur</td>
+								<td>adipisicing</td>
+							</tr>
+							<tr>
+								<td>Lorem</td>
+								<td>consectetur</td>
+								<td>adipisicing</td>
+							</tr>
+						</table>
+						<table class="fy-tbl -ln">
+							<tr>
+								<th>Columna A</th>
+								<th>Columna B</th>
+								<th>Columna C</th>
+							</tr>
+							<tr>
+								<td>Lorem</td>
+								<td>consectetur</td>
+								<td>adipisicing</td>
+							</tr>
+							<tr>
+								<td>Lorem</td>
+								<td>consectetur</td>
+								<td>adipisicing</td>
+							</tr>
+						</table>
+
+						<table class="fy-tbl -h">
+							<tr>
+								<th>Columna A</th>
+								<th>Columna B</th>
+								<th>Columna C</th>
+							</tr>
+							<tr>
+								<td>Lorem</td>
+								<td>consectetur</td>
+								<td>adipisicing</td>
+							</tr>
+							<tr>
+								<td>Lorem</td>
+								<td>consectetur</td>
+								<td>adipisicing</td>
+							</tr>
+						</table>
+
+						<table class="fy-tbl -nh">
+							<tr>
+								<th>Columna A</th>
+								<th>Columna B</th>
+								<th>Columna C</th>
+							</tr>
+							<tr>
+								<td>Lorem</td>
+								<td>consectetur</td>
+								<td>adipisicing</td>
+							</tr>
+							<tr>
+								<td>Lorem</td>
+								<td>consectetur</td>
+								<td>adipisicing</td>
+							</tr>
+						</table>
+
+						<table class="fy-tbl -hv">
+							<tr>
+								<th>Columna A</th>
+								<th>Columna B</th>
+								<th>Columna C</th>
+							</tr>
+							<tr>
+								<td>Lorem</td>
+								<td>consectetur</td>
+								<td>adipisicing</td>
+							</tr>
+							<tr>
+								<td>Lorem</td>
+								<td>consectetur</td>
+								<td>adipisicing</td>
+							</tr>
+						</table>
+
+						<table class="fy-tbl -str">
+							<tr>
+								<th>Columna A</th>
+								<th>Columna B</th>
+								<th>Columna C</th>
+							</tr>
+							<tr>
+								<td>Lorem</td>
+								<td>consectetur</td>
+								<td>adipisicing</td>
+							</tr>
+							<tr>
+								<td>Lorem</td>
+								<td>consectetur</td>
+								<td>adipisicing</td>
+							</tr>
+						</table>								
+				+code.
+
+					<table class="fy-tbl -lh">
+						<tr>
+							<th>Columna A</th>
+							<th>Columna B</th>
+							<th>Columna C</th>
+						</tr>
+						<tr>
+							<td>Lorem</td>
+							<td>consectetur</td>
+							<td>adipisicing</td>
+						</tr>
+						<tr>
+							<td>Lorem</td>
+							<td>consectetur</td>
+							<td>adipisicing</td>
+						</tr>
+					</table>
+					<table class="fy-tbl -lv">
+						<tr>
+							<th>Columna A</th>
+							<th>Columna B</th>
+							<th>Columna C</th>
+						</tr>
+						<tr>
+							<td>Lorem</td>
+							<td>consectetur</td>
+							<td>adipisicing</td>
+						</tr>
+						<tr>
+							<td>Lorem</td>
+							<td>consectetur</td>
+							<td>adipisicing</td>
+						</tr>
+					</table>
+					<table class="fy-tbl -ln">
+						<tr>
+							<th>Columna A</th>
+							<th>Columna B</th>
+							<th>Columna C</th>
+						</tr>
+						<tr>
+							<td>Lorem</td>
+							<td>consectetur</td>
+							<td>adipisicing</td>
+						</tr>
+						<tr>
+							<td>Lorem</td>
+							<td>consectetur</td>
+							<td>adipisicing</td>
+						</tr>
+					</table>
+
+					<table class="fy-tbl -h">
+						<tr>
+							<th>Columna A</th>
+							<th>Columna B</th>
+							<th>Columna C</th>
+						</tr>
+						<tr>
+							<td>Lorem</td>
+							<td>consectetur</td>
+							<td>adipisicing</td>
+						</tr>
+						<tr>
+							<td>Lorem</td>
+							<td>consectetur</td>
+							<td>adipisicing</td>
+						</tr>
+					</table>
+
+					<table class="fy-tbl -nh">
+						<tr>
+							<th>Columna A</th>
+							<th>Columna B</th>
+							<th>Columna C</th>
+						</tr>
+						<tr>
+							<td>Lorem</td>
+							<td>consectetur</td>
+							<td>adipisicing</td>
+						</tr>
+						<tr>
+							<td>Lorem</td>
+							<td>consectetur</td>
+							<td>adipisicing</td>
+						</tr>
+					</table>
+
+					<table class="fy-tbl -hv">
+						<tr>
+							<th>Columna A</th>
+							<th>Columna B</th>
+							<th>Columna C</th>
+						</tr>
+						<tr>
+							<td>Lorem</td>
+							<td>consectetur</td>
+							<td>adipisicing</td>
+						</tr>
+						<tr>
+							<td>Lorem</td>
+							<td>consectetur</td>
+							<td>adipisicing</td>
+						</tr>
+					</table>
+
+					<table class="fy-tbl -str">
+						<tr>
+							<th>Columna A</th>
+							<th>Columna B</th>
+							<th>Columna C</th>
+						</tr>
+						<tr>
+							<td>Lorem</td>
+							<td>consectetur</td>
+							<td>adipisicing</td>
+						</tr>
+						<tr>
+							<td>Lorem</td>
+							<td>consectetur</td>
+							<td>adipisicing</td>
+						</tr>
+					</table>

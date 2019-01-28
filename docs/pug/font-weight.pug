@@ -1,0 +1,61 @@
+extends _layout.pug
+include _mixins
+block content
+	article.fy-bx
+		+title('Font weight')
+		+resume
+
+
+		//- spec
+		+section
+			+subtitle('Usage')
+			+description
+			+demo
+				+example.
+					<p class="fy-fwb">Lorem ipsum dolor sit amet</p>
+				+code.
+					<p class="fy-fwb">Lorem ipsum dolor sit amet</p>
+
+		//- spec
+		+section
+			+subtitle('Styles')
+			+description
+			+properties([{'r':'fy-fwb',	'd':'Bold'},{'r':'fy-fwn',	'd':'Normal'},{'r':'fy-fwl',	'd':'Light'}])
+	
+			+demo
+				+example.
+					<div class="fy-fwb"> Lorem ipsum dolor sit amet</div>
+					<h1 class="fy-fwn"> Lorem ipsum dolor sit amet</h1>
+					<h1 class="fy-fwl"> Lorem ipsum dolor sit amet</h1>
+				+code.
+					<div class="fy-fwb"> Lorem ipsum dolor sit amet</div>
+					<h1 class="fy-fwn"> Lorem ipsum dolor sit amet</h1>
+					<h1 class="fy-fwl"> Lorem ipsum dolor sit amet</h1>
+
+
+
+
+					
+
+
+
+
+
+
+
+
+
+
+
+					
+
+
+
+
+
+
+
+
+
+
+

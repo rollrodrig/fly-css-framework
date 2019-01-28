@@ -1,0 +1,57 @@
+extends _layout.pug
+include _mixins
+block content
+	article.fy-bx
+		+title('Padding')
+		+resume
+			p Apply margin top and bottom to any element
+
+		//- spec
+		+section
+			+subtitle('Usage')
+			+description
+			+demo
+				+example.
+					<div class="fy-pt10">
+						 Lorem ipsum dolor sit amet, consectetur
+					</div>
+				+code.
+					<div class="fy-pt10">
+						 Lorem ipsum dolor sit amet, consectetur
+					</div>
+
+		//- spec
+		+section
+			+subtitle('Size')
+			+description
+			+properties([{'r':'fy-pt[0-50]','d':'padding top from 0 to 50px'},{'r':'fy-pb[0-50]','d':'padding bottom from 0 to 50px'},])
+			+demo
+				+example.
+					<div class="fy-pt0">padding top 0</div>
+					<div class="fy-pt10">padding top 10</div>
+					<div class="fy-pt20">padding top 20</div>
+					<div class="fy-pt30">padding top 30</div>
+					<div class="fy-pt40">padding top 40</div>
+					<div class="fy-pt50">padding top 50</div>
+					<br>
+					<br>
+					<br>
+					<div class="fy-pb0">padding bottom 0</div>
+					<div class="fy-pb10">padding bottom 10</div>
+					<div class="fy-pb20">padding bottom 20</div>
+					<div class="fy-pb30">padding bottom 30</div>
+					<div class="fy-pb40">padding bottom 40</div>
+					<div class="fy-pb50">padding bottom 50</div>
+				+code.
+					<div class="fy-pt0">padding top 0</div>
+					<div class="fy-pt10">padding top 10</div>
+					<div class="fy-pt20">padding top 20</div>
+					<div class="fy-pt30">padding top 30</div>
+					<div class="fy-pt40">padding top 40</div>
+					<div class="fy-pt50">padding top 50</div>
+					<div class="fy-pb0">padding bottom 0</div>
+					<div class="fy-pb10">padding bottom 10</div>
+					<div class="fy-pb20">padding bottom 20</div>
+					<div class="fy-pb30">padding bottom 30</div>
+					<div class="fy-pb40">padding bottom 40</div>
+					<div class="fy-pb50">padding bottom 50</div>

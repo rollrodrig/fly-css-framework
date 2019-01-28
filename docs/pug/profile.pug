@@ -1,0 +1,171 @@
+extends _layout.pug
+include _mixins
+block content
+	article.fy-bx
+		+title('Profile')
+		+resume
+
+		//- spec
+		+section
+			+subtitle('Usage')
+			+description
+			+demo
+				+example.
+					<div class="fy-pf">
+						<img class="fy-pf_p" src="http://via.placeholder.com/100x100" alt="">
+						<div class="fy-pf_d">
+							Jhon smith
+							<div class="fy-pf_m">
+								@supermaster
+							</div>
+						</div>
+					</div>
+				+code.
+					<div class="fy-pf">
+						<img class="fy-pf_p" src="http://via.placeholder.com/100x100" alt="">
+						<div class="fy-pf_d">
+							Jhon smith
+							<div class="fy-pf_m">
+								@supermaster
+							</div>
+						</div>
+					</div>
+
+
+		//- spec
+		+section
+			+subtitle('Size')
+			+description
+			+properties([{'r':'-s','d':'Small'},{'r':'-l','d':'Large'}])
+			+demo
+				+example.
+					<div class="fy-pf -s">
+						<img class="fy-pf_p" src="http://via.placeholder.com/100x100" alt="">
+						<div class="fy-pf_d">
+							Jhon smith
+							<div class="fy-pf_m">
+								@supermaster
+							</div>
+						</div>
+					</div>
+					<div class="fy-pf">
+						<img class="fy-pf_p" src="http://via.placeholder.com/100x100" alt="">
+						<div class="fy-pf_d">
+							Jhon smith
+							<div class="fy-pf_m">
+								@supermaster
+							</div>
+						</div>
+					</div>
+					<div class="fy-pf -l">
+						<img class="fy-pf_p" src="http://via.placeholder.com/100x100" alt="">
+						<div class="fy-pf_d">
+							Jhon smith
+							<div class="fy-pf_m">
+								@supermaster
+							</div>
+						</div>
+					</div>
+					
+				+code.
+					<div class="fy-pf -s">
+						<img class="fy-pf_p" src="http://via.placeholder.com/100x100" alt="">
+						<div class="fy-pf_d">
+							Jhon smith
+							<div class="fy-pf_m">
+								@supermaster
+							</div>
+						</div>
+					</div>
+					<div class="fy-pf">
+						<img class="fy-pf_p" src="http://via.placeholder.com/100x100" alt="">
+						<div class="fy-pf_d">
+							Jhon smith
+							<div class="fy-pf_m">
+								@supermaster
+							</div>
+						</div>
+					</div>
+					<div class="fy-pf -l">
+						<img class="fy-pf_p" src="http://via.placeholder.com/100x100" alt="">
+						<div class="fy-pf_d">
+							Jhon smith
+							<div class="fy-pf_m">
+								@supermaster
+							</div>
+						</div>
+					</div>
+
+
+
+		//- spec
+		+section
+			+subtitle('Style')
+			+description
+			+properties([{'r':'-pr','d':'Profile rounded'},{'r':'-ar','d':'Align right'},{'r':'-dvc','d':'Vertical align'}])
+			+demo
+				+example.
+
+					<div class="fy-pf -pr">
+						<img class="fy-pf_p" src="http://via.placeholder.com/100x100" alt="">
+						<div class="fy-pf_d">
+							Jhon smith
+							<div class="fy-pf_m">
+								@supermaster
+							</div>
+						</div>
+					</div>
+					<br>
+
+					<div class="fy-pf -ar">
+						<img class="fy-pf_p" src="http://via.placeholder.com/100x100" alt="">
+						<div class="fy-pf_d">
+							Jhon smith
+							<div class="fy-pf_m">
+								@supermaster
+							</div>
+						</div>
+					</div>
+					<br>
+					<div class="fy-pf -dvc">
+						<img class="fy-pf_p" src="http://via.placeholder.com/100x100" alt="">
+						<div class="fy-pf_d">
+							Jhon smith
+							<div class="fy-pf_m">
+								@supermaster
+							</div>
+						</div>
+					</div>					
+					
+				+code.
+					
+					<div class="fy-pf -pr">
+						<img class="fy-pf_p" src="http://via.placeholder.com/100x100" alt="">
+						<div class="fy-pf_d">
+							Jhon smith
+							<div class="fy-pf_m">
+								@supermaster
+							</div>
+						</div>
+					</div>
+					<br>
+
+					<div class="fy-pf -ar">
+						<img class="fy-pf_p" src="http://via.placeholder.com/100x100" alt="">
+						<div class="fy-pf_d">
+							Jhon smith
+							<div class="fy-pf_m">
+								@supermaster
+							</div>
+						</div>
+					</div>
+					<br>
+					<div class="fy-pf -dvc">
+						<img class="fy-pf_p" src="http://via.placeholder.com/100x100" alt="">
+						<div class="fy-pf_d">
+							Jhon smith
+							<div class="fy-pf_m">
+								@supermaster
+							</div>
+						</div>
+					</div>
