@@ -2,66 +2,74 @@
 @import "mixins";
 @import "basic";
 
-@import "clearfix";
-@import "alert";
-@import "hero";
-@import "align";
-@import "background-color";
+/* color */
 @import "color";
-@import "badge";
-@import "breadcrumb";
-@import "button";
-@import "card";
-@import "close";
+@import "background-color";
+
+/* layout */
 @import "container";
-@import "label";
-@import "link";
+@import "hero";
+@import "navbar";
+@import "align";
+
+/* grid */
 @import "grid";
 @import "grid-flex";
 @import "width";
-@import "align-childs";
-@import "image";
-@import "center-group";
+
+/* text */
+@import "text";
+@import "title";
+@import "subtitle";
+@import "font-size";
+@import "font-weight";
+@import "highlight-text";
+@import "bullet";
+@import "ul-list";
+
+/* form */
+@import "form-fields";
+
+/* components */
+@import "alert";
+@import "badge";
+@import "breadcrumb";
+@import "box";
+@import "button";
+@import "card";
+@import "close";
 @import "divider";
+@import "drop-down";
+@import "description-list";
+@import "label";
+@import "link";
+@import "list-group";
 @import "loading";
 @import "meta-text";
 @import "meta-stack";
-@import "code";
-@import "box";
-@import "social";
 @import "nav";
-@import "navbar";
 @import "navbar-button";
-@import "table";
-@import "list-group";
-@import "description-list";
-@import "profile";
-@import "form-fields";
-@import "tab";
 @import "pagination";
-@import "off-canvas";
-@import "bullet";
-@import "ul-list-bullet";
-@import "drop-down";
-@import "flash-bg";
+@import "profile";
 @import "popup";
+@import "social";
+@import "tab";
+@import "table";
 @import "tooltip";
 
+/* utilities */
 @import "center";
-@import "title";
-@import "subtitle";
-@import "text";
-@import "text-align";
-@import "visibility";
-@import "highlight-text";
-@import "font-weight";
-@import "font-size";
-@import "padding";
+@import "center-group";
+@import "code";
+@import "code-color";
+@import "clearfix";
+@import "hide";
 @import "margin";
-@import "remove-padding";
+@import "padding";
 @import "remove-margin";
-
-
+@import "remove-padding";
+@import "self-align";
+@import "show";
 
 
 

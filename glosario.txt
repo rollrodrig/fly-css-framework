@@ -165,13 +165,10 @@ fy-taj
 ###  Text wrapping
 
 # Text wrapping truncate
-fy-twt
 
 # Text wrapping break
-fy-twb
 
 # Text wrapping nowrap
-fy-twnw
 
 
 
