@@ -41,15 +41,15 @@ gulp.task('build', function () {
     gulp.src(publicPath+'/css/fly.min.css')
             .pipe(gulp.dest('./dist/'));
 
-    gulp.src(publicPath+'/js/fly/dev/fly.js')
-            .pipe(gulp.dest('./dist/'));
+    // gulp.src(publicPath+'/js/fly/dev/fly.js')
+    //         .pipe(gulp.dest('./dist/'));
 
-    browserify('./dev/js/fly/src/Fly.js')
-        .bundle()
-        .pipe(source('fly.min.js'))
-        .pipe(buffer())
-        .pipe(uglify())
-        .pipe(gulp.dest('./dist/'));
+    // browserify('./dev/js/fly/src/Fly.js')
+    //     .bundle()
+    //     .pipe(source('fly.min.js'))
+    //     .pipe(buffer())
+    //     .pipe(uglify())
+    //     .pipe(gulp.dest('./dist/'));
 
 });
 
