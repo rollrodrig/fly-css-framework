@@ -1,0 +1,53 @@
+
+mixin section
+	+space
+	block
+
+mixin title(title)
+	h1.fy-ti.-s5 #{title}
+
+mixin resume
+	.fy-txm.fy-mb50
+		block
+
+mixin space
+	.fy-hr.-xl
+
+mixin demo
+	div.demo
+		block
+
+mixin subtitle(title, slug)
+	h2.fy-ti.-s2
+		a.fy-bun(href="#"+slug, id=slug) #{title}
+
+mixin description
+	block
+
+mixin example
+	.example
+		block
+
+mixin code(code)
+	.code
+		.fy-code
+			pre.fy-bgc-ln
+				code.html
+					if code
+						#{code}
+					else
+						block
+mixin open_example(href)
+	a.fy-fz2.fy-a.-ar(href=href target="_blank") open example in new tab
+
+mixin row(r, d)
+	tr
+		td
+			span.fy-codl #{r}
+		td #{d}
+
+mixin properties(items)
+	.properties
+		table.fy-tbl.-ln.-fw.-s
+			each i in items
+				+row(i.r, i.d)

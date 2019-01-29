@@ -1,0 +1,105 @@
+extends _layout.pug
+include _mixins
+block content
+	article.fy-bx
+		+title('Meta text')
+		+resume
+
+		//- spec
+		+section
+			+subtitle('Usage')
+			+description
+			+demo
+				+example.
+					<div class="fy-mta">
+						extra info | 125 | share | edit | others
+					</div>
+					<br>
+					<div class="fy-mta">
+						-  April 11th 2018, 1:59:53 pm
+					</div>
+					<br>
+					<div class="fy-mta">
+						a day ago
+					</div>
+					<br>
+					<div class="fy-mta">
+						<a href="">share</a> |
+						<a href="">edit</a> |
+						<a href="">others</a>
+					</div> 
+				+code.
+					<div class="fy-mta">
+						extra info | 125 | share | edit | others
+					</div>
+					<br>
+					<div class="fy-mta">
+						-  April 11th 2018, 1:59:53 pm
+					</div>
+					<br>
+					<div class="fy-mta">
+						a day ago
+					</div>
+					<br>
+					<div class="fy-mta">
+						<a href="">share</a> |
+						<a href="">edit</a> |
+						<a href="">others</a>
+					</div> 
+
+
+		//- spec
+		+section
+			+subtitle('Custom pipes')
+			+description
+			+demo
+				+example.
+						<div class="fy-mta">
+							<a href="">share</a> <span></span>
+							<a href="">edit</a> <span></span>
+							<a href="">others</a>
+						</div>
+				+code.
+						<div class="fy-mta">
+							<a href="">share</a> <span></span>
+							<a href="">edit</a> <span></span>
+							<a href="">others</a>
+						</div>
+
+
+
+
+		//- spec
+		+section
+			+subtitle('Icons')
+			+description
+			+demo
+				+example.
+					<div class="fy-mta">
+						<a href="">share <i class="fas fa-share-alt"></i></a> <span></span>
+						<a href="">edit <i class="fas fa-edit"></i></a> <span></span>
+						<a href="">delete <i class="fas fa-trash-alt"></i></a>
+					</div>
+					<br>
+
+					<div class="fy-mta">
+						<a href=""> <i class="fas fa-share-alt"></i></a> <span></span>
+						<a href=""> <i class="fas fa-bullhorn"></i></a> <span></span>
+						<a href=""> <i class="fas fa-edit"></i></a> <span></span>
+						<a href=""> <i class="fas fa-trash-alt"></i></a>
+					</div>					
+				+code.
+					<div class="fy-mta">
+						<a href="">share <i class="fas fa-share-alt"></i></a> <span></span>
+						<a href="">edit <i class="fas fa-edit"></i></a> <span></span>
+						<a href="">delete <i class="fas fa-trash-alt"></i></a>
+					</div>
+					<br>
+
+					<div class="fy-mta">
+						<a href=""> <i class="fas fa-share-alt"></i></a> <span></span>
+						<a href=""> <i class="fas fa-bullhorn"></i></a> <span></span>
+						<a href=""> <i class="fas fa-edit"></i></a> <span></span>
+						<a href=""> <i class="fas fa-trash-alt"></i></a>
+					</div>
+

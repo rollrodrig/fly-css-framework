@@ -1,0 +1,57 @@
+extends _layout.pug
+include _mixins
+block content
+	article.fy-bx
+		+title('Card')
+		+resume
+
+
+		//- spec
+		+section
+			+subtitle('Usage')
+			+description
+			+demo
+				+example
+					<div class="fy-cls"></div>
+				+code.
+					<div class="fy-cls"></div>
+
+
+		//- spec
+		+section
+			+subtitle('Sizes')
+			+description
+			+properties([{'r':'','d':'Default'},{'r':'-s','d':'Small'},{'r':'-l','d':'Large'}])
+			+demo
+				+example.
+					<div class="fy-cls -s"></div>
+					<div class="fy-cls"></div>
+					<div class="fy-cls -l"></div>
+				+code.
+					<div class="fy-cls -s"></div>
+					<div class="fy-cls"></div>
+					<div class="fy-cls -l"></div>
+
+		//- spec
+		+section
+			+subtitle('Style')
+			+description
+			+properties([{'r':'-c','d':'Circle'},{'r':'-sq','d':'Squeare'}])
+			+demo
+				+example.
+					<div class="fy-cls -c"></div>
+					<div class="fy-cls -sq"></div>
+				+code.
+					<div class="fy-cls -c"></div>
+					<div class="fy-cls -sq"></div>
+
+
+
+
+
+
+
+
+
+
+

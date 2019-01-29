@@ -1,0 +1,260 @@
+extends _layout.pug
+include _mixins
+block content
+	article.fy-bx
+		+title('Grid flex')
+		+resume
+		
+		//- spec
+		+section
+			+subtitle('usage')
+			+description
+			+demo
+				+example
+					.example-grid-flex.
+						<div class="fy-fx">
+							<div>
+								FixedSize
+							</div>
+							<div class="fy-fxg ">
+								Responsive width
+							</div>
+						</div> 
+				+code.
+					<div class="fy-fx">
+						<div>
+							FixedSize
+						</div>
+						<div class="fy-fxg ">
+							Responsive width
+						</div>
+					</div>  
+				+open_example('')
+
+		
+		//- spec
+		+section
+			+subtitle('container')
+			+description
+				p Is the wrapper for all the columns
+			+demo
+				+example
+					.example-grid-flex.
+						<div class="fy-gc">
+							this is the grid flex container
+						</div>			
+				+code.
+					<div class="fy-gc">
+						this is the grid flex container
+					</div>
+				+open_example('')
+
+
+		//- spec
+		+section
+			+subtitle('Columns')
+			+description
+				p Grid flex has two columns. The element with the class <code class="fy-cd">fy-fxg</code> is the responsive and the other <code class="fy-cd">div</code> has a width based on its content
+			
+			+demo
+				+example
+					.example-grid-flex.
+						<div class="fy-fx">
+							<div>
+								StaticSize
+							</div>
+							<div class="fy-fxg ">
+								Responsive width
+							</div>
+						</div>
+						<div class="fy-fx">
+							<div class="fy-fxg ">
+								Responsive width
+							</div>
+							<div>
+								StaticSize
+							</div>
+						</div>		
+				+code.
+					<div class="fy-fx">
+						<div>
+							StaticSize
+						</div>
+						<div class="fy-fxg ">
+							Responsive width
+						</div>
+					</div>
+					<div class="fy-fx">
+						<div class="fy-fxg ">
+							Responsive width
+						</div>
+						<div>
+							StaticSize
+						</div>
+					</div>
+				+open_example('')
+
+
+		
+		//- spec
+		+section
+			+subtitle('Static width')
+			+description
+				p Add class <code class="fy-cd">fy-fx [xs|s|m|l] [1-12]</code> and column will have a static width 
+			+properties([{'r':'fy-fxxs[1-12]','d':'Has an static width from 1 to 12 active for all screen sizes'},{'r':'fy-fxs[1-12]','d':'Has an static width from 1 to 12 active when screen > 560px'},{'r':'fy-fxm[1-12]','d':'Has an static width from 1 to 12 active when screen > 768px'},{'r':'fy-fxl[1-12]','d':'Has an static width from 1 to 12 active when screen > 980px'}])
+			+demo
+				+example
+					.example-grid-flex.
+						<div class="fy-fx">
+							<div class="fy-fxm2">
+								2 columns static width
+							</div>
+							<div class="fy-fxg ">
+								Responsive width
+							</div>
+						</div>
+
+						<div class="fy-fx">
+							<div class="fy-fxg ">
+								Responsive width
+							</div>
+							<div class="fy-fxm2">
+								2 columns static width
+							</div>
+						</div>	
+				+code.
+					<div class="fy-fx">
+						<div class="fy-fxm2">
+							2 columns static width
+						</div>
+						<div class="fy-fxg ">
+							Responsive width
+						</div>
+					</div>
+
+					<div class="fy-fx">
+						<div class="fy-fxg ">
+							Responsive width
+						</div>
+						<div class="fy-fxm2">
+							2 columns static width
+						</div>
+					</div>
+				+open_example('')
+
+
+		
+		//- spec
+		+section
+			+subtitle('Mix static width')
+			+description
+				p Is posible to mix column size
+			+demo
+				+example
+					.example-grid-flex.
+						<div class="fy-fx">
+							<div class="fy-fxl4 fy-fxm2">
+								mix width
+							</div>
+							<div class="fy-fxg ">
+								responsive column
+							</div>
+						</div>	
+				+code.
+					<div class="fy-fx">
+						<div class="fy-fxl4 fy-fxm2">
+							mix width
+						</div>
+						<div class="fy-fxg ">
+							responsive column
+						</div>
+					</div>
+				+open_example('')
+
+
+		//- spec
+		+section
+			+subtitle('responsive')
+			+description
+				p Add the modifier <code class="fy-codl">fy-fx[@s|@m|@l]</code> to active the flex
+			+properties([{'r':'fy-fx','d':'The grid flex is active all screen sizes'},{'r':'fy-fx@s','d':'The grid flex is active when the screen > 560px'},{'r':'fy-fx@m','d':'The grid flex is active when the screen > 768px'},{'r':'fy-fx@l','d':'The grid flex is active when the screen > 980px'}])
+			+demo
+				+example
+					.example-grid-flex.
+						<div class="fy-fx@l">
+							<div>
+								Column
+							</div>
+							<div class="fy-fxg">
+								Responsive width
+							</div>
+						</div>
+						
+						<div class="fy-fx@m">
+							<div>
+								Column
+							</div>
+							<div class="fy-fxg">
+								Responsive width
+							</div>
+						</div>
+				+code.
+					<div class="fy-fx@l">
+						<div>
+							Column
+						</div>
+						<div class="fy-fxg">
+							Responsive width
+						</div>
+					</div>
+					
+					<div class="fy-fx@m">
+						<div>
+							Column
+						</div>
+						<div class="fy-fxg">
+							Responsive width
+						</div>
+					</div>
+				+open_example('')
+
+
+		//- spec
+		+section
+			+subtitle('Nested')
+			+description
+			+demo
+				+example
+					.example-grid-flex.
+						<div class="fy-fx">
+							<div>
+								Parent
+							</div>
+							<div class="fy-fxg ">
+								<div class="fy-fx">
+									<div>
+										Nested
+									</div>
+									<div class="fy-fxg ">
+										Nested responsive content
+									</div>
+								</div>
+							</div>
+						</div>
+				+code.
+					<div class="fy-fx">
+						<div>
+							Parent
+						</div>
+						<div class="fy-fxg ">
+							<div class="fy-fx">
+								<div>
+									Nested
+								</div>
+								<div class="fy-fxg ">
+									Nested responsive content
+								</div>
+							</div>
+						</div>
+					</div>
+				+open_example('')

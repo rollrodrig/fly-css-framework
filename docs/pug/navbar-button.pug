@@ -1,0 +1,77 @@
+extends _layout.pug
+include _mixins
+block content
+	article.fy-bx
+		+title('Navbar button')
+		+resume
+
+		//- spec
+		+section
+			+subtitle('Usage')
+			+description
+			+demo
+				+example.
+					<div class="fy-nbb">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				+code.
+					<div class="fy-nbb">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+
+
+		//- spec
+		+section
+			+subtitle('Size')
+			+description
+			+properties([{'r':'-s','d':'Small'}])
+			+demo
+				+example.
+					<div class="fy-nbb">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+					<br>
+					<div class="fy-nbb -s">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				+code.
+					<div class="fy-nbb">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+					<br>
+					<div class="fy-nbb -s">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>                    
+
+
+		//- spec
+		+section
+			+subtitle('Style')
+			+description
+				p Add  the class <code class="fy-cd">-on</code> to add a <code>open|active</code>  status to the navbar button.
+			+properties([{'r':'-on','d':'open|active'}])
+			+demo
+				+example.
+					<div class="fy-nbb -on">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				+code.
+					<div class="fy-nbb -on">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>                  

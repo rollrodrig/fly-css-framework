@@ -1,0 +1,33 @@
+extends _layout.pug
+include _mixins
+block content
+	article.fy-bx
+		+title('Link')
+		+resume
+
+		//- spec
+		+section
+			+subtitle('Usage')
+			+description
+			+demo
+				+example.
+						<p> Lorem ipsum <a class="fy-a" href="">adipisicing</a> consectetur adipisicing elit</p>
+				+code.
+						<p> Lorem ipsum <a class="fy-a" href="">adipisicing</a> consectetur adipisicing elit</p>
+
+
+		//- spec
+		+section
+			+subtitle('Link with arrow')
+			+description
+			+properties([{'r':'-al','d':'Align left'},{'r':'-ar','d':'Align right'}])
+			+demo
+				+example.
+					<a class="fy-a -al" href="">Link with arrow left </a>
+					<br>
+					<a class="fy-a -ar" href="">Link with arrow right </a>
+				+code.
+					<a class="fy-a -al" href="">Link with arrow left </a>
+					<br>
+					<a class="fy-a -ar" href="">Link with arrow right </a>
+

@@ -1,0 +1,60 @@
+extends _layout.pug
+include _mixins
+block content
+	article.fy-bx
+		+title('Remove padding')
+		+resume
+
+		//- spec
+		+section
+			+subtitle('Usage')
+			+description
+			+demo
+				+example.
+						<div class="fy-pdrl ">
+							Lorem ipsum dolor sit amet
+						</div>
+				+code.
+						<div class="fy-pdrl ">
+							Lorem ipsum dolor sit amet
+						</div>
+
+		//- spec
+		+section
+			+subtitle('Size')
+			+description
+			+properties([{'r':'fy-pdrl','d':'remove padding left'},{'r':'fy-pdrr','d':'remove padding right'},{'r':'fy-pdrt','d':'remove padding top'},{'r':'fy-pdrb','d':'remove padding bottom'}])
+			+demo
+				+example
+					.example-remove-padding.
+						<div class="fy-pdrl ">
+							Lorem ipsum dolor sit amet
+						</div>
+						<br>
+						<div class="fy-pdrr ">
+							Lorem ipsum dolor sit amet
+						</div>
+						<br>
+						<div class="fy-pdrt ">
+							Lorem ipsum dolor sit amet
+						</div>
+						<br>
+						<div class="fy-pdrb ">
+							Lorem ipsum dolor sit amet
+						</div>
+				+code.
+					<div class="fy-pdrl ">
+						Lorem ipsum dolor sit amet
+					</div>
+					<br>
+					<div class="fy-pdrr ">
+						Lorem ipsum dolor sit amet
+					</div>
+					<br>
+					<div class="fy-pdrt ">
+						Lorem ipsum dolor sit amet
+					</div>
+					<br>
+					<div class="fy-pdrb ">
+						Lorem ipsum dolor sit amet
+					</div> 

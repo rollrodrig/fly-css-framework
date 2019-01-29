@@ -1,0 +1,114 @@
+extends _layout.pug
+include _mixins
+block content
+	article.fy-bx
+		+title('Align')
+		+resume
+			p Align elements to left, right and center
+		
+		//- spec
+		+section
+			+subtitle('usage')
+			+description
+				p Default hero has a max-width and center the content.
+			+demo
+				+example
+					.example-align.
+						<div class="fy-alc">
+							
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						</div>
+				+code.
+					<div class="fy-alc">
+					    <div class="fy-wd1">
+					        width 1
+					    </div>
+					    <div class="fy-wd1">
+					        width 1
+					    </div>
+					</div>
+				+open_example('')
+
+		
+		//- spec
+		+section
+			+subtitle('Modifier')
+			+description
+				p Set the elements alignment direction
+			+properties([{'r':'-ar','d':'Align element to right'},{'r':'-ctr','d':'center elements'}])
+			+demo
+				+example
+					.example-align.
+						<div class="fy-alc">
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						</div>
+						<div class="fy-alc  -ar">
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						</div>
+						<div class="fy-alc  -ctr">
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						</div>					
+				+code.
+					<div class="fy-alc">
+					    <div class="fy-wd1">
+					        width 1
+					    </div>
+					    <div class="fy-wd1">
+					        width 1
+					    </div>
+					    <div class="fy-wd1">
+					        width 1
+					    </div>
+					</div>
+					<div class="fy-alc  -ar">
+					    <div class="fy-wd1">
+					        width 1
+					    </div>
+					    <div class="fy-wd1">
+					        width 1
+					    </div>
+					    <div class="fy-wd1">
+					        width 1
+					    </div>
+					</div>
+					<div class="fy-alc  -ctr">
+					    <div class="fy-wd1">
+					        width 1
+					    </div>
+					    <div class="fy-wd1">
+					        width 1
+					    </div>
+					    <div class="fy-wd1">
+					        width 1
+					    </div>
+					</div>
+				+open_example('')

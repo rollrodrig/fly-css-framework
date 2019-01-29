@@ -1,0 +1,21 @@
+extends _layout.pug
+include _mixins
+block content
+	article.fy-bx
+		h1.fy-ti.-s5 Installation
+		
+		//- spec
+		+subtitle('download')
+		p Clone the last version of the framework from 
+			a(href="{{$github}}" onclick="gtag('event', 'github',{'event_category':'docs'});" target="_blank") github 
+			|or direct download from 
+			a(href="{{$download}}" onclick="gtag('event', 'download',{'event_category':'docs'});") here
+		+demo
+
+		//- spec
+		+subtitle('install')
+		p Add the stylesheet in the head tag
+		+demo
+			+code
+				|&lt;link href="css/fly.css" rel="stylesheet"&gt;
+

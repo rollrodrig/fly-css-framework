@@ -1,0 +1,101 @@
+extends _layout.pug
+include _mixins
+block content
+	article.fy-bx
+		+title('Breadcrumb')
+		+resume
+
+
+		//- spec
+		+section
+			+subtitle('Usage')
+			+description
+			+demo
+				+example.
+					<div class="fy-brc">
+						<a href="">Category</a>
+						<span class="-a"></span>
+						<a href="">Sub category</a>
+					</div>
+				+code.
+					<div class="fy-brc">
+						<a href="">Category</a>
+						<span class="-a"></span>
+						<a href="">Sub category</a>
+					</div>
+
+		//- spec
+		+section
+			+subtitle('Examples')
+			+description
+			+demo
+				+example.
+					<div class="fy-brc">
+						<a href="">Category</a>
+						<span>/</span>
+						<a href="">Sub category</a>
+					</div>
+					<br>
+					<div class="fy-brc">
+						<a href="">Category</a>
+						<span>&nbsp;&nbsp;/&nbsp;&nbsp;</span>
+						<a href="">Sub category</a>
+					</div>
+					<br>
+					<div class="fy-brc">
+						<a href="">Category</a>
+						<span>\</span>
+						<a href="">Sub category</a>
+					</div>
+					<br>
+					<div class="fy-brc">
+						<a href="">Category</a>
+						<span>></span>
+						<a href="">Sub category</a>
+					</div>
+					<br>
+					<div class="fy-brc">
+						<a href="">Category</a>
+						<span class="-a"></span>
+						<a href="">Sub category</a>
+					</div>
+				+code.
+					<div class="fy-brc">
+						<a href="">Category</a>
+						<span>/</span>
+						<a href="">Sub category</a>
+					</div>
+					<br>
+					<div class="fy-brc">
+						<a href="">Category</a>
+						<span>&nbsp;&nbsp;/&nbsp;&nbsp;</span>
+						<a href="">Sub category</a>
+					</div>
+					<br>
+					<div class="fy-brc">
+						<a href="">Category</a>
+						<span>\</span>
+						<a href="">Sub category</a>
+					</div>
+					<br>
+					<div class="fy-brc">
+						<a href="">Category</a>
+						<span>></span>
+						<a href="">Sub category</a>
+					</div>
+					<br>
+					<div class="fy-brc">
+						<a href="">Category</a>
+						<span class="-a"></span>
+						<a href="">Sub category</a>
+					</div>
+
+
+
+
+
+
+
+
+
+

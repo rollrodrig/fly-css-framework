@@ -9,6 +9,7 @@ var gulp = require('gulp');
 var cleanCSS = require('gulp-clean-css');
 var zip = require('gulp-zip');
 var publicPath = './dev/';
+var pug = require('gulp-pug')
 
 // used for minify
 var uglify = require('gulp-uglify');
@@ -17,7 +18,7 @@ var buffer = require('vinyl-buffer');
 gulp.task('connect', function(){
     connect.server({
         port:9797,
-        root:'./dev'
+        root:'./'
     })
 });
 
@@ -72,6 +73,16 @@ gulp.task('sass', function () {
         .pipe(gulp.dest(publicPath+'css'));
 });
 
+gulp.task('pug',function() {
+    // return gulp.src('./docs/pug/*.pug')
+    gulp.src(['./docs/pug/**/*.pug','!./docs/pug/**/_*.pug'])
+    .pipe(pug({
+        doctype: 'html',
+        pretty: true
+    }))
+    .pipe(gulp.dest('./docs/html/'));
+});
+
 
 // Watch
 gulp.task('watch', function () {
@@ -81,9 +92,14 @@ gulp.task('watch', function () {
     watch('./src/sass/**/*.scss', function(event) {
         gulp.start('sass');
     });
+    watch('./docs/pug/*.pug', function(event) {
+        gulp.start('pug');
+    });
+
+    
 });
 
-gulp.task('default', ['sass','browserify','watch','connect']);
+gulp.task('default', ['sass','pug','browserify','watch','connect']);
  
 
 

@@ -1,0 +1,40 @@
+extends _layout.pug
+include _mixins
+block content
+	article.fy-bx
+		+title('Loading')
+		+resume
+
+		//- spec
+		+section
+			+subtitle('Usage')
+			+description
+			+demo
+				+example.
+						<div class="fy-ldg"></div>
+				+code.
+						<div class="fy-ldg"></div>
+
+
+
+		//- spec
+		+section
+			+subtitle('Size')
+			+description
+			+properties([{'r':'','d':'Default'},{'r':'-s','d':'Small'},{'r':'-l','d':'Large'},{'r':'-xl','d':'Extra large'}])
+			+demo
+				+example.
+					<div class="fy-ldg -s"></div>
+					<br>
+					<div class="fy-ldg"></div>
+					<br>
+					<div class="fy-ldg -l"></div>
+					<br>
+					<div class="fy-ldg -xl"></div>
+					<br>
+				+code.
+					<div class="fy-ldg -s"></div>
+					<div class="fy-ldg"></div>
+					<div class="fy-ldg -l"></div>
+					<div class="fy-ldg -xl"></div>
+

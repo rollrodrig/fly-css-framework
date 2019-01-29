@@ -1,0 +1,142 @@
+extends _layout.pug
+include _mixins
+block content
+	article.fy-bx
+		+title('Card')
+		+resume
+
+
+		//- spec
+		+section
+			+subtitle('Usage')
+			+description
+			+demo
+				+example
+					.example-card.
+						<div class="fy-crd">
+							<div class="fy-crd_i">
+								<img src="http://via.placeholder.com/350x200" alt="">
+							</div>
+							<div class="fy-crd_h">
+								Consectetur adipisicing elit
+							</div>
+							<div class="fy-crd_b">
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam et recusandae facere, eaque exercitationem. Tempora quae eius pariatur molestias at.
+								</p>
+							</div>
+							<div class="fy-crd_f">
+								Nam et recusandae facere
+							</div>
+						</div>
+				+code.
+						<div class="fy-crd">
+							<div class="fy-crd_i">
+								<img src="http://via.placeholder.com/350x200" alt="">
+							</div>
+							<div class="fy-crd_h">
+								Consectetur adipisicing elit
+							</div>
+							<div class="fy-crd_b">
+								<p>
+									Lorem ipsum dolor sit amet...
+								</p>
+							</div>
+							<div class="fy-crd_f">
+								Nam et recusandae facere
+							</div>
+						</div>
+
+
+		//- spec
+		+section
+			+subtitle('Sizes')
+			+description
+			+properties([{'r':'-sp','d':'Small padding'},{'r':'-lp','d':'Large padding'}])
+			+demo
+				+example
+					.example-card.
+						<div class="fy-crd -sp">
+							<div class="fy-crd_i">
+								<img src="http://via.placeholder.com/350x200" alt="">
+							</div>
+							<div class="fy-crd_h">
+								Consectetur adipisicing elit
+							</div>
+							<div class="fy-crd_b">
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+									Nam et recusandae facere, eaque exercitationem. 
+									Tempora quae eius pariatur molestias at.
+								</p>
+							</div>
+							<div class="fy-crd_f">
+								Nam et recusandae facere
+							</div>
+						</div>
+
+						<div class="fy-crd -lp">
+							<div class="fy-crd_i">
+								<img src="http://via.placeholder.com/350x200" alt="">
+							</div>
+							<div class="fy-crd_h">
+								Consectetur adipisicing elit
+							</div>
+							<div class="fy-crd_b">
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+									Nam et recusandae facere, eaque exercitationem.
+									Tempora quae eius pariatur molestias at.
+								</p>
+							</div>
+							<div class="fy-crd_f">
+								Nam et recusandae facere
+							</div>
+						</div> 
+				+code.
+						<div class="fy-crd -sp">
+							<div class="fy-crd_i">
+								<img src="http://via.placeholder.com/350x200" alt="">
+							</div>
+							<div class="fy-crd_h">
+								Consectetur adipisicing elit
+							</div>
+							<div class="fy-crd_b">
+								<p>
+									Lorem ipsum dolor sit amet...
+								</p>
+							</div>
+							<div class="fy-crd_f">
+								Nam et recusandae facere
+							</div>
+						</div>
+
+						<div class="fy-crd -lp">
+							<div class="fy-crd_i">
+								<img src="http://via.placeholder.com/350x200" alt="">
+							</div>
+							<div class="fy-crd_h">
+								Consectetur adipisicing elit
+							</div>
+							<div class="fy-crd_b">
+								<p>
+									Lorem ipsum dolor sit amet...
+								</p>
+							</div>
+							<div class="fy-crd_f">
+								Nam et recusandae facere
+							</div>
+						</div> 
+
+
+
+
+
+
+
+
+
+
+
+
+

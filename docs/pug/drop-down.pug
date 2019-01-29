@@ -1,0 +1,191 @@
+extends _layout.pug
+include _mixins
+block content
+	article.fy-bx
+		+title('Drop down')
+		+resume
+
+		//- spec
+		+section
+			+subtitle('Usage')
+			+description
+			+demo
+				+example.
+						<div class="fy-dd">
+							Button
+							<div class="_b">
+								<span class="_t"></span>
+								<div class="_l">
+									<a href="">LoremIpsum</a>
+									<a href="">Consectetur</a>
+									<a href="">Aadipisicing</a>
+								</div>
+							</div>
+						</div>
+				+code.
+						<div class="fy-dd">
+							Button
+							<div class="_b">
+								<span class="_t"></span>
+								<div class="_l">
+									<a href="">LoremIpsum</a>
+									<a href="">Consectetur</a>
+									<a href="">Aadipisicing</a>
+								</div>
+							</div>
+						</div>
+
+
+		//- spec
+		+section
+			+subtitle('Sizes')
+			+description
+			+properties([{'r':'','d':'Default'},{'r':'-xs','d':'Extra small'},{'r':'-s','d':'Small'},{'r':'-l','d':'Large'},{'r':'-xl','d':'Extra large'}])
+			+demo
+				+example.
+
+						<div class="fy-dd -xs">
+							Ex small
+							<div class="_b">
+								<span class="_t"></span>
+								<div class="_l">
+									<a href="">LoremIpsum</a>
+									<a href="">Consectetur</a>
+									<a href="">Aadipisicing</a>
+								</div>
+							</div>
+						</div>
+						<div class="fy-dd -s">
+							Small
+							<div class="_b">
+								<span class="_t"></span>
+								<div class="_l">
+									<a href="">LoremIpsum</a>
+									<a href="">Consectetur</a>
+									<a href="">Aadipisicing</a>
+								</div>
+							</div>
+						</div>
+						<div class="fy-dd">
+							Normal
+							<div class="_b">
+								<span class="_t"></span>
+								<div class="_l">
+									<a href="">LoremIpsum</a>
+									<a href="">Consectetur</a>
+									<a href="">Aadipisicing</a>
+								</div>
+							</div>
+						</div>
+						<div class="fy-dd -l">
+							Large
+							<div class="_b">
+								<span class="_t"></span>
+								<div class="_l">
+									<a href="">LoremIpsum</a>
+									<a href="">Consectetur</a>
+									<a href="">Aadipisicing</a>
+								</div>
+							</div>
+						</div>
+						<div class="fy-dd -xl">
+							Ex Large
+							<div class="_b">
+								<span class="_t"></span>
+								<div class="_l">
+									<a href="">LoremIpsum</a>
+									<a href="">Consectetur</a>
+									<a href="">Aadipisicing</a>
+								</div>
+							</div>
+						</div>
+				+code.
+
+						<div class="fy-dd -xs">
+							Ex small
+							<div class="_b">
+								<span class="_t"></span>
+								<div class="_l">
+									<a href="">LoremIpsum</a>
+									<a href="">Consectetur</a>
+									<a href="">Aadipisicing</a>
+								</div>
+							</div>
+						</div>
+						<div class="fy-dd -s">
+							Small
+							<div class="_b">
+								<span class="_t"></span>
+								<div class="_l">
+									<a href="">LoremIpsum</a>
+									<a href="">Consectetur</a>
+									<a href="">Aadipisicing</a>
+								</div>
+							</div>
+						</div>
+						<div class="fy-dd">
+							Normal
+							<div class="_b">
+								<span class="_t"></span>
+								<div class="_l">
+									<a href="">LoremIpsum</a>
+									<a href="">Consectetur</a>
+									<a href="">Aadipisicing</a>
+								</div>
+							</div>
+						</div>
+						<div class="fy-dd -l">
+							Large
+							<div class="_b">
+								<span class="_t"></span>
+								<div class="_l">
+									<a href="">LoremIpsum</a>
+									<a href="">Consectetur</a>
+									<a href="">Aadipisicing</a>
+								</div>
+							</div>
+						</div>
+						<div class="fy-dd -xl">
+							Ex Large
+							<div class="_b">
+								<span class="_t"></span>
+								<div class="_l">
+									<a href="">LoremIpsum</a>
+									<a href="">Consectetur</a>
+									<a href="">Aadipisicing</a>
+								</div>
+							</div>
+						</div>
+
+
+		//- spec
+		+section
+			+subtitle('Modifier')
+			+description
+			+properties([{'r':'-o	','d':'	Add open status manually'}])
+			+demo
+				+example.
+						<div class="fy-dd">
+							Normal
+						</div>
+						<div class="fy-dd -o">
+							Arrow Open
+						</div>
+				+code.
+						<div class="fy-dd">
+							Normal
+						</div>
+						<div class="fy-dd -o">
+							Arrow Open
+						</div>
+
+
+
+
+
+
+
+
+
+
+
