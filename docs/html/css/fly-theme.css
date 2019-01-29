@@ -27,6 +27,9 @@ pre {
 .properties {
     margin-bottom: 15px;
 }
+.example-self-align div {
+    border:1px solid #c3c3c3;
+}
 
 .comp-t {
 }

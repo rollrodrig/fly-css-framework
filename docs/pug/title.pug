@@ -2,9 +2,8 @@ extends _layout.pug
 include _mixins
 block content
 	article.fy-bx
-		+title('title')
+		+title('Title')
 		+resume
-
 
 		//- spec
 		+section
@@ -17,12 +16,11 @@ block content
 				+code.
 					<h1 class="fy-ti">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
 
-
 		//- spec
 		+section
 			+subtitle('Size')
 			+description
-				p Basic default title
+				p Seven size titles
 			+properties([{'r':'-s[1-7]',	'd':'Title size from 1 to 7'}])
 			+demo
 				+example.

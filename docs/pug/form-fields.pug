@@ -64,15 +64,11 @@ block content
 					<textarea class="fy-ft">Lorem ipsum dolor sit amet consectetur</textarea>
 
 
-
-
-
-
 		//- spec
 		+section
 			+subtitle('Size')
 			+description
-			+properties([{'r':'-xs', 'd':'Extra small'},{'r':'-s', 'd':'Small'},{'r':'l', 'd':'Large'}])
+			+properties([{'r':'', 'd':'Default'},{'r':'-xs', 'd':'Extra small'},{'r':'-s', 'd':'Small'},{'r':'l', 'd':'Large'}])
 			+demo
 				+example
 					.example-fields.
@@ -300,21 +296,17 @@ block content
 					</form>
 
 					
-
-
-
 		//- spec
 		+section
 			+subtitle('Form error')
 			+description
-			+properties([{'r':'fy-fc','d':'form container'},{'r':'fy-fr','d':'form row'}])
 			+demo
 				+example
 					.example-fields.
 						<form action="" class="fy-fc">
 							<div class="fy-fr">
 								<label for="" class="fy-fl">Lorem ipsum</label>
-								<input type="text" class="fy-fi" value=" temporibus sint">
+								<input type="text" class="fy-fi" value="">
 								<div class="fy-fe">
 									Lorem ipsum dolor sit amet, consectetur adipisicing elit
 								</div>
@@ -324,7 +316,7 @@ block content
 					<form action="" class="fy-fc">
 						<div class="fy-fr">
 							<label for="" class="fy-fl">Lorem ipsum</label>
-							<input type="text" class="fy-fi" value=" temporibus sint">
+							<input type="text" class="fy-fi" value="">
 							<div class="fy-fe">
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit
 							</div>

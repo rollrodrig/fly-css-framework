@@ -23,12 +23,37 @@ block content
 					<div class="fy-tab">
 						<div class="fy-tab_h">
 							<div class="fy-tab_i">Menu</div>
-							<div class="fy-tab_i -a">Tab</div>
+							<div class="fy-tab_i">Tab</div>
 							<div class="fy-tab_i">Button One</div>
 							<div class="fy-tab_i">Two</div>
 						</div>
 					</div>
 
+
+		//- spec
+		+section
+			+subtitle('Tab active')
+			+description
+				p Add the class <code>-a</code> to a tab item.
+			+demo
+				+example.
+					<div class="fy-tab">
+						<div class="fy-tab_h">
+							<div class="fy-tab_i">Menu</div>
+							<div class="fy-tab_i -a">Tab</div>
+							<div class="fy-tab_i">Button One</div>
+							<div class="fy-tab_i">Two</div>
+						</div>
+					</div>
+				+code.
+					<div class="fy-tab">
+						<div class="fy-tab_h">
+							<div class="fy-tab_i">Menu</div>
+							<div class="fy-tab_i -a">Tab</div>
+							<div class="fy-tab_i">Button One</div>
+							<div class="fy-tab_i">Two</div>
+						</div>
+					</div>
 
 		//- spec
 		+section
@@ -60,7 +85,32 @@ block content
 		+section
 			+subtitle('Style')
 			+description
-			+properties([{'r':'-or','d':'Orientation right'},{'r':'-ln','d':'Lined'}])
+			+properties([{'r':'-ln','d':'Lined'}])
+			+demo
+				+example.
+					<div class="fy-tab -ln">
+						<div class="fy-tab_h">
+							<div class="fy-tab_i">Menu</div>
+							<div class="fy-tab_i -a">Tab</div>
+							<div class="fy-tab_i">Button One</div>
+							<div class="fy-tab_i">Two</div>
+						</div>
+					</div>
+				+code.
+					<div class="fy-tab -ln">
+						<div class="fy-tab_h">
+							<div class="fy-tab_i">Menu</div>
+							<div class="fy-tab_i -a">Tab</div>
+							<div class="fy-tab_i">Button One</div>
+							<div class="fy-tab_i">Two</div>
+						</div>
+					</div>
+
+		//- spec
+		+section
+			+subtitle('Alignment')
+			+description
+			+properties([{'r':'-or','d':'Orientation right'}])
 			+demo
 				+example.
 					<div class="fy-tab -or">
@@ -71,27 +121,7 @@ block content
 							<div class="fy-tab_i">Two</div>
 						</div>
 					</div>
-					<br>
-					<div class="fy-tab -ln">
-						<div class="fy-tab_h">
-							<div class="fy-tab_i">Menu</div>
-							<div class="fy-tab_i -a">Tab</div>
-							<div class="fy-tab_i">Button One</div>
-							<div class="fy-tab_i">Two</div>
-						</div>
-					</div>
-					<br>
-					<br>
-					<div class="fy-tab -or -ln">
-						<div class="fy-tab_h">
-							<div class="fy-tab_i">Menu</div>
-							<div class="fy-tab_i -a">Tab</div>
-							<div class="fy-tab_i">Button One</div>
-							<div class="fy-tab_i">Two</div>
-						</div>
-					</div>			
 				+code.
-
 					<div class="fy-tab -or">
 						<div class="fy-tab_h">
 							<div class="fy-tab_i">Menu</div>
@@ -100,30 +130,10 @@ block content
 							<div class="fy-tab_i">Two</div>
 						</div>
 					</div>
-					<br>
-					<div class="fy-tab -ln">
-						<div class="fy-tab_h">
-							<div class="fy-tab_i">Menu</div>
-							<div class="fy-tab_i -a">Tab</div>
-							<div class="fy-tab_i">Button One</div>
-							<div class="fy-tab_i">Two</div>
-						</div>
-					</div>
-					<br>
-					<br>
-					<div class="fy-tab -or -ln">
-						<div class="fy-tab_h">
-							<div class="fy-tab_i">Menu</div>
-							<div class="fy-tab_i -a">Tab</div>
-							<div class="fy-tab_i">Button One</div>
-							<div class="fy-tab_i">Two</div>
-						</div>
-					</div>
-
-
+					
 
 		//- spec
-		+section
+		//- +section
 			+subtitle('Tab body')
 			+description
 			+demo
@@ -154,7 +164,7 @@ block content
 						<div class="fy-tab_b">
 							<div class="-a">
 								<div class="fy-bx">
-									Item 1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae quaerat quo ratione, eaque at temporibus dolores quae maxime autem excepturi dignissimos consequuntur, qui tempora eius eos, asperiores, eum laborum nisi.
+									Item 1 Lorem ipsum dolor...
 								</div>
 							</div>
 						</div>
