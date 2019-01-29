@@ -86,9 +86,9 @@ gulp.task('pug',function() {
 
 // Watch
 gulp.task('watch', function () {
-    watch('./dev/js/fly/src/components/*.js', function(event) {
-        gulp.start('browserify');
-    });
+    // watch('./dev/js/fly/src/components/*.js', function(event) {
+    //     gulp.start('browserify');
+    // });
     watch('./src/sass/**/*.scss', function(event) {
         gulp.start('sass');
     });
@@ -99,7 +99,7 @@ gulp.task('watch', function () {
     
 });
 
-gulp.task('default', ['sass','pug','browserify','watch','connect']);
+gulp.task('default', ['sass','pug','watch','connect']);
  
 
 
