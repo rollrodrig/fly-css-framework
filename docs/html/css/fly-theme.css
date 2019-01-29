@@ -21,6 +21,8 @@ pre {
     display: block !important;
 
 }
+
+
 .fy-offc,.fy-offc_s {
     background-color: transparent;
 }
@@ -82,9 +84,9 @@ pre {
     border:1px solid #c3c3c3;
 }
 
-.example-align .fy-alc > div {
+.example-align .fy-all > div,
+.example-align .fy-alr > div {
     border:1px solid #c3c3c3;
-    
 }
 
 .example-text > div {

@@ -22,8 +22,6 @@ block content
 					<div class="fy-wd1">
 						width 1
 					</div> 
-				+open_example('')
-
 
 		//- spec
 		+section
@@ -58,28 +56,24 @@ block content
 					<div class="fy-wd4">
 						width 4
 					</div>
-				+open_example('')
-
 		
-
-
 		//- spec
 		+section
 			+subtitle('Responsive')
 			+description
-				p Add the modifier <code class="fy-cd">fy-wd[1-12][@xs|@s|@m|@l]</code> to active the width for some screen sizes.
+				p Add the modifier <code class="fy-cd">fy-wd[1-12][@s|@m|@l]</code> to active the width for some screen sizes.
 			+properties([{'r':'fy-wd[1-12]@s', 'd':'Width active when the screen > 560px'},{'r':'fy-wd[[1-12]@m', 'd':'Width active when the screen > 768px'},{'r':'fy-wd[[1-12]@l', 'd':'Width active when the screen > 980px'}])
 			+demo
 				+example
 					.example-width.
 						<div class="fy-wd1@s">
-							width 1
+							width 1 when screen > 560
 						</div>
 						<div class="fy-wd2@m">
-							width 2
+							width 2 when screen > 768
 						</div>
 						<div class="fy-wd3@l">
-							width 3
+							width 3 when screen > 980
 						</div>
 				+code.
 					<div class="fy-wd1@s">
@@ -91,5 +85,3 @@ block content
 					<div class="fy-wd3@l">
 						width 3
 					</div>
-				+open_example('')
-

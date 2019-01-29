@@ -17,11 +17,6 @@
 				width: $column-width*$i;
 			}
 		}
-		&\@xs {
-			@include min-media($extra-small-min-size) {
-				width: $column-width*$i;
-			}
-		}
 	}
 
 }

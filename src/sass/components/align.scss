@@ -1,8 +1,44 @@
-.fy-sal {
-	float: left;
-	
+.fy-all {
+	&:after {
+		content: '.';
+		display: block;
+		visibility: hidden;
+		height: 0;
+		clear: both;
+	}
+	> * {
+		float: left;
+	}
+
+}
+.fy-alr {
+	&:after {
+		content: '.';
+		display: block;
+		visibility: hidden;
+		height: 0;
+		clear: both;
+	}
+	> * {
+		float: right;
+	}	
 }
 
-.fy-sar {
-	float: right;
-}
+/*
+	&.-ar {
+		> * {
+			float: right;
+		}
+	}
+	&.-ctr {
+		display: inline-block;
+	    position: relative;
+	    margin-left: auto;
+	    margin-right: auto;
+	    left: 50%;
+	    transform: translateX(-50%);
+	    &:after {
+	    	content:'';
+	    	display: none;
+	    }
+	}*/
