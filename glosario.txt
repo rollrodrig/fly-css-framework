@@ -482,13 +482,13 @@ width from 1 to 12
 
 ### Align childs
 # float elements to left
-.fy-alc
+.fy-all
 
 #  override float to right
-.fy-alc.-ar
+.fy-alr
 
 # center element
-.fy-alc.-cntr
+.fy-alc
 
 
 ### remaining width
