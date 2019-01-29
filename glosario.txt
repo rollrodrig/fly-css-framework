@@ -612,20 +612,25 @@ fy-ldg.-li
 fy-ldg.-dk
 
 
-### nav bar
+### navbar
 .fy-nb
+
+# nav bar logo
+.fy-nb_l
+
+# nav bar group links
+.fy-nb_g
+
+# nav bar group links left
+.fy-nb_gl
+# nav bar group links right
+.fy-nb_gr
+
+# nav bar a item
+.fy-nb_i
 
 # small nav bar
 .fy-nb.-s
-
-# link with underline
-.fy-nb.-ul
-
-#nav bar group links
-.fy-nb_lg
-
-# nav bar links
-.fy-nb_l
 
 
 

@@ -1,5 +1,6 @@
 
-$navbar-background-color: $color-light;
+$navbar-background-color: #fafafa;
+$navbar-border-color: $color-light;
 
 $navbar-link-color: $color-secondary;
 $navbar-link-color-hover: $color-secondary-darker;
@@ -15,28 +16,23 @@ $navbar-link-border-bottom-color: $color-dark-lighter;
 	height: 50px;
 	position: relative;
 	display: flex;
-	flex-wrap: wrap;
-	align-items: flex-start;
-	transition: 0.5s;
-	
+	/*border-bottom: 1px solid $navbar-border-color;*/
+	background-color: orange;
+
 	@include media($medium-max-size){
 		justify-content: space-between;
+		height: auto;
 		overflow: hidden;
+		display: block;
 	}
 
-	&_lgo {
-		display: flex;
-	    align-items: center;
-		font-size: 18px;
-		padding: 5px 10px 5px 10px;
-		margin-right: 10px;
-        line-height: 1.5;
+	&_l {
 		@include media($medium-max-size){
-
+			height: 50px;
 		}		
 	}
 
-	&_gl {
+	&_g {
 		flex-grow: 1;
 		&:after {
 			content: '.';
@@ -45,23 +41,37 @@ $navbar-link-border-bottom-color: $color-dark-lighter;
 			height: 0;
 			clear: both;
 		}
-
 		@include media($medium-max-size){
-			flex-basis: 100%;
+			/*flex-basis: 100%;*/
+			display: block;
 		}
 
-		&_ol {
-			display: inline-block;
+		&l {
+			display: block;
 			float: left;
+			&:after {
+				content: '.';
+				display: block;
+				visibility: hidden;
+				height: 0;
+				clear: both;
+			}
 			@include media($medium-max-size) {
 				display: block;
 				float: none;
 			}
 
 		}
-		&_or {
-			display: inline-block;
+		&r {
+			display: block;
 			float: right;
+			&:after {
+				content: '.';
+				display: block;
+				visibility: hidden;
+				height: 0;
+				clear: both;
+			}
 			@include media($medium-max-size) {
 				display: block;
 				float: none;
@@ -71,10 +81,12 @@ $navbar-link-border-bottom-color: $color-dark-lighter;
 		
 	}
 
-	&_l {
-		display: inline-block;
+	&_i {
+		display: block;
+		float: left;
 		padding: 0 18px;
      	line-height: 3.6;
+     	height: 50px;
 		text-decoration: none;
 		color: $navbar-link-color;
 		background-color: $navbar-link-background-color;
@@ -92,7 +104,19 @@ $navbar-link-border-bottom-color: $color-dark-lighter;
 		@include media($medium-max-size){
 			display: block;
 			width: 100%;
+			float: none;
 		}
+	}
+
+	.fy-nbb {
+		position: absolute;
+		top: 0;
+		right: 0;
+		display: none;
+		@include media($medium-max-size) {
+			display: block;
+		}
+		
 	}
 
 
@@ -101,15 +125,22 @@ $navbar-link-border-bottom-color: $color-dark-lighter;
 .fy-nb {
 	&.-s {
 		height: 37px;
-		.fy-nb_l {
+		@include media($medium-max-size) {
+			height: auto;
+		}
+
+		.fy-nb_i {
 			font-size: 12px;
 			padding: 0 18px;
 			line-height: 3.1;
+			height: 37px;
 		}
-		
+		.fy-fc {
+			margin-top: 1px;
+		}
 	}
 }
-
+/*
 .fy-nb {
 	&.-ul {
 	    margin-bottom: 1px;
@@ -130,8 +161,9 @@ $navbar-link-border-bottom-color: $color-dark-lighter;
 			}
 		}
 	}	
-}
+}*/
 
+/*
 .fy-nb {
 	.fy-nbb {
 		display: none;
@@ -139,7 +171,7 @@ $navbar-link-border-bottom-color: $color-dark-lighter;
 			display: block;
 		}		
 	}
-}
+}*/
 .fy-nb {
 	.fy-btn {
 		margin-top: 2px;
@@ -150,22 +182,16 @@ $navbar-link-border-bottom-color: $color-dark-lighter;
 		margin-top: 2px;
 		padding-left: 15px;
 		padding-right: 15px;
-	}
-}
-
-.fy-nb {
-	.fy-fc {
 		.fy-btn {
 			margin-top: 0;
-		}		
+		}	
 	}
 }
-
-
 
 .fy-nb {
 	&_dd {
-		display: inline-block;
+		display: block;
+		float: left;
 		padding-left: 18px;
 		padding-right: 28px;
      	line-height: 3.6;
@@ -179,7 +205,9 @@ $navbar-link-border-bottom-color: $color-dark-lighter;
 			padding-left: 0;
 			padding-right: 0;
 			overflow: hidden;
-			height: 50px;
+			/*height: 50px;*/
+			float: none;
+			
 		}
 
 		&:hover {
@@ -311,7 +339,6 @@ $navbar-link-border-bottom-color: $color-dark-lighter;
 			font-size: 12px;
 			line-height: 3.1;
 			@include media($medium-max-size) {
-				height: 37px;
 			}
 			&:before, &:after {
 		        top: 15px;
