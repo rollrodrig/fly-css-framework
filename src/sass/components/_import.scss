@@ -10,7 +10,7 @@
 @import "container";
 @import "hero";
 @import "navbar";
-@import "align";
+@import "off-canvas";
 
 /* grid */
 @import "grid";
@@ -58,7 +58,7 @@
 @import "tooltip";
 
 /* utilities */
-/*@import "center";*/
+@import "align";
 @import "center-group";
 @import "code";
 @import "code-color";
