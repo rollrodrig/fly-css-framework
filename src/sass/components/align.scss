@@ -23,22 +23,155 @@
 		float: right;
 	}	
 }
+.fy-alc {
+	text-align: center;
+	> * {
+		display: inline-block;
+	}
+}
 
-/*
-	&.-ar {
+.fy-all {
+	&\@l {
+		&:after {
+			content: '.';
+			display: block;
+			visibility: hidden;
+			height: 0;
+			clear: both;
+		}
 		> * {
-			float: right;
+			@include min-media($large-min-size) {
+				float: left;
+			}			
+		}
+	}		
+	&\@m {
+		&:after {
+			content: '.';
+			display: block;
+			visibility: hidden;
+			height: 0;
+			clear: both;
+		}
+		> * {
+			@include min-media($medium-min-size) {
+				float: left;
+			}			
 		}
 	}
-	&.-ctr {
-		display: inline-block;
-	    position: relative;
-	    margin-left: auto;
-	    margin-right: auto;
-	    left: 50%;
-	    transform: translateX(-50%);
-	    &:after {
-	    	content:'';
-	    	display: none;
-	    }
-	}*/
+	&\@s {
+		&:after {
+			content: '.';
+			display: block;
+			visibility: hidden;
+			height: 0;
+			clear: both;
+		}
+		> * {
+			@include min-media($small-min-size) {
+				float: left;
+			}			
+		}
+	}
+
+}
+
+.fy-alr {
+	&\@l {
+		&:after {
+			content: '.';
+			display: block;
+			visibility: hidden;
+			height: 0;
+			clear: both;
+		}
+		> * {
+			@include min-media($large-min-size) {
+				float: right;
+			}			
+		}
+	}		
+	&\@m {
+		&:after {
+			content: '.';
+			display: block;
+			visibility: hidden;
+			height: 0;
+			clear: both;
+		}
+		> * {
+			@include min-media($medium-min-size) {
+				float: right;
+			}			
+		}
+	}
+	&\@s {
+		&:after {
+			content: '.';
+			display: block;
+			visibility: hidden;
+			height: 0;
+			clear: both;
+		}
+		> * {
+			@include min-media($small-min-size) {
+				float: right;
+			}			
+		}
+	}
+}
+
+.fy-alc {
+	&\@l {
+		text-align: center;
+		&:after {
+			content: '.';
+			display: block;
+			visibility: hidden;
+			height: 0;
+			clear: both;
+		}
+		> * {
+			@include min-media($large-min-size) {
+				display: inline-block;
+			}			
+		}
+	}		
+	&\@m {
+		text-align: center;
+		&:after {
+			content: '.';
+			display: block;
+			visibility: hidden;
+			height: 0;
+			clear: both;
+		}
+		> * {
+			@include min-media($medium-min-size) {
+				display: inline-block;
+			}		
+		}
+	}
+	&\@s {
+		text-align: center;
+		&:after {
+			content: '.';
+			display: block;
+			visibility: hidden;
+			height: 0;
+			clear: both;
+		}
+		> * {
+			@include min-media($small-min-size) {
+				display: inline-block;
+			}			
+		}
+	}
+}
+
+
+
+
+
+
+

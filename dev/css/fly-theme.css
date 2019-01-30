@@ -19,7 +19,9 @@
 .example-grid .fy-gc {
     margin-bottom: 20px;
 }
-.example-grid .fy-gc > div{
+.example-grid > div,
+.fy-demo-grid > div,
+.demo-grid > div{
     border:1px solid #c3c3c3;
 }
 
@@ -50,6 +52,10 @@
 .example-align .fy-alc > div {
     border:1px solid #c3c3c3;
     
+}
+
+.example-align > div > div {
+    border:1px solid #c3c3c3;
 }
 
 .example-text > div {
