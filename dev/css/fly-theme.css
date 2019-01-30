@@ -43,6 +43,13 @@
     margin-bottom: 0;
 }
 
+.flex-example .fy-fx > *,
+.flex-example .fy-fx\@l > *,
+.flex-example .fy-fx\@m > *,
+.flex-example .fy-fx\@s > * {
+    border:1px solid #c3c3c3;
+
+}
 
 
 .example-width > div {
@@ -163,4 +170,17 @@
     margin: auto;
     margin-right: auto;
     
+}
+
+
+.width-test div {
+    background-color: orange;
+}
+
+.align-demo .fy-all > div,
+.align-demo .fy-alr > div {
+    border:1px solid #c2c2c2;
+}
+.align-demo div > div {
+    border:1px solid #c2c2c2;
 }

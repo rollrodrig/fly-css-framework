@@ -882,33 +882,23 @@ img {
 
 .fy-fx {
   display: flex; }
-  .fy-fx.-jcsb {
-    justify-content: space-between; }
   .fy-fx\@l {
     display: block; }
-    .fy-fx\@l.-jcsb {
-      justify-content: space-between; }
     @media only screen and (min-width: 981px) {
       .fy-fx\@l {
         display: flex; } }
   .fy-fx\@m {
     display: block; }
-    .fy-fx\@m.-jcsb {
-      justify-content: space-between; }
     @media only screen and (min-width: 769px) {
       .fy-fx\@m {
         display: flex; } }
   .fy-fx\@s {
     display: block; }
-    .fy-fx\@s.-jcsb {
-      justify-content: space-between; }
     @media only screen and (min-width: 541px) {
       .fy-fx\@s {
         display: flex; } }
   .fy-fx\@xs {
     display: block; }
-    .fy-fx\@xs.-jcsb {
-      justify-content: space-between; }
     @media only screen and (min-width: 0px) {
       .fy-fx\@xs {
         display: flex; } }
@@ -948,184 +938,148 @@ img {
   .fy-fx12 {
     flex-basis: 1164px;
     flex-shrink: 0; }
-  .fy-fxxs1 {
-    flex-basis: 97px;
-    flex-shrink: 0; }
-  .fy-fxxs2 {
-    flex-basis: 194px;
-    flex-shrink: 0; }
-  .fy-fxxs3 {
-    flex-basis: 291px;
-    flex-shrink: 0; }
-  .fy-fxxs4 {
-    flex-basis: 388px;
-    flex-shrink: 0; }
-  .fy-fxxs5 {
-    flex-basis: 485px;
-    flex-shrink: 0; }
-  .fy-fxxs6 {
-    flex-basis: 582px;
-    flex-shrink: 0; }
-  .fy-fxxs7 {
-    flex-basis: 679px;
-    flex-shrink: 0; }
-  .fy-fxxs8 {
-    flex-basis: 776px;
-    flex-shrink: 0; }
-  .fy-fxxs9 {
-    flex-basis: 873px;
-    flex-shrink: 0; }
-  .fy-fxxs10 {
-    flex-basis: 970px;
-    flex-shrink: 0; }
-  .fy-fxxs11 {
-    flex-basis: 1067px;
-    flex-shrink: 0; }
-  .fy-fxxs12 {
-    flex-basis: 1164px;
-    flex-shrink: 0; }
   @media only screen and (min-width: 541px) {
-    .fy-fxs1 {
+    .fy-fx1\@s {
       flex-basis: 97px;
       flex-shrink: 0; } }
   @media only screen and (min-width: 541px) {
-    .fy-fxs2 {
+    .fy-fx2\@s {
       flex-basis: 194px;
       flex-shrink: 0; } }
   @media only screen and (min-width: 541px) {
-    .fy-fxs3 {
+    .fy-fx3\@s {
       flex-basis: 291px;
       flex-shrink: 0; } }
   @media only screen and (min-width: 541px) {
-    .fy-fxs4 {
+    .fy-fx4\@s {
       flex-basis: 388px;
       flex-shrink: 0; } }
   @media only screen and (min-width: 541px) {
-    .fy-fxs5 {
+    .fy-fx5\@s {
       flex-basis: 485px;
       flex-shrink: 0; } }
   @media only screen and (min-width: 541px) {
-    .fy-fxs6 {
+    .fy-fx6\@s {
       flex-basis: 582px;
       flex-shrink: 0; } }
   @media only screen and (min-width: 541px) {
-    .fy-fxs7 {
+    .fy-fx7\@s {
       flex-basis: 679px;
       flex-shrink: 0; } }
   @media only screen and (min-width: 541px) {
-    .fy-fxs8 {
+    .fy-fx8\@s {
       flex-basis: 776px;
       flex-shrink: 0; } }
   @media only screen and (min-width: 541px) {
-    .fy-fxs9 {
+    .fy-fx9\@s {
       flex-basis: 873px;
       flex-shrink: 0; } }
   @media only screen and (min-width: 541px) {
-    .fy-fxs10 {
+    .fy-fx10\@s {
       flex-basis: 970px;
       flex-shrink: 0; } }
   @media only screen and (min-width: 541px) {
-    .fy-fxs11 {
+    .fy-fx11\@s {
       flex-basis: 1067px;
       flex-shrink: 0; } }
   @media only screen and (min-width: 541px) {
-    .fy-fxs12 {
+    .fy-fx12\@s {
       flex-basis: 1164px;
       flex-shrink: 0; } }
   @media only screen and (min-width: 769px) {
-    .fy-fxm1 {
+    .fy-fx1\@m {
       flex-basis: 97px;
       flex-shrink: 0; } }
   @media only screen and (min-width: 769px) {
-    .fy-fxm2 {
+    .fy-fx2\@m {
       flex-basis: 194px;
       flex-shrink: 0; } }
   @media only screen and (min-width: 769px) {
-    .fy-fxm3 {
+    .fy-fx3\@m {
       flex-basis: 291px;
       flex-shrink: 0; } }
   @media only screen and (min-width: 769px) {
-    .fy-fxm4 {
+    .fy-fx4\@m {
       flex-basis: 388px;
       flex-shrink: 0; } }
   @media only screen and (min-width: 769px) {
-    .fy-fxm5 {
+    .fy-fx5\@m {
       flex-basis: 485px;
       flex-shrink: 0; } }
   @media only screen and (min-width: 769px) {
-    .fy-fxm6 {
+    .fy-fx6\@m {
       flex-basis: 582px;
       flex-shrink: 0; } }
   @media only screen and (min-width: 769px) {
-    .fy-fxm7 {
+    .fy-fx7\@m {
       flex-basis: 679px;
       flex-shrink: 0; } }
   @media only screen and (min-width: 769px) {
-    .fy-fxm8 {
+    .fy-fx8\@m {
       flex-basis: 776px;
       flex-shrink: 0; } }
   @media only screen and (min-width: 769px) {
-    .fy-fxm9 {
+    .fy-fx9\@m {
       flex-basis: 873px;
       flex-shrink: 0; } }
   @media only screen and (min-width: 769px) {
-    .fy-fxm10 {
+    .fy-fx10\@m {
       flex-basis: 970px;
       flex-shrink: 0; } }
   @media only screen and (min-width: 769px) {
-    .fy-fxm11 {
+    .fy-fx11\@m {
       flex-basis: 1067px;
       flex-shrink: 0; } }
   @media only screen and (min-width: 769px) {
-    .fy-fxm12 {
+    .fy-fx12\@m {
       flex-basis: 1164px;
       flex-shrink: 0; } }
   @media only screen and (min-width: 981px) {
-    .fy-fxl1 {
+    .fy-fx1\@l {
       flex-basis: 97px;
       flex-shrink: 0; } }
   @media only screen and (min-width: 981px) {
-    .fy-fxl2 {
+    .fy-fx2\@l {
       flex-basis: 194px;
       flex-shrink: 0; } }
   @media only screen and (min-width: 981px) {
-    .fy-fxl3 {
+    .fy-fx3\@l {
       flex-basis: 291px;
       flex-shrink: 0; } }
   @media only screen and (min-width: 981px) {
-    .fy-fxl4 {
+    .fy-fx4\@l {
       flex-basis: 388px;
       flex-shrink: 0; } }
   @media only screen and (min-width: 981px) {
-    .fy-fxl5 {
+    .fy-fx5\@l {
       flex-basis: 485px;
       flex-shrink: 0; } }
   @media only screen and (min-width: 981px) {
-    .fy-fxl6 {
+    .fy-fx6\@l {
       flex-basis: 582px;
       flex-shrink: 0; } }
   @media only screen and (min-width: 981px) {
-    .fy-fxl7 {
+    .fy-fx7\@l {
       flex-basis: 679px;
       flex-shrink: 0; } }
   @media only screen and (min-width: 981px) {
-    .fy-fxl8 {
+    .fy-fx8\@l {
       flex-basis: 776px;
       flex-shrink: 0; } }
   @media only screen and (min-width: 981px) {
-    .fy-fxl9 {
+    .fy-fx9\@l {
       flex-basis: 873px;
       flex-shrink: 0; } }
   @media only screen and (min-width: 981px) {
-    .fy-fxl10 {
+    .fy-fx10\@l {
       flex-basis: 970px;
       flex-shrink: 0; } }
   @media only screen and (min-width: 981px) {
-    .fy-fxl11 {
+    .fy-fx11\@l {
       flex-basis: 1067px;
       flex-shrink: 0; } }
   @media only screen and (min-width: 981px) {
-    .fy-fxl12 {
+    .fy-fx12\@l {
       flex-basis: 1164px;
       flex-shrink: 0; } }
   .fy-fxg {
