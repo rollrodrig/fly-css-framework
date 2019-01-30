@@ -7,3 +7,6 @@
 .align-demo .fy-alr > div {
 	border:1px solid #c2c2c2;
 }
+.align-demo div > div {
+	border:1px solid #c2c2c2;
+}

@@ -247,9 +247,7 @@ img {
   background-color: #fafafa;
   height: 50px;
   position: relative;
-  display: flex;
-  /*border-bottom: 1px solid $navbar-border-color;*/
-  background-color: orange; }
+  display: flex; }
   @media only screen and (max-width: 980px) {
     .fy-nb {
       justify-content: space-between;
@@ -520,24 +518,72 @@ img {
 .fy-alr > * {
   float: right; }
 
-/*
-	&.-ar {
-		> * {
-			float: right;
-		}
-	}
-	&.-ctr {
-		display: inline-block;
-	    position: relative;
-	    margin-left: auto;
-	    margin-right: auto;
-	    left: 50%;
-	    transform: translateX(-50%);
-	    &:after {
-	    	content:'';
-	    	display: none;
-	    }
-	}*/
+.fy-all\@l:after {
+  content: '.';
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both; }
+
+@media only screen and (min-width: 981px) {
+  .fy-all\@l > * {
+    float: left; } }
+
+.fy-all\@m:after {
+  content: '.';
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both; }
+
+@media only screen and (min-width: 769px) {
+  .fy-all\@m > * {
+    float: left; } }
+
+.fy-all\@s:after {
+  content: '.';
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both; }
+
+@media only screen and (min-width: 541px) {
+  .fy-all\@s > * {
+    float: left; } }
+
+.fy-alr\@l:after {
+  content: '.';
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both; }
+
+@media only screen and (min-width: 981px) {
+  .fy-alr\@l > * {
+    float: right; } }
+
+.fy-alr\@m:after {
+  content: '.';
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both; }
+
+@media only screen and (min-width: 769px) {
+  .fy-alr\@m > * {
+    float: right; } }
+
+.fy-alr\@s:after {
+  content: '.';
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both; }
+
+@media only screen and (min-width: 541px) {
+  .fy-alr\@s > * {
+    float: right; } }
+
 /* grid */
 .fy-gc:after {
   content: '.';

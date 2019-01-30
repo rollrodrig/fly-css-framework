@@ -88,7 +88,9 @@ pre {
 .example-align .fy-alr > div {
     border:1px solid #c3c3c3;
 }
-
+.example-align > div > div {
+    border:1px solid #c3c3c3;
+}
 .example-text > div {
     margin-bottom: 5px;
 }

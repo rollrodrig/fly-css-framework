@@ -16,8 +16,6 @@ $navbar-link-border-bottom-color: $color-dark-lighter;
 	height: 50px;
 	position: relative;
 	display: flex;
-	/*border-bottom: 1px solid $navbar-border-color;*/
-	background-color: orange;
 
 	@include media($medium-max-size){
 		justify-content: space-between;
