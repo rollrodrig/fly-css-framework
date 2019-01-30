@@ -741,14 +741,11 @@ fy-ldg.-dk
 ### Description list
 fy-dl
 
-# with lines
-fy-dl.-ln
-
-# with lines
-fy-dl.-uc
-
 # bordered
-fy-dl.-bd
+fy-dl.-b
+
+# small
+.fy-dl.-s
 
 
 ### Profile

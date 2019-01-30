@@ -149,3 +149,18 @@
     padding: 10px;
 
 }
+
+.demo-card {
+    width: 350px;
+    display: block;
+    margin: auto;
+    margin-right: auto;
+}
+
+.demo-description-list {
+    width: 350px;
+    display: block;
+    margin: auto;
+    margin-right: auto;
+    
+}

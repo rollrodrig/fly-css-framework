@@ -2284,40 +2284,64 @@ img {
 
 .fy-dl > div {
   padding: 11px 16px;
-  border-bottom: 1px solid #ececec; }
+  border-bottom: 1px solid #ececec;
+  font-size: 15px; }
   .fy-dl > div:last-child {
     border-bottom: none; }
 
-/*.fy-dl {
-	&.-ln {
-		> div  {
-			border-bottom: 1px solid $color-light-darker;
-			&:last-child {
-				border-bottom: none;
-			}
-		}
-		
-	}
-}*/
-.fy-dl.-bd {
+.fy-dl.-s > div {
+  padding: 6px 11px;
+  font-size: 12px; }
+
+.fy-dl.-b {
   border: 1px solid #ececec; }
 
-/*.fy-dl {
-	&.-uc {
-		> div  {
-			font-size: 11px;
-		}
-		
-	}
-}
-*/
 .fy-lbl {
   background-color: #c2c2c2;
   font-size: 11px;
   min-width: 22px;
   padding-left: 5px;
   padding-right: 5px;
-  display: inline-block; }
+  display: inline-block;
+  /*
+    // primary
+    &.-p {
+        background-color: $color-primary;
+        color: $color-light-full;
+    }
+    // secondary
+    &.-s {
+        background-color: $color-secondary;
+        color: $color-light-full;
+    }
+    // success
+    &.-ss {
+        background-color: $color-success;
+        color: $color-light-full;
+    }
+    // warning
+    &.-wa {
+        background-color: $color-warning;
+    }
+    // danger
+    &.-da {
+        background-color: $color-danger;
+        color: $color-light-full;
+    }
+    // info
+    &.-in {
+        background-color: $color-info;
+        color: $color-light-full;
+    }
+    // light
+    &.-li {
+        background-color: $color-light;
+    }
+    // dark
+    &.-dk {
+        background-color: $color-dark;
+        color: $color-light-full;
+    }   */ }
   .fy-lbl.-r {
     border-radius: 3px; }
   .fy-lbl.-m {
@@ -2326,28 +2350,6 @@ img {
     font-size: 18px;
     padding-left: 4px;
     padding-right: 4px; }
-  .fy-lbl.-p {
-    background-color: #186aff;
-    color: #ffffff; }
-  .fy-lbl.-s {
-    background-color: #777777;
-    color: #ffffff; }
-  .fy-lbl.-ss {
-    background-color: #00D652;
-    color: #ffffff; }
-  .fy-lbl.-wa {
-    background-color: #F0BB0B; }
-  .fy-lbl.-da {
-    background-color: #D83838;
-    color: #ffffff; }
-  .fy-lbl.-in {
-    background-color: #55bdff;
-    color: #ffffff; }
-  .fy-lbl.-li {
-    background-color: #F5F5F6; }
-  .fy-lbl.-dk {
-    background-color: #343b40;
-    color: #ffffff; }
 
 a {
   color: #07C;
@@ -2472,9 +2474,12 @@ a {
   top: 6px; }
 
 .fy-lg .fy-lg_f {
-  background-color: #F5F5F6;
+  /*background-color: $color-light;*/
   border-left: 4px solid #ececec;
-  padding-left: 9px; }
+  padding-left: 9px;
+  padding-right: 0; }
+  .fy-lg .fy-lg_f:hover {
+    background-color: #ffffff; }
 
 .fy-lg.-ic .fy-lg {
   margin-top: 7px; }

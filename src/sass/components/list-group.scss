@@ -105,9 +105,13 @@ $list-group-item-hover: $color-light-lighter;
 
 .fy-lg {
 	.fy-lg_f {
-		background-color: $color-light;
+		/*background-color: $color-light;*/
 		border-left: 4px solid $color-light-darker;
 		padding-left: 9px;
+		padding-right: 0;
+		&:hover {
+			background-color: #ffffff;
+		}
 	}
 }
 
