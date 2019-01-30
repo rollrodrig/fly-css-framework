@@ -589,6 +589,42 @@ img {
   .fy-alr\@s > * {
     float: right; } }
 
+.fy-alc\@l {
+  text-align: center; }
+  .fy-alc\@l:after {
+    content: '.';
+    display: block;
+    visibility: hidden;
+    height: 0;
+    clear: both; }
+  @media only screen and (min-width: 981px) {
+    .fy-alc\@l > * {
+      display: inline-block; } }
+
+.fy-alc\@m {
+  text-align: center; }
+  .fy-alc\@m:after {
+    content: '.';
+    display: block;
+    visibility: hidden;
+    height: 0;
+    clear: both; }
+  @media only screen and (min-width: 769px) {
+    .fy-alc\@m > * {
+      display: inline-block; } }
+
+.fy-alc\@s {
+  text-align: center; }
+  .fy-alc\@s:after {
+    content: '.';
+    display: block;
+    visibility: hidden;
+    height: 0;
+    clear: both; }
+  @media only screen and (min-width: 541px) {
+    .fy-alc\@s > * {
+      display: inline-block; } }
+
 /* grid */
 .fy-gc:after {
   content: '.';
