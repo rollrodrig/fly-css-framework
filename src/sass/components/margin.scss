@@ -58,38 +58,4 @@
 			margin-bottom: $i*$margin-loop-constant;
 		}
 	}
-
 }
-
-/* marbin top negative */
-
-@for $i from 0 through $margin-loop-max-through {
-	.fy-mtn#{$i*10} {
-		margin-top: -$i*$margin-loop-constant;
-	}	
-	.fy-mtnxs#{$i*10} {
-		@include mm-media($extra-small-min-size, $extra-small-max-size) {
-			margin-top: -$i*$margin-loop-constant;
-		}
-	}
-	.fy-mtns#{$i*10} {
-		@include mm-media($small-min-size, $small-max-size){
-			margin-top: -$i*$margin-loop-constant;
-		}
-	}
-	.fy-mtnm#{$i*10} {
-		@include mm-media($medium-min-size, $medium-max-size){
-			margin-top: -$i*$margin-loop-constant;
-		}
-	}
-	.fy-mtnl#{$i*10} {
-		@include min-media($large-min-size){
-			margin-top: -$i*$margin-loop-constant;
-		}
-	}
-
-	
-}
-
-
-

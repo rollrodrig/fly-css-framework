@@ -2416,79 +2416,87 @@ a {
     .fy-lg.-ic .fy-lg.-s > div {
       padding-left: 17px; }
 
+.fy-ldg {
+  display: inline-block;
+  position: relative;
+  width: 64px;
+  height: 64px; }
+
+.fy-ldg div {
+  animation: fy-ldg 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  transform-origin: 32px 32px; }
+
+.fy-ldg div:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #a9a9a9;
+  margin: -3px 0 0 -3px; }
+
+.fy-ldg div:nth-child(1) {
+  animation-delay: -0.036s; }
+
+.fy-ldg div:nth-child(1):after {
+  top: 50px;
+  left: 50px; }
+
+.fy-ldg div:nth-child(2) {
+  animation-delay: -0.072s; }
+
+.fy-ldg div:nth-child(2):after {
+  top: 54px;
+  left: 45px; }
+
+.fy-ldg div:nth-child(3) {
+  animation-delay: -0.108s; }
+
+.fy-ldg div:nth-child(3):after {
+  top: 57px;
+  left: 39px; }
+
+.fy-ldg div:nth-child(4) {
+  animation-delay: -0.144s; }
+
+.fy-ldg div:nth-child(4):after {
+  top: 58px;
+  left: 32px; }
+
+.fy-ldg div:nth-child(5) {
+  animation-delay: -0.18s; }
+
+.fy-ldg div:nth-child(5):after {
+  top: 57px;
+  left: 25px; }
+
+.fy-ldg div:nth-child(6) {
+  animation-delay: -0.216s; }
+
+.fy-ldg div:nth-child(6):after {
+  top: 54px;
+  left: 19px; }
+
+.fy-ldg div:nth-child(7) {
+  animation-delay: -0.252s; }
+
+.fy-ldg div:nth-child(7):after {
+  top: 50px;
+  left: 14px; }
+
+.fy-ldg div:nth-child(8) {
+  animation-delay: -0.288s; }
+
+.fy-ldg div:nth-child(8):after {
+  top: 45px;
+  left: 10px; }
+
 @keyframes fy-ldg {
   0% {
     transform: rotate(0deg); }
   100% {
     transform: rotate(360deg); } }
-
-.fy-ldg {
-  display: inline-block;
-  width: 22px;
-  height: 22px; }
-
-.fy-ldg:after {
-  content: " ";
-  display: block;
-  width: 20px;
-  height: 20px;
-  margin: 1px;
-  border-radius: 50%;
-  border: 2px solid #000;
-  border-color: #a9a9a9 transparent #a9a9a9 transparent;
-  animation: fy-ldg 0.9s linear infinite; }
-
-.fy-ldg.-s {
-  width: 15px;
-  height: 15px; }
-  .fy-ldg.-s:after {
-    width: 10px;
-    height: 10px;
-    border: 2px solid #a9a9a9;
-    border-color: #a9a9a9 transparent #a9a9a9 transparent;
-    animation: fy-ldg 0.7s linear infinite; }
-
-.fy-ldg.-l {
-  width: 40px;
-  height: 40px; }
-  .fy-ldg.-l:after {
-    width: 32px;
-    height: 32px;
-    border: 3px solid #a9a9a9;
-    border-color: #a9a9a9 transparent #a9a9a9 transparent; }
-
-.fy-ldg.-xl {
-  width: 64px;
-  height: 64px; }
-  .fy-ldg.-xl:after {
-    width: 46px;
-    height: 46px;
-    border: 3px solid #a9a9a9;
-    border-color: #a9a9a9 transparent #a9a9a9 transparent; }
-
-.fy-ldg.-p:after {
-  border-color: #186aff transparent #186aff transparent; }
-
-.fy-ldg.-se:after {
-  border-color: #777777 transparent #777777 transparent; }
-
-.fy-ldg.-su:after {
-  border-color: #00D652 transparent #00D652 transparent; }
-
-.fy-ldg.-da:after {
-  border-color: #F0BB0B transparent #F0BB0B transparent; }
-
-.fy-ldg.-wa:after {
-  border-color: #D83838 transparent #D83838 transparent; }
-
-.fy-ldg.-in:after {
-  border-color: #55bdff transparent #55bdff transparent; }
-
-.fy-ldg.-li:after {
-  border-color: #F5F5F6 transparent #F5F5F6 transparent; }
-
-.fy-ldg.-dk:after {
-  border-color: #343b40 transparent #343b40 transparent; }
 
 .fy-mta {
   font-size: 12px;
@@ -2943,10 +2951,7 @@ a {
   box-shadow: 2px 4px 10px rgba(195, 195, 195, 0.47); }
 
 /* utilities */
-.fy-cntr {
-  margin-left: auto;
-  margin-right: auto; }
-
+/*@import "center";*/
 .fy-cg {
   display: inline-block;
   margin-left: auto;
@@ -3226,121 +3231,6 @@ a {
 @media only screen and (min-width: 981px) {
   .fy-mbl50 {
     margin-bottom: 50px; } }
-
-/* marbin top negative */
-.fy-mtn0 {
-  margin-top: 0px; }
-
-@media screen and (min-width: 0px) and (max-width: 540px) {
-  .fy-mtnxs0 {
-    margin-top: 0px; } }
-
-@media screen and (min-width: 541px) and (max-width: 768px) {
-  .fy-mtns0 {
-    margin-top: 0px; } }
-
-@media screen and (min-width: 769px) and (max-width: 980px) {
-  .fy-mtnm0 {
-    margin-top: 0px; } }
-
-@media only screen and (min-width: 981px) {
-  .fy-mtnl0 {
-    margin-top: 0px; } }
-
-.fy-mtn10 {
-  margin-top: -10px; }
-
-@media screen and (min-width: 0px) and (max-width: 540px) {
-  .fy-mtnxs10 {
-    margin-top: -10px; } }
-
-@media screen and (min-width: 541px) and (max-width: 768px) {
-  .fy-mtns10 {
-    margin-top: -10px; } }
-
-@media screen and (min-width: 769px) and (max-width: 980px) {
-  .fy-mtnm10 {
-    margin-top: -10px; } }
-
-@media only screen and (min-width: 981px) {
-  .fy-mtnl10 {
-    margin-top: -10px; } }
-
-.fy-mtn20 {
-  margin-top: -20px; }
-
-@media screen and (min-width: 0px) and (max-width: 540px) {
-  .fy-mtnxs20 {
-    margin-top: -20px; } }
-
-@media screen and (min-width: 541px) and (max-width: 768px) {
-  .fy-mtns20 {
-    margin-top: -20px; } }
-
-@media screen and (min-width: 769px) and (max-width: 980px) {
-  .fy-mtnm20 {
-    margin-top: -20px; } }
-
-@media only screen and (min-width: 981px) {
-  .fy-mtnl20 {
-    margin-top: -20px; } }
-
-.fy-mtn30 {
-  margin-top: -30px; }
-
-@media screen and (min-width: 0px) and (max-width: 540px) {
-  .fy-mtnxs30 {
-    margin-top: -30px; } }
-
-@media screen and (min-width: 541px) and (max-width: 768px) {
-  .fy-mtns30 {
-    margin-top: -30px; } }
-
-@media screen and (min-width: 769px) and (max-width: 980px) {
-  .fy-mtnm30 {
-    margin-top: -30px; } }
-
-@media only screen and (min-width: 981px) {
-  .fy-mtnl30 {
-    margin-top: -30px; } }
-
-.fy-mtn40 {
-  margin-top: -40px; }
-
-@media screen and (min-width: 0px) and (max-width: 540px) {
-  .fy-mtnxs40 {
-    margin-top: -40px; } }
-
-@media screen and (min-width: 541px) and (max-width: 768px) {
-  .fy-mtns40 {
-    margin-top: -40px; } }
-
-@media screen and (min-width: 769px) and (max-width: 980px) {
-  .fy-mtnm40 {
-    margin-top: -40px; } }
-
-@media only screen and (min-width: 981px) {
-  .fy-mtnl40 {
-    margin-top: -40px; } }
-
-.fy-mtn50 {
-  margin-top: -50px; }
-
-@media screen and (min-width: 0px) and (max-width: 540px) {
-  .fy-mtnxs50 {
-    margin-top: -50px; } }
-
-@media screen and (min-width: 541px) and (max-width: 768px) {
-  .fy-mtns50 {
-    margin-top: -50px; } }
-
-@media screen and (min-width: 769px) and (max-width: 980px) {
-  .fy-mtnm50 {
-    margin-top: -50px; } }
-
-@media only screen and (min-width: 981px) {
-  .fy-mtnl50 {
-    margin-top: -50px; } }
 
 /* padding top */
 .fy-pt0 {

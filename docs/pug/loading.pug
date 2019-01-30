@@ -4,6 +4,7 @@ block content
 	article.fy-bx
 		+title('Loading')
 		+resume
+			p Useful loading thanks to <a href="https://loading.io/css/" target="_blank">loadng.io</a>
 
 		//- spec
 		+section
@@ -11,14 +12,15 @@ block content
 			+description
 			+demo
 				+example.
-						<div class="fy-ldg"></div>
+						<div class="fy-ldg"><div></div><div></div><div></div><div></div>
+						<div></div><div></div><div></div><div></div></div>
 				+code.
-						<div class="fy-ldg"></div>
-
+						<div class="fy-ldg"><div></div><div></div><div></div><div></div>
+						<div></div><div></div><div></div><div></div></div>
 
 
 		//- spec
-		+section
+		//- +section
 			+subtitle('Size')
 			+description
 			+properties([{'r':'','d':'Default'},{'r':'-s','d':'Small'},{'r':'-l','d':'Large'},{'r':'-xl','d':'Extra large'}])

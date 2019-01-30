@@ -48,14 +48,6 @@ fy-mt3
 fy-mt4
 fy-mt5
 
-# margin negative from 0 to 50
-fy-mtn0
-fy-mtn1
-fy-mtn2
-fy-mtn3
-fy-mtn4
-fy-mtn5
-
 
 ### remove margin
 # left
