@@ -1510,20 +1510,11 @@ img {
   font-size: 11px;
   color: #D83838; }
 
-.fy-fr .fy-gc > div {
-  /*margin-bottom: 20px;*/
-  /*&:last-child  {
-				margin-bottom: 0;
-			}*/ }
+.fy-fc .fy-gc > div:first-child {
+  padding-left: 0; }
 
-.fy-fl.-va {
-  display: flex;
-  height: 45px;
-  align-items: center;
-  justify-content: flex-end; }
-
-.fy-fl.-ar {
-  text-align: right; }
+.fy-fc .fy-gc > div:last-child {
+  padding-right: 0; }
 
 .fy-fd {
   display: flex; }
@@ -1560,18 +1551,6 @@ img {
   width: 70px;
   font-size: 28px; }
 
-/*.b + .a {
-	background-color: red;
-}
-.b + .c {
-	background-color: red;
-}
-
-.b ~ .c {
-	background-color: orange;
-}
-
-*/
 .fy-fb {
   display: flex; }
   .fy-fb .fy-fs, .fy-fb .fy-fi {
