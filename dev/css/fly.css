@@ -518,6 +518,11 @@ img {
 .fy-alr > * {
   float: right; }
 
+.fy-alc {
+  text-align: center; }
+  .fy-alc > * {
+    display: inline-block; }
+
 .fy-all\@l:after {
   content: '.';
   display: block;

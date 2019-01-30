@@ -23,6 +23,12 @@
 		float: right;
 	}	
 }
+.fy-alc {
+	text-align: center;
+	> * {
+		display: inline-block;
+	}
+}
 
 .fy-all {
 	&\@l {
