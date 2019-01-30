@@ -465,7 +465,6 @@ fy-bct
 .fy-gc.-g@xs
 
 # grid gutter, first child paddng 0, last child padding 0 
-.fy-gc.-gsp
 
 
 

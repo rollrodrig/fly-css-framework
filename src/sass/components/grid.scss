@@ -76,26 +76,8 @@ $grid-gutter-padding: 10px;
 				}			
 			}
 		}
-		&\@xs {
-			> * {
-				@include min-media($extra-small-min-size) {
-					padding-left: $grid-gutter-padding;
-					padding-right: $grid-gutter-padding;
-				}			
-			}
-		}
 	}
 
-	&.-gsp {
-		> * {
-			&:first-child {
-				padding-left: 0;
-			}
-			&:last-child {
-				padding-right: 0;
-			}
-		}
-	}
 }
 
 

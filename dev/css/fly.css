@@ -880,17 +880,6 @@ img {
     padding-left: 10px;
     padding-right: 10px; } }
 
-@media only screen and (min-width: 0px) {
-  .fy-gc.-g\@xs > * {
-    padding-left: 10px;
-    padding-right: 10px; } }
-
-.fy-gc.-gsp > *:first-child {
-  padding-left: 0; }
-
-.fy-gc.-gsp > *:last-child {
-  padding-right: 0; }
-
 .fy-fx {
   display: flex; }
   .fy-fx.-jcsb {
@@ -2477,9 +2466,13 @@ a {
   /*background-color: $color-light;*/
   border-left: 4px solid #ececec;
   padding-left: 9px;
-  padding-right: 0; }
+  padding-right: 0;
+  padding-top: 0; }
   .fy-lg .fy-lg_f:hover {
     background-color: #ffffff; }
+  .fy-lg .fy-lg_f div:first-child {
+    padding-top: 9px;
+    padding-bottom: 9px; }
 
 .fy-lg.-ic .fy-lg {
   margin-top: 7px; }

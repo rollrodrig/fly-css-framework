@@ -109,8 +109,13 @@ $list-group-item-hover: $color-light-lighter;
 		border-left: 4px solid $color-light-darker;
 		padding-left: 9px;
 		padding-right: 0;
+		padding-top: 0;
 		&:hover {
 			background-color: #ffffff;
+		}
+		div:first-child {
+			padding-top: 9px;
+			padding-bottom: 9px;
 		}
 	}
 }
