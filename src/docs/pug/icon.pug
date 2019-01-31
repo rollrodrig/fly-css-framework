@@ -1,0 +1,35 @@
+extends _layout.pug
+include _mixins
+block content
+	article.fy-bx
+		+title('Icon')
+		+resume
+			p Usefull icon using the library <a href="https://fontawesome.com/icons?d=gallery&m=free" target="_blank">FontAwesome</a> 
+
+		//- spec
+		+section
+			+subtitle('Usage')
+			+description
+				p Add the stylesheet <code>font-awesome.css</code>
+				p Load the folder <code>fonts</code> inside your proyect
+			+demo
+				+example.
+					<link rel="stylesheet" href="css/font-awesome.css">
+				+code.
+					<link rel="stylesheet" href="css/font-awesome.css">
+
+		//- spec
+		+section
+			+subtitle('Example')
+			+description
+			+demo
+				+example.
+						<div>
+							<i class="fab fa-angellist"></i> Hola
+						</div>
+				+code.
+						<div>
+							<i class="fab fa-angellist"></i> Hola
+						</div>
+
+
