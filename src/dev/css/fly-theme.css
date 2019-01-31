@@ -186,3 +186,22 @@
 .align-demo div > div {
     border:1px solid #c2c2c2;
 }
+.flex-example .fy-fx > div {
+    border:1px solid #c3c3c3;
+}
+.object-float-left {
+    float: left;
+    padding: 10px;
+}
+
+.box-flash {
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+
+}
+
+.width-test div {
+    background-color: orange;
+}

@@ -27,6 +27,30 @@ fy-fwb
 fy-fwn
 fy-fwl
 
+### font family open sans
+fy-opensans
+fy-opensans-italic
+fy-opensans-light
+fy-opensans-lightitalic
+fy-opensans-semibold
+fy-opensans-semibolditalic
+fy-opensans-bold
+fy-opensans-bolditalic
+fy-opensans-extrabold
+fy-opensans-extrabolditalic
+
+
+### font family montserrat
+fy-montserrat
+fy-montserrat-italic
+fy-montserrat-light
+fy-montserrat-lightitalic
+fy-montserrat-semibold
+fy-montserrat-semibolditalic
+fy-montserrat-bold
+fy-montserrat-bolditalic
+fy-montserrat-extrabold
+fy-montserrat-extrabolditalic
 
 ### Margin
 
