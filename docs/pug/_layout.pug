@@ -29,13 +29,13 @@ html(lang="es")
 		link(rel="stylesheet" type="text/css" href="css/fly-theme.css")
 	body
 		.fy-offc
-			.fy-offc_s
+			.fy-offc_s(fy-offc-s)
 				include _sidebar
-			.fy-offc_b
+			.fy-offc_b(fy-offc-b)
 				.fy-nb.fy-shm
 					.fy-nb_l
 						img.lgo-mob(src="images/logo-.png", alt="")
-					.fy-nbb
+					.fy-nbb(fy-offc-bt)
 						span
 						span
 						span
@@ -51,5 +51,25 @@ html(lang="es")
 						code[i].innerHTML = code[i].innerHTML.replace(/</g,'&lt;').replace(/>/g,'&gt;')
 					}
 				}
-				hljs.initHighlightingOnLoad();			
-
+				hljs.initHighlightingOnLoad();
+				(function(){
+					var q, o = false, on, off, s, b, bt;
+					q = function(e){return document.querySelector(e);}
+					s = q('[fy-offc-s]');
+					b = q('[fy-offc-b]');
+					bt = q('[fy-offc-bt]');
+					if (s == undefined || b == undefined || bt == undefined) { return;}
+					on = function(){
+						s.classList.add('-on');
+						bt.classList.add('-on');
+					}
+					off = function(){
+						s.classList.remove('-on');
+						bt.classList.remove('-on');
+					}
+					bt.onclick = function(){
+					console.log('aaaa');
+						o?off():on();
+						o = !o;
+					}
+				})();

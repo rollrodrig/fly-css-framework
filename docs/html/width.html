@@ -29,7 +29,7 @@
   </head>
   <body>
     <div class="fy-offc">
-      <div class="fy-offc_s">
+      <div class="fy-offc_s" fy-offc-s>
         <div class="fy-bx">
           <div class="fy-mb10 fy-mt30"><a href="/" onclick="gtag('event', 'go_home',{'event_category':'navigation'});"><img class="logo" src="images/logo-.png" alt=""></a></div>
           <div class="fy-mb10 fy-txac">Simple and beauty<br>css framework</div>
@@ -126,10 +126,10 @@
           </ul>
         </div>
       </div>
-      <div class="fy-offc_b">
+      <div class="fy-offc_b" fy-offc-b>
         <div class="fy-nb fy-shm">
           <div class="fy-nb_l"><img class="lgo-mob" src="images/logo-.png" alt=""></div>
-          <div class="fy-nbb"><span></span><span></span><span></span></div>
+          <div class="fy-nbb" fy-offc-bt><span></span><span></span><span></span></div>
         </div>
         <article class="fy-bx">
           <h1 class="fy-ti -s5">Width</h1>
@@ -256,7 +256,28 @@
       		code[i].innerHTML = code[i].innerHTML.replace(/</g,'&lt;').replace(/>/g,'&gt;')
       	}
       }
-      hljs.initHighlightingOnLoad();			
+      hljs.initHighlightingOnLoad();
+      (function(){
+      	var q, o = false, on, off, s, b, bt;
+      	q = function(e){return document.querySelector(e);}
+      	s = q('[fy-offc-s]');
+      	b = q('[fy-offc-b]');
+      	bt = q('[fy-offc-bt]');
+      	if (s == undefined || b == undefined || bt == undefined) { return;}
+      	on = function(){
+      		s.classList.add('-on');
+      		bt.classList.add('-on');
+      	}
+      	off = function(){
+      		s.classList.remove('-on');
+      		bt.classList.remove('-on');
+      	}
+      	bt.onclick = function(){
+      	console.log('aaaa');
+      		o?off():on();
+      		o = !o;
+      	}
+      })();
     </script>
   </body>
 </html>
