@@ -1,2 +1,0 @@
-1. Set table 100% width
-2. Tab, fix the div with class -a
