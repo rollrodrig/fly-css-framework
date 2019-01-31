@@ -22,9 +22,16 @@ pre {
 
 }
 
+.lgo-mob {
+    height: 45px;
+    margin-top: 2px;
+    margin-left: 20px;
 
-.fy-offc,.fy-offc_s {
-    background-color: transparent;
+}
+
+.fy-offc,
+.fy-offc_s {
+
 }
 .properties {
     margin-bottom: 15px;
