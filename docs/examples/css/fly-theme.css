@@ -1,0 +1,207 @@
+.hljs {
+    background-color: transparent;
+}
+.box-343 {
+    border:1px solid #c3c3c3;
+}
+.fy-nbb {
+    background-color: transparent;
+}
+.logo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 110px;
+    display: block;
+}
+.markup {
+    width:100%;
+    max-width: 600px;
+    overflow: auto;   
+}
+.example-grid .fy-gc {
+    margin-bottom: 20px;
+}
+.example-grid > div,
+.fy-demo-grid > div,
+.demo-grid > div{
+    border:1px solid #c3c3c3;
+}
+
+.example-grid .fy-gc .fy-gc{
+    margin-bottom: 0;
+}
+
+.example-grid-flex .fy-fx {
+    margin-bottom: 20px;
+}
+.example-grid-flex .fy-fx > div,
+.example-grid-flex .fy-fx\@l > div,
+.example-grid-flex .fy-fx\@m > div,
+.example-grid-flex .fy-fx\@s > div{
+    border:1px solid #c3c3c3;
+    
+}
+.example-grid-flex .fy-fx .fy-fx{
+    margin-bottom: 0;
+}
+
+.flex-example .fy-fx > *,
+.flex-example .fy-fx\@l > *,
+.flex-example .fy-fx\@m > *,
+.flex-example .fy-fx\@s > * {
+    border:1px solid #c3c3c3;
+
+}
+
+
+.example-width > div {
+    border:1px solid #c3c3c3;
+}
+
+.example-align .fy-alc > div {
+    border:1px solid #c3c3c3;
+    
+}
+
+.example-align > div > div {
+    border:1px solid #c3c3c3;
+}
+
+.example-text > div {
+    margin-bottom: 5px;
+}
+.example-fields input,
+.example-fields select,
+.example-fields label,
+.example-fields textarea {
+    margin-bottom: 5px;
+}
+
+.example-btn > button {
+    margin-bottom: 5px;
+
+}
+.example-card .fy-crd {
+    max-width: 300px;
+    margin-bottom: 10px;
+}
+
+.demo-example-card .fy-crd {
+    max-width: 300px;
+    margin-bottom: 10px;
+    float:left;
+    display:block;
+    margin-right: 20px;
+}
+
+.example-box > *{
+    border:1px solid #c3c3c3;
+    margin-bottom: 10px;
+}
+.example-dl > * {
+    max-width: 300px;
+}
+.example-lg > * {
+    max-width: 300px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+
+.example-nav > ul {
+    margin-bottom: 20px;
+
+}
+
+.example-table > table {
+    margin-bottom: 20px;
+
+}
+.example-self-align:after {
+     content: '.';
+     display: block;
+     visibility: hidden;
+     height: 0;
+     clear: both;
+}
+.box-343 {
+    padding: 20px; 
+    width: 250px;
+}
+
+.example-cg > .fy-cg {
+    margin-bottom: 20px;
+}
+.example-remove-margin > div {
+    display: block;
+    margin: 50px;
+}
+.example-remove-padding > div {
+    display: block;
+    padding:50px;
+}
+.example-hide-mobile > div {
+    background-color: orange;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.example-show-mobile > div {
+    background-color: orange;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.example-clearfix .fy-cfx > div {
+    display: block;
+    width: 80px;
+    background-color: orange;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.demo-card {
+    width: 350px;
+    display: block;
+    margin: auto;
+    margin-right: auto;
+}
+
+.demo-description-list {
+    width: 350px;
+    display: block;
+    margin: auto;
+    margin-right: auto;
+    
+}
+
+
+.width-test div {
+    background-color: orange;
+}
+
+.align-demo .fy-all > div,
+.align-demo .fy-alr > div {
+    border:1px solid #c2c2c2;
+}
+.align-demo div > div {
+    border:1px solid #c2c2c2;
+}
+.flex-example .fy-fx > div {
+    border:1px solid #c3c3c3;
+}
+.object-float-left {
+    float: left;
+    padding: 10px;
+}
+
+.box-flash {
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+
+}
+
+.width-test div {
+    background-color: orange;
+}
