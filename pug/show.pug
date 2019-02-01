@@ -1,0 +1,28 @@
+extends _layout.pug
+include _mixins
+block content
+	article.fy-bx
+		+title('Show')
+		+resume
+			p Show elements when the screen becomes smaller
+
+		//- spec
+		+section
+			+subtitle('Usage')
+			+description
+				p Resize the window
+			+properties([{'r':'fy-shm','d':'Show on medium'},{'r':'fy-shs','d':'Show on small'},{'r':'fy-shxs','d':'Show on extra small'}])
+			+demo
+				+example
+					.example-hide-mobile.
+						<div class="">Always show, resize the window</div>
+						<div class="fy-shm">Show on medium, resize the window</div>
+						<div class="fy-shs">Show on small, resize the window</div>
+						<div class="fy-shxs">Show on extra small, resize the window</div>
+				+code.
+					<div class="">Always show, resize the window</div>
+					<div class="fy-shm">Show on medium, resize the window</div>
+					<div class="fy-shs">Show on small, resize the window</div>
+					<div class="fy-shxs">Show on extra small, resize the window</div>
+
+	

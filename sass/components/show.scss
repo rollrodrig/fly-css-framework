@@ -1,0 +1,20 @@
+.fy-shxs {
+	@include min-media($extra-small-max-size) {
+		display: none;
+	}
+}
+.fy-shs {
+	@include min-media($small-max-size) {
+		display: none;
+	}
+}
+.fy-shm {
+	@include min-media($medium-max-size) {
+		display: none;
+	}
+}
+.fy-shl {
+	@include min-media($large-min-size) {
+		display: none;
+	}
+}

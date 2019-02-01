@@ -1,0 +1,27 @@
+.fy-dl {
+	> div {
+		padding: 11px 16px;
+		border-bottom: 1px solid $color-light-darker;
+		font-size: 15px;
+		&:last-child {
+			border-bottom: none;
+		}		
+	}
+	&.-s {
+		> div {
+			padding: 6px 11px;
+			font-size: 12px;
+
+		}
+	}
+	
+}
+
+
+.fy-dl {
+	&.-b {
+		border: 1px solid $color-light-darker;
+	}
+}
+
+

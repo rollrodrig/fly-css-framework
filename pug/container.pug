@@ -1,0 +1,45 @@
+extends _layout.pug
+include _mixins
+block content
+	article.fy-bx
+		+title('Container')
+		+resume
+			p Is the basic layout. Most website content should be inside.
+				ul
+					li The container have a 1164px max width.
+					li The content is centered for large screens.
+					li For small screen it has 10px margin each side.			
+
+		
+		//- spec
+		+section
+			+subtitle('usage')
+			+description
+				p Basic usage of the container
+			+demo
+				+example
+					.fy-ctnr Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi repellendus quaerat dolor ipsam in porro eos dolorem voluptate, velit, dolores, aspernatur possimus. Corporis qui libero iste tempore explicabo molestiae fuga!
+				+code
+					.fy-ctnr Lorem ipsum dolor sit amet...
+				+open_example('')
+
+
+		
+		//- spec
+		+section
+			+subtitle('modifiers')
+			+description
+				p The container have some modifier to fit diferent web styles
+			+properties([{'r':'-fw','d':'Full width. The max width value es 100%'},{'r':'-bp','d':'The container width scales when the screen becomes smaller'},{'r':'-nm','d':'Remove the default 10px margin for small screens'}])
+			+demo
+				+example
+					|<div class="fy-ctnr">Default container</div>
+					|<div class="fy-ctnr -fw">Full width container</div>
+					|<div class="fy-ctnr -bp">Container with break points</div>
+					|<div class="fy-ctnr -nm">Remove sides margin on small screen</div>
+				+code
+					|<div class="fy-ctnr">Default container</div>
+					|<div class="fy-ctnr -fw">Full width container</div>
+					|<div class="fy-ctnr -bp">Container with break points</div>
+					|<div class="fy-ctnr -nm">Remove sides margin on small screen</div>
+				+open_example('')

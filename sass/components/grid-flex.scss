@@ -1,0 +1,100 @@
+.fy-fx {
+	display: flex;
+
+	&\@l {
+		display: block;
+		@include min-media($large-min-size) {
+			display: flex;
+		}
+	}
+	&\@m {
+		display: block;
+		@include min-media($medium-min-size) {
+			display: flex;
+		}
+	}
+	&\@s {
+		display: block;
+		@include min-media($small-min-size) {
+			display: flex;
+		}
+	}
+	&\@xs {
+		display: block;
+		@include min-media($extra-small-min-size) {
+			display: flex;
+		}
+	}
+
+	@for $i from 1 through $max-cols-number {
+		&#{$i} {
+			flex-basis: $column-width*$i;
+			flex-shrink: 0; 				
+		}
+	}
+
+	@for $i from 1 through $max-cols-number {
+		&#{$i}\@s {
+			@include min-media($small-min-size) {
+				flex-basis: $column-width*$i;
+				flex-shrink: 0; 
+			}
+		}
+	}
+
+	@for $i from 1 through $max-cols-number {
+		&#{$i}\@m {
+			@include min-media($medium-min-size) {
+				flex-basis: $column-width*$i;
+				flex-shrink: 0; 
+			}
+		}
+	}
+
+	@for $i from 1 through $max-cols-number {
+		&#{$i}\@l {
+			@include min-media($large-min-size) {
+				flex-basis: $column-width*$i;
+				flex-shrink: 0; 
+			}
+		}
+	}
+
+	&g {
+		flex-grow: 1;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,204 @@
+extends _layout.pug
+include _mixins
+block content
+	article.fy-bx
+		+title('Font family Montserrat')
+		+resume
+			p Change the default font Arial to Montserrat
+
+		//- spec
+		+section
+			+subtitle('Usage')
+			+description
+				p Add the <code>fly-montserrat.css</code> in the  head tag
+				p Load the folder <code>fonts</code> inside your proyect
+			+demo
+				+example.
+					<link rel="stylesheet" href="css/fly-montserrat.css">
+				+code.
+					<link rel="stylesheet" href="css/fly-montserrat.css">
+
+		//- spec
+		+section
+			+subtitle('Styles')
+			+description
+			+properties([{'r':'fy-montserrat','d':'regular'},{'r':'fy-montserrat-italic','d':'italic'},{'r':'fy-montserrat-thin','d':'thin'},{'r':'fy-montserrat-thinitalic','d':'thin_italic'},{'r':'fy-montserrat-extralight','d':'extralight'},{'r':'fy-montserrat-extralightitalic','d':'extralight_italic'},{'r':'fy-montserrat-light','d':'light'},{'r':'fy-montserrat-lightitalic','d':'light_italic'},{'r':'fy-montserrat-medium','d':'medium'},{'r':'fy-montserrat-mediumitalic','d':'medium_italic'},{'r':'fy-montserrat-semibold','d':'semibold'},{'r':'fy-montserrat-semibolditalic','d':'semibold_italic'},{'r':'fy-montserrat-bold','d':'bold'},{'r':'fy-montserrat-bolditalic','d':'bold_italic'},{'r':'fy-montserrat-black','d':'black'},{'r':'fy-montserrat-blackitalic','d':'black_italic'},{'r':'fy-montserrat-extrabold','d':'extrabold'},{'r':'fy-montserrat-extrabolditalic','d':'extrabold_italic'}])
+	
+			+demo
+				+example.
+					<p class="fy-montserrat">
+						fy-montserrat<br>
+						 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit harum dicta mollitia magni rerum...
+					</p>
+					<p class="fy-montserrat-italic">
+						fy-montserrat-italic<br>
+						 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae magnam animi inventore rerum....
+					</p>
+					<p class="fy-montserrat-thin">
+						fy-montserrat-thin<br>
+						 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, maiores aperiam error nulla...
+					</p>
+					<p class="fy-montserrat-thinitalic">
+						fy-montserrat-thinitalic<br>
+						 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias laborum, aut impedit voluptate...
+					</p>
+					<p class="fy-montserrat-extralight">
+						fy-montserrat-extralight<br>
+						 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci debitis quod mollitia voluptate vitae...
+					</p>
+					<p class="fy-montserrat-extralightitalic">
+						fy-montserrat-extralightitalic<br>
+						 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id saepe quis dolorem voluptas placeat...
+					</p>
+					<p class="fy-montserrat-light">
+						fy-montserrat-light<br>
+						 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia accusamus facilis quia fugiat....
+					</p>
+					<p class="fy-montserrat-lightitalic">
+						fy-montserrat-lightitalic<br>
+						 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur quisquam expedita iste beatae molestias...
+					</p>
+					<p class="fy-montserrat-medium">
+						fy-montserrat-medium<br>
+						 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam modi quam tempora consequuntur porro...
+					</p>
+					<p class="fy-montserrat-mediumitalic">
+						fy-montserrat-mediumitalic<br>
+						 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos repudiandae veniam, ea alias...
+					</p>
+					<p class="fy-montserrat-semibold">
+						fy-montserrat-semibold<br>
+						 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi distinctio recusandae perspiciatis dignissimos excepturi...
+					</p>
+					<p class="fy-montserrat-semibolditalic">
+						fy-montserrat-semibolditalic<br>
+						 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, ipsa eligendi labore eius...
+					</p>
+					<p class="fy-montserrat-bold">
+						fy-montserrat-bold<br>
+						 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos adipisci est ipsa, ipsum...aliquam. Debitis, omnis, ullam!
+					</p>
+					<p class="fy-montserrat-bolditalic">
+						fy-montserrat-bolditalic<br>
+						 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptatum. Atque dolores...
+					</p>
+					<p class="fy-montserrat-black">
+						fy-montserrat-black<br>
+						 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus cum sequi saepe aliquid laudantium...
+					</p>
+					<p class="fy-montserrat-blackitalic">
+						fy-montserrat-blackitalic<br>
+						 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque assumenda eius, inventore,...
+					</p>
+					<p class="fy-montserrat-extrabold">
+						fy-montserrat-extrabold<br>
+						 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, hic ut facere reiciendis...
+					</p>
+					<p class="fy-montserrat-extrabolditalic">
+						fy-montserrat-extrabolditalic<br>
+						 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias voluptate, recusandae totam pariatur...
+					</p>
+					
+				+code.
+					<p class="fy-montserrat">
+						fy-montserrat<br>
+						 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit harum dicta mollitia magni rerum...
+					</p>
+					<p class="fy-montserrat-italic">
+						fy-montserrat-italic<br>
+						 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae magnam animi inventore rerum....
+					</p>
+					<p class="fy-montserrat-thin">
+						fy-montserrat-thin<br>
+						 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, maiores aperiam error nulla...
+					</p>
+					<p class="fy-montserrat-thinitalic">
+						fy-montserrat-thinitalic<br>
+						 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias laborum, aut impedit voluptate...
+					</p>
+					<p class="fy-montserrat-extralight">
+						fy-montserrat-extralight<br>
+						 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci debitis quod mollitia voluptate vitae...
+					</p>
+					<p class="fy-montserrat-extralightitalic">
+						fy-montserrat-extralightitalic<br>
+						 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id saepe quis dolorem voluptas placeat...
+					</p>
+					<p class="fy-montserrat-light">
+						fy-montserrat-light<br>
+						 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia accusamus facilis quia fugiat....
+					</p>
+					<p class="fy-montserrat-lightitalic">
+						fy-montserrat-lightitalic<br>
+						 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur quisquam expedita iste beatae molestias...
+					</p>
+					<p class="fy-montserrat-medium">
+						fy-montserrat-medium<br>
+						 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam modi quam tempora consequuntur porro...
+					</p>
+					<p class="fy-montserrat-mediumitalic">
+						fy-montserrat-mediumitalic<br>
+						 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos repudiandae veniam, ea alias...
+					</p>
+					<p class="fy-montserrat-semibold">
+						fy-montserrat-semibold<br>
+						 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi distinctio recusandae perspiciatis dignissimos excepturi...
+					</p>
+					<p class="fy-montserrat-semibolditalic">
+						fy-montserrat-semibolditalic<br>
+						 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, ipsa eligendi labore eius...
+					</p>
+					<p class="fy-montserrat-bold">
+						fy-montserrat-bold<br>
+						 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos adipisci est ipsa, ipsum...aliquam. Debitis, omnis, ullam!
+					</p>
+					<p class="fy-montserrat-bolditalic">
+						fy-montserrat-bolditalic<br>
+						 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptatum. Atque dolores...
+					</p>
+					<p class="fy-montserrat-black">
+						fy-montserrat-black<br>
+						 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus cum sequi saepe aliquid laudantium...
+					</p>
+					<p class="fy-montserrat-blackitalic">
+						fy-montserrat-blackitalic<br>
+						 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque assumenda eius, inventore,...
+					</p>
+					<p class="fy-montserrat-extrabold">
+						fy-montserrat-extrabold<br>
+						 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, hic ut facere reiciendis...
+					</p>
+					<p class="fy-montserrat-extrabolditalic">
+						fy-montserrat-extrabolditalic<br>
+						 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias voluptate, recusandae totam pariatur...
+					</p>
+
+					
+
+
+
+
+					
+
+
+
+
+
+
+
+
+
+
+
+					
+
+
+
+
+
+
+
+
+
+
+

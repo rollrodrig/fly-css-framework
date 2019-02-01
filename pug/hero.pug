@@ -1,0 +1,52 @@
+extends _layout.pug
+include _mixins
+block content
+	article.fy-bx
+		+title('Hero')
+		+resume
+		
+		//- spec
+		+section
+			+subtitle('usage')
+			+description
+			+demo
+				+example
+					.fy-hro
+						.fy-hro_b
+							h1 Hero title
+							p Hero paragraph
+				+code
+					.fy-hro
+						.fy-hro_b
+							h1 Hero title
+							p Hero paragraph
+
+		
+		//- spec
+		+section
+			+subtitle('modifiers')
+			+description
+				p Modify the padding
+			+properties([{'r':'-s','d':'Small top and bottom padding'},{'r':'-l','d':'	Large top and bottom padding'}])
+			+demo
+				+example
+					.fy-hro.-s
+						.fy-hro_b
+							h1 Hero small
+							p Hero paragraph							
+				+code
+					.fy-hro.-s
+						.fy-hro_b
+							h1 Hero small
+							p Hero paragraph
+				+example
+					.fy-hro.-l
+						.fy-hro_b
+							h1 Hero large
+							p Hero paragraph							
+				+code
+					.fy-hro.-l
+						.fy-hro_b
+							h1 Hero large
+							p Hero paragraph	
+				+open_example('')

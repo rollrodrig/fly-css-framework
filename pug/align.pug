@@ -1,0 +1,321 @@
+extends _layout.pug
+include _mixins
+block content
+	article.fy-bx
+		+title('Align')
+		+resume
+			p Align elements to left, right and center
+		
+		//- spec
+		+section
+			+subtitle('usage')
+			+description
+				p Default hero has a max-width and center the content.
+			+demo
+				+example
+					.example-align.
+						<div class="fy-all">
+							
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						</div>
+				+code.
+					<div class="fy-alr">
+					    <div class="fy-wd1">
+					        width 1
+					    </div>
+					    <div class="fy-wd1">
+					        width 1
+					    </div>
+					</div>
+
+		
+		//- spec
+		+section
+			+subtitle('Align orientation')
+			+description
+				p Set the elements alignment direction
+			+properties([{'r':'fy-all','d':'Align element to left'},{'r':'fy-alr','d':'Align element to right'},{'r':'fy-alc','d':'Align element to center'}])
+			+demo
+				+example
+					.example-align.
+						<div class="fy-all">
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						</div>
+						<div class="fy-alr">
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						</div>
+						<div class="fy-alc">
+						    <div class="fy-wd1">
+						        width 1
+						    </div><div class="fy-wd1">
+						        width 1
+						    </div><div class="fy-wd1">
+						        width 1
+						    </div>
+						</div>
+				+code.
+						<div class="fy-all">
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						</div>
+						<div class="fy-alr">
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						</div>
+						<div class="fy-alc">
+						    <div class="fy-wd1">
+						        width 1
+						    </div><div class="fy-wd1">
+						        width 1
+						    </div><div class="fy-wd1">
+						        width 1
+						    </div>
+						</div>
+
+
+
+		//- spec
+		+section
+			+subtitle('Align responsive')
+			+description
+			+properties([{'r':'fy-all@l','d':'Align active on screen > 980'},{'r':'fy-all@m','d':'Align active on screen > 768'},{'r':'fy-all@s','d':'Align active on screen > 560'},{'r':'fy-alr@l','d':'Align active on screen > 980'},{'r':'fy-alr@m','d':'Align active on screen > 768'},{'r':'fy-alr@s','d':'Align active on screen > 560'}])
+			+demo
+				+example
+					.example-align.
+						<div class="fy-all@l">
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						</div>
+						<div class="fy-all@m">
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						</div>
+						<div class="fy-all@s">
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						</div>
+						<div class="fy-alr@l">
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						</div>
+						<div class="fy-alr@m">
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						</div>
+						<div class="fy-alr@s">
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						</div>
+
+
+						<div class="fy-alc@l">
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						</div>
+						<div class="fy-alc@m">
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						</div>
+						<div class="fy-alc@s">
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						</div>						
+				+code.
+						<div class="fy-all@l">
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						</div>
+						<div class="fy-all@m">
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						</div>
+						<div class="fy-all@s">
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						</div>
+						<div class="fy-alr@l">
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						</div>
+						<div class="fy-alr@m">
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						</div>
+						<div class="fy-alr@s">
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						</div>
+
+						<div class="fy-alc@l">
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						</div>
+						<div class="fy-alc@m">
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						</div>
+						<div class="fy-alc@s">
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						    <div class="fy-wd1">
+						        width 1
+						    </div>
+						</div>						

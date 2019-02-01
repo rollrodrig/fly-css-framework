@@ -1,0 +1,25 @@
+extends _layout.pug
+include _mixins
+block content
+	article.fy-bx
+		+title('Code')
+		+resume
+
+		//- spec
+		+section
+			+subtitle('Usage')
+			+description
+			+demo
+				+example.
+					<pre>
+						<code>
+							&lt;div class=&quot;fy-btn&quot;&gt;Button&lt;/div&gt;
+						</code>
+					</pre>
+				+code.
+					<pre>
+						<code>
+							<div class="fy-btn">Button</div>
+						</code>
+					</pre>
+

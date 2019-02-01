@@ -1,0 +1,62 @@
+extends _layout.pug
+include _mixins
+block content
+	article.fy-bx
+		+title('Alert')
+		+resume
+
+
+		//- spec
+		+section
+			+subtitle('Usage')
+			+description
+			+demo
+				+example.
+					<div class="fy-alrt">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus harum assumenda 
+						voluptate mollitia totam, quo earum nam cumque dignissimos facere obcaecati 
+						saepe laborum amet debitis, inventore repudiandae perspiciatis voluptatum enim.
+					</div>    
+				+code.
+					<div class="fy-alrt">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus harum assumenda 
+						voluptate mollitia totam, quo earum nam cumque dignissimos facere obcaecati 
+						saepe laborum amet debitis, inventore repudiandae perspiciatis voluptatum enim.
+					</div>   
+
+
+		//- spec
+		+section
+			+subtitle('Size')
+			+description
+			+properties([{'r':'-s','d':'Small padding'},{'r':'-l','d':'Large padding'}])
+			+demo
+				+example.
+					<div class="fy-alrt -s">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus
+						harum assumenda voluptate mollitia totam, quo earum nam cumque
+						dignissimos facere obcaecati saepe laborum amet debitis, inventore repudiandae
+						perspiciatis voluptatum enim.
+					</div>
+					<br>
+					<div class="fy-alrt -l">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus
+						harum assumenda voluptate mollitia totam, quo earum nam cumque
+						dignissimos facere obcaecati saepe laborum amet debitis, inventore repudiandae
+						perspiciatis voluptatum enim.
+					</div>
+				+code.
+					<div class="fy-alrt -s">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus
+						harum assumenda voluptate mollitia totam, quo earum nam cumque
+						dignissimos facere obcaecati saepe laborum amet debitis, inventore repudiandae
+						perspiciatis voluptatum enim.
+					</div>
+					<br>
+					<div class="fy-alrt -l">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus
+						harum assumenda voluptate mollitia totam, quo earum nam cumque
+						dignissimos facere obcaecati saepe laborum amet debitis, inventore repudiandae
+						perspiciatis voluptatum enim.
+					</div>
+

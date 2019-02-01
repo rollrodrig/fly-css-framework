@@ -1,0 +1,147 @@
+extends _layout.pug
+include _mixins
+block content
+	article.fy-bx
+		+title('Nav')
+		+resume
+
+		//- spec
+		+section
+			+subtitle('Usage')
+			+description
+			+demo
+				+example.
+					<ul class="fy-nv">
+						<li>
+							<a href="">Lorem ipsum</a>
+						</li>
+						<li>
+							<a href="">Reprehenderit</a>
+						</li>
+						<li>
+							<a href="">Dapibus</a>
+						</li>
+						<li>
+							<a href="">Facilisis</a>
+						</li>
+						<li>
+							<a href="">Perspiciatis</a>
+						</li>
+					</ul>
+				+code.
+					<ul class="fy-nv">
+						<li>
+							<a href="">Lorem ipsum</a>
+						</li>
+						<li>
+							<a href="">Reprehenderit</a>
+						</li>
+						<li>
+							<a href="">Dapibus</a>
+						</li>
+						<li>
+							<a href="">Facilisis</a>
+						</li>
+						<li>
+							<a href="">Perspiciatis</a>
+						</li>
+					</ul>
+
+
+		//- spec
+		+section
+			+subtitle('Style')
+			+description
+			+properties([{'r':'-t','d':'Title'},{'r':'-tu','d':'Title underline'},{'r':'-tc','d':'Title capitalize'}])
+			+demo
+				+example
+					.example-nav.
+						<ul class="fy-nv -t">
+							<li>
+								<a href="">Lorem ipsum</a>
+							</li>
+							<li>
+								<a href="">Reprehenderit</a>
+							</li>
+							<li>
+								<a href="">Dapibus</a>
+							</li>
+							<li>
+								<a href="">Facilisis</a>
+							</li>
+						</ul>
+						<ul class="fy-nv -tu">
+							<li>
+								<a href="">Lorem ipsum</a>
+							</li>
+							<li>
+								<a href="">Reprehenderit</a>
+							</li>
+							<li>
+								<a href="">Dapibus</a>
+							</li>
+							<li>
+								<a href="">Facilisis</a>
+							</li>
+						</ul>
+
+						<ul class="fy-nv -tc">
+							<li>
+								<a href="">Lorem ipsum</a>
+							</li>
+							<li>
+								<a href="">Reprehenderit</a>
+							</li>
+							<li>
+								<a href="">Dapibus</a>
+							</li>
+							<li>
+								<a href="">Facilisis</a>
+							</li>
+						</ul>
+				+code.
+
+						<ul class="fy-nv -t">
+							<li>
+								<a href="">Lorem ipsum</a>
+							</li>
+							<li>
+								<a href="">Reprehenderit</a>
+							</li>
+							<li>
+								<a href="">Dapibus</a>
+							</li>
+							<li>
+								<a href="">Facilisis</a>
+							</li>
+						</ul>
+						<ul class="fy-nv -tu">
+							<li>
+								<a href="">Lorem ipsum</a>
+							</li>
+							<li>
+								<a href="">Reprehenderit</a>
+							</li>
+							<li>
+								<a href="">Dapibus</a>
+							</li>
+							<li>
+								<a href="">Facilisis</a>
+							</li>
+						</ul>
+
+						<ul class="fy-nv -tc">
+							<li>
+								<a href="">Lorem ipsum</a>
+							</li>
+							<li>
+								<a href="">Reprehenderit</a>
+							</li>
+							<li>
+								<a href="">Dapibus</a>
+							</li>
+							<li>
+								<a href="">Facilisis</a>
+							</li>
+						</ul>
+

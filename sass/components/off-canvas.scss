@@ -1,0 +1,40 @@
+$offcanvas-background-color: $color-light-lighter;
+$offcanvas-sidebar-background-color: $color-light-lighter;
+$offcanvas-body-background-color: $color-light-full;
+
+/* Off canvas */
+.fy-offc {
+	display: flex;
+	overflow: hidden;
+	background-color: $offcanvas-background-color;
+	@include media($medium-max-size) {
+		display: block;
+	}
+	&_s {
+		flex-basis: 250px;
+		flex-shrink: 0;
+		z-index: 100;
+		background-color: $offcanvas-sidebar-background-color;
+		@include media($medium-max-size){
+			position: absolute;
+			top: 0;
+			left: -250px;
+			width: 250px;
+			transition: 0.5s;
+		}
+	}
+	&_b {
+		flex-grow: 1;
+		width: auto;
+		transition: 0.5s;
+		background-color: $offcanvas-body-background-color;
+	}
+
+}
+
+
+.fy-offc_s {
+	&.-on {
+		left: 0;
+	}
+}

@@ -1,0 +1,56 @@
+extends _layout.pug
+include _mixins
+block content
+	article.fy-bx
+		+title('Remove margin')
+		+resume
+
+		//- spec
+		+section
+			+subtitle('Usage')
+			+description
+			+demo
+				+example.
+					<div class="fy-mgrl">Lorem ipsum dolor sit amet, consectetur</div>
+				+code.
+					<div class="fy-mgrl">Lorem ipsum dolor sit amet, consectetur</div>
+
+		//- spec
+		+section
+			+subtitle('Size')
+			+description
+			+properties([{'r':'fy-mgrl','d':'remove margin left'},{'r':'fy-mgrr','d':'remove margin right'},{'r':'fy-mgrt','d':'remove margin top'},{'r':'fy-mgrb','d':'remove margin bottom'}])
+			+demo
+				+example
+					.example-remove-margin.
+						<div class="fy-mgrl ">
+							Lorem ipsum dolor sit amet
+						</div>
+						<br>
+						<div class="fy-mgrr ">
+							Lorem ipsum dolor sit amet
+						</div>
+						<br>
+						<div class="fy-mgrt ">
+							Lorem ipsum dolor sit amet
+						</div>
+						<br>
+						<div class="fy-mgrb ">
+							Lorem ipsum dolor sit amet
+						</div>  
+				+code.
+					<div class="fy-mgrl ">
+						Lorem ipsum dolor sit amet
+					</div>
+					<br>
+					<div class="fy-mgrr ">
+						Lorem ipsum dolor sit amet
+					</div>
+					<br>
+					<div class="fy-mgrt ">
+						Lorem ipsum dolor sit amet
+					</div>
+					<br>
+					<div class="fy-mgrb ">
+						Lorem ipsum dolor sit amet
+					</div>  

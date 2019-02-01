@@ -1,0 +1,29 @@
+extends _layout.pug
+include _mixins
+block content
+	article.fy-bx
+		+title('Clearfix')
+		+resume
+			p Prevent to collapse container element when the child has <code>float:left|right</code> css rule.
+
+		//- spec
+		+section
+			+subtitle('Usage')
+			+description
+			+demo
+				+example
+					.example-clearfix.
+						<div class="fy-cfx">
+							<div class="object-float-left">aaa</div>
+							<div class="object-float-left">bbb</div>
+							<div class="object-float-left">ccc</div>
+						</div>
+				+code.
+						<div class="fy-cfx">
+							<div class="object-float-left">aaa</div>
+							<div class="object-float-left">bbb</div>
+							<div class="object-float-left">ccc</div>
+						</div>
+
+	
+

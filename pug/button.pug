@@ -1,0 +1,224 @@
+extends _layout.pug
+include _mixins
+block content
+	article.fy-bx
+		+title('Button')
+		+resume
+
+		//- spec
+		+section
+			+subtitle('Usage')
+			+description
+			+demo
+				+example.
+					<button class="fy-btn">Button</button>
+				+code.
+					<button class="fy-btn">Button</button>
+
+
+
+		//- spec
+		+section
+			+subtitle('Sizes')
+			+description
+			+properties([{'r':'','d':'Default'},{'r':'-xs','d':'Extra small'},{'r':'-s','d':'Small'},{'r':'-l','d':'Large'},{'r':'-xl','d':'Extra large'}])
+			+demo
+				+example
+					.example-btn.
+						<button class="fy-btn">Button</button>
+						<br>
+						<button class="fy-btn -xs">Button</button>
+						<br>
+						<button class="fy-btn -s">Button</button>
+						<br>
+						<button class="fy-btn -l">Button</button>
+						<br>
+						<button class="fy-btn -xl">Button</button>
+				+code.
+					<button class="fy-btn">Button</button>
+					<button class="fy-btn -xs">Button</button>
+					<button class="fy-btn -s">Button</button>
+					<button class="fy-btn -l">Button</button>
+					<button class="fy-btn -xl">Button</button>
+
+
+
+
+
+		//- spec
+		+section
+			+subtitle('Style')
+			+description
+			+properties([{'r':'-br','d':'Border radius'},{'r':'-rd','d':'Rounded'},{'r':'-fw','d':'Full width'},{'r':'-di','d':'Disabled'},{'r':'-ce','d':'Center'}])
+			+demo
+				+example
+					.example-btn.
+						<button class="fy-btn -br">Button</button>
+						<br>
+						<button class="fy-btn -rd">Button</button>
+						<br>
+						<button class="fy-btn -fw">Button</button>
+						<br>
+						<button class="fy-btn -di">Button</button>
+						<br>
+						<button class="fy-btn -ce">Button</button>
+				+code.
+					<button class="fy-btn -br">Button</button>
+					<br>
+					<button class="fy-btn -rd">Button</button>
+					<br>
+					<button class="fy-btn -fw">Button</button>
+					<br>
+					<button class="fy-btn -di">Button</button>
+					<br>
+					<button class="fy-btn -ce">Button</button>
+
+
+
+
+		//- spec
+		+section
+			+subtitle('Arrow')
+			+description
+			+properties([{'r':'-al','d':'Arrow left'},{'r':'-ar','d':'Arrow right'}])
+			+demo
+				+example
+					.example-btn.
+						<button class="fy-btn -al">Button</button>
+						<br>
+						<button class="fy-btn -ar">Button</button>
+				+code.
+					<button class="fy-btn -al">Button</button>
+					<br>
+					<button class="fy-btn -ar">Button</button>
+
+
+
+
+		//- spec
+		+section
+			+subtitle('Icon')
+			+description
+			+demo
+				+example
+					.example-btn.
+						<button class="fy-btn -il"> <i class="far fa-heart"></i> Button</button>
+						<br>
+						<button class="fy-btn -il"> Button <i class="far fa-heart"></i> </button>
+				+code.
+					<button class="fy-btn -il"> <i class="far fa-heart"></i> Button</button>
+					<br>
+					<button class="fy-btn -il"> Button <i class="far fa-heart"></i> </button>
+
+
+
+
+		//- spec
+		+section
+			+subtitle('Group')
+			+description
+			+demo
+				+example
+					<div class="fy-btng">
+						<button class="fy-btn">Button</button>
+						<button class="fy-btn">Button on</button>
+						<button class="fy-btn">Button off</button>
+						<button class="fy-btn">Another button</button>
+					</div>
+					<br>
+					<div class="fy-btng -rd">
+						<button class="fy-btn">Button</button>
+						<button class="fy-btn">Button on</button>
+						<button class="fy-btn">Button off</button>
+						<button class="fy-btn">Another button</button>
+					</div>
+				+code.
+					<div class="fy-btng">
+						<button class="fy-btn">Button</button>
+						<button class="fy-btn">Button on</button>
+						<button class="fy-btn">Button off</button>
+						<button class="fy-btn">Another button</button>
+					</div>
+					<br>
+					<div class="fy-btng -rd">
+						<button class="fy-btn">Button</button>
+						<button class="fy-btn">Button on</button>
+						<button class="fy-btn">Button off</button>
+						<button class="fy-btn">Another button</button>
+					</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,17 @@
+.fy-hdxs {
+	@include media($extra-small-max-size) {
+		display: none;
+	}
+}
+
+.fy-hds {
+	@include media($small-max-size) {
+		display: none;
+	}
+}
+
+.fy-hdm {
+	@include media($medium-max-size) {
+		display: none;
+	}
+}

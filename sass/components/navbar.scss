@@ -1,0 +1,357 @@
+
+$navbar-background-color: #fafafa;
+$navbar-border-color: $color-light;
+
+$navbar-link-color: $color-secondary;
+$navbar-link-color-hover: $color-secondary-darker;
+
+$navbar-link-background-color: transparent;
+$navbar-link-background-color-hover: $color-light-darker;
+
+$navbar-link-border-bottom-color: $color-dark-lighter;
+
+.fy-nb {
+	font-size: 14px;
+	background-color: $navbar-background-color;
+	height: 50px;
+	position: relative;
+	display: flex;
+
+	@include media($medium-max-size){
+		justify-content: space-between;
+		height: auto;
+		overflow: hidden;
+		display: block;
+	}
+
+	&_l {
+		@include media($medium-max-size){
+			height: 50px;
+		}		
+	}
+
+	&_g {
+		flex-grow: 1;
+		&:after {
+			content: '.';
+			display: block;
+			visibility: hidden;
+			height: 0;
+			clear: both;
+		}
+		@include media($medium-max-size){
+			/*flex-basis: 100%;*/
+			display: block;
+		}
+
+		&l {
+			display: block;
+			float: left;
+			&:after {
+				content: '.';
+				display: block;
+				visibility: hidden;
+				height: 0;
+				clear: both;
+			}
+			@include media($medium-max-size) {
+				display: block;
+				float: none;
+			}
+
+		}
+		&r {
+			display: block;
+			float: right;
+			&:after {
+				content: '.';
+				display: block;
+				visibility: hidden;
+				height: 0;
+				clear: both;
+			}
+			@include media($medium-max-size) {
+				display: block;
+				float: none;
+			}
+		}
+
+		
+	}
+
+	&_i {
+		display: block;
+		float: left;
+		padding: 0 18px;
+     	line-height: 3.6;
+     	height: 50px;
+		text-decoration: none;
+		color: $navbar-link-color;
+		background-color: $navbar-link-background-color;
+		text-align: center;
+		&:hover {
+			color: $navbar-link-color-hover;
+			background-color: $navbar-link-background-color-hover;
+			text-decoration: none;
+		}
+		&.-a {
+			color: $navbar-link-color-hover;
+			background-color: $navbar-link-background-color-hover;
+			text-decoration: none;
+		}
+		@include media($medium-max-size){
+			display: block;
+			width: 100%;
+			float: none;
+		}
+	}
+
+	.fy-nbb {
+		position: absolute;
+		top: 0;
+		right: 0;
+		display: none;
+		@include media($medium-max-size) {
+			display: block;
+		}
+		
+	}
+
+
+}
+
+.fy-nb {
+	&.-s {
+		height: 37px;
+		@include media($medium-max-size) {
+			height: auto;
+		}
+
+		.fy-nb_i {
+			font-size: 12px;
+			padding: 0 18px;
+			line-height: 3.1;
+			height: 37px;
+		}
+		.fy-fc {
+			margin-top: 1px;
+		}
+	}
+}
+/*
+.fy-nb {
+	&.-ul {
+	    margin-bottom: 1px;
+		.fy-nb_l {
+			&:hover {
+				padding: 0 18px;
+			    line-height: 3.6;
+				border-bottom: 1px solid $navbar-link-border-bottom-color;
+			}
+		}
+	}
+	&.-s.-ul {
+		.fy-nb_l {
+			&:hover {
+				padding: 0 18px;
+				line-height: 2.9;
+				border-bottom: 1px solid $navbar-link-border-bottom-color;
+			}
+		}
+	}	
+}*/
+
+/*
+.fy-nb {
+	.fy-nbb {
+		display: none;
+		@include media($medium-max-size){
+			display: block;
+		}		
+	}
+}*/
+.fy-nb {
+	.fy-btn {
+		margin-top: 2px;
+	}
+}
+.fy-nb {
+	.fy-fc {
+		margin-top: 2px;
+		padding-left: 15px;
+		padding-right: 15px;
+		.fy-btn {
+			margin-top: 0;
+		}	
+	}
+}
+
+.fy-nb {
+	&_dd {
+		display: block;
+		float: left;
+		padding-left: 18px;
+		padding-right: 28px;
+     	line-height: 3.6;
+		text-decoration: none;
+		color: $navbar-link-color;
+		background-color: $navbar-link-background-color;
+		text-align: center;
+		position: relative;
+
+		@include media($medium-max-size) {
+			padding-left: 0;
+			padding-right: 0;
+			overflow: hidden;
+			/*height: 50px;*/
+			float: none;
+			
+		}
+
+		&:hover {
+			color: $navbar-link-color-hover;
+			background-color: $navbar-link-background-color-hover;
+			text-decoration: none;
+		}
+		&.-a {
+			color: $navbar-link-color-hover;
+			background-color: $navbar-link-background-color-hover;
+			text-decoration: none;
+		}
+		@include media($medium-max-size){
+			display: block;
+			width: 100%;
+		}
+
+
+		&:before, &:after {
+	        position: absolute;
+	        content: ' ';
+	        height: 8px;
+	        width: 1px;
+	        top: 22px;
+	        background-color: $color-dark;
+		}
+
+	    &:before {
+	        right: 16px;
+	        transform: rotate(-45deg);
+	    }
+	    &:after {
+	        right: 11px;
+	        transform: rotate(45deg);
+	    } 		
+	
+  		&:hover {
+	        &:before {
+	            transform: rotate(45deg);
+	        }
+	        &:after {
+	            transform: rotate(-45deg);
+	        } 
+	    }
+
+	    &.-o {
+	        &:before {
+	            transform: rotate(45deg);
+	        }
+	        &:after {
+	            transform: rotate(-45deg);
+	        } 
+
+	        background-color: $navbar-link-background-color-hover;
+	    }
+
+	    > ._b {
+	        display: none;
+	        /*display: block;*/
+	        /*background-color: orange;*/
+	        width: 164px;
+	        position: absolute;
+	        z-index: 1000;
+	        padding-top: 10px;
+	        top: 49px;
+	        left: 50%;
+	        margin-left: -82px;
+			
+			@include media($medium-max-size) {
+				display: block;
+				position: static;
+				width: 100%;
+				margin-left: 0;
+				overflow: hidden;
+				padding-top: 0;
+			}
+
+		    > ._t {
+		        width: 0;
+		        height: 0;
+		        border-style: solid;
+		        border-width: 0 7.5px 10px 7.5px;
+		        border-color: transparent transparent $color-light-darker transparent;   
+		        position: absolute;
+		        top: 0;
+		        left: 50%;
+		        margin-left: -7px;
+		        @include media($medium-max-size) {
+		        	display: none;
+		        }
+		    }
+
+	    }
+
+	    &:hover {
+	        ._b {
+	            display:block;
+	        }
+	    }
+
+	    ._l {
+	        background-color: #ffffff;
+	        border:1px solid $color-light-darker;
+	        box-shadow: 2px 2px 4px $color-light-darker;
+	        @include media($medium-max-size)  {
+        		background-color: $color-light-darker;
+	        }
+	        a {
+	            line-height: 2.5;
+	            display: block;
+	            &:last-child {
+	                border-bottom: none;
+	            }
+	            &:hover {
+	                text-decoration: none;
+	                background-color: $color-light-lighter;
+	                @include media($medium-max-size) {
+	                	background-color: $color-light-darker;
+	                }
+	            }
+	        }
+	    }
+	}	
+}
+
+.fy-nb {
+	&.-s {
+		.fy-nb_dd {
+			font-size: 12px;
+			line-height: 3.1;
+			@include media($medium-max-size) {
+			}
+			&:before, &:after {
+		        top: 15px;
+		        height: 6px;
+			}
+			&:after  {
+			    right: 12px;
+
+			}
+			._b {
+				top: 36px;
+			}
+
+		}		
+	}
+}
+
+

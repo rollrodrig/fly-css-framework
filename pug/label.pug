@@ -1,0 +1,54 @@
+extends _layout.pug
+include _mixins
+block content
+	article.fy-bx
+		+title('Label')
+		+resume
+
+		//- spec
+		+section
+			+subtitle('Usage')
+			+description
+			+demo
+				+example.
+					<span class="fy-lbl">1</span>
+					<span class="fy-lbl">1234</span>
+					<span class="fy-lbl">name</span>
+				+code.
+					<span class="fy-lbl">1</span>
+					<span class="fy-lbl">1234</span>
+					<span class="fy-lbl">name</span>
+
+
+		//- spec
+		+section
+			+subtitle('Size')
+			+description
+			+properties([{'r':'','d':'Default'},{'r':'-m','d':'Medium'},{'r':'-l','d':'Large'}])
+			+demo
+				+example.
+						<span class="fy-lbl">name</span>
+						<br>
+						<span class="fy-lbl -m">name</span>
+						<br>
+						<span class="fy-lbl -l">name</span>
+				+code.
+					<span class="fy-lbl">name</span>
+					<span class="fy-lbl -m">name</span>
+					<span class="fy-lbl -l">name</span>
+
+		//- spec
+		+section
+			+subtitle('Style')
+			+description
+			+properties([{'r':'-r','d':'Border rounded'}])
+			+demo
+				+example.
+					<span class="fy-lbl -r">name</span>
+				+code.
+					<span class="fy-lbl -r">name</span>
+
+
+
+
+
