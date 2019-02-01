@@ -53,6 +53,11 @@
 
 }
 
+.object-float-left {
+    border:1px solid #c3c3c3;
+
+}
+
 
 .example-width > div {
     border:1px solid #c3c3c3;
