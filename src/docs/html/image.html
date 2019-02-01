@@ -129,65 +129,106 @@
           <div class="fy-nbb" fy-offc-bt><span></span><span></span><span></span></div>
         </div>
         <article class="fy-bx">
-          <h1 class="fy-ti -s5">Container</h1>
+          <h1 class="fy-ti -s5">Image</h1>
           <div class="fy-txm fy-mb50">
-            <p>Is the basic layout. Most website content should be inside.
-              <ul>
-                <li>The container have a 1164px max width.</li>
-                <li>The content is centered for large screens.</li>
-                <li>For small screen it has 10px margin each side.			</li>
-              </ul>
-            </p>
           </div>
           <div class="fy-hr -xl"></div>
-          <h2 class="fy-ti -s2"><a class="fy-bun" href="#undefined">usage</a></h2>
-          <p>Basic usage of the container</p>
+          <h2 class="fy-ti -s2"><a class="fy-bun" href="#undefined">Usage</a></h2>
           <div class="demo">
-            <div class="example">
-              <div class="fy-ctnr">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi repellendus quaerat dolor ipsam in porro eos dolorem voluptate, velit, dolores, aspernatur possimus. Corporis qui libero iste tempore explicabo molestiae fuga!</div>
+            <div class="example"><img class="fy-img" src="images/image-2.jpg" alt="">
             </div>
             <div class="code">
               <div class="fy-code">
                 <pre class="fy-bgc-ln"><code class="html">
-                    <div class="fy-ctnr">Lorem ipsum dolor sit amet...</div></code></pre>
+                    <img class="fy-img" src="images/image-2.jpg" alt="">
+                    </code></pre>
               </div>
-            </div><a class="fy-fz2 fy-a -ar" href="" target="_blank">open example in new tab</a>
+            </div>
           </div>
           <div class="fy-hr -xl"></div>
-          <h2 class="fy-ti -s2"><a class="fy-bun" href="#undefined">modifiers</a></h2>
-          <p>The container have some modifier to fit diferent web styles</p>
+          <h2 class="fy-ti -s2"><a class="fy-bun" href="#undefined">Styles</a></h2>
           <div class="properties">
             <table class="fy-tbl -ln -fw -s">
               <tr>
-                <td><span class="fy-codl">-fw</span></td>
-                <td>Full width. The max width value es 100%</td>
+                <td><span class="fy-codl">-r</span></td>
+                <td>border rounded</td>
               </tr>
               <tr>
-                <td><span class="fy-codl">-bp</span></td>
-                <td>The container width scales when the screen becomes smaller</td>
+                <td><span class="fy-codl">-c</span></td>
+                <td>Circle</td>
               </tr>
               <tr>
-                <td><span class="fy-codl">-nm</span></td>
-                <td>Remove the default 10px margin for small screens</td>
+                <td><span class="fy-codl">-b</span></td>
+                <td>Border 4px</td>
+              </tr>
+              <tr>
+                <td><span class="fy-codl">-s</span></td>
+                <td>Shadow</td>
+              </tr>
+              <tr>
+                <td><span class="fy-codl">-m</span></td>
+                <td>Center</td>
+              </tr>
+              <tr>
+                <td><span class="fy-codl">-f</span></td>
+                <td>Cover the screen</td>
               </tr>
             </table>
           </div>
           <div class="demo">
             <div class="example">
-              <div class="fy-ctnr">Default container</div>
-              <div class="fy-ctnr -fw">Full width container</div>
-              <div class="fy-ctnr -bp">Container with break points</div>
-              <div class="fy-ctnr -nm">Remove sides margin on small screen</div>
+              <p>border rounded</p>
+              <img class="fy-img -r" src="images/image-2.jpg" alt="">
+              <hr>
+              <p>Circle</p>
+              <img class="fy-img -c" src="images/image-2.jpg" alt="">
+              <hr>
+              <p>Border 4px</p>
+              <img class="fy-img -b" src="images/image-2.jpg" alt="">
+              <hr>
+              <p>Shadow</p>
+              <img class="fy-img -s" src="images/image-2.jpg" alt="">
+              <hr>
+              <p>Center</p>
+              <img class="fy-img -m" src="images/image-2.jpg" alt="">
+              <hr>
+              <p>Cover the screen</p>
+              <img class="fy-img -fw" src="images/image-1.jpg" alt="">					
+            </div>
+          </div>
+          <div class="code">
+            <div class="fy-code">
+              <pre class="fy-bgc-ln"><code class="html">
+                  <p>border rounded</p>
+                  <img class="fy-img -r" src="images/image-2.jpg" alt="">
+                  <hr>
+                  <p>Circle</p>
+                  <img class="fy-img -c" src="images/image-2.jpg" alt="">
+                  <hr>
+                  <p>Border 4px</p>
+                  <img class="fy-img -b" src="images/image-2.jpg" alt="">
+                  <hr>
+                  <p>Shadow</p>
+                  <img class="fy-img -s" src="images/image-2.jpg" alt="">
+                  <hr>
+                  <p>Center</p>
+                  <img class="fy-img -m" src="images/image-2.jpg" alt="">
+                  <hr>
+                  <p>Cover the screen</p>
+                  <img class="fy-img -fw" src="images/image-1.jpg" alt="">
+                  </code></pre>
+            </div>
+          </div>
+          <div class="fy-hr -xl"></div>
+          <h2 class="fy-ti -s2"><a class="fy-bun" href="#undefined">Mix properties</a></h2>
+          <div class="demo">
+            <div class="example"><img class="fy-img -r -b -s" src="images/image-2.jpg" alt="">
             </div>
             <div class="code">
               <div class="fy-code">
-                <pre class="fy-bgc-ln"><code class="html">
-                    <div class="fy-ctnr">Default container</div>
-                    <div class="fy-ctnr -fw">Full width container</div>
-                    <div class="fy-ctnr -bp">Container with break points</div>
-                    <div class="fy-ctnr -nm">Remove sides margin on small screen</div></code></pre>
+                <pre class="fy-bgc-ln"><code class="html"><img class="fy-img -r -b -s" src="images/image-2.jpg" alt=""></code></pre>
               </div>
-            </div><a class="fy-fz2 fy-a -ar" href="" target="_blank">open example in new tab</a>
+            </div>
           </div>
         </article>
       </div>

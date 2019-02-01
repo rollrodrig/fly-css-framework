@@ -2120,6 +2120,31 @@ img {
 .fy-dl.-b {
   border: 1px solid #ececec; }
 
+.fy-img.-fw {
+  width: 100%; }
+
+.fy-img.-r {
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 5px; }
+
+.fy-img.-c {
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 50%; }
+
+.fy-img.-b {
+  border: 4px solid #ececec; }
+
+.fy-img.-s {
+  box-shadow: 3px 4px 12px -2px rgba(130, 130, 130, 0.5); }
+  .fy-img.-s:hover {
+    box-shadow: 3px 4px 22px -4px rgba(130, 130, 130, 0.7); }
+
+.fy-img.-m {
+  display: block;
+  margin: auto; }
+
 .fy-lbl {
   background-color: #c2c2c2;
   font-size: 11px;

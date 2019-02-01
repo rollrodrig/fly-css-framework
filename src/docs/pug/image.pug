@@ -1,0 +1,68 @@
+extends _layout.pug
+include _mixins
+block content
+	article.fy-bx
+		+title('Image')
+		+resume
+
+		//- spec
+		+section
+			+subtitle('Usage')
+			+description
+			+demo
+				+example.
+					<img class="fy-img" src="images/image-2.jpg" alt="">
+				+code.
+					<img class="fy-img" src="images/image-2.jpg" alt="">
+
+		//- spec
+		+section
+			+subtitle('Styles')
+			+description
+			+properties([{'r':'-r','d':'border rounded'},{'r':'-c','d':'Circle'},{'r':'-b','d':'Border 4px'},{'r':'-s','d':'Shadow'},{'r':'-m','d':'Center'},{'r':'-f','d':'Cover the screen'}])
+			+demo
+				+example.
+					<p>border rounded</p>
+					<img class="fy-img -r" src="images/image-2.jpg" alt="">
+					<hr>
+					<p>Circle</p>
+					<img class="fy-img -c" src="images/image-2.jpg" alt="">
+					<hr>
+					<p>Border 4px</p>
+					<img class="fy-img -b" src="images/image-2.jpg" alt="">
+					<hr>
+					<p>Shadow</p>
+					<img class="fy-img -s" src="images/image-2.jpg" alt="">
+					<hr>
+					<p>Center</p>
+					<img class="fy-img -m" src="images/image-2.jpg" alt="">
+					<hr>
+					<p>Cover the screen</p>
+					<img class="fy-img -fw" src="images/image-1.jpg" alt="">					
+			+code.
+					<p>border rounded</p>
+					<img class="fy-img -r" src="images/image-2.jpg" alt="">
+					<hr>
+					<p>Circle</p>
+					<img class="fy-img -c" src="images/image-2.jpg" alt="">
+					<hr>
+					<p>Border 4px</p>
+					<img class="fy-img -b" src="images/image-2.jpg" alt="">
+					<hr>
+					<p>Shadow</p>
+					<img class="fy-img -s" src="images/image-2.jpg" alt="">
+					<hr>
+					<p>Center</p>
+					<img class="fy-img -m" src="images/image-2.jpg" alt="">
+					<hr>
+					<p>Cover the screen</p>
+					<img class="fy-img -fw" src="images/image-1.jpg" alt="">
+
+		+section
+			+subtitle('Mix properties')
+			+demo
+				+example.
+					<img class="fy-img -r -b -s" src="images/image-2.jpg" alt="">
+				+code.
+					<img class="fy-img -r -b -s" src="images/image-2.jpg" alt="">
+
