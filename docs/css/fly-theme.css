@@ -189,3 +189,67 @@ pre {
     padding: 10px;
 
 }
+
+.flex-example-1 .fy-fx > div {
+    width: 70px;
+    height: 30px;
+    background-color: #dbfffd;
+    border:1px solid #c2c2c2;
+}
+
+.flex-examples .example {
+    margin-bottom: 0;
+}
+.flex-example-2 .fy-fx  {
+    height: 120px;
+    background-color: #fbfbfb;
+    border:1px solid #ececec;
+}
+
+.flex-example-2 .fy-fx > div {
+    width: 70px;
+    height: 30px;
+    background-color: #dbfffd;
+    border:1px solid #c2c2c2;
+}
+
+.flex-example-3 .fy-fx  {
+    width: 100%;
+    max-width: 400px;
+    height: 160px;
+    flex-wrap: wrap;
+    background-color: #fbfbfb;
+    border:1px solid #ececec;
+}
+
+.flex-example-3 .fy-fx > div {
+    width: 70px;
+    height: 30px;
+    background-color: #dbfffd;
+    border:1px solid #c2c2c2;
+}
+
+.flex-example-3.flex-example-stretch .fy-fx {
+    max-width: 200px;
+} 
+
+.flex-example-stretch .fy-fx > div {
+     height: auto;
+}
+.example-flex-shrink .fy-fx > div {
+    width: 300px;
+}
+
+
+.flex-example-4 .fy-fx  {
+    height: 160px;
+    background-color: #fbfbfb;
+    border:1px solid #ececec;
+}
+
+.flex-example-4 .fy-fx > div {
+    width: 70px;
+    height: 30px;
+    background-color: #dbfffd;
+    border:1px solid #c2c2c2;
+}
