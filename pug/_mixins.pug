@@ -24,19 +24,9 @@ mixin subtitle(title, slug)
 mixin description
 	block
 
-mixin example
-	.example
-		block
 
-mixin code(code)
-	.code
-		.fy-code
-			pre.fy-bgc-ln
-				code.html
-					if code
-						#{code}
-					else
-						block
+
+
 mixin open_example(href)
 	a.fy-fz2.fy-a.-ar(href='examples/'+href+'.html' target="_blank") open example in new tab
 
@@ -51,3 +41,21 @@ mixin properties(items)
 		table.fy-tbl.-ln.-fw.-s
 			each i in items
 				+row(i.r, i.d)
+
+mixin uitem(href, name)
+	li
+		a(href=href) #{name}
+
+mixin example
+	.example
+		block
+
+mixin code(code)
+	.code
+		.fy-code
+			pre.fy-bgc-ln
+				code.html
+					if code
+						#{code}
+					else
+						block					
