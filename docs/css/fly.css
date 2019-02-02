@@ -986,6 +986,124 @@ img {
       flex-shrink: 0; } }
   .fy-fxg {
     flex-grow: 1; }
+  .fy-fx.-fdc {
+    flex-direction: column; }
+  .fy-fx.-fdcr {
+    flex-direction: column-reverse; }
+  .fy-fx.-fdr {
+    flex-direction: row; }
+  .fy-fx.-fdrr {
+    flex-direction: row-reverse; }
+  .fy-fx.-fww {
+    flex-wrap: wrap; }
+  .fy-fx.-fwnw {
+    flex-wrap: nowrap; }
+  .fy-fx.-fwwr {
+    flex-wrap: wrap-reverse; }
+  .fy-fx.-jcc {
+    justify-content: center; }
+  .fy-fx.-jcfs {
+    justify-content: flex-start; }
+  .fy-fx.-jcfe {
+    justify-content: flex-end; }
+  .fy-fx.-jcsa {
+    justify-content: space-around; }
+  .fy-fx.-jcsb {
+    justify-content: space-between; }
+  .fy-fx.-aic {
+    align-items: center; }
+  .fy-fx.-aifs {
+    align-items: flex-start; }
+  .fy-fx.-aife {
+    align-items: flex-end; }
+  .fy-fx.-ais {
+    align-items: stretch; }
+  .fy-fx.-aib {
+    align-items: baseline; }
+  .fy-fx.-acsb {
+    align-content: space-between; }
+  .fy-fx.-acsa {
+    align-content: space-around; }
+  .fy-fx.-acs {
+    align-content: stretch; }
+  .fy-fx.-acc {
+    align-content: center; }
+  .fy-fx.-acfs {
+    align-content: flex-start; }
+  .fy-fx.-acfe {
+    align-content: flex-end; }
+
+.fy-fxo0 {
+  order: 0; }
+
+.fy-fxo1 {
+  order: 1; }
+
+.fy-fxo2 {
+  order: 2; }
+
+.fy-fxo3 {
+  order: 3; }
+
+.fy-fxo4 {
+  order: 4; }
+
+.fy-fxo5 {
+  order: 5; }
+
+.fy-fxo6 {
+  order: 6; }
+
+.fy-fxg0 {
+  flex-grow: 0; }
+
+.fy-fxg1 {
+  flex-grow: 1; }
+
+.fy-fxg2 {
+  flex-grow: 2; }
+
+.fy-fxg3 {
+  flex-grow: 3; }
+
+.fy-fxg4 {
+  flex-grow: 4; }
+
+.fy-fxg5 {
+  flex-grow: 5; }
+
+.fy-fxg6 {
+  flex-grow: 6; }
+
+.fy-fxs0 {
+  flex-shrink: 0; }
+
+.fy-fxs1 {
+  flex-shrink: 1; }
+
+.fy-fxs2 {
+  flex-shrink: 2; }
+
+.fy-fxs3 {
+  flex-shrink: 3; }
+
+.fy-fxs4 {
+  flex-shrink: 4; }
+
+.fy-fxs5 {
+  flex-shrink: 5; }
+
+.fy-fxs6 {
+  flex-shrink: 6; }
+
+.fy-fxasc {
+  align-self: center; }
+
+.fy-fxasfs {
+  align-self: flex-start; }
+
+.fy-fxasfe {
+  align-self: flex-end; }
 
 .fy-wd1 {
   width: 97px; }
