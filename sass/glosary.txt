@@ -849,32 +849,101 @@ ex. multiply the value by 5
 fy-bst5*
 
 
-### grid flex
+### Grid flex
 
 # container
 .fy-fx
 
-# fixed size
-.fy-fx[1-12]
-- example
-.fy-fx2
-.fy-fx15
-
-# responsive container
+# container responsive
 .fy-fx@l
 .fy-fx@m
 .fy-fx@s
 .fy-fx@xs
 
+# column size
+.fy-fx[1-12]
+- example
+.fy-fx2
+.fy-fx15
 
-# responsive column
-.fy-fxl[1-12]
-.fy-fxm[1-12]
-.fy-fxs[1-12]
-.fy-fxxs[1-12]
+# column size responsive
+.fy-fx[1-12]@l
+.fy-fx[1-12]@m
+.fy-fx[1-12]@s
+.fy-fx[1-12]@xs
 
-# container
-.fy-fx -j
+
+flex-direction: column
+  -fdc
+flex-direction: column-reverse
+  -fdcr
+flex-direction: row
+  -fdr
+flex-direction: row-reverse
+  -fdrr
+
+flex-wrap: wrap;
+    -fww
+flex-wrap: nowrap;
+    -fwnw
+flex-wrap: wrap-reverse;
+    -fwwr
+
+
+justify-content: center;
+	-jcc
+justify-content: flex-start;
+	-jcfs
+justify-content: flex-end;
+	-jcfe
+justify-content: space-around;
+	-jcsa
+justify-content: space-between;
+	-jcsb
+
+
+align-items: center
+	-aic
+align-items: flex-start
+	-aifs
+align-items: flex-end
+	-aife
+align-items: stretch
+	-ais
+align-items: baseline
+	-aib
+
+
+align-content: space-between
+	-acsb
+align-content: space-around
+	-acsa
+align-content: stretch
+	-acs
+align-content: center
+	-acc
+align-content: flex-start
+	-acfs
+align-content: flex-end
+	-acfe
+
+
+  # childs
+order
+	fy-fxo[1-6]
+flex-grow
+	fy-fxg[0-6]
+flex-shrink
+	fy-fxs[0-6]
+
+align-self: center
+	fy-fxasc
+align-self: flex-start
+	fy-fxasfs
+align-self: flex-end
+	fy-fxasfe
+
+
 
 
 ### tab

@@ -24,9 +24,6 @@
 			a.fy-btn.-s(href="installation.html" onclick="gtag('event', 'docs',{'event_category':'navigation','event_label':'home'});") Docs
 	
 
-	mixin uitem(href, name)
-		li
-			a(href=href) #{name}
 
 	ul.fy-nv.-tc
 		+uitem('','Getting started')
@@ -54,6 +51,7 @@
 		+uitem("", "Grid")
 		+uitem("grid.html", "Grid")
 		+uitem("grid-flex.html", "Grid-flex")
+		+uitem("flex.html", "Flex")
 		+uitem("width.html", "Width")
 
 	ul.fy-nv.-tc
@@ -118,3 +116,11 @@
 		+uitem("remove-padding.html","Remove padding")
 		+uitem("self-align.html", "Self align")
 		+uitem("show.html", "Show")
+
+
+	ul.fy-nv.-tc
+		+uitem("", "Showcase")
+		+uitem("showcase/forum.html", "Forum")
+
+
+

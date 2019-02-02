@@ -64,12 +64,121 @@
 		flex-grow: 1;
 	}
 
+	&.-fdc {
+		flex-direction: column
+	}
+	&.-fdcr {
+		flex-direction: column-reverse
+	}
+	&.-fdr {
+		flex-direction: row
+	}
+	&.-fdrr {
+		flex-direction: row-reverse
+	}
+
+
+    &.-fww {
+    	flex-wrap: wrap;
+    }
+    &.-fwnw {
+    	flex-wrap: nowrap;
+    }
+    &.-fwwr {
+    	flex-wrap: wrap-reverse;
+    }
+	
+	&.-jcc {
+		justify-content: center;
+	}
+	&.-jcfs {
+		justify-content: flex-start;
+	}
+	&.-jcfe {
+		justify-content: flex-end;
+	}
+	&.-jcsa {
+		justify-content: space-around;
+	}
+
+	&.-jcsb {
+		justify-content: space-between;
+	}
+
+
+	&.-aic {
+		align-items: center;
+	}
+	&.-aifs {
+		align-items: flex-start;
+	}
+	&.-aife {
+		align-items: flex-end;
+	}
+	&.-ais {
+		align-items: stretch;
+	}
+	&.-aib {
+		align-items: baseline;
+	}
+
+
+
+	&.-acsb {
+		align-content: space-between
+	}
+
+	&.-acsa {
+		align-content: space-around
+	}
+
+	&.-acs {
+		align-content: stretch
+	}
+
+	&.-acc {
+		align-content: center
+	}
+
+	&.-acfs {
+		align-content: flex-start
+	}
+
+	&.-acfe	{
+		align-content: flex-end
+	}
+
+
 }
 
+@for $i from 0 through 6 {
+	.fy-fxo#{$i} {
+		order: $i;
+	}
+}
 
+@for $i from 0 through 6 {
+	.fy-fxg#{$i} {
+		flex-grow: $i;				
+	}
+}
 
+@for $i from 0 through 6 {
+	.fy-fxs#{$i} {
+		flex-shrink: $i;				
+	}
+}
 
-
+.fy-fxasc{
+	align-self: center
+}
+.fy-fxasfs{
+	align-self: flex-start
+}
+.fy-fxasfe{
+	align-self: flex-end
+}
+	
 
 
 

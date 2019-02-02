@@ -210,3 +210,46 @@
 .width-test div {
     background-color: orange;
 }
+
+.flex-example-2 .fy-fx {
+    background-color: #b5e0ff;
+    padding: 10px;
+}
+
+.flex-example-2 .fy-fx > div {
+    width: 70px;
+    height: 30px;
+    background-color: #dbfffd;
+    border:1px solid #c2c2c2;
+}
+.flex-align-item-example .fy-fx {
+    height: 120px;
+}
+.flex-align-item-example-2 .fy-fx  {
+    height: 120px;
+}
+.flex-align-item-example-2 .fy-fx > div  {
+    height: auto;
+}
+
+.flex-align-item-example-3 .fy-fx {
+    width: 100%;
+    max-width: 400px;
+    height: 160px;
+    flex-wrap: wrap;
+}
+.flex-align-item-example-3 .fy-fx > div  {
+    width: 90px;
+}
+
+.align-content-stretch .fy-fx > div {
+    height: auto;
+}
+.example-flex-shrink .fy-fx > div {
+    width: 300px;
+}
+
+
+
+
+
