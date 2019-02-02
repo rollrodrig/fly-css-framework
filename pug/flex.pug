@@ -1,0 +1,455 @@
+extends _layout.pug
+include _mixins
+block content
+	article.fy-bx.flex-examples
+		+title('Flex')
+		+resume
+
+		//- spec
+		+section
+			+subtitle('Usage')
+			+description
+			+demo
+				+example.
+					<div class="fy-fx">
+						<div>
+							BOX 1
+						</div>
+						<div>
+							BOX 2
+						</div>
+						<div >
+							BOX 3
+						</div>
+						<div>
+							BOX 4
+						</div>
+					</div>
+				+code.
+					<div class="fy-fx">
+						<div>
+							BOX 1
+						</div>
+						<div>
+							BOX 2
+						</div>
+						<div >
+							BOX 3
+						</div>
+						<div>
+							BOX 4
+						</div>
+					</div>
+				+open_example('flex')
+
+		//- spec
+		+section
+			+subtitle('Flex Direcction')
+			+description
+			+properties([{'r':'-fdc', 'd':'flex-direction: column'},{'r':'-fdcr', 'd':'flex-direction: column-reverse'},{'r':'-fdr', 'd':'flex-direction: row'},{'r':'-fdrr', 'd':'flex-direction: row-reverse'}])
+			+demo
+				+example
+						.flex-example-1.
+							<div class="fy-fx -fdc">
+								<div>BOX 1</div><div>BOX 2</div><div>BOX 3</div><div>BOX 4</div>
+							</div>
+				+code.
+							<div class="fy-fx -fdc">
+								<div>BOX 1</div><div>BOX 2</div><div>BOX 3</div><div>BOX 4</div>
+							</div>
+				+example
+						.flex-example-1.
+							<div class="fy-fx -fdcr">
+								<div>BOX 1</div><div>BOX 2</div><div>BOX 3</div><div>BOX 4</div>
+							</div>
+				+code.
+							<div class="fy-fx -fdcr">
+								<div>BOX 1</div><div>BOX 2</div><div>BOX 3</div><div>BOX 4</div>
+							</div>
+				+example
+						.flex-example-1.
+							<div class="fy-fx -fdr">
+								<div>BOX 1</div><div>BOX 2</div><div>BOX 3</div><div>BOX 4</div>
+							</div>
+				+code.
+							<div class="fy-fx -fdr">
+								<div>BOX 1</div><div>BOX 2</div><div>BOX 3</div><div>BOX 4</div>
+							</div>
+				+example
+						.flex-example-1.
+							<div class="fy-fx -fdrr">
+								<div>BOX 1</div><div>BOX 2</div><div>BOX 3</div><div>BOX 4</div>
+							</div>
+				+code.
+							<div class="fy-fx -fdrr">
+								<div>BOX 1</div><div>BOX 2</div><div>BOX 3</div><div>BOX 4</div>
+							</div>
+
+		//- spec
+		+section
+			+subtitle('Flex Wrap')
+			+description
+				p Resize the window
+			+properties([{'r':'-fww','d': 'flex-wrap: wrap'},{'r':'-fwnw','d': 'flex-wrap: nowrap'},{'r':'-fwwr','d': 'flex-wrap: wrap-reverse'}])
+			+demo
+				+example
+					.flex-example-1.
+						<div class="fy-fx -fww">
+							<div>BOX 1</div><div>BOX 2</div><div>BOX 3</div><div>BOX 4</div>
+							<div>BOX 5</div><div>BOX 6</div><div>BOX 7</div><div>BOX 8</div>
+							<div>BOX 9</div><div>BOX 10</div><div>BOX 11</div><div>BOX 12</div>
+						</div>
+				+code.
+						<div class="fy-fx -fww">
+							<div>BOX 1</div><div>BOX 2</div><div>BOX 3</div><div>BOX 4</div>
+							<div>BOX 5</div><div>BOX 6</div><div>BOX 7</div><div>BOX 8</div>
+							<div>BOX 9</div><div>BOX 10</div><div>BOX 11</div><div>BOX 12</div>
+						</div>
+				+example
+					.flex-example-1.
+						<div class="fy-fx -fwnw">
+							<div>BOX 1</div><div>BOX 2</div><div>BOX 3</div><div>BOX 4</div>
+							<div>BOX 5</div><div>BOX 6</div><div>BOX 7</div><div>BOX 8</div>
+							<div>BOX 9</div><div>BOX 10</div><div>BOX 11</div><div>BOX 12</div>
+						</div>
+				+code.
+						<div class="fy-fx -fwnw">
+							<div>BOX 1</div><div>BOX 2</div><div>BOX 3</div><div>BOX 4</div>
+							<div>BOX 5</div><div>BOX 6</div><div>BOX 7</div><div>BOX 8</div>
+							<div>BOX 9</div><div>BOX 10</div><div>BOX 11</div><div>BOX 12</div>
+						</div>
+				+example
+					.flex-example-1.
+						<div class="fy-fx -fwwr">
+							<div>BOX 1</div><div>BOX 2</div><div>BOX 3</div><div>BOX 4</div>
+							<div>BOX 5</div><div>BOX 6</div><div>BOX 7</div><div>BOX 8</div>
+							<div>BOX 9</div><div>BOX 10</div><div>BOX 11</div><div>BOX 12</div>
+						</div>
+				+code.
+						<div class="fy-fx -fwwr">
+							<div>BOX 1</div><div>BOX 2</div><div>BOX 3</div><div>BOX 4</div>
+							<div>BOX 5</div><div>BOX 6</div><div>BOX 7</div><div>BOX 8</div>
+							<div>BOX 9</div><div>BOX 10</div><div>BOX 11</div><div>BOX 12</div>
+						</div>
+
+
+		//- spec
+		+section
+			+subtitle('Justify Content')
+			+description
+			+properties([{'r':'-jcc', 'd': 'justify-content: center'},{'r':'-jcfs', 'd': 'justify-content: flex-start'},{'r':'-jcfe', 'd': 'justify-content: flex-end'},{'r':'-jcsa', 'd': 'justify-content: space-around'},{'r':'-jcsb', 'd': 'justify-content: space-between'}])
+			+demo
+				+example
+						.flex-example-1.
+							<div class="fy-fx -jcc">
+								<div>BOX 1</div><div>BOX 2</div><div>BOX 3</div><div>BOX 4</div>
+							</div>
+				+code.
+							<div class="fy-fx -jcc">
+								<div>BOX 1</div><div>BOX 2</div><div>BOX 3</div><div>BOX 4</div>
+							</div>
+				+example
+						.flex-example-1.
+							<div class="fy-fx -jcfs">
+								<div>BOX 1</div><div>BOX 2</div><div>BOX 3</div><div>BOX 4</div>
+							</div>
+				+code.
+							<div class="fy-fx -jcfs">
+								<div>BOX 1</div><div>BOX 2</div><div>BOX 3</div><div>BOX 4</div>
+							</div>
+				+example
+						.flex-example-1.
+							<div class="fy-fx -jcfe">
+								<div>BOX 1</div><div>BOX 2</div><div>BOX 3</div><div>BOX 4</div>
+							</div>
+				+code.
+							<div class="fy-fx -jcfe">
+								<div>BOX 1</div><div>BOX 2</div><div>BOX 3</div><div>BOX 4</div>
+							</div>
+				+example
+						.flex-example-1.
+							<div class="fy-fx -jcsa">
+								<div>BOX 1</div><div>BOX 2</div><div>BOX 3</div><div>BOX 4</div>
+							</div>
+				+code.
+							<div class="fy-fx -jcsa">
+								<div>BOX 1</div><div>BOX 2</div><div>BOX 3</div><div>BOX 4</div>
+							</div>
+				+example
+						.flex-example-1.
+							<div class="fy-fx -jcsb">
+								<div>BOX 1</div><div>BOX 2</div>
+							</div>
+				+code.
+							<div class="fy-fx -jcsb">
+								<div>BOX 1</div><div>BOX 2</div>
+							</div>
+
+
+		//- spec
+		+section
+			+subtitle('Align items')
+			+description
+			+properties([{'r':'-aic', 'd': 'align-items: center'},{'r':'-aifs', 'd': 'align-items: flex-start'},{'r':'-aife', 'd': 'align-items: flex-end'},{'r':'-ais', 'd': 'align-items: stretch'},{'r':'-aib', 'd': 'align-items: baseline'}])
+			+demo
+				+example
+						.flex-example-2.
+							<div class="fy-fx -aic">
+								<div>BOX 1</div><div>BOX 2</div><div>BOX 3</div><div>BOX 4</div>
+							</div>
+				+code.
+							<div class="fy-fx -aic">
+								<div>BOX 1</div><div>BOX 2</div><div>BOX 3</div><div>BOX 4</div>
+							</div>
+				+example
+						.flex-example-2.
+							<div class="fy-fx -aifs">
+								<div>BOX 1</div><div>BOX 2</div><div>BOX 3</div><div>BOX 4</div>
+							</div>
+				+code.
+							<div class="fy-fx -aifs">
+								<div>BOX 1</div><div>BOX 2</div><div>BOX 3</div><div>BOX 4</div>
+							</div>
+				+example
+						.flex-example-2.
+							<div class="fy-fx -aife">
+								<div>BOX 1</div><div>BOX 2</div><div>BOX 3</div><div>BOX 4</div>
+							</div>
+				+code.
+							<div class="fy-fx -aife">
+								<div>BOX 1</div><div>BOX 2</div><div>BOX 3</div><div>BOX 4</div>
+							</div>
+				+example
+						.flex-example-2.flex-example-stretch.
+							<div class="fy-fx -ais">
+								<div>BOX 1</div><div>BOX 2</div><div>BOX 3</div><div>BOX 4</div>
+							</div>
+				+code.
+							<div class="fy-fx -ais">
+								<div>BOX 1</div><div>BOX 2</div><div>BOX 3</div><div>BOX 4</div>
+							</div>
+				+example
+						.flex-example-2.flex-example-stretch.
+							<div class="fy-fx -aib">
+								<div><h1>1</h1></div>
+								<div><h6>2</h6></div>
+								<div><h3>3</h3></div>  
+								<div><small>4</small></div> 
+							</div>
+				+code.
+							<div class="fy-fx -aib">
+								<div><h1>1</h1></div>
+								<div><h6>2</h6></div>
+								<div><h3>3</h3></div>  
+								<div><small>4</small></div> 
+							</div>
+
+
+
+		//- spec
+		+section
+			+subtitle('Align content')
+			+description
+			+properties([{'r':'-acsb','d':'align-content: space-between'},{'r':'-acsa','d':'align-content: space-around'},{'r':'-acs','d':'align-content: stretch'},{'r':'-acc','d':'align-content: center'},{'r':'-acfs','d':'align-content: flex-start'},{'r':'-acfe','d':'align-content: flex-end'}])
+			+demo
+				+example
+						.flex-example-3.
+							<div class="fy-fx -acsb">
+									<div>BOX 1</div><div>BOX 2</div><div>BOX 3</div>
+									<div>BOX 4</div><div>BOX 5</div><div>BOX 6</div>
+							</div>
+
+				+code.
+							<div class="fy-fx -acsb">
+									<div>BOX 1</div><div>BOX 2</div><div>BOX 3</div>
+									<div>BOX 4</div><div>BOX 5</div><div>BOX 6</div>
+							</div>
+				+example
+						.flex-example-3.
+							<div class="fy-fx -acsa">
+									<div>BOX 1</div><div>BOX 2</div><div>BOX 3</div>
+									<div>BOX 4</div><div>BOX 5</div><div>BOX 6</div>
+							</div>
+
+				+code.
+							<div class="fy-fx -acsa">
+									<div>BOX 1</div><div>BOX 2</div><div>BOX 3</div>
+									<div>BOX 4</div><div>BOX 5</div><div>BOX 6</div>
+							</div>
+				+example
+						.flex-example-3.flex-example-stretch.
+							<div class="fy-fx -acs">
+									<div>BOX 1</div><div>BOX 2</div><div>BOX 3</div>
+									<div>BOX 4</div><div>BOX 5</div>
+							</div>
+
+				+code.
+							<div class="fy-fx -acs">
+									<div>BOX 1</div><div>BOX 2</div><div>BOX 3</div>
+									<div>BOX 4</div><div>BOX 5</div><div>BOX 6</div>
+							</div>
+				+example
+						.flex-example-3.
+							<div class="fy-fx -acc">
+									<div>BOX 1</div><div>BOX 2</div><div>BOX 3</div>
+									<div>BOX 4</div><div>BOX 5</div><div>BOX 6</div>
+							</div>
+
+				+code.
+							<div class="fy-fx -acc">
+									<div>BOX 1</div><div>BOX 2</div><div>BOX 3</div>
+									<div>BOX 4</div><div>BOX 5</div><div>BOX 6</div>
+							</div>
+				+example
+						.flex-example-3.
+							<div class="fy-fx -acfs">
+									<div>BOX 1</div><div>BOX 2</div><div>BOX 3</div>
+									<div>BOX 4</div><div>BOX 5</div><div>BOX 6</div>
+							</div>
+
+				+code.
+							<div class="fy-fx -acfs">
+									<div>BOX 1</div><div>BOX 2</div><div>BOX 3</div>
+									<div>BOX 4</div><div>BOX 5</div><div>BOX 6</div>
+							</div>
+				+example
+						.flex-example-3.
+							<div class="fy-fx -acfe">
+									<div>BOX 1</div><div>BOX 2</div><div>BOX 3</div>
+									<div>BOX 4</div><div>BOX 5</div><div>BOX 6</div>
+							</div>
+
+				+code.
+							<div class="fy-fx -acfe">
+									<div>BOX 1</div><div>BOX 2</div><div>BOX 3</div>
+									<div>BOX 4</div><div>BOX 5</div><div>BOX 6</div>
+							</div>
+
+
+	
+		//- spec
+		+section
+			+subtitle('Order')
+			+description
+			+properties([{'r':'fy-fxo[1-6]','d':'order'}])
+			+demo
+				+example
+					.flex-example-1.
+						<div class="fy-fx">
+								<div class="fy-fxo5">BOX 1</div>
+								<div class="fy-fxo2">BOX 2</div>
+								<div class="fy-fxo4">BOX 3</div>
+								<div class="fy-fxo1">BOX 4</div>
+								<div class="fy-fxo3">BOX 5</div>
+								<div class="fy-fxo6">BOX 6</div>
+						</div>
+
+				+code.
+						<div class="fy-fx">
+								<div class="fy-fxo5">BOX 1</div>
+								<div class="fy-fxo2">BOX 2</div>
+								<div class="fy-fxo4">BOX 3</div>
+								<div class="fy-fxo1">BOX 4</div>
+								<div class="fy-fxo3">BOX 5</div>
+								<div class="fy-fxo6">BOX 6</div>
+						</div>
+
+	
+		//- spec
+		+section
+			+subtitle('Flex Grow')
+			+description
+			+properties([{'r':'fy-fxg[1-6]','d':'flex-grow'}])
+			+demo
+				+example
+					.flex-example-1.
+						<div class="fy-fx">
+							<div class="fy-fxg0">BOX 1</div>
+							<div class="fy-fxg1">BOX 2</div>
+							<div class="fy-fxg2">BOX 3</div>
+						</div>
+				+code.
+						<div class="fy-fx">
+							<div class="fy-fxg0">BOX 1</div>
+							<div class="fy-fxg1">BOX 2</div>
+							<div class="fy-fxg2">BOX 3</div>
+						</div>
+
+
+		//- spec
+		+section
+			+subtitle('Flex Shrink')
+			+description
+			+properties([{'r':'fy-fxs[1-6]','d':'flex-shrink'}])
+			+demo
+				+example
+					.flex-example-1.example-flex-shrink.
+						<div class="fy-fx">
+							<div class="fy-fxs0">BOX 1</div>
+							<div class="fy-fxs1">BOX 2</div>
+							<div class="fy-fxs2">BOX 3</div>
+						</div>
+				+code.
+						<div class="fy-fx">
+							<div class="fy-fxs0">BOX 1</div>
+							<div class="fy-fxs1">BOX 2</div>
+							<div class="fy-fxs2">BOX 3</div>
+						</div>
+
+
+
+	
+		//- spec
+		+section
+			+subtitle('Align Self')
+			+description
+			+properties([{'r':'fy-fxasc','d':'align-self: center'},{'r':'fy-fxasfs','d':'align-self: flex-start'},{'r':'fy-fxasfe','d':'align-self: flex-end'}])
+			+demo
+				+example
+					.flex-example-4.
+						<div class="fy-fx">
+							<div class="fy-fxasc">BOX 1</div>
+						</div>
+				+code.
+						<div class="fy-fx">
+							<div class="fy-fxasc">BOX 1</div>
+						</div>
+				+example
+					.flex-example-4.
+						<div class="fy-fx">
+							<div class="fy-fxasfs">BOX 1</div>
+						</div>
+				+code.
+						<div class="fy-fx">
+							<div class="fy-fxasfs">BOX 1</div>
+						</div>
+				+example
+					.flex-example-4.
+						<div class="fy-fx">
+							<div class="fy-fxasfe">BOX 1</div>
+						</div>
+				+code.
+						<div class="fy-fx">
+							<div class="fy-fxasfe">BOX 1</div>
+						</div>
+
+
+
+		//- spec
+		+section
+			+subtitle('Mixin properties')
+			+description
+			+demo
+				+example
+					.flex-example-4.
+						<div class="fy-fx -aic -jcc">
+							<div>
+								BOX 1
+							</div>
+						</div>
+				+code.
+						<div class="fy-fx -aic -jcc">
+							<div>
+								BOX 1
+							</div>
+						</div>
