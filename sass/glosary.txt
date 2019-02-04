@@ -73,6 +73,25 @@ fy-mt4
 fy-mt5
 
 
+# margin left from 0 to 50
+
+fy-ml0
+fy-ml1
+fy-ml2
+fy-ml3
+fy-ml4
+fy-ml5
+
+# margin right from 0 to 50
+
+fy-mr0
+fy-mr1
+fy-mr2
+fy-mr3
+fy-mr4
+fy-mr5
+
+
 ### remove margin
 # left
 fy-mgrl
@@ -106,6 +125,23 @@ fy-pt2
 fy-pt3
 fy-pt4
 fy-pt5
+
+
+# padding left from 0 to 50
+fy-pl0
+fy-pl1
+fy-pl2
+fy-pl3
+fy-pl4
+fy-pl5
+
+# padding right from 0 to 50
+fy-pr0
+fy-pr1
+fy-pr2
+fy-pr3
+fy-pr4
+fy-pr5
 
 ### remove padding
 # left
