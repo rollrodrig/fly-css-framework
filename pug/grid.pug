@@ -9,20 +9,19 @@ block content
 		+section
 			+subtitle('usage')
 			+description
-				p Default hero has a max-width and center the content.
 			+demo
 				+example
 					.example-grid.
 						<div class="fy-gc">
-						    <div class="fy-gcm3">Column size 3</div>
-						    <div class="fy-gcm4">Column size 4</div>
-						    <div class="fy-gcm5">Column size 5</div>
+						    <div class="fy-gc3">Column size 3</div>
+						    <div class="fy-gc4">Column size 4</div>
+						    <div class="fy-gc5">Column size 5</div>
 						</div>  
 				+code.
 					<div class="fy-gc">
-					    <div class="fy-gcm3">Column size 3</div>
-					    <div class="fy-gcm4">Column size 4</div>
-					    <div class="fy-gcm5">Column size 5</div>
+						<div class="fy-gc3">Column size 3</div>
+						<div class="fy-gc4">Column size 4</div>
+						<div class="fy-gc5">Column size 5</div>
 					</div>  	
 				+open_example('grid')
 				br
@@ -34,7 +33,6 @@ block content
 			+subtitle('Grid container')
 			+description
 				p Is the wrapper for all the columns
-			+properties([{'r':'-ar','d':'Align element to right'},{'r':'-ctr','d':'center elements'}])
 			+demo
 				+example
 					.example-grid.
@@ -45,21 +43,19 @@ block content
 					<div class="fy-gc">
 					    this is the grid container
 					</div>	
-				
-
 
 		//- spec
 		+section
 			+subtitle('Grid columns')
 			+description
 				p The grid numeration start from 1 to 12, example <span class="fy-codl">fy-gcs5</span>
-			+properties([{'r':'fy-gcxs[1-12]','d':'The grid is always active'},{'r':'fy-gcs[1-12]','d':'Active the grid only when the screen is > 560px'},{'r':'fy-gcm[1-12]','d':'Active the grid only when the screen is > 768px'},{'r':'fy-gcl[1-12]','d':'Active the grid only when the screen is > 980px'}])
+			+properties([{'r':'fy-gc[1-12]','d':'The grid is always active'},{'r':'fy-gcs[1-12]','d':'Active the grid only when the screen is > 560px'},{'r':'fy-gcm[1-12]','d':'Active the grid only when the screen is > 768px'},{'r':'fy-gcl[1-12]','d':'Active the grid only when the screen is > 980px'}])
 			+demo
 				+example
 					.example-grid.
 						<div class="fy-gc">
-						    <div class="fy-gcxs8">extra small  8</div>
-						    <div class="fy-gcxs4">extra small  4</div>
+						    <div class="fy-gc8">size 8</div>
+						    <div class="fy-gc4">size 4</div>
 						</div>	
 						<div class="fy-gc">
 						    <div class="fy-gcs7">small 7</div>
