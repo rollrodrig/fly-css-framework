@@ -12,10 +12,17 @@ $grid-gutter-padding: 10px;
 }
 
 @for $i from 1 through $max-cols-number {
-	.fy-gcxs#{$i} {
+	.fy-gc#{$i} {
 			float: left;
 			width: (100/$max-cols-number)*$i + %;
 	}
+}
+
+@for $i from 1 through $max-cols-number {
+	/*.fy-gcxs#{$i} {
+			float: left;
+			width: (100/$max-cols-number)*$i + %;
+	}*/
 }
 
 @for $i from 1 through $max-cols-number {

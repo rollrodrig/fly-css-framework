@@ -124,8 +124,19 @@
           </ul>
           <ul class="fy-nv -tc">
             <li><a href="">Showcase</a></li>
-            <li><a href="showcase/forum.html">Forum</a></li>
+            <li><a href="showcase/facebook-post.html">Facebook post</a></li>
+            <li><a href="showcase/sidebar.html">Sidebar</a></li>
+            <li><a href="showcase/contact-list.html">Contact List</a></li>
+            <li><a href="showcase/forum.html">Forum home</a></li>
+            <li><a href="showcase/post-view.html">Post view</a></li>
           </ul>
+          <ul class="fy-nv -tc">
+            <li><a href="">Author</a></li>
+          </ul>
+          <div class="fy-fz2" style="padding:0 10px;">
+            <p>This proyect was made by <a href="https://github.com/rollrodrig" target="_blank">@rollrodrig</a>.</p>
+            <p>We are looking for people who want to help <i class="fas fa-heart"></i></p>
+          </div>
         </div>
       </div>
       <div class="fy-offc_b" fy-offc-b>
@@ -139,14 +150,13 @@
           </div>
           <div class="fy-hr -xl"></div>
           <h2 class="fy-ti -s2"><a class="fy-bun" href="#undefined">usage</a></h2>
-          <p>Default hero has a max-width and center the content.</p>
           <div class="demo">
             <div class="example">
               <div class="example-grid">
                 <div class="fy-gc">
-                    <div class="fy-gcm3">Column size 3</div>
-                    <div class="fy-gcm4">Column size 4</div>
-                    <div class="fy-gcm5">Column size 5</div>
+                    <div class="fy-gc3">Column size 3</div>
+                    <div class="fy-gc4">Column size 4</div>
+                    <div class="fy-gc5">Column size 5</div>
                 </div>  
               </div>
             </div>
@@ -154,9 +164,9 @@
               <div class="fy-code">
                 <pre class="fy-bgc-ln"><code class="html">
                     <div class="fy-gc">
-                        <div class="fy-gcm3">Column size 3</div>
-                        <div class="fy-gcm4">Column size 4</div>
-                        <div class="fy-gcm5">Column size 5</div>
+                    	<div class="fy-gc3">Column size 3</div>
+                    	<div class="fy-gc4">Column size 4</div>
+                    	<div class="fy-gc5">Column size 5</div>
                     </div>  	</code></pre>
               </div>
             </div><a class="fy-fz2 fy-a -ar" href="examples/grid.html" target="_blank">open example in new tab</a><br><a class="fy-fz2 fy-a -ar" href="examples/grid-mix.html" target="_blank">open example in new tab</a>
@@ -164,18 +174,6 @@
           <div class="fy-hr -xl"></div>
           <h2 class="fy-ti -s2"><a class="fy-bun" href="#undefined">Grid container</a></h2>
           <p>Is the wrapper for all the columns</p>
-          <div class="properties">
-            <table class="fy-tbl -ln -fw -s">
-              <tr>
-                <td><span class="fy-codl">-ar</span></td>
-                <td>Align element to right</td>
-              </tr>
-              <tr>
-                <td><span class="fy-codl">-ctr</span></td>
-                <td>center elements</td>
-              </tr>
-            </table>
-          </div>
           <div class="demo">
             <div class="example">
               <div class="example-grid">
@@ -190,8 +188,6 @@
                     <div class="fy-gc">
                         this is the grid container
                     </div>	
-                    
-                    
                     </code></pre>
               </div>
             </div>
@@ -202,7 +198,7 @@
           <div class="properties">
             <table class="fy-tbl -ln -fw -s">
               <tr>
-                <td><span class="fy-codl">fy-gcxs[1-12]</span></td>
+                <td><span class="fy-codl">fy-gc[1-12]</span></td>
                 <td>The grid is always active</td>
               </tr>
               <tr>
@@ -223,8 +219,8 @@
             <div class="example">
               <div class="example-grid">
                 <div class="fy-gc">
-                    <div class="fy-gcxs8">extra small  8</div>
-                    <div class="fy-gcxs4">extra small  4</div>
+                    <div class="fy-gc8">size 8</div>
+                    <div class="fy-gc4">size 4</div>
                 </div>	
                 <div class="fy-gc">
                     <div class="fy-gcs7">small 7</div>
