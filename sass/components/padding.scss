@@ -2,7 +2,7 @@
 /* padding top */
 
 @for $i from 0 through $padding-loop-max-through {
-	.fy-pt#{$i*10} {
+	.fy-pt#{$i*1} {
 		padding-top: $i*$padding-loop-constant;
 	}	
 }
@@ -10,7 +10,25 @@
 /* padding bottom*/
 
 @for $i from 0 through $padding-loop-max-through {
-	.fy-pb#{$i*10} {
+	.fy-pb#{$i*1} {
 		padding-bottom: $i*$padding-loop-constant;
 	}	
 }
+
+
+/* padding left*/
+
+@for $i from 0 through $padding-loop-max-through {
+	.fy-pl#{$i*1} {
+		padding-left: $i*$padding-loop-constant;
+	}	
+}
+
+/* padding right*/
+
+@for $i from 0 through $padding-loop-max-through {
+	.fy-pr#{$i*1} {
+		padding-right: $i*$padding-loop-constant;
+	}	
+}
+
