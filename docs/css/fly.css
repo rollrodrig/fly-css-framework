@@ -2040,7 +2040,7 @@ img {
   .fy-crd .fy-crd_f {
     padding: 10px 25px 10px 25px;
     font-size: 12;
-    border-top: 1px solid 1px solid rgba(24, 28, 33, 0.06);
+    border-top: 1px solid rgba(24, 28, 33, 0.06);
     color: #a9a9a9; }
   .fy-crd.-sp .fy-crd_i {
     padding: 8px 8px 10px 8px; }
