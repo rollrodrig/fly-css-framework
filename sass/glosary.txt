@@ -55,7 +55,7 @@ fy-montserrat-extrabolditalic
 ### Margin
 
 # margin bottom from 0 to 50
-
+fy-mb
 fy-mb0
 fy-mb1
 fy-mb2
@@ -64,7 +64,7 @@ fy-mb4
 fy-mb5
 
 # margin top from 0 to 50
-
+fy-mt
 fy-mt0
 fy-mt1
 fy-mt2
@@ -74,7 +74,7 @@ fy-mt5
 
 
 # margin left from 0 to 50
-
+fy-ml
 fy-ml0
 fy-ml1
 fy-ml2
@@ -83,7 +83,7 @@ fy-ml4
 fy-ml5
 
 # margin right from 0 to 50
-
+fy-mr
 fy-mr0
 fy-mr1
 fy-mr2
