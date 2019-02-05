@@ -12,7 +12,7 @@ $field-color: $color-secondary-darker;
 .fy-fs,
 .fy-ft,
 .fy-fo {
-	font-size: 16px;
+	font-size: 15px;
 }
 
 .fy-fi,
@@ -27,13 +27,13 @@ $field-color: $color-secondary-darker;
 	border-radius: 0;
 	&.-xs {
 		height: 20px;
-		font-size: 12px;
+		font-size: 11px;
 		padding: 0 5px;
 	}
 
 	&.-s {
 		height: 35px;
-		font-size: 14px;
+		font-size: 13px;
 	}
 
 	&.-l {
@@ -128,6 +128,25 @@ $field-color: $color-secondary-darker;
 		}
 	}
 }
+
+.fy-fi,
+.fy-fs,
+.fy-ft,
+.fy-fo {
+	&::-webkit-input-placeholder { 
+	  color: $field-placeholder-color;
+	}
+	&::-moz-placeholder { 
+	  color: $field-placeholder-color;
+	}
+	&:-ms-input-placeholder { 
+	  color: $field-placeholder-color;
+	}
+	&:-moz-placeholder { 
+	  color: $field-placeholder-color;
+	}
+}
+
 
 
 @import "form-field-with-decorator";
