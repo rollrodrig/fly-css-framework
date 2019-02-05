@@ -2018,7 +2018,8 @@ img {
   padding-right: 38px; }
 
 .fy-crd {
-  border: 1px solid rgba(24, 28, 33, 0.06); }
+  border: 1px solid rgba(24, 28, 33, 0.06);
+  background-color: #ffffff; }
   .fy-crd > img {
     display: block;
     width: 100%; }
@@ -2030,7 +2031,7 @@ img {
       display: block;
       width: 100%; }
   .fy-crd .fy-crd_h {
-    border-bottom: 1px solid 1px solid rgba(24, 28, 33, 0.06);
+    border-bottom: 1px solid rgba(24, 28, 33, 0.06);
     padding: 10px 25px 10px 25px;
     font-size: 19px;
     font-weight: normal;
