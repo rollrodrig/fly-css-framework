@@ -1,5 +1,5 @@
 
-$card-boder-color: $color-light-darker;
+$card-boder-color: 1px solid rgba(24,28,33,0.06);
 $card-footer-color: $color-secondary-lighter;
 
 $card-image-padding: 25px 25px 10px 25px;
@@ -19,7 +19,7 @@ $card-footer-large-padding: 15px 35px 15px 35px;
 
 
 .fy-crd {
-	border:1px solid $card-boder-color;
+	border: $card-boder-color;
 	> img {
 		display: block;
 		width: 100%;
@@ -37,7 +37,7 @@ $card-footer-large-padding: 15px 35px 15px 35px;
 	.fy-crd_h {
 		border-bottom: 1px solid $card-boder-color;
 		padding: $card-header-padding;
-		font-size: 20px;
+		font-size: 19px;
 		font-weight: normal;
 		margin-bottom: 0;
 	}
