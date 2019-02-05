@@ -1,20 +1,24 @@
 @for $i from 1 through $max-cols-number {
 	.fy-wd#{$i} {
-		width: $column-width*$i;
+		width: 100%;
+		max-width: $column-width*$i;
 		
 		&\@l {
 			@include min-media($large-min-size) {
-				width: $column-width*$i;
+				width: 100%;
+				max-width: $column-width*$i;
 			}
 		}
 		&\@m {
 			@include min-media($medium-min-size) {
-				width: $column-width*$i;
+				width: 100%;
+				max-width: $column-width*$i;
 			}
 		}
 		&\@s {
 			@include min-media($small-min-size) {
-				width: $column-width*$i;
+				width: 100%;
+				max-width: $column-width*$i;
 			}
 		}
 	}

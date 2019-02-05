@@ -1,9 +1,10 @@
+$divider-border: 1px solid rgba(24,28,33,0.06);
 .fy-hr {
 	height: 0;
 	overflow: hidden;
     box-sizing: content-box;
 	border: 0;
-	border-bottom: 1px solid #e2e2e2;
+	border-bottom: $divider-border;
 	margin-top: 40px;
 	margin-bottom: 40px;
 	&.-nb {
