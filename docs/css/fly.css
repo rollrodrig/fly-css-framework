@@ -3327,6 +3327,9 @@ a {
     display: none; } }
 
 /* margin top */
+.fy-mt {
+  margin-top: 5px; }
+
 .fy-mt0 {
   margin-top: 0px; }
 
@@ -3346,6 +3349,9 @@ a {
   margin-top: 50px; }
 
 /* margin bottom */
+.fy-mb {
+  margin-bottom: 5px; }
+
 .fy-mb0 {
   margin-bottom: 0px; }
 
@@ -3365,6 +3371,9 @@ a {
   margin-bottom: 50px; }
 
 /* margin left */
+.fy-ml {
+  margin-left: 5px; }
+
 .fy-ml0 {
   margin-left: 0px; }
 
@@ -3384,6 +3393,9 @@ a {
   margin-left: 50px; }
 
 /* margin right */
+.fy-mr {
+  margin-right: 5px; }
+
 .fy-mr0 {
   margin-right: 0px; }
 
