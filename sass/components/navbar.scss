@@ -106,6 +106,11 @@ $navbar-link-border-bottom-color: $color-dark-lighter;
 			width: 100%;
 			float: none;
 		}
+
+		i {
+			line-height: 2.8;
+			font-size: 18px;
+		}
 	}
 
 	.fy-nbb {
@@ -134,10 +139,15 @@ $navbar-link-border-bottom-color: $color-dark-lighter;
 			padding: 0 18px;
 			line-height: 3.1;
 			height: 37px;
+			i {
+				line-height: 2.3;
+				font-size: 16px;
+			}
 		}
 		.fy-fc {
 			margin-top: 1px;
 		}
+
 	}
 }
 /*

@@ -321,6 +321,9 @@ img {
         display: block;
         width: 100%;
         float: none; } }
+    .fy-nb_i i {
+      line-height: 2.8;
+      font-size: 18px; }
   .fy-nb .fy-nbb {
     position: absolute;
     top: 0;
@@ -340,6 +343,9 @@ img {
     padding: 0 18px;
     line-height: 3.1;
     height: 37px; }
+    .fy-nb.-s .fy-nb_i i {
+      line-height: 2.3;
+      font-size: 16px; }
   .fy-nb.-s .fy-fc {
     margin-top: 1px; }
 
