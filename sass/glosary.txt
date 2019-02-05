@@ -91,6 +91,9 @@ fy-mr3
 fy-mr4
 fy-mr5
 
+### Margin auto
+fy-ma
+
 
 ### remove margin
 # left

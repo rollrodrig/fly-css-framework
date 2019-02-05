@@ -3414,6 +3414,10 @@ a {
 .fy-mr5 {
   margin-right: 50px; }
 
+.fy-ma {
+  display: block;
+  margin: auto; }
+
 /* padding top */
 .fy-pt0 {
   padding-top: 0px; }
