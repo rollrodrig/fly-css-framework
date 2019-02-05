@@ -35,7 +35,7 @@ $card-footer-large-padding: 15px 35px 15px 35px;
 		}
 	}
 	.fy-crd_h {
-		border-bottom: 1px solid $card-boder-color;
+		border-bottom: $card-boder-color;
 		padding: $card-header-padding;
 		font-size: 19px;
 		font-weight: normal;
