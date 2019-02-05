@@ -241,6 +241,9 @@ fy-taj
 Add nice border to a elment
 .fy-br
 
+### Outline
+Add nice outline to a elment
+.fy-ol
 
 ### Close button
 
