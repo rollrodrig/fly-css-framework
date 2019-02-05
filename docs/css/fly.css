@@ -247,7 +247,7 @@ img {
 
 .fy-nb {
   font-size: 14px;
-  background-color: #fafafa;
+  background-color: #ffffff;
   height: 50px;
   position: relative;
   display: flex; }
@@ -310,11 +310,11 @@ img {
     text-align: center; }
     .fy-nb_i:hover {
       color: #636363;
-      background-color: #ececec;
+      background-color: #f8f8f8;
       text-decoration: none; }
     .fy-nb_i.-a {
       color: #636363;
-      background-color: #ececec;
+      background-color: #f8f8f8;
       text-decoration: none; }
     @media only screen and (max-width: 980px) {
       .fy-nb_i {
@@ -3233,6 +3233,39 @@ a {
   @media only screen and (min-width: 541px) {
     .fy-alc\@s > * {
       display: inline-block; } }
+
+.fy-br0 {
+  border-radius: 0px; }
+
+.fy-br1 {
+  border-radius: 1px; }
+
+.fy-br2 {
+  border-radius: 2px; }
+
+.fy-br3 {
+  border-radius: 3px; }
+
+.fy-br4 {
+  border-radius: 4px; }
+
+.fy-br5 {
+  border-radius: 5px; }
+
+.fy-br6 {
+  border-radius: 6px; }
+
+.fy-br7 {
+  border-radius: 7px; }
+
+.fy-br8 {
+  border-radius: 8px; }
+
+.fy-br9 {
+  border-radius: 9px; }
+
+.fy-br10 {
+  border-radius: 10px; }
 
 .fy-ol {
   border: 1px solid rgba(24, 28, 33, 0.06); }

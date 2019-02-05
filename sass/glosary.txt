@@ -237,9 +237,6 @@ fy-taj
 .fy-alrt.-s
 .fy-alrt.-l
 
-### Border
-Add nice border to a elment
-.fy-br
 
 ### Outline
 Add nice outline to a elment
@@ -1129,6 +1126,27 @@ fy-pop
 
 ### tooltip
 fy-tt
+
+
+### Border radius
+Add border radius to an element
+
+fy-br0
+fy-br1
+fy-br2
+fy-br3
+fy-br4
+fy-br5
+fy-br5p
+
+
+
+
+
+
+
+
+
 
 
 

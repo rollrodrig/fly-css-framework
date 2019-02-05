@@ -1,0 +1,6 @@
+$max-border-radius: 10;
+@for $i from 0 through $max-border-radius {
+	.fy-br#{$i} {
+		border-radius: $i*1px;
+	}
+}

@@ -1,6 +1,8 @@
 
-$navbar-background-color: #fafafa;
+$navbar-background-color: #ffffff;
 $navbar-border-color: $color-light;
+
+$navbar-link-active: #f8f8f8;
 
 $navbar-link-color: $color-secondary;
 $navbar-link-color-hover: $color-secondary-darker;
@@ -91,12 +93,12 @@ $navbar-link-border-bottom-color: $color-dark-lighter;
 		text-align: center;
 		&:hover {
 			color: $navbar-link-color-hover;
-			background-color: $navbar-link-background-color-hover;
+			background-color: $navbar-link-active;
 			text-decoration: none;
 		}
 		&.-a {
 			color: $navbar-link-color-hover;
-			background-color: $navbar-link-background-color-hover;
+			background-color: $navbar-link-active;
 			text-decoration: none;
 		}
 		@include media($medium-max-size){
