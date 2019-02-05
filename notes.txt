@@ -124,6 +124,36 @@ gulp.task('default', ['sass','pug','watch','connect']);
 
 
 
+colors
+blue: #26B4FF
+green: #1ab394
+
+Link color
+#1e70cd
 
 
+Border
+grey: 1px solid rgba(24,28,33,0.06)
 
+
+    --blue: #1e70cd;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #d9534f;
+    --orange: #FEB744;
+    --yellow: #FFD950;
+    --green: #02BC77;
+    --teal: #20c997;
+    --cyan: #28c3d7;
+    --white: #fff;
+    --gray: rgba(24,28,33,0.5);
+    --gray-dark: rgba(24,28,33,0.8);
+    --primary: #6610f2;
+    --secondary: #8897AA;
+    --success: #02BC77;
+    --info: #28c3d7;
+    --warning: #FFD950;
+    --danger: #d9534f;
+    --light: rgba(24,28,33,0.06);
+    --dark: rgba(24,28,33,0.9);

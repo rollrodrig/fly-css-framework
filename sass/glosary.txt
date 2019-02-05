@@ -177,6 +177,9 @@ fy-txld
 fy-txmu
 
 
+
+
+
 ## Text style
 
 # text with underline
@@ -234,8 +237,13 @@ fy-taj
 .fy-alrt.-s
 .fy-alrt.-l
 
+### Border
+Add nice border to a elment
+.fy-br
 
-
+### Outline
+Add nice outline to a elment
+.fy-ol
 
 ### Close button
 
@@ -313,7 +321,10 @@ fy-taj
 .fy-codkd
 
 
-### Background color
+### background color
+# white #ffffff
+fy-bcf
+
 # transparent
 fy-bct
 # primary

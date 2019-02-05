@@ -16,10 +16,11 @@ $card-image-large-padding: 35px 35px 15px 35px;
 $card-header-large-padding: 18px 35px 15px 35px;
 $card-body-large-padding: 24px 35px 24px 35px;
 $card-footer-large-padding: 15px 35px 15px 35px;
-
+$card-background-color: #ffffff;
 
 .fy-crd {
 	border: $card-boder;
+	background-color: $card-background-color;
 	> img {
 		display: block;
 		width: 100%;

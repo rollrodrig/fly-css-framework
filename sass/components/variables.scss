@@ -37,7 +37,7 @@ $color-primary: #186aff;
 $color-secondary: #777777;
 $color-success: #00D652;
 $color-warning: #F0BB0B;
-$color-danger: #D83838;
+$color-danger: #ff6262;
 $color-info: #55bdff;
 $color-light: #F5F5F6;
 $color-dark: #343b40;
@@ -58,7 +58,7 @@ $color-primary-lighter: #1892ff;
 $color-secondary-lighter: #a9a9a9;
 $color-success-lighter: #4eec8b;
 $color-warning-lighter: #fbd24b;
-$color-danger-lighter: #FF5454;
+$color-danger-lighter: #ffaeae;
 $color-info-lighter: #9ad8ff;
 $color-light-lighter: #FAFAFA;
 $color-dark-lighter: #4f565a;
@@ -129,7 +129,8 @@ $background-color-success: $color-success;
 $field-placeholder-color: #d8d8d8;
 
 
-
+// Label
+$label-bg-default: $color-light-darker;
 
 
 

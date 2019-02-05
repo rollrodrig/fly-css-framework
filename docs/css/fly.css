@@ -109,9 +109,9 @@ img {
     color: #DBAA0A; }
 
 .fy-cod {
-  color: #D83838; }
+  color: #ff6262; }
   .fy-codl {
-    color: #FF5454; }
+    color: #ffaeae; }
   .fy-codd {
     color: #b90d0d; }
 
@@ -135,6 +135,9 @@ img {
     color: #4f565a; }
   .fy-codkd {
     color: #0F1418; }
+
+.fy-bcf {
+  background-color: #ffffff; }
 
 .fy-bct {
   background-color: transparent !important; }
@@ -168,9 +171,9 @@ img {
     background-color: #DBAA0A; }
 
 .fy-bcd {
-  background-color: #D83838; }
+  background-color: #ff6262; }
   .fy-bcdl {
-    background-color: #FF5454; }
+    background-color: #ffaeae; }
   .fy-bcdd {
     background-color: #b90d0d; }
 
@@ -1154,148 +1157,196 @@ img {
   align-self: flex-end; }
 
 .fy-wd1 {
-  width: 97px; }
+  width: 100%;
+  max-width: 97px; }
   @media only screen and (min-width: 981px) {
     .fy-wd1\@l {
-      width: 97px; } }
+      width: 100%;
+      max-width: 97px; } }
   @media only screen and (min-width: 769px) {
     .fy-wd1\@m {
-      width: 97px; } }
+      width: 100%;
+      max-width: 97px; } }
   @media only screen and (min-width: 541px) {
     .fy-wd1\@s {
-      width: 97px; } }
+      width: 100%;
+      max-width: 97px; } }
 
 .fy-wd2 {
-  width: 194px; }
+  width: 100%;
+  max-width: 194px; }
   @media only screen and (min-width: 981px) {
     .fy-wd2\@l {
-      width: 194px; } }
+      width: 100%;
+      max-width: 194px; } }
   @media only screen and (min-width: 769px) {
     .fy-wd2\@m {
-      width: 194px; } }
+      width: 100%;
+      max-width: 194px; } }
   @media only screen and (min-width: 541px) {
     .fy-wd2\@s {
-      width: 194px; } }
+      width: 100%;
+      max-width: 194px; } }
 
 .fy-wd3 {
-  width: 291px; }
+  width: 100%;
+  max-width: 291px; }
   @media only screen and (min-width: 981px) {
     .fy-wd3\@l {
-      width: 291px; } }
+      width: 100%;
+      max-width: 291px; } }
   @media only screen and (min-width: 769px) {
     .fy-wd3\@m {
-      width: 291px; } }
+      width: 100%;
+      max-width: 291px; } }
   @media only screen and (min-width: 541px) {
     .fy-wd3\@s {
-      width: 291px; } }
+      width: 100%;
+      max-width: 291px; } }
 
 .fy-wd4 {
-  width: 388px; }
+  width: 100%;
+  max-width: 388px; }
   @media only screen and (min-width: 981px) {
     .fy-wd4\@l {
-      width: 388px; } }
+      width: 100%;
+      max-width: 388px; } }
   @media only screen and (min-width: 769px) {
     .fy-wd4\@m {
-      width: 388px; } }
+      width: 100%;
+      max-width: 388px; } }
   @media only screen and (min-width: 541px) {
     .fy-wd4\@s {
-      width: 388px; } }
+      width: 100%;
+      max-width: 388px; } }
 
 .fy-wd5 {
-  width: 485px; }
+  width: 100%;
+  max-width: 485px; }
   @media only screen and (min-width: 981px) {
     .fy-wd5\@l {
-      width: 485px; } }
+      width: 100%;
+      max-width: 485px; } }
   @media only screen and (min-width: 769px) {
     .fy-wd5\@m {
-      width: 485px; } }
+      width: 100%;
+      max-width: 485px; } }
   @media only screen and (min-width: 541px) {
     .fy-wd5\@s {
-      width: 485px; } }
+      width: 100%;
+      max-width: 485px; } }
 
 .fy-wd6 {
-  width: 582px; }
+  width: 100%;
+  max-width: 582px; }
   @media only screen and (min-width: 981px) {
     .fy-wd6\@l {
-      width: 582px; } }
+      width: 100%;
+      max-width: 582px; } }
   @media only screen and (min-width: 769px) {
     .fy-wd6\@m {
-      width: 582px; } }
+      width: 100%;
+      max-width: 582px; } }
   @media only screen and (min-width: 541px) {
     .fy-wd6\@s {
-      width: 582px; } }
+      width: 100%;
+      max-width: 582px; } }
 
 .fy-wd7 {
-  width: 679px; }
+  width: 100%;
+  max-width: 679px; }
   @media only screen and (min-width: 981px) {
     .fy-wd7\@l {
-      width: 679px; } }
+      width: 100%;
+      max-width: 679px; } }
   @media only screen and (min-width: 769px) {
     .fy-wd7\@m {
-      width: 679px; } }
+      width: 100%;
+      max-width: 679px; } }
   @media only screen and (min-width: 541px) {
     .fy-wd7\@s {
-      width: 679px; } }
+      width: 100%;
+      max-width: 679px; } }
 
 .fy-wd8 {
-  width: 776px; }
+  width: 100%;
+  max-width: 776px; }
   @media only screen and (min-width: 981px) {
     .fy-wd8\@l {
-      width: 776px; } }
+      width: 100%;
+      max-width: 776px; } }
   @media only screen and (min-width: 769px) {
     .fy-wd8\@m {
-      width: 776px; } }
+      width: 100%;
+      max-width: 776px; } }
   @media only screen and (min-width: 541px) {
     .fy-wd8\@s {
-      width: 776px; } }
+      width: 100%;
+      max-width: 776px; } }
 
 .fy-wd9 {
-  width: 873px; }
+  width: 100%;
+  max-width: 873px; }
   @media only screen and (min-width: 981px) {
     .fy-wd9\@l {
-      width: 873px; } }
+      width: 100%;
+      max-width: 873px; } }
   @media only screen and (min-width: 769px) {
     .fy-wd9\@m {
-      width: 873px; } }
+      width: 100%;
+      max-width: 873px; } }
   @media only screen and (min-width: 541px) {
     .fy-wd9\@s {
-      width: 873px; } }
+      width: 100%;
+      max-width: 873px; } }
 
 .fy-wd10 {
-  width: 970px; }
+  width: 100%;
+  max-width: 970px; }
   @media only screen and (min-width: 981px) {
     .fy-wd10\@l {
-      width: 970px; } }
+      width: 100%;
+      max-width: 970px; } }
   @media only screen and (min-width: 769px) {
     .fy-wd10\@m {
-      width: 970px; } }
+      width: 100%;
+      max-width: 970px; } }
   @media only screen and (min-width: 541px) {
     .fy-wd10\@s {
-      width: 970px; } }
+      width: 100%;
+      max-width: 970px; } }
 
 .fy-wd11 {
-  width: 1067px; }
+  width: 100%;
+  max-width: 1067px; }
   @media only screen and (min-width: 981px) {
     .fy-wd11\@l {
-      width: 1067px; } }
+      width: 100%;
+      max-width: 1067px; } }
   @media only screen and (min-width: 769px) {
     .fy-wd11\@m {
-      width: 1067px; } }
+      width: 100%;
+      max-width: 1067px; } }
   @media only screen and (min-width: 541px) {
     .fy-wd11\@s {
-      width: 1067px; } }
+      width: 100%;
+      max-width: 1067px; } }
 
 .fy-wd12 {
-  width: 1164px; }
+  width: 100%;
+  max-width: 1164px; }
   @media only screen and (min-width: 981px) {
     .fy-wd12\@l {
-      width: 1164px; } }
+      width: 100%;
+      max-width: 1164px; } }
   @media only screen and (min-width: 769px) {
     .fy-wd12\@m {
-      width: 1164px; } }
+      width: 100%;
+      max-width: 1164px; } }
   @media only screen and (min-width: 541px) {
     .fy-wd12\@s {
-      width: 1164px; } }
+      width: 100%;
+      max-width: 1164px; } }
 
 /* text */
 .fy-tx {
@@ -1579,7 +1630,7 @@ img {
 
 .fy-fe {
   font-size: 11px;
-  color: #D83838; }
+  color: #ffaeae; }
 
 .fy-fc .fy-gc > div:first-child {
   padding-left: 0; }
@@ -2018,7 +2069,8 @@ img {
   padding-right: 38px; }
 
 .fy-crd {
-  border: 1px solid rgba(24, 28, 33, 0.06); }
+  border: 1px solid rgba(24, 28, 33, 0.06);
+  background-color: #ffffff; }
   .fy-crd > img {
     display: block;
     width: 100%; }
@@ -2119,7 +2171,7 @@ img {
   overflow: hidden;
   box-sizing: content-box;
   border: 0;
-  border-bottom: 1px solid #e2e2e2;
+  border-bottom: 1px solid rgba(24, 28, 33, 0.06);
   margin-top: 40px;
   margin-bottom: 40px; }
   .fy-hr.-nb {
@@ -2336,10 +2388,11 @@ img {
 
 .fy-img.-m {
   display: block;
-  margin: auto; }
+  margin-left: auto;
+  margin-right: auto; }
 
 .fy-lbl {
-  background-color: #c2c2c2;
+  background-color: #ececec;
   font-size: 11px;
   min-width: 22px;
   padding-left: 5px;
@@ -2365,7 +2418,7 @@ img {
   .fy-lbl.-wa {
     background-color: #F0BB0B; }
   .fy-lbl.-da {
-    background-color: #D83838;
+    background-color: #ff6262;
     color: #ffffff; }
   .fy-lbl.-in {
     background-color: #55bdff;
@@ -3181,6 +3234,9 @@ a {
     .fy-alc\@s > * {
       display: inline-block; } }
 
+.fy-ol {
+  border: 1px solid rgba(24, 28, 33, 0.06); }
+
 .fy-cg {
   display: inline-block;
   margin-left: auto;
@@ -3194,7 +3250,7 @@ a {
 .fy-cd {
   font-size: 14px;
   font-family: 'Roboto Mono',monospace;
-  color: #FF5454; }
+  color: #ffaeae; }
   .fy-cd.-p {
     color: #186aff; }
   .fy-cd.-s {
@@ -3204,7 +3260,7 @@ a {
   .fy-cd.-w {
     color: #F0BB0B; }
   .fy-cd.-d {
-    color: #D83838; }
+    color: #ff6262; }
   .fy-cd.-i {
     color: #55bdff; }
   .fy-cd.-l {
