@@ -138,9 +138,11 @@ pre {
     margin-right: 20px;
 }
 
-.example-nav > ul {
-    margin-bottom: 20px;
-
+.example-nav {
+    width: 250px;
+}
+.example-nav .fy-nv {
+    background-color: #fcfcfc;
 }
 
 .example-table > table {

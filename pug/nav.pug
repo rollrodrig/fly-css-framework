@@ -10,24 +10,25 @@ block content
 			+subtitle('Usage')
 			+description
 			+demo
-				+example.
-					<ul class="fy-nv">
-						<li>
-							<a href="">Lorem ipsum</a>
-						</li>
-						<li>
-							<a href="">Reprehenderit</a>
-						</li>
-						<li>
-							<a href="">Dapibus</a>
-						</li>
-						<li>
-							<a href="">Facilisis</a>
-						</li>
-						<li>
-							<a href="">Perspiciatis</a>
-						</li>
-					</ul>
+				+example
+					.example-nav.
+						<ul class="fy-nv">
+							<li>
+								<a href="">Lorem ipsum</a>
+							</li>
+							<li>
+								<a href="">Reprehenderit</a>
+							</li>
+							<li>
+								<a href="">Dapibus</a>
+							</li>
+							<li>
+								<a href="">Facilisis</a>
+							</li>
+							<li>
+								<a href="">Perspiciatis</a>
+							</li>
+						</ul>
 				+code.
 					<ul class="fy-nv">
 						<li>
@@ -51,44 +52,15 @@ block content
 
 		//- spec
 		+section
-			+subtitle('Style')
+			+subtitle('Header Modifier')
 			+description
-			+properties([{'r':'-t','d':'Title'},{'r':'-tu','d':'Title underline'},{'r':'-tc','d':'Title capitalize'}])
+			+properties([{'r':'-h','d':'Header option'}])
 			+demo
 				+example
 					.example-nav.
-						<ul class="fy-nv -t">
+						<ul class="fy-nv -h">
 							<li>
-								<a href="">Lorem ipsum</a>
-							</li>
-							<li>
-								<a href="">Reprehenderit</a>
-							</li>
-							<li>
-								<a href="">Dapibus</a>
-							</li>
-							<li>
-								<a href="">Facilisis</a>
-							</li>
-						</ul>
-						<ul class="fy-nv -tu">
-							<li>
-								<a href="">Lorem ipsum</a>
-							</li>
-							<li>
-								<a href="">Reprehenderit</a>
-							</li>
-							<li>
-								<a href="">Dapibus</a>
-							</li>
-							<li>
-								<a href="">Facilisis</a>
-							</li>
-						</ul>
-
-						<ul class="fy-nv -tc">
-							<li>
-								<a href="">Lorem ipsum</a>
+								<a href="">LOREM LIPSUM</a>
 							</li>
 							<li>
 								<a href="">Reprehenderit</a>
@@ -101,24 +73,9 @@ block content
 							</li>
 						</ul>
 				+code.
-
-						<ul class="fy-nv -t">
+						<ul class="fy-nv -h">
 							<li>
-								<a href="">Lorem ipsum</a>
-							</li>
-							<li>
-								<a href="">Reprehenderit</a>
-							</li>
-							<li>
-								<a href="">Dapibus</a>
-							</li>
-							<li>
-								<a href="">Facilisis</a>
-							</li>
-						</ul>
-						<ul class="fy-nv -tu">
-							<li>
-								<a href="">Lorem ipsum</a>
+								<a href="">LOREM LIPSUM</a>
 							</li>
 							<li>
 								<a href="">Reprehenderit</a>
@@ -131,18 +88,202 @@ block content
 							</li>
 						</ul>
 
-						<ul class="fy-nv -tc">
+
+
+		//- spec
+		+section
+			+subtitle('Nav with icons')
+			+description
+			+properties([{'r':'-h','d':'Header option'}])
+			+demo
+				+example
+					.example-nav.
+						<ul class="fy-nv">
 							<li>
-								<a href="">Lorem ipsum</a>
+								<i class="fab fa-twitter"></i>
+								<a href="">Facilisis in</a>
 							</li>
 							<li>
-								<a href="">Reprehenderit</a>
-							</li>
-							<li>
+								<i class="fab fa-facebook-f"></i>
 								<a href="">Dapibus</a>
 							</li>
 							<li>
-								<a href="">Facilisis</a>
+								<i class="fab fa-youtube"></i>
+								<a href="">Acfacilisis</a>
+							</li>
+							<li>
+								<i class="fab fa-twitter"></i>
+								<a href="">Daacilisis</a>
+							</li>
+							<li>
+								<i class="fab fa-facebook-f"></i>
+								<a href="">Locilisis in</a>
+							</li>
+						</ul>
+						<ul class="fy-nv -h">
+							<li>
+								<i class="fab fa-twitter"></i>
+								<a href="">Facilisis in</a>
+							</li>
+							<li>
+								<i class="fab fa-facebook-f"></i>
+								<a href="">Dapibus</a>
+							</li>
+							<li>
+								<i class="fab fa-youtube"></i>
+								<a href="">Acfacilisis</a>
+							</li>
+							<li>
+								<i class="fab fa-twitter"></i>
+								<a href="">Daacilisis</a>
+							</li>
+							<li>
+								<i class="fab fa-facebook-f"></i>
+								<a href="">Locilisis in</a>
+							</li>
+						</ul>
+				+code.
+						<ul class="fy-nv">
+							<li>
+								<i class="fab fa-twitter"></i>
+								<a href="">Facilisis in</a>
+							</li>
+							<li>
+								<i class="fab fa-facebook-f"></i>
+								<a href="">Dapibus</a>
+							</li>
+							<li>
+								<i class="fab fa-youtube"></i>
+								<a href="">Acfacilisis</a>
+							</li>
+							<li>
+								<i class="fab fa-twitter"></i>
+								<a href="">Daacilisis</a>
+							</li>
+							<li>
+								<i class="fab fa-facebook-f"></i>
+								<a href="">Locilisis in</a>
+							</li>
+						</ul>
+						<ul class="fy-nv -h">
+							<li>
+								<i class="fab fa-twitter"></i>
+								<a href="">Facilisis in</a>
+							</li>
+							<li>
+								<i class="fab fa-facebook-f"></i>
+								<a href="">Dapibus</a>
+							</li>
+							<li>
+								<i class="fab fa-youtube"></i>
+								<a href="">Acfacilisis</a>
+							</li>
+							<li>
+								<i class="fab fa-twitter"></i>
+								<a href="">Daacilisis</a>
+							</li>
+							<li>
+								<i class="fab fa-facebook-f"></i>
+								<a href="">Locilisis in</a>
 							</li>
 						</ul>
 
+
+		//- spec
+		+section
+			+subtitle('Nav with childs')
+			+description
+			+demo
+				+example
+					.example-nav.
+						<ul class="fy-nv -h">
+							<li>
+								<i class="fab fa-twitter"></i>
+								<a href="">The Header</a>
+							</li>
+							<li>
+								<i class="fab fa-youtube"></i>
+								<a href="">Dapibus ac facilisis in</a>
+							</li>
+							<li>
+								<i class="fas fa-file"></i>
+								<span>Dapibus ac facil</span>
+								<ul class="fy-nv">
+									<li>
+										<a href="">The Header</a>
+									</li>
+									<li>
+										<a href="">Dapibus ac facilisis in</a>
+									</li>
+									<li>
+										<a href="">Dapibus ac facilisis in</a>
+
+										<ul class="fy-nv">
+											<li>
+												<a href="">The Header</a>
+											</li>
+											<li>
+												<a href="">Dapibus ac facilisis in</a>
+											</li>
+											<li>
+												<a href="">Dapibus ac facilisis in</a>
+											</li>
+										</ul>	
+									</li>
+								</ul>					
+							</li>
+							<li>
+								<i class="fab fa-twitter"></i>
+								<a href="">Dapibus ac facilisis in</a>
+							</li>
+							<li>
+								<i class="fab fa-facebook-f"></i>
+								<a href="">Dapibus ac facilisis in</a>
+							</li>
+						</ul>
+				+code.
+					<ul class="fy-nv -h">
+						<li>
+							<i class="fab fa-twitter"></i>
+							<a href="">The Header</a>
+						</li>
+						<li>
+							<i class="fab fa-youtube"></i>
+							<a href="">Dapibus ac facilisis in</a>
+						</li>
+						<li>
+							<i class="fas fa-file"></i>
+							<span>Dapibus ac facil</span>
+							<ul class="fy-nv">
+								<li>
+									<a href="">The Header</a>
+								</li>
+								<li>
+									<a href="">Dapibus ac facilisis in</a>
+								</li>
+								<li>
+									<a href="">Dapibus ac facilisis in</a>
+
+									<ul class="fy-nv">
+										<li>
+											<a href="">The Header</a>
+										</li>
+										<li>
+											<a href="">Dapibus ac facilisis in</a>
+										</li>
+										<li>
+											<a href="">Dapibus ac facilisis in</a>
+										</li>
+									</ul>	
+								</li>
+							</ul>					
+						</li>
+						<li>
+							<i class="fab fa-twitter"></i>
+							<a href="">Dapibus ac facilisis in</a>
+						</li>
+						<li>
+							<i class="fab fa-facebook-f"></i>
+							<a href="">Dapibus ac facilisis in</a>
+						</li>
+					</ul>					

@@ -5,52 +5,25 @@
 	margin-bottom: 20px;
 	padding-left: 10px;
 	padding-right: 10px;
-	> *{
+	> * {
 		font-size: 14px;
 		display: block;
 		padding-top: 6px;
 		padding-bottom: 6px;
 		padding-left: 0;
-		
+
+		> i {
+		    width: 18px;
+		    margin-right: 2px;
+		    text-align: center;
+		}
 	}
 
 	a {
 		color: #525252;
 	}
 
-	&.-t {
-		> * {
-			&:first-child {
-				padding-top: 6px;
-				padding-bottom: 10px;
-				padding-left: 0;
-				a {
-					font-size: 16px;
-				}		
-			}
-		}
-	}
-
-	&.-tu {
-		> * {
-			&:first-child {
-				padding-top: 6px;
-				padding-left: 0;
-				border-bottom: 1px solid #c3c3c3;
-			    padding-bottom: 4px;
-			    margin-bottom: 5px;			
-				a {
-					font-size: 16px;
-					&:hover {
-						text-decoration: none;
-					}
-				}	
-			}
-		}
-	}
-
-
-	&.-tc {
+	&.-h{
 		> * {
 			&:first-child {
 				padding-top: 6px;
@@ -58,25 +31,19 @@
 				border-bottom: 1px solid #c3c3c3;
 			    padding-bottom: 4px;
 			    margin-bottom: 8px;
-			    text-transform: uppercase;
-				
-			    font-size: 11px;
-				a {
-					&:hover {
-						text-decoration: none;
-					}
-				}	
+			    /*font-size: 11px;*/
 			}
 		}
 	}
-	&.-cp {
+	.fy-nv {
+		margin-top: 10px;
+		margin-bottom: 0px;
+		padding-left: 20px;
 		> * {
-			padding-left: 10px;
-			&:first-child {
-				padding-left: 0;
-			}
-		}	
+			font-size: 13px;
+		}
 	}
+	
 }
 
 
