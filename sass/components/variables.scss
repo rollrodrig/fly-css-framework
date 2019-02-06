@@ -33,14 +33,39 @@ $large-min-size: 981px;
 // Basic colors
 
 $color-light-full: #ffffff;
-$color-primary: #186aff;
+$color-primary: #26B4FF;
 $color-secondary: #777777;
-$color-success: #00D652;
+$color-success: #02BC77;
 $color-warning: #F0BB0B;
 $color-danger: #ff6262;
 $color-info: #55bdff;
 $color-light: #F5F5F6;
 $color-dark: #343b40;
+
+// Basic colos Lighter version
+$color-primary-lighter: #5ad0ff;
+$color-secondary-lighter: #a9a9a9;
+$color-success-lighter: #03ca66;
+$color-warning-lighter: #fbd24b;
+$color-danger-lighter: #ffaeae;
+$color-info-lighter: #9ad8ff;
+$color-light-lighter: #FAFAFA;
+$color-dark-lighter: #4f565a;
+
+// Basic colos darker version
+$color-primary-darker: #0c89f7;
+$color-secondary-darker: #636363;
+$color-success-darker: #009d63;
+$color-warning-darker: #DBAA0A;
+$color-danger-darker: #b90d0d;
+$color-info-darker: #1c9aea;
+$color-light-darker: #ececec;
+$color-dark-darker: #0F1418;
+
+
+$color-neutral: #c2c2c2;
+$color-default: #ffffff;
+
 
 // Basic colors soft version
 $color-soft-light-full: #ffffff;
@@ -53,29 +78,7 @@ $color-soft-info: #e0f3ff;
 $color-soft-light: #f9f9f9;
 $color-soft-dark: #dedede;
 
-// Basic colos Lighter version
-$color-primary-lighter: #1892ff;
-$color-secondary-lighter: #a9a9a9;
-$color-success-lighter: #4eec8b;
-$color-warning-lighter: #fbd24b;
-$color-danger-lighter: #ffaeae;
-$color-info-lighter: #9ad8ff;
-$color-light-lighter: #FAFAFA;
-$color-dark-lighter: #4f565a;
 
-// Basic colos darker version
-$color-primary-darker: #0043bd;
-$color-secondary-darker: #636363;
-$color-success-darker: #009C3C;
-$color-warning-darker: #DBAA0A;
-$color-danger-darker: #b90d0d;
-$color-info-darker: #1c9aea;
-$color-light-darker: #ececec;
-$color-dark-darker: #0F1418;
-
-
-$color-neutral: #c2c2c2;
-$color-default: #ffffff;
 
 // Hiperlink default colors
 $color-hiperlink: #07C;
@@ -117,7 +120,6 @@ $padding-loop-max-through: 5;
 $padding-loop-constant: 10px;
 
 
-
 // background colors
 $background-color-primary: $color-primary;
 $background-color-secondary: $color-secondary;
@@ -133,8 +135,8 @@ $field-placeholder-color: #d8d8d8;
 $label-bg-default: $color-light-darker;
 
 
-
-
+// utilities
+$border-color: rgba(24,28,33,0.06);
 
 
 

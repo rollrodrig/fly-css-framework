@@ -691,6 +691,10 @@ fy-ldg.-dk
 # nav bar a item
 .fy-nb_i
 
+# nav bar status
+fy-nb_ic
+fy-nb_ic_s
+
 # small nav bar
 .fy-nb.-s
 

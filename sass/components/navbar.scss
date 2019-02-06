@@ -4,8 +4,8 @@ $navbar-border-color: $color-light;
 
 $navbar-link-active: #f8f8f8;
 
-$navbar-link-color: $color-secondary;
-$navbar-link-color-hover: $color-secondary-darker;
+$navbar-link-color: #a3a4a6;
+$navbar-link-color-hover: #4E5155;
 
 $navbar-link-background-color: transparent;
 $navbar-link-background-color-hover: $color-light-darker;
@@ -15,20 +15,22 @@ $navbar-link-border-bottom-color: $color-dark-lighter;
 .fy-nb {
 	font-size: 14px;
 	background-color: $navbar-background-color;
-	height: 50px;
+	height: 68px;
 	position: relative;
 	display: flex;
+	box-shadow: 0 1px 0 rgba(24,28,33,0.04);
 
 	@include media($medium-max-size){
-		justify-content: space-between;
 		height: auto;
-		overflow: hidden;
 		display: block;
 	}
 
 	&_l {
+		padding: 10px;
+	    display: flex;
+	    align-items: center;
 		@include media($medium-max-size){
-			height: 50px;
+			height: 68px;
 		}		
 	}
 
@@ -82,44 +84,71 @@ $navbar-link-border-bottom-color: $color-dark-lighter;
 	}
 
 	&_i {
-		display: block;
+		display: flex;
+		align-items: center;
+		justify-content: center;
 		float: left;
 		padding: 0 18px;
-     	line-height: 3.6;
-     	height: 50px;
+ 	    line-height: 5;
+     	height: 68px;
 		text-decoration: none;
 		color: $navbar-link-color;
 		background-color: $navbar-link-background-color;
 		text-align: center;
+		position: relative;
+		
 		&:hover {
 			color: $navbar-link-color-hover;
-			background-color: $navbar-link-active;
 			text-decoration: none;
 		}
 		&.-a {
 			color: $navbar-link-color-hover;
-			background-color: $navbar-link-active;
 			text-decoration: none;
 		}
 		@include media($medium-max-size){
-			display: block;
+			/*display: block;*/
 			width: 100%;
 			float: none;
 		}
 
 		i {
-			line-height: 2.8;
 			font-size: 18px;
+		}
+	}
+	&_ic {
+		display: block;
+		width: 18px;
+		height: 18px;
+		position: relative;
+		&_s {
+		    width: 7px;
+		    height: 7px;
+		    border-radius: 50%;
+		    background-color: $color-success;
+		    display: block;
+		    position: absolute;
+		    top: -2px;
+		    right: -2px;
+		    &.-n {
+				background-color: $color-primary;
+		    }
+		    &.-d {
+		   		background-color: $color-danger;
+		    }
+		    &.-w {
+		    	background-color: $color-warning;	
+		    }
 		}
 	}
 
 	.fy-nbb {
 		position: absolute;
-		top: 0;
-		right: 0;
+		top: 13px;
+		right: 6px;
 		display: none;
 		@include media($medium-max-size) {
 			display: block;
+
 		}
 		
 	}
@@ -134,54 +163,36 @@ $navbar-link-border-bottom-color: $color-dark-lighter;
 			height: auto;
 		}
 
+
+		.fy-nb_l {
+			padding: 2px;
+			@include media($medium-max-size) {
+				height: 37px;
+			}
+
+		}
+
 		.fy-nb_i {
 			font-size: 12px;
 			padding: 0 18px;
 			line-height: 3.1;
 			height: 37px;
 			i {
-				line-height: 2.3;
 				font-size: 16px;
 			}
 		}
 		.fy-fc {
 			margin-top: 1px;
+			margin-bottom: 1px;
 		}
+
+		.fy-nbb {
+			top: 2px;
+		}		
 
 	}
 }
-/*
-.fy-nb {
-	&.-ul {
-	    margin-bottom: 1px;
-		.fy-nb_l {
-			&:hover {
-				padding: 0 18px;
-			    line-height: 3.6;
-				border-bottom: 1px solid $navbar-link-border-bottom-color;
-			}
-		}
-	}
-	&.-s.-ul {
-		.fy-nb_l {
-			&:hover {
-				padding: 0 18px;
-				line-height: 2.9;
-				border-bottom: 1px solid $navbar-link-border-bottom-color;
-			}
-		}
-	}	
-}*/
 
-/*
-.fy-nb {
-	.fy-nbb {
-		display: none;
-		@include media($medium-max-size){
-			display: block;
-		}		
-	}
-}*/
 .fy-nb {
 	.fy-btn {
 		margin-top: 2px;
@@ -189,7 +200,8 @@ $navbar-link-border-bottom-color: $color-dark-lighter;
 }
 .fy-nb {
 	.fy-fc {
-		margin-top: 2px;
+		margin-top: 12px;
+		margin-bottom: 12px;
 		padding-left: 15px;
 		padding-right: 15px;
 		.fy-btn {
@@ -197,6 +209,14 @@ $navbar-link-border-bottom-color: $color-dark-lighter;
 		}	
 	}
 }
+.fy-nb > .fy-ctnr {
+	display: flex;
+	@include media($medium-max-size){
+		height: auto;
+		display: block;
+	}
+}
+	
 
 .fy-nb {
 	&_dd {
@@ -204,10 +224,10 @@ $navbar-link-border-bottom-color: $color-dark-lighter;
 		float: left;
 		padding-left: 18px;
 		padding-right: 28px;
-     	line-height: 3.6;
+ 	    line-height: 5;
+     	height: 68px;
 		text-decoration: none;
 		color: $navbar-link-color;
-		background-color: $navbar-link-background-color;
 		text-align: center;
 		position: relative;
 
@@ -222,12 +242,10 @@ $navbar-link-border-bottom-color: $color-dark-lighter;
 
 		&:hover {
 			color: $navbar-link-color-hover;
-			background-color: $navbar-link-background-color-hover;
 			text-decoration: none;
 		}
 		&.-a {
 			color: $navbar-link-color-hover;
-			background-color: $navbar-link-background-color-hover;
 			text-decoration: none;
 		}
 		@include media($medium-max-size){
@@ -241,7 +259,7 @@ $navbar-link-border-bottom-color: $color-dark-lighter;
 	        content: ' ';
 	        height: 8px;
 	        width: 1px;
-	        top: 22px;
+	        top: 32px;
 	        background-color: $color-dark;
 		}
 
