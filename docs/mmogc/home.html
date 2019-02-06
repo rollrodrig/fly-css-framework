@@ -5,7 +5,34 @@
 		<link rel="stylesheet" href="../css/font-awesome.css">
 		<link rel="stylesheet" href="../css/fly-opensans.css">
 		<style>
-			
+			.search-box {
+				position: relative;
+			}
+			.search-results {
+				overflow-y: scroll;
+				height: 212px;
+				position: absolute;
+				left: 0;
+				top: 67px;
+				width: 100%;
+				z-index: 10;
+				box-shadow: 2px 5px 9px -1px #c3c3c345;
+				display: none;
+			}
+			.alerts-box {
+				position: relative;
+			}
+			.alerts {
+				display: none;
+				overflow-y: scroll;
+			    height: 350px;
+			    width: 400px;
+				position: absolute;
+				right: 0;
+				top: 47px;
+				box-shadow: 2px 5px 9px -1px #c3c3c345;
+				z-index: 100;
+			}
 		</style>
 	</head>
 	<body class="align-demo fy-opensans fy-bcll">
@@ -21,18 +48,44 @@
 								<a href="#" class="fy-nb_i">Menú</a>
 							</div> -->
 							<div class="fy-nb_gr">
-								<a href="#" class="fy-nb_i">
-									<i class="far fa-bell"></i>
-								</a>
-								<a href="#" class="fy-nb_i">
-									<i class="far fa-envelope"></i>
-								</a>
-							</div>
-							<div class="fy-nb_gr">
 								<a href="#" class="fy-nb_i">Login</a>
+								<a href="#" class="fy-nb_i">Sign up</a>
 							</div>
 							<div class="fy-nb_gr">
-								<a href="" class="fy-btn">Create</a>
+								<a href="" class="fy-btn fy-wd2" style="width: 200px;">Create</a>
+							</div>
+							<div class="fy-nb_gr">
+								<div class="fy-nb_i alerts-box">
+									<i class="far fa-bell"></i>
+									<div class="alerts fy-bcf  fy-ol">
+					                    <div class="fy-dl">
+					                    	<div>
+					                    		Lorem ipsum dolor
+					                    	</div>
+					                    	<div>
+					                    		Consectetur adipisicing
+					                    	</div>
+					                    	<div>
+					                    		Repudiandae
+					                    	</div>
+					                    	<div>
+					                    		Asperiores quae
+					                    	</div>
+					                    	<div>
+					                    		Consectetur adipisicing
+					                    	</div>
+					                    	<div>
+					                    		Repudiandae
+					                    	</div>
+					                    	<div>
+					                    		Asperiores quae
+					                    	</div>
+					                    </div> 
+									</div>
+								</div>
+								<!-- <a href="#" class="fy-nb_i">
+									<i class="far fa-envelope"></i>
+								</a> -->
 							</div>
 						</div>
 						<div class="fy-nbb">
@@ -43,13 +96,57 @@
 					</div>
 				</div>
 			</div>
+			<!-- banner -->
+			<div>
+                <div class="fy-hro -s fy-bcf">
+                	<div class="fy-ctnr">
+		                  <div class="fy-hro_b">
+		                    <h1>Hero small</h1>
+		                    <p>Hero paragraph</p>
+		                  </div>
+                	</div>
+                </div>				
+			</div>
+        	<div class="fy-ctnr fy-bcf">
+        		<div class="fy-bx">
+	                <div class="fy-fz4">
+		            	121 games created
+		            </div>
+        			
+        		</div>
+        	</div>
 
 			<!-- filter -->
 			<div class="fy-ctnr fy-bx fy-bcf">
                 <form action="" class="fy-fc">
-                	<div class="fy-fr">
+                	<div class="fy-fr search-box">
                 		<label for="" class="fy-fl">Game Title</label>
                 		<input type="text" class="fy-fi" placeholder="Example...">
+                		<div class="search-results fy-bcf  fy-ol">
+		                    <div class="fy-dl">
+		                    	<div>
+		                    		Lorem ipsum dolor
+		                    	</div>
+		                    	<div>
+		                    		Consectetur adipisicing
+		                    	</div>
+		                    	<div>
+		                    		Repudiandae
+		                    	</div>
+		                    	<div>
+		                    		Asperiores quae
+		                    	</div>
+		                    	<div>
+		                    		Consectetur adipisicing
+		                    	</div>
+		                    	<div>
+		                    		Repudiandae
+		                    	</div>
+		                    	<div>
+		                    		Asperiores quae
+		                    	</div>
+		                    </div>  
+                		</div>              		
                 	</div>
                 </form>					
 			</div>
@@ -207,6 +304,18 @@
 						fwefew erg eg
 					</div>
 				</div>
+			</div>
+
+			<div class="fy-ctnr fy-bx fy-bcf">
+                    <div class="fy-pg">
+                    	<a class="_p"> </a>
+                    	<a href="">1</a>
+                    	<a href="">2</a>
+                    	<a href="" class="_a">2</a>
+                    	<a href="">3</a>
+                    	<a href="">4</a>
+                    	<a class="_n"> </a>
+                    </div>				
 			</div>
 
 	</body>
