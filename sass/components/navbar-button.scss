@@ -1,27 +1,30 @@
 
-$navbar-button-background: $color-light;
-$navbar-button-background-hover: $color-light-darker;
+$navbar-button-background: #ffffff;
+$navbar-button-background-hover: #fafafa;
 
 $navbar-button-row: $color-secondary-lighter;
 $navbar-button-row-hover: $color-secondary-lighter;
+$navbar-button-border: $color-secondary-lighter;
 
 .fy-nbb {
 	cursor: pointer;
-	background-color: $navbar-button-background;
-	height: 50px;
-	width: 54px;
-	padding: 13px 12px;
+    height: 40px;
+    width: 46px;
+    padding: 12px 13px;
 	display: inline-block;
 	position: relative;
+	border: 1px solid $border-color;
+	background-color: #ffffff;
+	border-radius: 3px;
 	&:hover {
-		background-color: $navbar-button-background-hover;
+		border: 1px solid rgba(24, 28, 33, 0.17);
 	}
 
 	> span {
 		display: block;
-		height: 3px;
+		height: 1px;
 		background-color: $navbar-button-row;
-		margin-bottom: 7px;
+		margin-bottom: 5px;
 		&:last-child {
 			margin-bottom: 0;
 		}
@@ -30,11 +33,11 @@ $navbar-button-row-hover: $color-secondary-lighter;
 	&.-on {
 		> span{
 			position: absolute;
-		    width: 30px;
+		    width: 20px;
 		    border-radius: 5px;
-		    left: 12px;
+		    left: 13px;
 			&:nth-child(1),&:nth-child(2) {
-				top: 24px;
+				top: 18px;
 			}
 			&:nth-child(1) {
 				transform: rotate(45deg);				
@@ -53,12 +56,13 @@ $navbar-button-row-hover: $color-secondary-lighter;
 	&.-s {
 		height: 36px;
 		width: 38px;
-		padding: 6px 7px;
+		padding: 11px 11px;
 
 		&.-on {
 			>span {
+				width: 16px;
 				top: 17px;
-				left: 4px;	
+				left: 10px;
 			}
 			
 		}
