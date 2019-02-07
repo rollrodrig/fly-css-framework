@@ -457,6 +457,29 @@ fy-bct
 
 .fy-btn.-ic
 
+# button color
+
+default 
+
+primary 
+-cp
+secondary 
+-cs
+success 
+-css
+warning 
+-cw
+danger 
+-cd
+info 
+-ci
+light 
+-cl
+dark 
+-ck
+
+
+
 ### Link
 
 # link arrow to left

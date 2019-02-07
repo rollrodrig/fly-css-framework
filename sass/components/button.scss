@@ -1,21 +1,18 @@
-$button-border-color: $color-secondary-lighter;
-$button-border-color-hover: $color-secondary;
+$button-border-color: #e6e7e8;
+$button-border-color-hover: #e6e7e8;
 $button-color: $color-secondary-darker;
 $button-color-hover: $color-secondary-darker;
 $button-background-color: $color-secondary-lighter;
-$button-background-color-hover: $color-secondary-lighter;
+$button-background-color-hover: #fafafa;
 
 .fy-btn  {
 	display: inline-block;
-	background-color: #ffffff;
     padding-left: 18px;
     padding-right: 18px;
     padding-top: 0px;
     padding-bottom: 0px;
 	text-align: center;
-	border:1px solid $button-border-color;
 	font-size: 14px;
-	color: $button-color;
     line-height: 3.1;
 	text-decoration: none;
 	vertical-align: top;
@@ -24,10 +21,7 @@ $button-background-color-hover: $color-secondary-lighter;
 	    cursor: pointer;
 	}
 
-	&:hover {
-		text-decoration: none;
-		border:1px solid $button-border-color-hover;
-	}
+
 
 	&.-br {
 		border-radius: 3px;
@@ -57,6 +51,7 @@ $button-background-color-hover: $color-secondary-lighter;
 @import "button-arrow";
 @import "button-icon";
 @import "button-loading";
+@import "button-color";
 
 
 

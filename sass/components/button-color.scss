@@ -1,0 +1,85 @@
+.fy-btn {
+	color: $button-color;
+	background-color: #ffffff;
+	border:1px solid $button-border-color;
+	transition: background-color 0.2s;
+
+	&:hover {
+		text-decoration: none;
+		border:1px solid $button-border-color-hover;
+		background-color: $button-background-color-hover;
+	}
+
+	&.-cp {
+		background-color: $color-primary;
+		border:1px solid $color-primary-darker;
+		color: #ffffff;
+		&:hover {
+			background-color: $color-primary-darker;
+			transition: background-color 0.2s;
+		}
+	}
+	&.-cs {
+		background-color: $color-secondary;
+		border:1px solid $color-secondary-darker;
+		color: #ffffff;
+		&:hover {
+			background-color: $color-secondary-darker;
+			transition: background-color 0.2s;
+		}
+	}
+	&.-css {
+		background-color: $color-success;
+		border:1px solid $color-success-darker;
+		color: #ffffff;
+		&:hover {
+			background-color: $color-success-darker;
+			transition: background-color 0.2s;
+		}
+	}
+	&.-cw {
+		background-color: $color-warning;
+		border:1px solid $color-warning-darker;
+		color: #ffffff;
+		&:hover {
+			background-color: $color-warning-darker;
+			transition: background-color 0.2s;
+		}
+	}
+	&.-cd {
+		background-color: $color-danger;
+		border:1px solid $color-danger-darker;
+		color: #ffffff;
+		&:hover {
+			background-color: $color-danger-darker;
+			transition: background-color 0.2s;
+		}
+	}
+	&.-ci {
+		background-color: $color-info;
+		border:1px solid $color-info-darker;
+		color: #ffffff;
+		&:hover {
+			background-color: $color-info-darker;
+			transition: background-color 0.2s;
+		}
+	}
+	&.-cl {
+		background-color: $color-light;
+		border:1px solid $color-light-darker;
+		&:hover {
+			background-color: $color-light-darker;
+			transition: background-color 0.2s;
+		}
+	}
+
+	&.-ck {
+		background-color: $color-dark;
+		border:1px solid $color-dark-darker;
+		color: #ffffff;
+		&:hover {
+			background-color: $color-dark-darker;
+			transition: background-color 0.2s;
+		}
+	}
+}
