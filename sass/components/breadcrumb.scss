@@ -15,7 +15,7 @@
 			color: $color-secondary-darker;
 		}
 	}
-	span {
+	> span {
 		position: relative;
 	    padding-left: 15px;
 	    padding-right: 15px;
@@ -42,7 +42,7 @@
 .fy-brc {
 	&.-l {
 		font-size: 15px;
-		span {
+		> span {
 		    &:before, &:after {
 	            left: 13px;
 		        height: 10px;

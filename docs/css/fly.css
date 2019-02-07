@@ -397,7 +397,7 @@ img {
 .fy-offc {
   display: flex;
   overflow: hidden;
-  background-color: #FAFAFA; }
+  /*background-color: $offcanvas-background-color;*/ }
   @media only screen and (max-width: 980px) {
     .fy-offc {
       display: block; } }
@@ -417,7 +417,7 @@ img {
     flex-grow: 1;
     width: auto;
     transition: 0.5s;
-    background-color: #ffffff; }
+    /*background-color: $offcanvas-body-background-color;*/ }
 
 .fy-offc_s.-on {
   left: 0; }
@@ -929,52 +929,167 @@ img {
       flex-shrink: 0; } }
   .fy-fxg {
     flex-grow: 1; }
-  .fy-fx.-fdc {
-    flex-direction: column; }
-  .fy-fx.-fdcr {
-    flex-direction: column-reverse; }
-  .fy-fx.-fdr {
-    flex-direction: row; }
-  .fy-fx.-fdrr {
-    flex-direction: row-reverse; }
-  .fy-fx.-fww {
-    flex-wrap: wrap; }
-  .fy-fx.-fwnw {
-    flex-wrap: nowrap; }
-  .fy-fx.-fwwr {
-    flex-wrap: wrap-reverse; }
-  .fy-fx.-jcc {
-    justify-content: center; }
-  .fy-fx.-jcfs {
-    justify-content: flex-start; }
-  .fy-fx.-jcfe {
-    justify-content: flex-end; }
-  .fy-fx.-jcsa {
-    justify-content: space-around; }
-  .fy-fx.-jcsb {
-    justify-content: space-between; }
-  .fy-fx.-aic {
-    align-items: center; }
-  .fy-fx.-aifs {
-    align-items: flex-start; }
-  .fy-fx.-aife {
-    align-items: flex-end; }
-  .fy-fx.-ais {
-    align-items: stretch; }
-  .fy-fx.-aib {
-    align-items: baseline; }
-  .fy-fx.-acsb {
-    align-content: space-between; }
-  .fy-fx.-acsa {
-    align-content: space-around; }
-  .fy-fx.-acs {
-    align-content: stretch; }
-  .fy-fx.-acc {
-    align-content: center; }
-  .fy-fx.-acfs {
-    align-content: flex-start; }
-  .fy-fx.-acfe {
-    align-content: flex-end; }
+
+.fy-fx.-fdc,
+.fy-fx\@xs.-fdc,
+.fy-fx\@s.-fdc,
+.fy-fx\@m.-fdc,
+.fy-fx\@l.-fdc {
+  flex-direction: column; }
+
+.fy-fx.-fdcr,
+.fy-fx\@xs.-fdcr,
+.fy-fx\@s.-fdcr,
+.fy-fx\@m.-fdcr,
+.fy-fx\@l.-fdcr {
+  flex-direction: column-reverse; }
+
+.fy-fx.-fdr,
+.fy-fx\@xs.-fdr,
+.fy-fx\@s.-fdr,
+.fy-fx\@m.-fdr,
+.fy-fx\@l.-fdr {
+  flex-direction: row; }
+
+.fy-fx.-fdrr,
+.fy-fx\@xs.-fdrr,
+.fy-fx\@s.-fdrr,
+.fy-fx\@m.-fdrr,
+.fy-fx\@l.-fdrr {
+  flex-direction: row-reverse; }
+
+.fy-fx.-fww,
+.fy-fx\@xs.-fww,
+.fy-fx\@s.-fww,
+.fy-fx\@m.-fww,
+.fy-fx\@l.-fww {
+  flex-wrap: wrap; }
+
+.fy-fx.-fwnw,
+.fy-fx\@xs.-fwnw,
+.fy-fx\@s.-fwnw,
+.fy-fx\@m.-fwnw,
+.fy-fx\@l.-fwnw {
+  flex-wrap: nowrap; }
+
+.fy-fx.-fwwr,
+.fy-fx\@xs.-fwwr,
+.fy-fx\@s.-fwwr,
+.fy-fx\@m.-fwwr,
+.fy-fx\@l.-fwwr {
+  flex-wrap: wrap-reverse; }
+
+.fy-fx.-jcc,
+.fy-fx\@xs.-jcc,
+.fy-fx\@s.-jcc,
+.fy-fx\@m.-jcc,
+.fy-fx\@l.-jcc {
+  justify-content: center; }
+
+.fy-fx.-jcfs,
+.fy-fx\@xs.-jcfs,
+.fy-fx\@s.-jcfs,
+.fy-fx\@m.-jcfs,
+.fy-fx\@l.-jcfs {
+  justify-content: flex-start; }
+
+.fy-fx.-jcfe,
+.fy-fx\@xs.-jcfe,
+.fy-fx\@s.-jcfe,
+.fy-fx\@m.-jcfe,
+.fy-fx\@l.-jcfe {
+  justify-content: flex-end; }
+
+.fy-fx.-jcsa,
+.fy-fx\@xs.-jcsa,
+.fy-fx\@s.-jcsa,
+.fy-fx\@m.-jcsa,
+.fy-fx\@l.-jcsa {
+  justify-content: space-around; }
+
+.fy-fx.-jcsb,
+.fy-fx\@xs.-jcsb,
+.fy-fx\@s.-jcsb,
+.fy-fx\@m.-jcsb,
+.fy-fx\@l.-jcsb {
+  justify-content: space-between; }
+
+.fy-fx.-aic,
+.fy-fx\@xs.-aic,
+.fy-fx\@s.-aic,
+.fy-fx\@m.-aic,
+.fy-fx\@l.-aic {
+  align-items: center; }
+
+.fy-fx.-aifs,
+.fy-fx\@xs.-aifs,
+.fy-fx\@s.-aifs,
+.fy-fx\@m.-aifs,
+.fy-fx\@l.-aifs {
+  align-items: flex-start; }
+
+.fy-fx.-aife,
+.fy-fx\@xs.-aife,
+.fy-fx\@s.-aife,
+.fy-fx\@m.-aife,
+.fy-fx\@l.-aife {
+  align-items: flex-end; }
+
+.fy-fx.-ais,
+.fy-fx\@xs.-ais,
+.fy-fx\@s.-ais,
+.fy-fx\@m.-ais,
+.fy-fx\@l.-ais {
+  align-items: stretch; }
+
+.fy-fx.-aib,
+.fy-fx\@xs.-aib,
+.fy-fx\@s.-aib,
+.fy-fx\@m.-aib,
+.fy-fx\@l.-aib {
+  align-items: baseline; }
+
+.fy-fx.-acsb,
+.fy-fx\@xs.-acsb,
+.fy-fx\@s.-acsb,
+.fy-fx\@m.-acsb,
+.fy-fx\@l.-acsb {
+  align-content: space-between; }
+
+.fy-fx.-acsa,
+.fy-fx\@xs.-acsa,
+.fy-fx\@s.-acsa,
+.fy-fx\@m.-acsa,
+.fy-fx\@l.-acsa {
+  align-content: space-around; }
+
+.fy-fx.-acs,
+.fy-fx\@xs.-acs,
+.fy-fx\@s.-acs,
+.fy-fx\@m.-acs,
+.fy-fx\@l.-acs {
+  align-content: stretch; }
+
+.fy-fx.-acc,
+.fy-fx\@xs.-acc,
+.fy-fx\@s.-acc,
+.fy-fx\@m.-acc,
+.fy-fx\@l.-acc {
+  align-content: center; }
+
+.fy-fx.-acfs,
+.fy-fx\@xs.-acfs,
+.fy-fx\@s.-acfs,
+.fy-fx\@m.-acfs,
+.fy-fx\@l.-acfs {
+  align-content: flex-start; }
+
+.fy-fx.-acfe,
+.fy-fx\@xs.-acfe,
+.fy-fx\@s.-acfe,
+.fy-fx\@m.-acfe,
+.fy-fx\@l.-acfe {
+  align-content: flex-end; }
 
 .fy-fxo0 {
   order: 0; }
@@ -1250,6 +1365,13 @@ img {
 .fy-fo {
   font-size: 15px; }
 
+.fy-fi:focus,
+.fy-fs:focus,
+.fy-ft:focus,
+.fy-fo:focus {
+  outline: none;
+  border: 1px solid #26B4FF; }
+
 .fy-fi,
 .fy-fs {
   display: block;
@@ -1445,32 +1567,32 @@ img {
     color: #636363; }
     .fy-brc .-a:hover {
       color: #636363; }
-  .fy-brc span {
+  .fy-brc > span {
     position: relative;
     padding-left: 15px;
     padding-right: 15px; }
-    .fy-brc span:before, .fy-brc span:after {
+    .fy-brc > span:before, .fy-brc > span:after {
       position: absolute;
       left: 13px;
       content: ' ';
       height: 8px;
       width: 1px;
       background-color: #c2c2c2; }
-    .fy-brc span:before {
+    .fy-brc > span:before {
       transform: rotate(-45deg);
       top: 1px; }
-    .fy-brc span:after {
+    .fy-brc > span:after {
       transform: rotate(45deg);
       top: 6px; }
 
 .fy-brc.-l {
   font-size: 15px; }
-  .fy-brc.-l span:before, .fy-brc.-l span:after {
+  .fy-brc.-l > span:before, .fy-brc.-l > span:after {
     left: 13px;
     height: 10px; }
-  .fy-brc.-l span:before {
+  .fy-brc.-l > span:before {
     transform: rotate(-45deg); }
-  .fy-brc.-l span:after {
+  .fy-brc.-l > span:after {
     transform: rotate(45deg);
     top: 8px; }
 
