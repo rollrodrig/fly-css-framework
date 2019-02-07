@@ -2893,6 +2893,9 @@ a {
     color: #8897AA;
     padding: 20px;
     border-bottom: 1px solid #f3f4f4; }
+  .fy-tbl th i:hover {
+    color: #4f565a;
+    cursor: pointer; }
   .fy-tbl td {
     padding: 10px 20px; }
   .fy-tbl.-s {

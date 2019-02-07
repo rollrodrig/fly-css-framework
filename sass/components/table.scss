@@ -20,6 +20,14 @@ $table-hover-bgcolor: $border-color;
 		padding: 20px;
 		border-bottom: 1px solid $table-border-color;
 	}
+	th {
+		i {
+			&:hover {
+				color:$table-text-color;
+				cursor: pointer;
+			}
+		}
+	}
 
 	td {
 		padding: 10px 20px;
