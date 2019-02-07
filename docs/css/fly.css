@@ -2228,6 +2228,26 @@ img {
   margin-left: auto;
   margin-right: auto; }
 
+.fy-img.-s8 {
+  width: 8px;
+  height: 8px; }
+
+.fy-img.-s16 {
+  width: 16px;
+  height: 16px; }
+
+.fy-img.-s32 {
+  width: 32px;
+  height: 32px; }
+
+.fy-img.-s64 {
+  width: 64px;
+  height: 64px; }
+
+.fy-img.-s128 {
+  width: 128px;
+  height: 128px; }
+
 .fy-lbl {
   background-color: #ececec;
   font-size: 11px;
@@ -3413,6 +3433,18 @@ a {
 
 .fy-ol {
   border: 1px solid rgba(24, 28, 33, 0.06); }
+
+.fy-olb {
+  border-bottom: 1px solid rgba(24, 28, 33, 0.06); }
+
+.fy-olt {
+  border-top: 1px solid rgba(24, 28, 33, 0.06); }
+
+.fy-oll {
+  border-left: 1px solid rgba(24, 28, 33, 0.06); }
+
+.fy-olr {
+  border-right: 1px solid rgba(24, 28, 33, 0.06); }
 
 .fy-cg {
   display: inline-block;

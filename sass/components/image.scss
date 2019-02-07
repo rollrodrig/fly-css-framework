@@ -29,6 +29,26 @@
 		margin-left: auto;
 		margin-right: auto;
 	}
+	&.-s8 {
+		width: 8px;
+		height: 8px;
+	}
+	&.-s16 {
+		width: 16px;
+		height: 16px;
+	}
+	&.-s32 {
+		width: 32px;
+		height: 32px;
+	}
+	&.-s64 {
+		width: 64px;
+		height: 64px;
+	}
+	&.-s128 {
+		width: 128px;
+		height: 128px;
+	}
 	
 	
 }
