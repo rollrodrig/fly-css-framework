@@ -1,8 +1,18 @@
 
-/* margin top */
+
+
 .fy-mt {
 	margin-top: 5px;
 }
+
+/* magin */
+@for $i from 0 through $margin-loop-max-through {
+	.fy-mm#{$i} {
+		margin: $i*$margin-loop-constant;
+	}
+}
+
+/* margin top */
 @for $i from 0 through $margin-loop-max-through {
 	.fy-mt#{$i} {
 		margin-top: $i*$margin-loop-constant;
