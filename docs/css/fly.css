@@ -1433,31 +1433,46 @@ img {
     font-size: 18px; }
 
 .fy-brc {
-  font-size: 12px; }
-  .fy-brc > a {
-    color: #272c32;
+  font-size: 12px;
+  color: #a9a9a9; }
+  .fy-brc a {
+    color: #a9a9a9;
     text-decoration: none; }
-    .fy-brc > a:hover {
+    .fy-brc a:hover {
+      color: #a9a9a9;
       text-decoration: underline; }
-  .fy-brc > span {
-    color: #c2c2c2; }
-  .fy-brc > span.-a {
+  .fy-brc .-a {
+    color: #636363; }
+    .fy-brc .-a:hover {
+      color: #636363; }
+  .fy-brc span {
     position: relative;
     padding-left: 15px;
     padding-right: 15px; }
-    .fy-brc > span.-a:before, .fy-brc > span.-a:after {
+    .fy-brc span:before, .fy-brc span:after {
       position: absolute;
       left: 13px;
       content: ' ';
       height: 8px;
       width: 1px;
-      background-color: #272c32; }
-    .fy-brc > span.-a:before {
+      background-color: #c2c2c2; }
+    .fy-brc span:before {
       transform: rotate(-45deg);
       top: 1px; }
-    .fy-brc > span.-a:after {
+    .fy-brc span:after {
       transform: rotate(45deg);
       top: 6px; }
+
+.fy-brc.-l {
+  font-size: 15px; }
+  .fy-brc.-l span:before, .fy-brc.-l span:after {
+    left: 13px;
+    height: 10px; }
+  .fy-brc.-l span:before {
+    transform: rotate(-45deg); }
+  .fy-brc.-l span:after {
+    transform: rotate(45deg);
+    top: 8px; }
 
 .fy-bx {
   padding: 30px; }
