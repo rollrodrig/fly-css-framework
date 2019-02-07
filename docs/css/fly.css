@@ -2956,6 +2956,18 @@ a {
   display: none;
   box-shadow: 2px 4px 10px rgba(195, 195, 195, 0.47); }
 
+@media only screen and (max-width: 540px) {
+  .fy-sc\@xs {
+    overflow-x: scroll; } }
+
+@media only screen and (max-width: 768px) {
+  .fy-sc\@s {
+    overflow-x: scroll; } }
+
+@media only screen and (max-width: 980px) {
+  .fy-sc\@m {
+    overflow-x: scroll; } }
+
 /* text */
 .fy-tx {
   font-size: 16px; }
@@ -3495,6 +3507,15 @@ a {
 @media only screen and (max-width: 980px) {
   .fy-hdm {
     display: none; } }
+
+.fy-mwxs {
+  min-width: 540px; }
+
+.fy-mws {
+  min-width: 768px; }
+
+.fy-mwm {
+  min-width: 980px; }
 
 .fy-mt {
   margin-top: 5px; }

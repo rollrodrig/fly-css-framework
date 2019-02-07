@@ -529,6 +529,17 @@ fy-bct
 
 # grid gutter, first child paddng 0, last child padding 0 
 
+#### min width
+
+# min width extra small
+fy-mwxs
+# min width small
+fy-mws
+# min width medium
+fy-mwm
+
+# min width from 1 to 12 # on development
+fy-mw[1-12]
 
 
 ### Width
@@ -802,6 +813,10 @@ fy-nb_ic_s
 
 # has sub items
 .fy-lg .fy-lg
+
+
+### Scroll
+fy-sc
 
 
 ### Description list
