@@ -397,7 +397,7 @@ img {
 /* Off canvas */
 .fy-offc {
   display: flex;
-  overflow: hidden;
+  /*overflow: hidden;*/
   /*background-color: $offcanvas-background-color;*/ }
   @media only screen and (max-width: 980px) {
     .fy-offc {
@@ -2958,15 +2958,18 @@ a {
 
 @media only screen and (max-width: 540px) {
   .fy-sc\@xs {
-    overflow-x: scroll; } }
+    overflow-x: scroll;
+    padding-bottom: 8px; } }
 
 @media only screen and (max-width: 768px) {
   .fy-sc\@s {
-    overflow-x: scroll; } }
+    overflow-x: scroll;
+    padding-bottom: 8px; } }
 
 @media only screen and (max-width: 980px) {
   .fy-sc\@m {
-    overflow-x: scroll; } }
+    overflow-x: scroll;
+    padding-bottom: 8px; } }
 
 /* text */
 .fy-tx {

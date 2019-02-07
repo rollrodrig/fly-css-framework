@@ -5,7 +5,7 @@ $offcanvas-body-background-color: $color-light-full;
 /* Off canvas */
 .fy-offc {
 	display: flex;
-	overflow: hidden;
+	/*overflow: hidden;*/
 	/*background-color: $offcanvas-background-color;*/
 	@include media($medium-max-size) {
 		display: block;
