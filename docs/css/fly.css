@@ -6,6 +6,7 @@
  * Licensed under MIT
  */
 /* fly prefix */
+/*$border-color: rgba(24,28,33,0.06);*/
 .clearfix::after {
   content: '.';
   display: block;
@@ -1566,7 +1567,8 @@ img {
       color: #a9a9a9;
       text-decoration: underline; }
   .fy-brc .-a {
-    color: #636363; }
+    color: #636363;
+    font-weight: bold; }
     .fy-brc .-a:hover {
       color: #636363; }
   .fy-brc > span {
@@ -1904,7 +1906,7 @@ img {
   padding-right: 38px; }
 
 .fy-crd {
-  border: 1px solid rgba(24, 28, 33, 0.06);
+  border: 1px solid #f3f4f4;
   background-color: #ffffff; }
   .fy-crd > img {
     display: block;
@@ -1917,7 +1919,7 @@ img {
       display: block;
       width: 100%; }
   .fy-crd .fy-crd_h {
-    border-bottom: 1px solid rgba(24, 28, 33, 0.06);
+    border-bottom: 1px solid #f3f4f4;
     padding: 10px 25px 10px 25px;
     font-size: 19px;
     font-weight: normal;
@@ -1927,7 +1929,7 @@ img {
   .fy-crd .fy-crd_f {
     padding: 10px 25px 10px 25px;
     font-size: 12;
-    border-top: 1px solid rgba(24, 28, 33, 0.06);
+    border-top: 1px solid #f3f4f4;
     color: #a9a9a9; }
   .fy-crd.-sp .fy-crd_i {
     padding: 8px 8px 10px 8px; }
@@ -2587,7 +2589,7 @@ a {
   padding: 12px 13px;
   display: inline-block;
   position: relative;
-  border: 1px solid rgba(24, 28, 33, 0.06);
+  border: 1px solid #f3f4f4;
   background-color: #ffffff;
   border-radius: 3px; }
   .fy-nbb:hover {
@@ -2880,43 +2882,43 @@ a {
 
 .fy-tbl {
   border-spacing: 0;
-  border-collapse: collapse; }
-  .fy-tbl th, .fy-tbl td {
-    padding: 10px; }
+  border-collapse: collapse;
+  text-align: left;
+  background-color: #ffffff;
+  font-size: 15px;
+  color: #4f565a;
+  border: 1px solid #f3f4f4; }
+  .fy-tbl th {
+    font-weight: normal;
+    color: #8897AA;
+    padding: 20px;
+    border-bottom: 1px solid #f3f4f4; }
+  .fy-tbl td {
+    padding: 10px 20px; }
   .fy-tbl.-s {
     font-size: 13px; }
-    .fy-tbl.-s th, .fy-tbl.-s td {
-      padding: 5px; }
-  .fy-tbl.-l {
-    font-size: 16px; }
-    .fy-tbl.-l th, .fy-tbl.-l td {
-      padding: 15px; }
-  .fy-tbl.-ct {
-    text-align: center; }
-  .fy-tbl.-h tr:first-child {
-    background-color: #ececec; }
+    .fy-tbl.-s th {
+      padding: 10px 15px; }
+    .fy-tbl.-s td {
+      padding: 9px 10px; }
   .fy-tbl.-lh tr th, .fy-tbl.-lh tr td {
-    border-bottom: 1px solid #ececec; }
+    border-bottom: 1px solid #f3f4f4; }
   .fy-tbl.-lh tr:last-child td {
     border-bottom: none; }
   .fy-tbl.-lv tr th, .fy-tbl.-lv tr td {
-    border-right: 1px solid #ececec; }
+    border-right: 1px solid #f3f4f4; }
     .fy-tbl.-lv tr th:last-child, .fy-tbl.-lv tr td:last-child {
       border-right: none; }
   .fy-tbl.-ln tr th, .fy-tbl.-ln tr td {
-    border: 1px solid #ececec; }
+    border: 1px solid #f3f4f4; }
   .fy-tbl.-hv tr:hover {
-    background-color: #FAFAFA; }
+    background-color: #f3f4f4; }
   .fy-tbl.-hv.-h tr:first-child:hover {
-    background-color: #ececec; }
+    background-color: #f3f4f4; }
   .fy-tbl.-str tr:nth-child(odd) {
-    background-color: #F5F5F6; }
+    background-color: #f3f4f4; }
   .fy-tbl.-str.-h tr:first-child {
-    background-color: #ececec; }
-  .fy-tbl.-nh tr:first-child {
-    background-color: transparent; }
-    .fy-tbl.-nh tr:first-child th {
-      border: none; }
+    background-color: #f3f4f4; }
   .fy-tbl.-fw {
     width: 100%; }
 

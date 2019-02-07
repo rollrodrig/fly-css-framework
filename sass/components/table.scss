@@ -1,53 +1,44 @@
+
+$table-text-color: $color-dark-lighter;
+$table-text-head-color: $color-secondary;
+$table-border-color: $border-color;
+$table-hover-bgcolor: $border-color;
+
 .fy-tbl {
 	border-spacing: 0;
 	border-collapse: collapse;
-	tr {
+	text-align: left;
+	background-color: #ffffff;
+	font-size: 15px;
+	color: $table-text-color;
+	border: 1px solid $table-border-color;
 
-	}
 
 	th {
-
+		font-weight: normal;
+		color: $table-text-head-color;
+		padding: 20px;
+		border-bottom: 1px solid $table-border-color;
 	}
 
 	td {
-
-	}
-
-	th ,td {
-		padding: 10px;
+		padding: 10px 20px;
 	}
 
 	&.-s {
 		font-size: 13px;
-		th ,td {
-			padding: 5px;	
+		th {
+			padding: 10px 15px;	
+		}
+		td {
+			padding: 9px 10px;
 		}
 	}
 
-
-	&.-l {
-		font-size: 16px;
-		th ,td {
-			padding: 15px;
-		}
-		
-	}
-
-	&.-ct {
-		text-align: center;
-	}
-
-	&.-h {
-		tr {
-			&:first-child {
-				background-color: $color-light-darker;
-			}
-		}
-	}
 	&.-lh {
 		tr {
 			th, td {
-				border-bottom: 1px solid $color-light-darker;	
+				border-bottom: 1px solid $table-border-color;
 			}
 			&:last-child {
 				td {
@@ -60,7 +51,7 @@
 	&.-lv {
 		tr {
 			th, td {
-				border-right: 1px solid $color-light-darker;
+				border-right: 1px solid $table-border-color;
 				&:last-child {
 					border-right: none;
 				}
@@ -72,20 +63,20 @@
 	&.-ln {
 		tr {
 			th, td {
-				border: 1px solid $color-light-darker;	
+				border: 1px solid $table-border-color;	
 			}
 		}
 
 	}
 	&.-hv {
 		tr:hover {
-			background-color: $color-light-lighter;
+			background-color: $table-hover-bgcolor;
 		}
 		&.-h {
 				tr {
 					&:first-child {
 						&:hover  {
-							background-color: $color-light-darker;		
+							background-color: $table-hover-bgcolor;
 						}
 					}
 				}
@@ -94,7 +85,7 @@
 	&.-str {
 
 		tr:nth-child(odd) {
-		    background-color: $color-light;
+		    background-color: $table-hover-bgcolor;
 		}		
 		tr:nth-child(even) {
 
@@ -102,20 +93,12 @@
 
 		&.-h tr {
 			&:first-child {
-				background-color: $color-light-darker;
+				background-color: $table-hover-bgcolor;
 			}
 		}
 
 	}
 
-	&.-nh {
-		tr:first-child {
-			background-color: transparent;
-			th {
-				border:none;
-			}
-		}
-	}
 	&.-fw {
 		width: 100%;
 	}

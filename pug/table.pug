@@ -53,7 +53,7 @@ block content
 		+section
 			+subtitle('Size')
 			+description
-			+properties([{'r':'','d':'Default'},{'r':'-s','d':'Small'},{'r':'-l','d':'Large'}])
+			+properties([{'r':'-s','d':'Small'}])
 			+demo
 				+example
 					.example-table.
@@ -73,41 +73,7 @@ block content
 								<td>consectetur</td>
 								<td>adipisicing</td>
 							</tr>
-						</table>
-						<table class="fy-tbl">
-							<tr>
-								<th>Columna A</th>
-								<th>Columna B</th>
-								<th>Columna C</th>
-							</tr>
-							<tr>
-								<td>Lorem</td>
-								<td>consectetur</td>
-								<td>adipisicing</td>
-							</tr>
-							<tr>
-								<td>Lorem</td>
-								<td>consectetur</td>
-								<td>adipisicing</td>
-							</tr>
-						</table>
-						<table class="fy-tbl -l">
-							<tr>
-								<th>Columna A</th>
-								<th>Columna B</th>
-								<th>Columna C</th>
-							</tr>
-							<tr>
-								<td>Lorem</td>
-								<td>consectetur</td>
-								<td>adipisicing</td>
-							</tr>
-							<tr>
-								<td>Lorem</td>
-								<td>consectetur</td>
-								<td>adipisicing</td>
-							</tr>
-						</table>			
+						</table>		
 				+code.
 
 					<table class="fy-tbl -s">
@@ -127,48 +93,12 @@ block content
 							<td>adipisicing</td>
 						</tr>
 					</table>
-					<table class="fy-tbl">
-						<tr>
-							<th>Columna A</th>
-							<th>Columna B</th>
-							<th>Columna C</th>
-						</tr>
-						<tr>
-							<td>Lorem</td>
-							<td>consectetur</td>
-							<td>adipisicing</td>
-						</tr>
-						<tr>
-							<td>Lorem</td>
-							<td>consectetur</td>
-							<td>adipisicing</td>
-						</tr>
-					</table>
-					<table class="fy-tbl -l">
-						<tr>
-							<th>Columna A</th>
-							<th>Columna B</th>
-							<th>Columna C</th>
-						</tr>
-						<tr>
-							<td>Lorem</td>
-							<td>consectetur</td>
-							<td>adipisicing</td>
-						</tr>
-						<tr>
-							<td>Lorem</td>
-							<td>consectetur</td>
-							<td>adipisicing</td>
-						</tr>
-					</table>
-
-
 
 		//- spec
 		+section
 			+subtitle('Style')
 			+description
-			+properties([{'r':'-lh','d':'Line horizontal'},{'r':'-lv','d':'Line vertical'},{'r':'-h','d':'Heading'},{'r':'-nh','d':'No heading'},{'r':'-hv','d':'Hover'},{'r':'-str','d':'Stripped'}])
+			+properties([{'r':'-lh','d':'Line horizontal'},{'r':'-lv','d':'Line vertical'},{'r':'-ln','d':'Lined horizontal and vertical'},{'r':'-hv','d':'Hover'},{'r':'-str','d':'Stripped'}])
 			+demo
 				+example
 					.example-table.
@@ -225,42 +155,6 @@ block content
 							</tr>
 						</table>
 
-						<table class="fy-tbl -h">
-							<tr>
-								<th>Columna A</th>
-								<th>Columna B</th>
-								<th>Columna C</th>
-							</tr>
-							<tr>
-								<td>Lorem</td>
-								<td>consectetur</td>
-								<td>adipisicing</td>
-							</tr>
-							<tr>
-								<td>Lorem</td>
-								<td>consectetur</td>
-								<td>adipisicing</td>
-							</tr>
-						</table>
-
-						<table class="fy-tbl -nh">
-							<tr>
-								<th>Columna A</th>
-								<th>Columna B</th>
-								<th>Columna C</th>
-							</tr>
-							<tr>
-								<td>Lorem</td>
-								<td>consectetur</td>
-								<td>adipisicing</td>
-							</tr>
-							<tr>
-								<td>Lorem</td>
-								<td>consectetur</td>
-								<td>adipisicing</td>
-							</tr>
-						</table>
-
 						<table class="fy-tbl -hv">
 							<tr>
 								<th>Columna A</th>
@@ -297,7 +191,6 @@ block content
 							</tr>
 						</table>								
 				+code.
-
 					<table class="fy-tbl -lh">
 						<tr>
 							<th>Columna A</th>
@@ -350,42 +243,6 @@ block content
 						</tr>
 					</table>
 
-					<table class="fy-tbl -h">
-						<tr>
-							<th>Columna A</th>
-							<th>Columna B</th>
-							<th>Columna C</th>
-						</tr>
-						<tr>
-							<td>Lorem</td>
-							<td>consectetur</td>
-							<td>adipisicing</td>
-						</tr>
-						<tr>
-							<td>Lorem</td>
-							<td>consectetur</td>
-							<td>adipisicing</td>
-						</tr>
-					</table>
-
-					<table class="fy-tbl -nh">
-						<tr>
-							<th>Columna A</th>
-							<th>Columna B</th>
-							<th>Columna C</th>
-						</tr>
-						<tr>
-							<td>Lorem</td>
-							<td>consectetur</td>
-							<td>adipisicing</td>
-						</tr>
-						<tr>
-							<td>Lorem</td>
-							<td>consectetur</td>
-							<td>adipisicing</td>
-						</tr>
-					</table>
-
 					<table class="fy-tbl -hv">
 						<tr>
 							<th>Columna A</th>
@@ -420,5 +277,5 @@ block content
 							<td>consectetur</td>
 							<td>adipisicing</td>
 						</tr>
-					</table>
+					</table>	
 				+open_example('table-styles')
