@@ -1,7 +1,6 @@
 .fy-brc {
 	font-size: 12px;
 	> a {
-		font-size: 12px;
 		color: $color-dark;
 		text-decoration: none;
 		&:hover {
@@ -35,7 +34,6 @@
 	    &:after {
 	    	transform: rotate(45deg);
 			top: 6px;
-	     	
 	    }  
 
 	}

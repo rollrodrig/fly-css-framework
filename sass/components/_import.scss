@@ -2,9 +2,6 @@
 @import "mixins";
 @import "basic";
 
-/* color */
-@import "color";
-@import "background-color";
 
 /* layout */
 @import "container";
@@ -16,16 +13,6 @@
 @import "grid";
 @import "grid-flex";
 @import "width";
-
-/* text */
-@import "text";
-@import "title";
-@import "subtitle";
-@import "font-size";
-@import "font-weight";
-@import "highlight-text";
-@import "bullet";
-@import "ul-list";
 
 /* form */
 @import "form-fields";
@@ -58,6 +45,20 @@
 @import "tab";
 @import "table";
 @import "tooltip";
+
+/* text */
+@import "text";
+@import "title";
+@import "subtitle";
+@import "font-size";
+@import "font-weight";
+@import "highlight-text";
+@import "bullet";
+@import "ul-list";
+
+/* color */
+@import "color";
+@import "background-color";
 
 /* utilities */
 @import "align";
