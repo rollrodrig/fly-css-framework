@@ -1,6 +1,4 @@
 .fy-bx {
-	padding: 30px;
-
 	&sv {
 		padding: 15px 30px;
 	}
@@ -16,11 +14,64 @@
 	}
 }
 
+
+.fy-bx {
+	padding: 30px;		
+}
 .fy-bxs {
-	padding: 15px;
+	padding: 15px;		
+}
+.fy-bxl {
+	padding: 50px;
 }
 
 
-.fy-bxl {
-	padding: 50px;
+.fy-bx\@s {
+	@include min-media($small-min-size) {
+		padding: 30px;
+	}			
+}
+.fy-bx\@m {
+	@include min-media($medium-min-size) {
+		padding: 30px;
+	}			
+}	
+.fy-bx\@l {
+	@include min-media($large-min-size) {
+		padding: 30px;
+	}			
+}
+
+
+.fy-bxs\@s {
+	@include min-media($small-min-size) {
+		padding: 15px;
+	}			
+}
+.fy-bxs\@m {
+	@include min-media($medium-min-size) {
+		padding: 15px;
+	}			
+}
+.fy-bxs\@l {
+	@include min-media($large-min-size) {
+		padding: 15px;
+	}			
+}
+
+
+.fy-bxl\@s {
+	@include min-media($small-min-size) {
+		padding: 50px;
+	}			
+}
+.fy-bxl\@m {
+	@include min-media($medium-min-size) {
+		padding: 50px;
+	}			
+}
+.fy-bxl\@l {
+	@include min-media($large-min-size) {
+		padding: 50px;
+	}			
 }

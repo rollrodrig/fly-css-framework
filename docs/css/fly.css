@@ -189,7 +189,6 @@ img {
     justify-content: center;
     float: left;
     padding: 0 18px;
-    line-height: 5;
     height: 68px;
     text-decoration: none;
     color: #a3a4a6;
@@ -1488,6 +1487,7 @@ img {
   display: flex; }
   .fy-fd .fy-fd_e {
     background-color: #ffffff;
+    color: #ececec;
     display: flex;
     text-align: center;
     align-items: center;
@@ -1497,13 +1497,16 @@ img {
     border-top: 1px solid #ececec;
     border-bottom: 1px solid #ececec;
     border-left: none;
-    border-right: 1px solid #ececec;
-    color: #a9a9a9; }
+    border-right: 1px solid #ececec; }
   .fy-fd .fy-fs, .fy-fd .fy-fi {
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: auto;
     border-right: none; }
+    .fy-fd .fy-fs:focus, .fy-fd .fy-fi:focus {
+      border-left: 1px solid #ececec;
+      border-top: 1px solid #ececec;
+      border-bottom: 1px solid #ececec; }
   .fy-fd.-dl > .fy-fd_e {
     border-left: 1px solid #ececec;
     border-right: none; }
@@ -1600,22 +1603,62 @@ img {
     transform: rotate(45deg);
     top: 8px; }
 
+.fy-bxsv {
+  padding: 15px 30px; }
+
+.fy-bxsh {
+  padding: 30px 15px; }
+
+.fy-bxlv {
+  padding: 60px 30px; }
+
+.fy-bxlh {
+  padding: 30px 60px; }
+
 .fy-bx {
   padding: 30px; }
-  .fy-bxsv {
-    padding: 15px 30px; }
-  .fy-bxsh {
-    padding: 30px 15px; }
-  .fy-bxlv {
-    padding: 60px 30px; }
-  .fy-bxlh {
-    padding: 30px 60px; }
 
 .fy-bxs {
   padding: 15px; }
 
 .fy-bxl {
   padding: 50px; }
+
+@media only screen and (min-width: 541px) {
+  .fy-bx\@s {
+    padding: 30px; } }
+
+@media only screen and (min-width: 769px) {
+  .fy-bx\@m {
+    padding: 30px; } }
+
+@media only screen and (min-width: 981px) {
+  .fy-bx\@l {
+    padding: 30px; } }
+
+@media only screen and (min-width: 541px) {
+  .fy-bxs\@s {
+    padding: 15px; } }
+
+@media only screen and (min-width: 769px) {
+  .fy-bxs\@m {
+    padding: 15px; } }
+
+@media only screen and (min-width: 981px) {
+  .fy-bxs\@l {
+    padding: 15px; } }
+
+@media only screen and (min-width: 541px) {
+  .fy-bxl\@s {
+    padding: 50px; } }
+
+@media only screen and (min-width: 769px) {
+  .fy-bxl\@m {
+    padding: 50px; } }
+
+@media only screen and (min-width: 981px) {
+  .fy-bxl\@l {
+    padding: 50px; } }
 
 .fy-btn {
   display: inline-block;
@@ -1900,12 +1943,13 @@ img {
   padding-right: 38px; }
 
 .fy-btn {
-  color: #6c7886;
+  color: #9ba1a7;
   background-color: #ffffff;
   border: 1px solid #e6e7e8;
   transition: background-color 0.2s; }
   .fy-btn:hover {
     text-decoration: none;
+    color: #6c7886;
     border: 1px solid #e6e7e8;
     background-color: #fafafa; }
   .fy-btn.-cp {

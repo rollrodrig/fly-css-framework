@@ -4,6 +4,7 @@
 	display: flex;
 	.fy-fd_e {
 		background-color: #ffffff;
+		color: $color-light-darker;
 		display: flex;
 		text-align: center;
 		align-items: center;
@@ -14,13 +15,19 @@
 		border-bottom: 1px solid $field-border-color;
 		border-left: none;
 		border-right: 1px solid $field-border-color;
-		color: $color-secondary-lighter;
 	}
+
 	.fy-fs, .fy-fi {
 		flex-grow: 1;
 		flex-shrink: 1;
 		flex-basis: auto;
 		border-right: none;
+		&:focus  {
+			border-left: 1px solid $field-border-color;
+			border-top: 1px solid $field-border-color;
+			border-bottom: 1px solid $field-border-color;
+
+		}
 	}
 
 	&.-dl {
@@ -33,7 +40,9 @@
 			border-left: none;
 		}
 	}
+
 }
+
 
 .fy-fd {
 	&.-s {

@@ -96,10 +96,7 @@
     margin-right: 20px;
 }
 
-.example-box > *{
-    border:1px solid #c3c3c3;
-    margin-bottom: 10px;
-}
+
 .example-dl > * {
     max-width: 300px;
 }
@@ -277,3 +274,7 @@ h3 {
     padding: 20px;
 }
 
+.example-box > div {
+    border: 1px solid #c3c3c3;
+    margin-bottom: 10px;
+}
