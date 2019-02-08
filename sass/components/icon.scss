@@ -1,0 +1,59 @@
+
+$icon-color: #70757b;
+
+.fy-ic {
+    display: inline-block;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 3.1;
+    text-decoration: none;
+    vertical-align: top;
+	color: $icon-color;
+	border:1px solid transparent;
+    background-color: transparent;
+    cursor: pointer;
+    
+    &:hover {
+    	border:1px solid $border-color;
+    	background-color: $button-background-color-hover;
+    }
+    i {
+    	line-height: inherit;
+    }
+
+	&.-xs {
+		padding-left: 4px;
+		padding-right: 4px;
+		font-size: 11px;
+	    line-height: 1.5;
+
+	}
+
+	&.-s {
+	    padding-left: 14px;
+	    padding-right: 14px;
+		font-size: 12px;
+        line-height: 2.8;
+	}
+	&.-m {
+		
+	}
+
+	&.-l {
+		padding-left: 30px;
+		padding-right: 30px;
+		font-size: 18px;
+        line-height: 3.8;
+	}
+	
+	&.-xl {
+		padding-left: 40px;
+		padding-right: 40px;
+		font-size: 24px;
+        line-height: 4.1;
+	}
+}

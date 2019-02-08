@@ -1957,6 +1957,9 @@ img {
   padding-left: 42px;
   padding-right: 38px; }
 
+.fy-btn i {
+  line-height: inherit; }
+
 .fy-btn {
   color: #9ba1a7;
   background-color: #ffffff;
@@ -2319,6 +2322,47 @@ img {
 
 .fy-dl.-b {
   border: 1px solid #ececec; }
+
+.fy-ic {
+  display: inline-block;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 3.1;
+  text-decoration: none;
+  vertical-align: top;
+  color: #70757b;
+  border: 1px solid transparent;
+  background-color: transparent;
+  cursor: pointer; }
+  .fy-ic:hover {
+    border: 1px solid #f3f4f4;
+    background-color: #fafafa; }
+  .fy-ic i {
+    line-height: inherit; }
+  .fy-ic.-xs {
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 11px;
+    line-height: 1.5; }
+  .fy-ic.-s {
+    padding-left: 14px;
+    padding-right: 14px;
+    font-size: 12px;
+    line-height: 2.8; }
+  .fy-ic.-l {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 18px;
+    line-height: 3.8; }
+  .fy-ic.-xl {
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 24px;
+    line-height: 4.1; }
 
 .fy-img.-fw {
   width: 100%; }
