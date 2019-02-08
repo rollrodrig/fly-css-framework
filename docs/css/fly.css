@@ -2325,13 +2325,13 @@ img {
 
 .fy-ic {
   display: inline-block;
-  padding-left: 18px;
-  padding-right: 18px;
+  padding-left: 16px;
+  padding-right: 16px;
   padding-top: 0px;
   padding-bottom: 0px;
   text-align: center;
-  font-size: 14px;
-  line-height: 3.1;
+  font-size: 16px;
+  line-height: 2.7;
   text-decoration: none;
   vertical-align: top;
   color: #70757b;
@@ -2343,26 +2343,28 @@ img {
     background-color: #fafafa; }
   .fy-ic i {
     line-height: inherit; }
+  .fy-ic.-r {
+    border-radius: 50%; }
   .fy-ic.-xs {
-    padding-left: 4px;
-    padding-right: 4px;
+    padding-left: 3px;
+    padding-right: 3px;
     font-size: 11px;
     line-height: 1.5; }
   .fy-ic.-s {
-    padding-left: 14px;
-    padding-right: 14px;
-    font-size: 12px;
-    line-height: 2.8; }
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 14px;
+    line-height: 2.4; }
   .fy-ic.-l {
-    padding-left: 30px;
-    padding-right: 30px;
-    font-size: 18px;
-    line-height: 3.8; }
+    padding-left: 27px;
+    padding-right: 27px;
+    font-size: 22px;
+    line-height: 3.1; }
   .fy-ic.-xl {
-    padding-left: 40px;
-    padding-right: 40px;
-    font-size: 24px;
-    line-height: 4.1; }
+    padding-left: 39px;
+    padding-right: 39px;
+    font-size: 29px;
+    line-height: 3.4; }
 
 .fy-img.-fw {
   width: 100%; }
