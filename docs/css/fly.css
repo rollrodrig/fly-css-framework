@@ -312,7 +312,7 @@ img {
     height: 8px;
     width: 1px;
     top: 32px;
-    background-color: #2b2e33; }
+    background-color: #a9a9a9; }
   .fy-nb_dd:before {
     right: 16px;
     transform: rotate(-45deg); }
@@ -1624,6 +1624,9 @@ img {
 .fy-bxl {
   padding: 50px; }
 
+.fy-bxxl {
+  padding: 100px; }
+
 @media only screen and (min-width: 541px) {
   .fy-bx\@s {
     padding: 30px; } }
@@ -1659,6 +1662,18 @@ img {
 @media only screen and (min-width: 981px) {
   .fy-bxl\@l {
     padding: 50px; } }
+
+@media only screen and (min-width: 541px) {
+  .fy-bxxl\@s {
+    padding: 100px; } }
+
+@media only screen and (min-width: 769px) {
+  .fy-bxxl\@m {
+    padding: 100px; } }
+
+@media only screen and (min-width: 981px) {
+  .fy-bxxl\@l {
+    padding: 100px; } }
 
 .fy-btn {
   display: inline-block;

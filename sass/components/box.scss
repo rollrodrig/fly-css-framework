@@ -24,6 +24,9 @@
 .fy-bxl {
 	padding: 50px;
 }
+.fy-bxxl {
+	padding: 100px;
+}
 
 
 .fy-bx\@s {
@@ -73,5 +76,22 @@
 .fy-bxl\@l {
 	@include min-media($large-min-size) {
 		padding: 50px;
+	}			
+}
+
+
+.fy-bxxl\@s {
+	@include min-media($small-min-size) {
+		padding: 100px;
+	}			
+}
+.fy-bxxl\@m {
+	@include min-media($medium-min-size) {
+		padding: 100px;
+	}			
+}
+.fy-bxxl\@l {
+	@include min-media($large-min-size) {
+		padding: 100px;
 	}			
 }

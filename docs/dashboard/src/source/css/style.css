@@ -6,3 +6,28 @@
 .lgo-mob {
     height: 45px;
 }
+
+@media only screen and (max-width: 769px) {
+	.fix3443 {
+		padding: 0;
+	}
+}
+.sidebar {
+	color: #a7b1c2;
+}
+.sidebar a {
+	color: #a7b1c2;
+}
+.sidebar a:hover {
+	color: #ffffff;
+}
+.sidebar .fy-nv.-h > *:first-child {
+	border-bottom: 1px solid #a7b1c2;
+}
+.fy-offc_s {
+	background-color: transparent;
+}
+
+body {
+	background-color: #36495a;
+}

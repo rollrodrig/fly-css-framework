@@ -55,6 +55,7 @@ After installing do the following to start and view Pattern Lab:
 
 1. In a terminal window navigate to the root of your project if you aren't there already
 2. Type `php core/console --server --with-watch`
+php core/console --server --with-watch
 
 You should now be able to open [http://localhost:8080](http://localhost:8080) to see your generated site. Any changes you make in `./source/` will automatically rebuild your site and reload your browser.
 
