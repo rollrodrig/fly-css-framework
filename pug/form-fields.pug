@@ -177,82 +177,167 @@ block content
 		+section
 			+subtitle('Decorator')
 			+description
-			+properties([{'r':'fy-fd','d':'Decorator modifier'},{'r':'fy-fd -dl','d':'Align decorator left'}])
+			+properties([{'r':'fy-fd','d':'Decorator modifier'},{'r':'fy-fd -al','d':'Align decorator left'}])
 			+demo
-				+example
-					<div class="fy-fd">
-						<input type="text" class="fy-fi">
-						<div class="fy-fd_e">SS</div>
-					</div>
-					<br>
-					<div class="fy-fd -dl">
-						<div class="fy-fd_e">SS</div>
-						<input type="text" class="fy-fi">
-					</div>
-					<br>
-					<div class="fy-fd -dl">
-						<div class="fy-fd_e">
-							<i class="far fa-envelope"></i>
+				+example.
+						<div class="fy-fd">
+							<input type="text" class="fy-fi">
+							<div class="fy-fd_e"><i class="far fa-envelope"></i></div>
 						</div>
-						<input type="text" class="fy-fi">
-					</div>
+						<br>
+						<div class="fy-fd -al">
+							<input type="text" class="fy-fi">
+							<div class="fy-fd_e"><i class="far fa-envelope"></i></div>
+						</div>
+						<br>
+						<div class="fy-fd -al">
+							<select name="" id="" class="fy-fs">
+									<option value="">Select</option>
+									<option value="">Allam maiores</option>
+									<option value="">Earum</option>
+							</select>
+							<div class="fy-fd_e">
+								<i class="far fa-envelope"></i>
+							</div>
+						</div>					
 				+code.
 					<div class="fy-fd">
 						<input type="text" class="fy-fi">
-						<div class="fy-fd_e">SS</div>
+						<div class="fy-fd_e"><i class="far fa-envelope"></i></div>
 					</div>
 					<br>
-					<div class="fy-fd -dl">
-						<div class="fy-fd_e">SS</div>
+					<div class="fy-fd -al">
 						<input type="text" class="fy-fi">
+						<div class="fy-fd_e"><i class="far fa-envelope"></i></div>
 					</div>
-					<br>
-					<div class="fy-fd -dl">
+					<div class="fy-fd -al">
+						<select name="" id="" class="fy-fs">
+								<option value="">Select</option>
+								<option value="">Allam maiores</option>
+								<option value="">Earum</option>
+						</select>
 						<div class="fy-fd_e">
 							<i class="far fa-envelope"></i>
 						</div>
-						<input type="text" class="fy-fi">
 					</div>
 				+open_example('form-field-with-decorator')
 
 
+
 		//- spec
 		+section
-			+subtitle('Button')
+			+subtitle('Decorator size')
+			+description
+			+demo
+				+example.
+						<div class="fy-fd">
+							<input type="text" class="fy-fi -xs">
+							<div class="fy-fd_e -xs"><i class="far fa-envelope"></i></div>
+						</div>
+						<br>
+						<div class="fy-fd">
+							<input type="text" class="fy-fi -s">
+							<div class="fy-fd_e -s"><i class="far fa-envelope"></i></div>
+						</div>
+						<br>
+						<div class="fy-fd">
+							<input type="text" class="fy-fi">
+							<div class="fy-fd_e"><i class="far fa-envelope"></i></div>
+						</div>
+						<br>
+						<div class="fy-fd">
+							<input type="text" class="fy-fi -l">
+							<div class="fy-fd_e -l"><i class="far fa-envelope"></i></div>
+						</div>
+				+code.
+					<div class="fy-fd">
+						<input type="text" class="fy-fi -xs">
+						<div class="fy-fd_e -xs"><i class="far fa-envelope"></i></div>
+					</div>
+					<div class="fy-fd">
+						<input type="text" class="fy-fi -s">
+						<div class="fy-fd_e -s"><i class="far fa-envelope"></i></div>
+					</div>
+					<div class="fy-fd">
+						<input type="text" class="fy-fi">
+						<div class="fy-fd_e"><i class="far fa-envelope"></i></div>
+					</div>
+					<div class="fy-fd">
+						<input type="text" class="fy-fi -l">
+						<div class="fy-fd_e -l"><i class="far fa-envelope"></i></div>
+					</div>
+				+open_example('form-field-with-decorator')
+
+		//- spec
+		+section
+			+subtitle('Field with button')
 			+description
 			+properties([{'r':'fy-fb','d':'Button modifier'},{'r':'fy-fb -al','d':'Align button to left'}])
 			+demo
-				+example
-					<div class="fy-fb">
-						<input type="text" class="fy-fi" placeholder="Field example...">
-						<button class="fy-btn">Button</button>
-					</div>
-					<br>
-					<div class="fy-fb -al">
-						<button class="fy-btn">Button</button>
-						<input type="text" class="fy-fi" placeholder="Field example...">
-					</div>  
-					<br>
-					<div class="fy-fb">
-						<input type="text" class="fy-fi" placeholder="Field example...">
-						<button class="fy-btn"><i class="far fa-heart"></i></button>
-					</div>
+				+example.
+						<div class="fy-fb">
+							<input type="text" class="fy-fi" placeholder="Field example...">
+							<button class="fy-btn">Button</button>
+						</div>
+						<br>
+						<div class="fy-fb -al">
+							<input type="text" class="fy-fi" placeholder="Field example...">
+							<button class="fy-btn">Button</button>
+						</div>  
 				+code.
 					<div class="fy-fb">
 						<input type="text" class="fy-fi" placeholder="Field example...">
 						<button class="fy-btn">Button</button>
 					</div>
-					<br>
 					<div class="fy-fb -al">
-						<button class="fy-btn">Button</button>
 						<input type="text" class="fy-fi" placeholder="Field example...">
-					</div>  
-					<br>
+						<button class="fy-btn">Button</button>
+					</div> 
+				+open_example('form-field-with-button')
+
+		//- spec
+		+section
+			+subtitle('Field with button sizes')
+			+description
+			+demo
+				+example.
+						<div class="fy-fb">
+							<input type="text" class="fy-fi -xs" placeholder="Field example...">
+							<button class="fy-btn -xs">Button</button>
+						</div>
+						<br>
+						<div class="fy-fb">
+							<input type="text" class="fy-fi -s" placeholder="Field example...">
+							<button class="fy-btn -s">Button</button>
+						</div>
+						<br>
+						<div class="fy-fb">
+							<input type="text" class="fy-fi" placeholder="Field example...">
+							<button class="fy-btn">Button</button>
+						</div>
+						<br>
+						<div class="fy-fb">
+							<input type="text" class="fy-fi -l" placeholder="Field example...">
+							<button class="fy-btn -l">Button</button>
+						</div>
+				+code.
+					<div class="fy-fb">
+						<input type="text" class="fy-fi -xs" placeholder="Field example...">
+						<button class="fy-btn -xs">Button</button>
+					</div>
+					<div class="fy-fb">
+						<input type="text" class="fy-fi -s" placeholder="Field example...">
+						<button class="fy-btn -s">Button</button>
+					</div>
 					<div class="fy-fb">
 						<input type="text" class="fy-fi" placeholder="Field example...">
-						<button class="fy-btn"><i class="far fa-heart"></i></button>
+						<button class="fy-btn">Button</button>
 					</div>
-				+open_example('form-field-width-button')
+					<div class="fy-fb">
+						<input type="text" class="fy-fi -l" placeholder="Field example...">
+						<button class="fy-btn -l">Button</button>
+					</div>
+				+open_example('form-field-with-button')
 
 		//- spec
 		+section
@@ -298,7 +383,6 @@ block content
 							<input type="submit" class="fy-btn" value="Button">
 						</div>
 					</form>
-
 					
 		//- spec
 		+section
@@ -333,8 +417,7 @@ block content
 			+subtitle('Using grid')
 			+description
 			+demo
-				+example
-					.example-fields.
+				+example.
 						<form action="" class="fy-fc">
 							<div class="fy-fr">
 								<label for="" class="fy-fl">Lorem ipsum</label>
@@ -394,7 +477,7 @@ block content
 								</div>
 							</div>
 						</form>
-					+open_example('form-grid')
+				+open_example('form-grid')
 
 
 
