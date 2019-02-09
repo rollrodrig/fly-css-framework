@@ -229,6 +229,9 @@ fy-taj
 # Text wrapping nowrap
 
 
+### Panel
+fy-pn
+
 
 
 ### Vertical align
@@ -711,6 +714,8 @@ fy-ldg.-in
 fy-ldg.-li
 fy-ldg.-dk
 
+### loading bar
+fy-ldb
 
 ### navbar
 .fy-nb

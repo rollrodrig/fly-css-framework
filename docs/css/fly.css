@@ -2675,6 +2675,33 @@ a {
   100% {
     transform: rotate(360deg); } }
 
+.fy-ldb {
+  display: block;
+  width: 100%;
+  border-radius: 3px;
+  height: 12px;
+  position: relative;
+  background-color: #ececec;
+  border-top: 1px solid #dbdbdb; }
+  .fy-ldb_c {
+    top: -1px;
+    left: 0;
+    position: absolute;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    width: 40%;
+    height: 12px;
+    border-top: 1px solid #26B4FF;
+    background-color: #26B4FF; }
+  .fy-ldb.-s {
+    height: 6px; }
+    .fy-ldb.-s .fy-ldb_c {
+      height: 6px; }
+  .fy-ldb.-l {
+    height: 24px; }
+    .fy-ldb.-l .fy-ldb_c {
+      height: 24px; }
+
 .fy-mta {
   font-size: 12px;
   color: #a9a9a9; }
@@ -2935,6 +2962,21 @@ a {
   .fy-pop .fy-btn {
     margin-bottom: 4px; }
 
+.fy-pn {
+  border: 1px solid #f3f4f4;
+  background-color: #ffffff; }
+  .fy-pn_h {
+    padding: 15px;
+    border-bottom: 1px solid #f3f4f4;
+    font-size: 17px;
+    font-weight: bold; }
+  .fy-pn_b {
+    padding: 15px;
+    font-size: 15px; }
+  .fy-pn_f {
+    padding: 15px;
+    font-size: 13px; }
+
 .fy-ss {
   font-size: 16px;
   color: #656565;
@@ -3149,7 +3191,7 @@ a {
     margin-bottom: 50px; }
   .fy-txmu {
     font-size: 12px;
-    color: #777777; }
+    color: #9f9f9f; }
   .fy-txul {
     text-decoration: underline; }
   .fy-txnul {

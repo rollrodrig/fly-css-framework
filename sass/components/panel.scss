@@ -1,0 +1,19 @@
+.fy-pn {
+	border:1px solid $border-color;
+	background-color: #ffffff;
+	&_h {
+		padding: 15px;
+		border-bottom:1px solid $border-color;
+		font-size: 17px;
+		font-weight: bold;
+		
+	}
+	&_b {
+		padding: 15px;
+		font-size: 15px;
+	}
+	&_f {
+		padding: 15px;
+		font-size: 13px;
+	}
+}
