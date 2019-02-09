@@ -2,7 +2,6 @@
 $field-color: $color-secondary-darker;
 $field-border-color: $color-light-darker;
 
-
 .fy-fc {
 	
 }
@@ -15,14 +14,9 @@ $field-border-color: $color-light-darker;
 .fy-ft,
 .fy-fo {
 	font-size: 15px;
-}
-.fy-fi,
-.fy-fs,
-.fy-ft,
-.fy-fo {
 	&:focus {
 		outline: none;
-		border:1px solid $color-primary;
+		border: 1px solid $color-primary;
 		transition: border .2s;
 	}
 }
