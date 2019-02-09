@@ -51,7 +51,18 @@ $grid-gutter-padding: 10px;
 		}
 	}
 }
+.fy-gc {
+	&.-g {
+		margin-left: -$grid-gutter-padding;
+		margin-right: -$grid-gutter-padding;
+		> div {
+			padding-left: $grid-gutter-padding;
+			padding-right: $grid-gutter-padding;
+		}
+	}
+}
 
+/*
 .fy-gc {
 
 	&.-g {
@@ -85,7 +96,7 @@ $grid-gutter-padding: 10px;
 		}
 	}
 
-}
+}*/
 
 
 

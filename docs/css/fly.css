@@ -706,25 +706,48 @@ img {
     float: left;
     width: 100%; } }
 
-.fy-gc.-g > * {
-  padding-left: 10px;
-  padding-right: 10px; }
-
-@media only screen and (min-width: 981px) {
-  .fy-gc.-g\@l > * {
+.fy-gc.-g {
+  margin-left: -10px;
+  margin-right: -10px; }
+  .fy-gc.-g > div {
     padding-left: 10px;
-    padding-right: 10px; } }
+    padding-right: 10px; }
 
-@media only screen and (min-width: 769px) {
-  .fy-gc.-g\@m > * {
-    padding-left: 10px;
-    padding-right: 10px; } }
+/*
+.fy-gc {
 
-@media only screen and (min-width: 541px) {
-  .fy-gc.-g\@s > * {
-    padding-left: 10px;
-    padding-right: 10px; } }
+	&.-g {
+		> * {
+			padding-left: $grid-gutter-padding;
+			padding-right: $grid-gutter-padding;
+		}
+		&\@l {
+			> * {
+				@include min-media($large-min-size) {
+					padding-left: $grid-gutter-padding;
+					padding-right: $grid-gutter-padding;
+				}			
+			}
+		}		
+		&\@m {
+			> * {
+				@include min-media($medium-min-size) {
+					padding-left: $grid-gutter-padding;
+					padding-right: $grid-gutter-padding;
+				}			
+			}
+		}
+		&\@s {
+			> * {
+				@include min-media($small-min-size) {
+					padding-left: $grid-gutter-padding;
+					padding-right: $grid-gutter-padding;
+				}			
+			}
+		}
+	}
 
+}*/
 .fy-fx {
   display: flex; }
   .fy-fx\@l {
@@ -1451,12 +1474,6 @@ img {
 .fy-fe {
   font-size: 11px;
   color: #ffaeae; }
-
-.fy-fc .fy-gc > div:first-child {
-  padding-left: 0; }
-
-.fy-fc .fy-gc > div:last-child {
-  padding-right: 0; }
 
 .fy-fi::-webkit-input-placeholder,
 .fy-fs::-webkit-input-placeholder,
