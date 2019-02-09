@@ -1,8 +1,5 @@
 .fy-fb {
 	display: flex;
-	.fy-btn {
-		
-	}
 	.fy-fs, .fy-fi {
 		flex-grow: 1;
 		flex-shrink: 1;
@@ -15,35 +12,9 @@
 			border-left-width: 0px;
 		}
 	}
-
-	&.-al {
-		> .fy-fs, .fy-fi  {
-			/*border-right: 1px solid $field-border-color;*/
-			/*border-left: none;*/
-		}
-	}
 }
 
 .fy-fb.-al {
-	/*.fy-btn {
-		order: -1;
-		border-right-width: 0px;
-		&:hover {
-			border-right-width: 1px;
-		}
-		&:hover + .fy-fs,
-		&:hover + .fy-fi {
-			border-left-width: 0px;
-		}
-	}
-	.fy-fs, .fy-fi {
-		border-left-width: 1px;
-		border-right-width: 1px;
-		&:focus {
-			border-left-width: 1px;
-		}
-	}*/
-
 	.fy-btn  {
 		order: -1;
 	}
