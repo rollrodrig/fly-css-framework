@@ -1,14 +1,21 @@
+$button-color: $global-font-color;
+$button-border-color: $color-light-darker;
+$button-border-color-hover: #d2d2d2;
+$button-color-hover: $color-secondary-darker;
+$button-background-color: $color-secondary-lighter;
+$button-background-color-hover: #fafafa;
+
 .fy-btn {
-	color: #9ba1a7;
+	color: $button-color;
 	background-color: #ffffff;
 	border:1px solid $button-border-color;
-	transition: background-color 0.2s;
+	transition: background-color 0.2s, border 0.2s;
 
 	&:hover {
 		text-decoration: none;
 		color:  $button-color;
 		border:1px solid $button-border-color-hover;
-		background-color: $button-background-color-hover;
+		transition: background-color 0.2s, border 0.2s;
 	}
 
 	&.-cp {
@@ -17,7 +24,6 @@
 		color: #ffffff;
 		&:hover {
 			background-color: $color-primary-darker;
-			transition: background-color 0.2s;
 		}
 	}
 	&.-cs {
@@ -26,7 +32,6 @@
 		color: #ffffff;
 		&:hover {
 			background-color: $color-secondary-darker;
-			transition: background-color 0.2s;
 		}
 	}
 	&.-css {
@@ -35,7 +40,6 @@
 		color: #ffffff;
 		&:hover {
 			background-color: $color-success-darker;
-			transition: background-color 0.2s;
 		}
 	}
 	&.-cw {
@@ -44,7 +48,6 @@
 		color: #ffffff;
 		&:hover {
 			background-color: $color-warning-darker;
-			transition: background-color 0.2s;
 		}
 	}
 	&.-cd {
@@ -53,7 +56,6 @@
 		color: #ffffff;
 		&:hover {
 			background-color: $color-danger-darker;
-			transition: background-color 0.2s;
 		}
 	}
 	&.-ci {
@@ -62,7 +64,6 @@
 		color: #ffffff;
 		&:hover {
 			background-color: $color-info-darker;
-			transition: background-color 0.2s;
 		}
 	}
 	&.-cl {
@@ -70,7 +71,6 @@
 		border:1px solid $color-light-darker;
 		&:hover {
 			background-color: $color-light-darker;
-			transition: background-color 0.2s;
 		}
 	}
 
@@ -80,7 +80,6 @@
 		color: #ffffff;
 		&:hover {
 			background-color: $color-dark-darker;
-			transition: background-color 0.2s;
 		}
 	}
 }

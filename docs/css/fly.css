@@ -22,7 +22,7 @@ html {
   padding: 0; }
 
 body {
-  color: #2b2e33;
+  color: #676a6c;
   font-size: 16px;
   font-family: Arial, Helvetica;
   line-height: 1.3;
@@ -1364,14 +1364,13 @@ img {
 .fy-ft,
 .fy-fo {
   font-size: 15px; }
-
-.fy-fi:focus,
-.fy-fs:focus,
-.fy-ft:focus,
-.fy-fo:focus {
-  outline: none;
-  border: 1px solid #26B4FF;
-  transition: border .2s; }
+  .fy-fi:focus,
+  .fy-fs:focus,
+  .fy-ft:focus,
+  .fy-fo:focus {
+    outline: none;
+    border: 1px solid #26B4FF;
+    transition: border .2s; }
 
 .fy-fi,
 .fy-fs {
@@ -1528,10 +1527,47 @@ img {
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: auto;
-    border-right: none; }
+    border-right-width: 0px; }
+    .fy-fb .fy-fs:focus, .fy-fb .fy-fi:focus {
+      border-right-width: 1px; }
+    .fy-fb .fy-fs:focus + .fy-btn, .fy-fb .fy-fi:focus + .fy-btn {
+      border-left-width: 0px; }
   .fy-fb.-al > .fy-fs, .fy-fb.-al .fy-fi {
-    border-right: 1px solid #ececec;
-    border-left: none; }
+    /*border-right: 1px solid $field-border-color;*/
+    /*border-left: none;*/ }
+
+.fy-fb.-al {
+  /*.fy-btn {
+		order: -1;
+		border-right-width: 0px;
+		&:hover {
+			border-right-width: 1px;
+		}
+		&:hover + .fy-fs,
+		&:hover + .fy-fi {
+			border-left-width: 0px;
+		}
+	}
+	.fy-fs, .fy-fi {
+		border-left-width: 1px;
+		border-right-width: 1px;
+		&:focus {
+			border-left-width: 1px;
+		}
+	}*/ }
+  .fy-fb.-al .fy-btn {
+    order: -1; }
+  .fy-fb.-al .fy-fs, .fy-fb.-al .fy-fi {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    border-right-width: 1px;
+    border-left-width: 0px; }
+    .fy-fb.-al .fy-fs:focus, .fy-fb.-al .fy-fi:focus {
+      border-left-width: 1px; }
+    .fy-fb.-al .fy-fs:focus + .fy-btn, .fy-fb.-al .fy-fi:focus + .fy-btn {
+      border-left-width: 1px;
+      border-right-width: 0px; }
 
 /* components */
 .fy-alrt {
@@ -1681,26 +1717,13 @@ img {
   padding-right: 18px;
   padding-top: 0px;
   padding-bottom: 0px;
+  margin: 0;
   text-align: center;
   font-size: 14px;
   line-height: 3.1;
   text-decoration: none;
-  vertical-align: top; }
-  .fy-btn:not(:disabled) {
-    cursor: pointer; }
-  .fy-btn.-br {
-    border-radius: 3px; }
-  .fy-btn.-fw {
-    width: 100%;
-    max-width: 100%; }
-  .fy-btn.-di {
-    opacity: 0.7; }
-  .fy-btn.-ctr {
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    left: 50%;
-    transform: translateX(-50%); }
+  vertical-align: top;
+  cursor: pointer; }
 
 .fy-btng:after {
   content: '.';
@@ -1749,15 +1772,12 @@ img {
   width: 100%;
   max-width: 100%; }
 
-.fy-btn.-di {
-  color: #a9a9a9;
-  background-color: #FAFAFA;
-  border: 1px solid #ececec;
-  cursor: auto; }
-  .fy-btn.-di:hover {
-    color: #a9a9a9;
-    background-color: #FAFAFA;
-    border: 1px solid #ececec; }
+.fy-btn.-d {
+  cursor: auto;
+  opacity: 0.5; }
+  .fy-btn.-d:hover {
+    cursor: auto;
+    opacity: 0.5; }
 
 .fy-btn.-ce {
   position: relative;
@@ -1961,70 +1981,62 @@ img {
   line-height: inherit; }
 
 .fy-btn {
-  color: #9ba1a7;
+  color: #676a6c;
   background-color: #ffffff;
-  border: 1px solid #e6e7e8;
-  transition: background-color 0.2s; }
+  border: 1px solid #ececec;
+  transition: background-color 0.2s, border 0.2s; }
   .fy-btn:hover {
     text-decoration: none;
-    color: #6c7886;
-    border: 1px solid #e6e7e8;
-    background-color: #fafafa; }
+    color: #676a6c;
+    border: 1px solid #d2d2d2;
+    transition: background-color 0.2s, border 0.2s; }
   .fy-btn.-cp {
     background-color: #26B4FF;
     border: 1px solid #1d9adb;
     color: #ffffff; }
     .fy-btn.-cp:hover {
-      background-color: #1d9adb;
-      transition: background-color 0.2s; }
+      background-color: #1d9adb; }
   .fy-btn.-cs {
     background-color: #8897AA;
     border: 1px solid #6c7886;
     color: #ffffff; }
     .fy-btn.-cs:hover {
-      background-color: #6c7886;
-      transition: background-color 0.2s; }
+      background-color: #6c7886; }
   .fy-btn.-css {
     background-color: #02BC77;
     border: 1px solid #009d63;
     color: #ffffff; }
     .fy-btn.-css:hover {
-      background-color: #009d63;
-      transition: background-color 0.2s; }
+      background-color: #009d63; }
   .fy-btn.-cw {
     background-color: #FFD950;
     border: 1px solid #fec817;
     color: #ffffff; }
     .fy-btn.-cw:hover {
-      background-color: #fec817;
-      transition: background-color 0.2s; }
+      background-color: #fec817; }
   .fy-btn.-cd {
     background-color: #d9534f;
     border: 1px solid #b90d0d;
     color: #ffffff; }
     .fy-btn.-cd:hover {
-      background-color: #b90d0d;
-      transition: background-color 0.2s; }
+      background-color: #b90d0d; }
   .fy-btn.-ci {
     background-color: #28c3d7;
     border: 1px solid #27b6c9;
     color: #ffffff; }
     .fy-btn.-ci:hover {
-      background-color: #27b6c9;
-      transition: background-color 0.2s; }
+      background-color: #27b6c9; }
   .fy-btn.-cl {
     background-color: #F5F5F6;
     border: 1px solid #ececec; }
     .fy-btn.-cl:hover {
-      background-color: #ececec;
-      transition: background-color 0.2s; }
+      background-color: #ececec; }
   .fy-btn.-ck {
     background-color: #2b2e33;
     border: 1px solid #0F1418;
     color: #ffffff; }
     .fy-btn.-ck:hover {
-      background-color: #0F1418;
-      transition: background-color 0.2s; }
+      background-color: #0F1418; }
 
 .fy-crd {
   border: 1px solid #f3f4f4;
@@ -3052,7 +3064,7 @@ a {
     text-align: center;
     cursor: pointer;
     font-size: 14px;
-    color: #6c7886;
+    color: #676a6c;
     text-decoration: none;
     line-height: 1.12;
     text-decoration: none;

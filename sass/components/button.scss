@@ -1,48 +1,17 @@
-$button-border-color: #e6e7e8;
-$button-border-color-hover: #e6e7e8;
-$button-color: $color-secondary-darker;
-$button-color-hover: $color-secondary-darker;
-$button-background-color: $color-secondary-lighter;
-$button-background-color-hover: #fafafa;
-
 .fy-btn  {
 	display: inline-block;
     padding-left: 18px;
     padding-right: 18px;
     padding-top: 0px;
     padding-bottom: 0px;
+    margin: 0;
 	text-align: center;
 	font-size: 14px;
     line-height: 3.1;
 	text-decoration: none;
 	vertical-align: top;
-
-	&:not(:disabled) {
-	    cursor: pointer;
-	}
-
-
-
-	&.-br {
-		border-radius: 3px;
-	}
+    cursor: pointer;
 	
-	&.-fw {
-		width: 100%;
-		max-width: 100%;
-	}
-	&.-di {
-		opacity: 0.7;
-	}
-	
-	&.-ctr {
-		position: relative;
-		margin-left: auto;
-		margin-right: auto;
-		left: 50%;
-		transform: translateX(-50%);		
-	}
-
 }
 
 @import "button-group";
