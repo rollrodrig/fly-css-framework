@@ -265,7 +265,7 @@ img {
 
 .fy-nb .fy-fc {
   margin-top: 12px;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
   padding-left: 15px;
   padding-right: 15px; }
   .fy-nb .fy-fc .fy-btn {
@@ -1953,14 +1953,6 @@ img {
   .fy-btn.-xl.-ar:before, .fy-btn.-xl.-ar:after {
     right: 32px; }
 
-.fy-btn.-il {
-  padding-left: 16px;
-  padding-right: 18px; }
-
-.fy-btn.-ir {
-  padding-left: 21px;
-  padding-right: 18px; }
-
 .fy-btn.-xs.-il {
   padding-left: 5px;
   padding-right: 7px; }
@@ -1994,7 +1986,8 @@ img {
   padding-right: 38px; }
 
 .fy-btn i {
-  line-height: inherit; }
+  line-height: inherit;
+  color: #a9a9a9; }
 
 .fy-btn {
   color: #676a6c;
@@ -2012,36 +2005,48 @@ img {
     color: #ffffff; }
     .fy-btn.-cp:hover {
       background-color: #1d9adb; }
+    .fy-btn.-cp i {
+      color: #ffffff; }
   .fy-btn.-cs {
     background-color: #8897AA;
     border: 1px solid #6c7886;
     color: #ffffff; }
     .fy-btn.-cs:hover {
       background-color: #6c7886; }
+    .fy-btn.-cs i {
+      color: #ffffff; }
   .fy-btn.-css {
     background-color: #02BC77;
     border: 1px solid #009d63;
     color: #ffffff; }
     .fy-btn.-css:hover {
       background-color: #009d63; }
+    .fy-btn.-css i {
+      color: #ffffff; }
   .fy-btn.-cw {
     background-color: #FFD950;
     border: 1px solid #fec817;
     color: #ffffff; }
     .fy-btn.-cw:hover {
       background-color: #fec817; }
+    .fy-btn.-cw i {
+      color: #ffffff; }
   .fy-btn.-cd {
     background-color: #d9534f;
     border: 1px solid #b90d0d;
     color: #ffffff; }
     .fy-btn.-cd:hover {
       background-color: #b90d0d; }
+    .fy-btn.-cd i {
+      color: #ffffff; }
   .fy-btn.-ci {
     background-color: #28c3d7;
     border: 1px solid #27b6c9;
     color: #ffffff; }
     .fy-btn.-ci:hover {
       background-color: #27b6c9; }
+    .fy-btn.-ci i {
+      color: #ffffff; }
   .fy-btn.-cl {
     background-color: #F5F5F6;
     border: 1px solid #ececec; }
@@ -2053,6 +2058,8 @@ img {
     color: #ffffff; }
     .fy-btn.-ck:hover {
       background-color: #0F1418; }
+    .fy-btn.-ck i {
+      color: #ffffff; }
 
 .fy-crd {
   border: 1px solid #f3f4f4;
@@ -2480,9 +2487,16 @@ img {
     color: #ffffff; }
 
 a {
+  text-decoration: none;
+  color: #676a6c; }
+  a:hover {
+    text-decoration: underline;
+    color: #2e3031; }
+
+p a {
   color: #07C;
   text-decoration: none; }
-  a:hover {
+  p a:hover {
     color: #34a9fd;
     text-decoration: underline; }
 
@@ -2794,8 +2808,8 @@ a {
   display: block;
   margin-top: 10px;
   margin-bottom: 20px;
-  padding-left: 10px;
-  padding-right: 10px; }
+  padding-left: 0;
+  padding-right: 0; }
   .fy-nv > * {
     font-size: 14px;
     display: block;
@@ -2806,8 +2820,8 @@ a {
       width: 18px;
       margin-right: 2px;
       text-align: center; }
-  .fy-nv a {
-    color: #525252; }
+  .fy-nv a:hover {
+    text-decoration: none; }
   .fy-nv.-h > *:first-child {
     padding-top: 6px;
     padding-left: 0;
@@ -2816,7 +2830,7 @@ a {
     margin-bottom: 8px;
     /*font-size: 11px;*/ }
   .fy-nv .fy-nv {
-    margin-top: 10px;
+    margin-top: 0px;
     margin-bottom: 0px;
     padding-left: 24px; }
     .fy-nv .fy-nv > * {
@@ -2845,7 +2859,7 @@ a {
     position: absolute;
     width: 20px;
     border-radius: 5px;
-    left: 13px; }
+    left: 12px; }
     .fy-nbb.-on > span:nth-child(1), .fy-nbb.-on > span:nth-child(2) {
       top: 18px; }
     .fy-nbb.-on > span:nth-child(1) {

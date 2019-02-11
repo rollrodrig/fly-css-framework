@@ -3,8 +3,8 @@
 	display: block;
 	margin-top: 10px;
 	margin-bottom: 20px;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-left: 0;
+	padding-right: 0;
 	> * {
 		font-size: 14px;
 		display: block;
@@ -19,8 +19,27 @@
 		}
 	}
 
+	> *  {
+		&:hover {
+
+		}
+	}
+
+	li {
+		&:hover {
+			i {
+				
+			}
+		}
+	}
+	
 	a {
-		color: #525252;
+		&:hover {
+			text-decoration: none;
+		}
+	}
+	i {
+
 	}
 
 	&.-h{
@@ -36,7 +55,7 @@
 		}
 	}
 	.fy-nv {
-		margin-top: 10px;
+		margin-top: 0px;
 		margin-bottom: 0px;
 		padding-left: 24px;
 		> * {

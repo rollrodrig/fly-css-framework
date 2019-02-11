@@ -14,6 +14,7 @@
 }
 .sidebar {
 	color: #a7b1c2;
+	background-color: #36495a;
 }
 .sidebar a {
 	color: #a7b1c2;
@@ -30,4 +31,10 @@
 
 body {
 	background-color: #36495a;
+}
+
+.sidebar-examples {
+	border: 1px solid #f0f0f0;
+	width: 100%;
+	max-width: 300px;
 }

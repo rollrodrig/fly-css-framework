@@ -25,6 +25,9 @@ $button-background-color-hover: #fafafa;
 		&:hover {
 			background-color: $color-primary-darker;
 		}
+		i {
+			color: #ffffff;
+		}
 	}
 	&.-cs {
 		background-color: $color-secondary;
@@ -32,6 +35,9 @@ $button-background-color-hover: #fafafa;
 		color: #ffffff;
 		&:hover {
 			background-color: $color-secondary-darker;
+		}
+		i {
+			color: #ffffff;
 		}
 	}
 	&.-css {
@@ -41,6 +47,9 @@ $button-background-color-hover: #fafafa;
 		&:hover {
 			background-color: $color-success-darker;
 		}
+		i {
+			color: #ffffff;
+		}
 	}
 	&.-cw {
 		background-color: $color-warning;
@@ -48,6 +57,9 @@ $button-background-color-hover: #fafafa;
 		color: #ffffff;
 		&:hover {
 			background-color: $color-warning-darker;
+		}
+		i {
+			color: #ffffff;
 		}
 	}
 	&.-cd {
@@ -57,6 +69,9 @@ $button-background-color-hover: #fafafa;
 		&:hover {
 			background-color: $color-danger-darker;
 		}
+		i {
+			color: #ffffff;
+		}
 	}
 	&.-ci {
 		background-color: $color-info;
@@ -64,6 +79,9 @@ $button-background-color-hover: #fafafa;
 		color: #ffffff;
 		&:hover {
 			background-color: $color-info-darker;
+		}
+		i {
+			color: #ffffff;
 		}
 	}
 	&.-cl {
@@ -80,6 +98,9 @@ $button-background-color-hover: #fafafa;
 		color: #ffffff;
 		&:hover {
 			background-color: $color-dark-darker;
+		}
+		i {
+			color: #ffffff;
 		}
 	}
 }
