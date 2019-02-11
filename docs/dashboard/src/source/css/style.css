@@ -38,3 +38,7 @@ body {
 	width: 100%;
 	max-width: 300px;
 }
+
+.blog_v1 p {
+	line-height: 1.7;
+}

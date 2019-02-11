@@ -34,7 +34,9 @@
 	}
 	
 	a {
+		color: $global-font-color;
 		&:hover {
+			color: $global-font-color-hover;
 			text-decoration: none;
 		}
 	}
