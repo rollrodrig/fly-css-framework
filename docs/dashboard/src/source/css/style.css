@@ -42,3 +42,10 @@ body {
 .blog_v1 p {
 	line-height: 1.7;
 }
+.status {
+    border-radius: 50%;
+    width: 7px;
+    height: 7px;
+    background-color: #1bec1b;
+    display: block;
+}
