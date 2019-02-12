@@ -1143,6 +1143,11 @@ fy-sh
 # body
 .fy-offc_b
 
+### Show on hover
+fy-soh
+
+### Hide on hover
+fy-hoh
 
 
 ### Code
