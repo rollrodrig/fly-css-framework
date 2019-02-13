@@ -488,8 +488,7 @@ p a {
         width: 250px; } }
   .fy-offc_b {
     flex-grow: 1;
-    width: auto;
-    transition: 0.5s; }
+    width: auto; }
 
 .fy-offc_s.-on {
   left: 0; }

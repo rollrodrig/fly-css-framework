@@ -23,12 +23,8 @@ $offcanvas-body-background-color: $color-light-full;
 	&_b {
 		flex-grow: 1;
 		width: auto;
-		transition: 0.5s;
 	}
-
 }
-
-
 .fy-offc_s {
 	&.-on {
 		left: 0;
