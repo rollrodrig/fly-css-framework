@@ -159,6 +159,11 @@ fy-pdrb
 # top
 fy-pdrt
 
+### Background image
+cover
+fy-bgic
+
+
 
 ### Text
 

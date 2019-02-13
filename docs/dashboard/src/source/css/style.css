@@ -49,3 +49,39 @@ body {
     background-color: #1bec1b;
     display: block;
 }
+
+.tag-cloud span {
+	margin: 4px;
+	display: inline-block;
+}
+.tag-cloud span a {
+	color: #676a6c;
+	
+}
+
+
+.bgic {
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 100% auto;
+}
+
+.ic-3453 {
+	display: block;
+	font-size: 40px;
+	text-align: center;
+	padding-top: 23px;
+	border-radius: 50%;
+    width: 120px;
+    height: 120px;
+	margin: 20px auto 40px auto;
+}
+.bsha-345 {
+	box-shadow: 5px 5px 35px rgba(195, 195, 195, 0.2);
+}
+.proj-45665 {
+	max-width: 320px;
+	margin: auto;
+	height: 300px;
+}
+
