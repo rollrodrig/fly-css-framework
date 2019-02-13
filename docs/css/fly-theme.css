@@ -280,4 +280,21 @@ pre {
 .example-breadc .fy-brc {
     margin-bottom: 40px;
 }
+.example-panel {
+    width: 100%;
+    max-width: 400px;
+}
 
+.border-radius-example > div{
+    border:1px solid #c3c3c3;
+    margin-bottom: 20px;
+    padding: 20px;
+} 
+
+.example-outline > div {
+    width: 100%;
+    max-width: 400px;
+    height: 70px;
+    margin-bottom: 30px;
+    background-color: #fbfffb;
+}

@@ -1,0 +1,62 @@
+extends _layout.pug
+include _mixins
+block content
+	article.fy-bx
+		+title('Outline')
+		+resume
+
+		//- spec
+		+section
+			+subtitle('usage')
+			+description
+			+demo
+				+example
+					.border-radius-example.
+						<div class="fy-ol">
+							Lorem ipsum dolor sit amet, consectetur	
+						</div>
+				+code.
+						<div class="fy-ol">
+							Lorem ipsum dolor sit amet, consectetur	
+						</div>
+				+open_example('outline')
+
+		//- spec
+		+section
+			+subtitle('Styles')
+			+description
+			+properties([{'r':'fy-ol','d':'outline'},{'r':'fy-olb','d':'outline bottom '},{'r':'fy-olt','d':'outline top'},{'r':'fy-oll','d':'outline left'},{'r':'fy-olr','d':'outline right'}])
+			+demo
+				+example
+					.example-outline.
+						<div class="fy-ol">
+							Lorem ipsum dolor sit amet, consectetur	
+						</div>
+						<div class="fy-olb">
+							Lorem ipsum dolor sit amet, consectetur	
+						</div>
+						<div class="fy-olt">
+							Lorem ipsum dolor sit amet, consectetur	
+						</div>
+						<div class="fy-oll">
+							Lorem ipsum dolor sit amet, consectetur	
+						</div>
+						<div class="fy-olr">
+							Lorem ipsum dolor sit amet, consectetur	
+						</div>
+				+code.
+						<div class="fy-ol">
+							Lorem ipsum dolor sit amet, consectetur	
+						</div>
+						<div class="fy-olb">
+							Lorem ipsum dolor sit amet, consectetur	
+						</div>
+						<div class="fy-olt">
+							Lorem ipsum dolor sit amet, consectetur	
+						</div>
+						<div class="fy-oll">
+							Lorem ipsum dolor sit amet, consectetur	
+						</div>
+						<div class="fy-olr">
+							Lorem ipsum dolor sit amet, consectetur	
+						</div>
