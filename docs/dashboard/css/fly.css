@@ -1,8 +1,8 @@
 @charset "UTF-8";
 /*!
- * fly css framework v1.0.0 (http://flycssframework.com/)
- * Copyright 2018 The flycssframework Authors (http://supervectorcode.com/)
- * Copyright 2018 Supervectorcode, Inc.
+ * fly css framework v1.4.0 (http://flycssframework.com/)
+ * Copyright 2019 The flycssframework Authors (https://github.com/rollrodrig/)
+ * Copyright 2019 facttorial, Inc.
  * Licensed under MIT
  */
 /* fly prefix */
@@ -2256,6 +2256,7 @@ p a {
     margin-bottom: 80px; }
 
 .fy-dd {
+  color: #676a6c;
   display: inline-block;
   background-color: #ffffff;
   padding-left: 18px;
@@ -2263,9 +2264,9 @@ p a {
   padding-top: 0px;
   padding-bottom: 0px;
   text-align: center;
-  border: 1px solid #a9a9a9;
+  border: 1px solid #ececec;
+  /*transition: background-color 5s, border 5s;*/
   font-size: 14px;
-  color: #6c7886;
   text-decoration: none;
   line-height: 3.1;
   text-decoration: none;
@@ -2275,7 +2276,7 @@ p a {
     cursor: pointer; }
   .fy-dd:hover {
     text-decoration: none;
-    border: 1px solid #8897AA; }
+    border: 1px solid #d2d2d2; }
     .fy-dd:hover:before {
       transform: rotate(45deg); }
     .fy-dd:hover:after {
@@ -2299,7 +2300,7 @@ p a {
     height: 8px;
     width: 1px;
     top: 18px;
-    background-color: #2b2e33; }
+    background-color: #bfc1c2; }
   .fy-dd:before {
     right: 16px;
     transform: rotate(-45deg); }
