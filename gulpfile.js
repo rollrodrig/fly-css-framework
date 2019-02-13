@@ -56,6 +56,35 @@ gulp.task('build', function () {
         .pipe(gulp.dest('./dist/fonts/'));
 });
 
+// copy-css-to-dashboard
+gulp.task('catd', function () {
+    gulp.src('./docs/css/fly.css')
+        .pipe(gulp.dest('./dashboard/source/css'));
+    
+    gulp.src('./docs/css/fly.min.css')
+        .pipe(gulp.dest('./dashboard/source/css'));
+
+    gulp.src('./docs/css/fly-montserrat.css')
+        .pipe(gulp.dest('./dashboard/source/css'));
+
+    gulp.src('./docs/css/fly-opensans.css')
+        .pipe(gulp.dest('./dashboard/source/css'));
+
+    gulp.src('./docs/css/font-awesome.css')
+        .pipe(gulp.dest('./dashboard/source/css'));
+        
+    gulp.src('./docs/fonts/**/*')
+        .pipe(gulp.dest('./dashboard/source/fonts/'));
+});
+
+// publish-dashboard
+gulp.task('pd', function () {
+    gulp.src('./dashboard/export/**/*')
+        .pipe(gulp.dest('./docs/dashboard/'));
+});
+
+
+
 // Watch
 gulp.task('watch', function () {
     watch('./sass/**/*.scss', function(event) {

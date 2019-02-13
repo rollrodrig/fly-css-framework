@@ -471,9 +471,7 @@ p a {
 
 /* Off canvas */
 .fy-offc {
-  display: flex;
-  /*overflow: hidden;*/
-  /*background-color: $offcanvas-background-color;*/ }
+  display: flex; }
   @media only screen and (max-width: 980px) {
     .fy-offc {
       display: block; } }
@@ -487,13 +485,11 @@ p a {
         position: absolute;
         top: 0;
         left: -250px;
-        width: 250px;
-        transition: 0.5s; } }
+        width: 250px; } }
   .fy-offc_b {
     flex-grow: 1;
     width: auto;
-    transition: 0.5s;
-    /*background-color: $offcanvas-body-background-color;*/ }
+    transition: 0.5s; }
 
 .fy-offc_s.-on {
   left: 0; }
