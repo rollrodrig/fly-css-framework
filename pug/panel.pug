@@ -1,0 +1,67 @@
+extends _layout.pug
+include _mixins
+block content
+	article.fy-bx
+		+title('Panel')
+		+resume
+		//- spec
+		+section
+			+subtitle('Usage')
+			+description
+			+demo
+				+example
+					.example-panel.
+						<div class="fy-pn">
+							<div class="fy-pn_h">
+								<div class="fy-fx -jcsb">
+									<div>
+										<i class="fas fa-bookmark"></i> Consectetur adipisicing
+									</div>
+									<div>
+										<button class="fy-ic -xs"><i class="fas fa-info-circle"></i></button>
+										<button class="fy-ic -xs"><i class="fas fa-wrench"></i></button>
+										<button class="fy-ic -xs"><i class="fas fa-caret-down"></i></button>
+										<button class="fy-ic -xs"><i class="fas fa-times"></i></button>
+									</div>
+								</div>
+							</div>
+							<div class="fy-pn_b">
+								<div>
+									<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi cumque quasi, labore animi, deleniti alias ea qui nihil eligendi inventore nesciunt cupiditate pariatur natus neque 	iste beatae doloribus consequuntur recusandae.
+									</p>
+									
+								</div>
+							</div>
+							<div class="fy-pn_f">
+								 Consequuntur <a href="">recusandae.</a>
+							</div>
+						</div>
+				+code.
+					<div class="fy-pn">
+						<div class="fy-pn_h">
+							<div class="fy-fx -jcsb">
+								<div>
+									<i class="fas fa-bookmark"></i> Consectetur adipisicing
+								</div>
+								<div>
+									<button class="fy-ic -xs"><i class="fas fa-info-circle"></i></button>
+									<button class="fy-ic -xs"><i class="fas fa-wrench"></i></button>
+									<button class="fy-ic -xs"><i class="fas fa-caret-down"></i></button>
+									<button class="fy-ic -xs"><i class="fas fa-times"></i></button>
+								</div>
+							</div>
+						</div>
+						<div class="fy-pn_b">
+							<div>
+								<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing....
+								</p>
+								
+							</div>
+						</div>
+						<div class="fy-pn_f">
+							 Consequuntur <a href="">recusandae.</a>
+						</div>
+					</div>
+				+open_example('panel')

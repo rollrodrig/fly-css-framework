@@ -1,0 +1,106 @@
+$button-color: $global-font-color;
+$button-border-color: $color-light-darker;
+$button-border-color-hover: #d2d2d2;
+$button-color-hover: $color-secondary-darker;
+$button-background-color: $color-secondary-lighter;
+$button-background-color-hover: #fafafa;
+
+.fy-btn {
+	color: $button-color;
+	background-color: #ffffff;
+	border:1px solid $button-border-color;
+	transition: background-color 0.2s, border 0.2s;
+
+	&:hover {
+		text-decoration: none;
+		color:  $button-color;
+		border:1px solid $button-border-color-hover;
+		transition: background-color 0.2s, border 0.2s;
+	}
+
+	&.-cp {
+		background-color: $color-primary;
+		border:1px solid $color-primary-darker;
+		color: #ffffff;
+		&:hover {
+			background-color: $color-primary-darker;
+		}
+		i {
+			color: #ffffff;
+		}
+	}
+	&.-cs {
+		background-color: $color-secondary;
+		border:1px solid $color-secondary-darker;
+		color: #ffffff;
+		&:hover {
+			background-color: $color-secondary-darker;
+		}
+		i {
+			color: #ffffff;
+		}
+	}
+	&.-css {
+		background-color: $color-success;
+		border:1px solid $color-success-darker;
+		color: #ffffff;
+		&:hover {
+			background-color: $color-success-darker;
+		}
+		i {
+			color: #ffffff;
+		}
+	}
+	&.-cw {
+		background-color: $color-warning;
+		border:1px solid $color-warning-darker;
+		color: #ffffff;
+		&:hover {
+			background-color: $color-warning-darker;
+		}
+		i {
+			color: #ffffff;
+		}
+	}
+	&.-cd {
+		background-color: $color-danger;
+		border:1px solid $color-danger-darker;
+		color: #ffffff;
+		&:hover {
+			background-color: $color-danger-darker;
+		}
+		i {
+			color: #ffffff;
+		}
+	}
+	&.-ci {
+		background-color: $color-info;
+		border:1px solid $color-info-darker;
+		color: #ffffff;
+		&:hover {
+			background-color: $color-info-darker;
+		}
+		i {
+			color: #ffffff;
+		}
+	}
+	&.-cl {
+		background-color: $color-light;
+		border:1px solid $color-light-darker;
+		&:hover {
+			background-color: $color-light-darker;
+		}
+	}
+
+	&.-ck {
+		background-color: $color-dark;
+		border:1px solid $color-dark-darker;
+		color: #ffffff;
+		&:hover {
+			background-color: $color-dark-darker;
+		}
+		i {
+			color: #ffffff;
+		}
+	}
+}

@@ -33,14 +33,40 @@ $large-min-size: 981px;
 // Basic colors
 
 $color-light-full: #ffffff;
-$color-primary: #186aff;
-$color-secondary: #777777;
-$color-success: #00D652;
-$color-warning: #F0BB0B;
-$color-danger: #D83838;
-$color-info: #55bdff;
+$color-default: #ffffff;
+$color-primary: #26B4FF;
+$color-secondary: #8897AA;
+$color-success: #02BC77;
+$color-warning: #FFD950;
+$color-danger: #d9534f;
+$color-info: #28c3d7;
 $color-light: #F5F5F6;
-$color-dark: #343b40;
+$color-dark: #2b2e33;
+
+// Basic colors Lighter version
+$color-primary-lighter: #5ad0ff;
+$color-secondary-lighter: #a9a9a9;
+$color-success-lighter: #03ca66;
+$color-warning-lighter: #fbd24b;
+$color-danger-lighter: #ffaeae;
+$color-info-lighter: #9ad8ff;
+$color-light-lighter: #FAFAFA;
+$color-dark-lighter: #4f565a;
+
+// Basic colors darker version
+$color-primary-darker: #1d9adb;
+$color-secondary-darker: #6c7886;
+$color-success-darker: #009d63;
+$color-warning-darker: #fec817;
+$color-danger-darker: #b90d0d;
+$color-info-darker: #27b6c9;
+$color-light-darker: #ececec;
+$color-dark-darker: #0F1418;
+
+
+$color-neutral: #c2c2c2;
+$color-default: #ffffff;
+
 
 // Basic colors soft version
 $color-soft-light-full: #ffffff;
@@ -53,33 +79,11 @@ $color-soft-info: #e0f3ff;
 $color-soft-light: #f9f9f9;
 $color-soft-dark: #dedede;
 
-// Basic colos Lighter version
-$color-primary-lighter: #1892ff;
-$color-secondary-lighter: #a9a9a9;
-$color-success-lighter: #4eec8b;
-$color-warning-lighter: #fbd24b;
-$color-danger-lighter: #FF5454;
-$color-info-lighter: #9ad8ff;
-$color-light-lighter: #FAFAFA;
-$color-dark-lighter: #4f565a;
 
-// Basic colos darker version
-$color-primary-darker: #0043bd;
-$color-secondary-darker: #636363;
-$color-success-darker: #009C3C;
-$color-warning-darker: #DBAA0A;
-$color-danger-darker: #b90d0d;
-$color-info-darker: #1c9aea;
-$color-light-darker: #ececec;
-$color-dark-darker: #0F1418;
-
-
-$color-neutral: #c2c2c2;
-$color-default: #ffffff;
 
 // Hiperlink default colors
-$color-hiperlink: #07C;
-$color-hiperlink-hover: #34a9fd;
+$color-hiperlink: #1e70cd;
+$color-hiperlink-hover: #3c8ae2;
 $color-hiperlink-visited: #005999;
 $color-hiperlink-active: #005999;
 $color-hiperlink-focus: #005999;
@@ -89,14 +93,14 @@ $color-hiperlink-focus: #005999;
 $color-meta: $color-secondary-lighter;
 
 
-
 // Global variables
 
 $global-font-size: 16px;
 $global-font-family: Arial, Helvetica;
 $global-font-style: normal;
 $global-font-weight: 400;
-$global-font-color: $color-dark;
+$global-font-color: #676a6c;
+$global-font-color-hover: #2e3031;
 
 // heading 
 $heading-font-size-is1: 14px;
@@ -117,7 +121,6 @@ $padding-loop-max-through: 5;
 $padding-loop-constant: 10px;
 
 
-
 // background colors
 $background-color-primary: $color-primary;
 $background-color-secondary: $color-secondary;
@@ -125,17 +128,17 @@ $background-color-neutral: $color-neutral;
 $background-color-warning: $color-warning;
 $background-color-success: $color-success;
 
+// Forms
+$field-placeholder-color: #d8d8d8;
 
 
+// Label
+$label-bg-default: $color-light-darker;
 
 
-
-
-
-
-
-
-
+// utilities
+/*$border-color: rgba(24,28,33,0.06);*/
+$border-color: #f3f4f4;
 
 
 

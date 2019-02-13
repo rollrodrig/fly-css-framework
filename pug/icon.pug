@@ -24,13 +24,44 @@ block content
 			+description
 			+demo
 				+example.
-						<div>
-							<i class="fab fa-angellist"></i> Hola
-						</div>
+					<div class="fy-ic"><i class="fas fa-save"></i></div>
+					<button class="fy-ic"><i class="fas fa-save"></i></button>
 				+code.
-						<div>
-							<i class="fab fa-angellist"></i> Hola
-						</div>
+					<div class="fy-ic"><i class="fas fa-save"></i></div>
+					<button class="fy-ic"><i class="fas fa-save"></i></button>
 				+open_example('icon')
 
+		//- spec
+		+section
+			+subtitle('Sizes')
+			+description
+			+properties([{'r':'-xs','d':'Extra small'},{'r':'-s','d':'Small'},{'r':'-l','d':'Large'},{'r':'-xl','d':'Extra large'}])
+			+demo
+				+example.
+					<button class="fy-ic -xs"><i class="fas fa-save"></i></button>
+					<button class="fy-ic -s"><i class="fas fa-save"></i></button>
+					<button class="fy-ic"><i class="fas fa-save"></i></button>
+					<button class="fy-ic -l"><i class="fas fa-save"></i></button>
+					<button class="fy-ic -xl"><i class="fas fa-save"></i></button>
+				+code.
+					<button class="fy-ic -xs"><i class="fas fa-save"></i></button>
+					<button class="fy-ic -s"><i class="fas fa-save"></i></button>
+					<button class="fy-ic"><i class="fas fa-save"></i></button>
+					<button class="fy-ic -l"><i class="fas fa-save"></i></button>
+					<button class="fy-ic -xl"><i class="fas fa-save"></i></button>
+				+open_example('icon')
+
+
+		//- spec
+		+section
+			+subtitle('Rounded')
+			+description
+			+properties([{'r':'-r','d':'Rounded'}])
+			+demo
+				+example.
+					<div class="fy-ic -r"><i class="fas fa-save"></i></div>
+
+				+code.
+					<div class="fy-ic -r"><i class="fas fa-save"></i></div>
+				+open_example('icon')
 

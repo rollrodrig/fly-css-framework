@@ -1,13 +1,27 @@
 a {
-	color: $color-hiperlink;
 	text-decoration: none;
-
+	color: $color-hiperlink;
 	&:hover {
-		color: $color-hiperlink-hover;
 		text-decoration: underline;
+		color: $color-hiperlink-hover;
 	}
-	
+	&:active,
+	&:focus,
+	&:visited {
+	}
 }
+p {
+	a {
+		color: $color-hiperlink;
+		text-decoration: none;
+		&:hover {
+			color: $color-hiperlink-hover;
+			text-decoration: underline;
+		}
+	}	
+}
+
+
 .fy-a {
 
 	&.-al {

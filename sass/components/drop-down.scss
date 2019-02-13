@@ -1,11 +1,13 @@
-$drop-down-border-color: $color-secondary-lighter;
-$drop-down-border-color-hover: $color-secondary;
-$drop-down-color: $color-secondary-darker;
+$drop-down-border-color: $color-light-darker;
+$drop-down-border-color-hover: #d2d2d2;
+$drop-down-color: $global-font-color;
 $drop-down-color-hover: $color-secondary-darker;
 $drop-down-background-color: $color-secondary-lighter;
 $drop-down-background-color-hover: $color-secondary-lighter;
 
+
 .fy-dd {
+    color: $drop-down-color;
     display: inline-block;
     background-color: #ffffff;
     padding-left: 18px;
@@ -13,9 +15,11 @@ $drop-down-background-color-hover: $color-secondary-lighter;
     padding-top: 0px;
     padding-bottom: 0px;
     text-align: center;
+    
     border:1px solid $drop-down-border-color;
+    /*transition: background-color 5s, border 5s;*/
+
     font-size: 14px;
-    color: $drop-down-color;
     text-decoration: none;
     line-height: 3.1;
     text-decoration: none;
@@ -67,7 +71,7 @@ $drop-down-background-color-hover: $color-secondary-lighter;
         height: 8px;
         width: 1px;
         top: 18px;
-        background-color: $color-dark;
+        background-color: #bfc1c2;
 	}
 
     &:before {

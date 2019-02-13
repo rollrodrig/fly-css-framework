@@ -55,7 +55,7 @@ fy-montserrat-extrabolditalic
 ### Margin
 
 # margin bottom from 0 to 50
-
+fy-mb
 fy-mb0
 fy-mb1
 fy-mb2
@@ -64,7 +64,7 @@ fy-mb4
 fy-mb5
 
 # margin top from 0 to 50
-
+fy-mt
 fy-mt0
 fy-mt1
 fy-mt2
@@ -74,7 +74,7 @@ fy-mt5
 
 
 # margin left from 0 to 50
-
+fy-ml
 fy-ml0
 fy-ml1
 fy-ml2
@@ -83,13 +83,16 @@ fy-ml4
 fy-ml5
 
 # margin right from 0 to 50
-
+fy-mr
 fy-mr0
 fy-mr1
 fy-mr2
 fy-mr3
 fy-mr4
 fy-mr5
+
+### Margin auto
+fy-ma
 
 
 ### remove margin
@@ -156,6 +159,11 @@ fy-pdrb
 # top
 fy-pdrt
 
+### Background image
+cover
+fy-bgic
+
+
 
 ### Text
 
@@ -175,6 +183,9 @@ fy-txld
 
 # text mute, little smal and grey
 fy-txmu
+
+
+
 
 
 ## Text style
@@ -223,6 +234,9 @@ fy-taj
 # Text wrapping nowrap
 
 
+### Panel
+fy-pn
+
 
 
 ### Vertical align
@@ -235,7 +249,9 @@ fy-taj
 .fy-alrt.-l
 
 
-
+### Outline
+Add nice outline to a elment
+.fy-ol
 
 ### Close button
 
@@ -313,7 +329,10 @@ fy-taj
 .fy-codkd
 
 
-### Background color
+### background color
+# white #ffffff
+fy-bcf
+
 # transparent
 fy-bct
 # primary
@@ -446,6 +465,29 @@ fy-bct
 
 .fy-btn.-ic
 
+# button color
+
+default 
+
+primary 
+-cp
+secondary 
+-cs
+success 
+-css
+warning 
+-cw
+danger 
+-cd
+info 
+-ci
+light 
+-cl
+dark 
+-ck
+
+
+
 ### Link
 
 # link arrow to left
@@ -518,6 +560,17 @@ fy-bct
 
 # grid gutter, first child paddng 0, last child padding 0 
 
+#### min width
+
+# min width extra small
+fy-mwxs
+# min width small
+fy-mws
+# min width medium
+fy-mwm
+
+# min width from 1 to 12 # on development
+fy-mw[1-12]
 
 
 ### Width
@@ -618,6 +671,10 @@ fy-bxlh
 fy-bxlv
 
 
+### Icon
+fy-ic
+
+
 
 ### social share
 
@@ -662,6 +719,8 @@ fy-ldg.-in
 fy-ldg.-li
 fy-ldg.-dk
 
+### loading bar
+fy-ldb
 
 ### navbar
 .fy-nb
@@ -679,6 +738,10 @@ fy-ldg.-dk
 
 # nav bar a item
 .fy-nb_i
+
+# nav bar status
+fy-nb_ic
+fy-nb_ic_s
 
 # small nav bar
 .fy-nb.-s
@@ -787,6 +850,10 @@ fy-ldg.-dk
 
 # has sub items
 .fy-lg .fy-lg
+
+
+### Scroll
+fy-sc
 
 
 ### Description list
@@ -1081,6 +1148,11 @@ fy-sh
 # body
 .fy-offc_b
 
+### Show on hover
+fy-soh
+
+### Hide on hover
+fy-hoh
 
 
 ### Code
@@ -1118,6 +1190,27 @@ fy-pop
 
 ### tooltip
 fy-tt
+
+
+### Border radius
+Add border radius to an element
+
+fy-br0
+fy-br1
+fy-br2
+fy-br3
+fy-br4
+fy-br5
+fy-br5p
+
+
+
+
+
+
+
+
+
 
 
 

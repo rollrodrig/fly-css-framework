@@ -64,6 +64,14 @@
 		flex-grow: 1;
 	}
 
+}
+
+.fy-fx,
+.fy-fx\@xs,
+.fy-fx\@s,
+.fy-fx\@m,
+.fy-fx\@l {
+
 	&.-fdc {
 		flex-direction: column
 	}
@@ -159,13 +167,13 @@
 
 @for $i from 0 through 6 {
 	.fy-fxg#{$i} {
-		flex-grow: $i;				
+		flex-grow: $i;
 	}
 }
 
 @for $i from 0 through 6 {
 	.fy-fxs#{$i} {
-		flex-shrink: $i;				
+		flex-shrink: $i;
 	}
 }
 

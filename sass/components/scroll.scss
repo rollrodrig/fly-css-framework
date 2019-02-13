@@ -1,0 +1,27 @@
+.fy-sc {
+	&\@xs {
+		@include media($extra-small-max-size) {
+			overflow-x: scroll;
+		    padding-bottom: 8px;
+		}
+	}		
+	&\@s {
+		@include media($small-max-size) {
+			overflow-x: scroll;	
+		    padding-bottom: 8px;
+		
+		}
+	}
+	&\@m {
+		@include media($medium-max-size) {
+			overflow-x: scroll;	
+		    padding-bottom: 8px;
+		}
+	}
+}
+
+
+
+
+
+

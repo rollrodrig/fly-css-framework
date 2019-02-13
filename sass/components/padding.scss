@@ -1,6 +1,12 @@
 
-/* padding top */
+/* padding */
+@for $i from 0 through $padding-loop-max-through {
+	.fy-pp#{$i*1} {
+		padding: $i*$padding-loop-constant;
+	}	
+}
 
+/* padding top */
 @for $i from 0 through $padding-loop-max-through {
 	.fy-pt#{$i*1} {
 		padding-top: $i*$padding-loop-constant;

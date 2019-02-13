@@ -1,9 +1,9 @@
 
-$card-boder-color: $color-light-darker;
+$card-boder: 1px solid $border-color;
 $card-footer-color: $color-secondary-lighter;
 
-$card-image-padding: 25px 25px 10px 25px;
-$card-header-padding: 10px 25px 10px 25px;
+$card-image-padding: 25px 25px 0px 25px;
+$card-header-padding: 15px 25px 15px 25px;
 $card-body-padding: 20px 25px 20px 25px;
 $card-footer-padding: 10px 25px 10px 25px;
 
@@ -16,10 +16,11 @@ $card-image-large-padding: 35px 35px 15px 35px;
 $card-header-large-padding: 18px 35px 15px 35px;
 $card-body-large-padding: 24px 35px 24px 35px;
 $card-footer-large-padding: 15px 35px 15px 35px;
-
+$card-background-color: #ffffff;
 
 .fy-crd {
-	border:1px solid $card-boder-color;
+	border: $card-boder;
+	background-color: $card-background-color;
 	> img {
 		display: block;
 		width: 100%;
@@ -35,19 +36,21 @@ $card-footer-large-padding: 15px 35px 15px 35px;
 		}
 	}
 	.fy-crd_h {
-		border-bottom: 1px solid $card-boder-color;
+		border-bottom: $card-boder;
 		padding: $card-header-padding;
-		font-size: 20px;
+		font-size: 16px;
 		font-weight: normal;
 		margin-bottom: 0;
 	}
 	.fy-crd_b {
 		padding: $card-body-padding;
+		font-size: 14px;
+		line-height: 1.7;
 	}
 	.fy-crd_f {
 		padding: $card-footer-padding;
-		font-size: 12;
-		border-top: 1px solid $card-boder-color;
+		font-size: 12px;
+		border-top: $card-boder;
 		color: $card-footer-color;	
 	}
 

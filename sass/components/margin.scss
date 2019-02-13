@@ -1,6 +1,18 @@
 
-/* margin top */
 
+
+.fy-mt {
+	margin-top: 5px;
+}
+
+/* magin */
+@for $i from 0 through $margin-loop-max-through {
+	.fy-mm#{$i} {
+		margin: $i*$margin-loop-constant;
+	}
+}
+
+/* margin top */
 @for $i from 0 through $margin-loop-max-through {
 	.fy-mt#{$i} {
 		margin-top: $i*$margin-loop-constant;
@@ -8,7 +20,9 @@
 }
 
 /* margin bottom */
-
+.fy-mb {
+	margin-bottom: 5px;
+}
 @for $i from 0 through $margin-loop-max-through {
 	.fy-mb#{$i} {
 		margin-bottom: $i*$margin-loop-constant;
@@ -16,6 +30,9 @@
 }
 
 /* margin left */
+.fy-ml {
+	margin-left: 5px;
+}
 @for $i from 0 through $margin-loop-max-through {
 	.fy-ml#{$i} {
 		margin-left: $i*$margin-loop-constant;
@@ -23,8 +40,17 @@
 }
 
 /* margin right */
+.fy-mr {
+	margin-right: 5px;
+}
 @for $i from 0 through $margin-loop-max-through {
 	.fy-mr#{$i} {
 		margin-right: $i*$margin-loop-constant;
 	}
+}
+
+.fy-ma {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }

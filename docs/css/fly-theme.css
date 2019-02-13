@@ -3,7 +3,12 @@
     background:transparent;
 }
 .example {
-    margin-bottom: 10px;
+    /*margin-bottom: 10px;*/
+    border-style: solid;
+    border-width: 1px 1px 0 1px;
+    border-color: #f7efc7;
+    padding: 12px;
+
 }
 .code {
     margin-bottom: 10px;
@@ -126,8 +131,9 @@ pre {
 }
 
 .example-box > *{
-    border:1px solid #c3c3c3;
+    /*border:1px solid #c3c3c3;*/
     margin-bottom: 10px;
+    background-color: #f0f3f6;
 }
 .example-dl > * {
     max-width: 300px;
@@ -138,9 +144,11 @@ pre {
     margin-right: 20px;
 }
 
-.example-nav > ul {
-    margin-bottom: 20px;
-
+.example-nav {
+    width: 250px;
+}
+.example-nav .fy-nv {
+    background-color: #fcfcfc;
 }
 
 .example-table > table {
@@ -181,15 +189,30 @@ pre {
     padding: 20px;
     margin-bottom: 10px;
 }
+
+.example-clearfix > div {
+    background-color: #c3c3c3;
+}
+
+.object-float-left {
+    float: left;
+    padding: 10px;
+}
+
 .example-clearfix .fy-cfx > div {
     display: block;
     width: 80px;
     background-color: orange;
     margin: 10px;
     padding: 10px;
-
 }
-
+.example-clearfix > div > div {
+    display: block;
+    width: 80px;
+    background-color: orange;
+    margin: 10px;
+    padding: 10px;
+}
 .flex-example-1 .fy-fx > div {
     width: 70px;
     height: 30px;
@@ -252,4 +275,26 @@ pre {
     height: 30px;
     background-color: #dbfffd;
     border:1px solid #c2c2c2;
+}
+
+.example-breadc .fy-brc {
+    margin-bottom: 40px;
+}
+.example-panel {
+    width: 100%;
+    max-width: 400px;
+}
+
+.border-radius-example > div{
+    border:1px solid #c3c3c3;
+    margin-bottom: 20px;
+    padding: 20px;
+} 
+
+.example-outline > div {
+    width: 100%;
+    max-width: 400px;
+    height: 70px;
+    margin-bottom: 30px;
+    background-color: #fbfffb;
 }

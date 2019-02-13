@@ -8,26 +8,19 @@ $button-disabled-background-color: $color-light-lighter;
 $button-disabled-background-color-hover: $color-light-lighter;
 
 .fy-btn  {
-	
 	&.-br {
 		border-radius: 3px;
 	}
-
-
-	
 	&.-fw {
 		width: 100%;
 		max-width: 100%;
 	}
-	&.-di {
-		color: $button-disabled-color;
-		background-color: $button-disabled-background-color;
-		border: 1px solid $button-disabled-border-color;
+	&.-d {
 		cursor: auto;
+		opacity: 0.5;
 		&:hover {
-			color: $button-disabled-color-hover;
-			background-color: $button-disabled-background-color-hover;
-			border: 1px solid $button-disabled-border-color-hover;
+			cursor: auto;
+			opacity: 0.5;
 		}
 	}
 	

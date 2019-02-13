@@ -20,16 +20,14 @@ $offcanvas-body-background-color: $color-light-full;
 			top: 0;
 			left: -250px;
 			width: 250px;
-			transition: 0.5s;
 		}
 	}
-
 
 	&_b {
 		flex-grow: 1;
 		width: auto;
-		transition: 0.5s;
 		background-color: $offcanvas-body-background-color;
 	}
+	
 
 }

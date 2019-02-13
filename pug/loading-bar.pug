@@ -1,0 +1,41 @@
+extends _layout.pug
+include _mixins
+block content
+	article.fy-bx
+		+title('Loading Bar')
+		+resume
+
+		//- spec
+		+section
+			+subtitle('Usage')
+			+description
+			+demo
+				+example.
+						<div class="fy-ldb -s">
+							<div class="fy-ldb_c"></div>
+						</div>
+				+code.
+						<div class="fy-ldb -s">
+							<div class="fy-ldb_c"></div>
+						</div>
+				+open_example('loading-bar')
+
+
+		//- spec
+		+section
+			+subtitle('Size')
+			+description
+			+properties([{'r':'','d':'Default'},{'r':'-s','d':'Small'},{'r':'-l','d':'Large'}])
+			+demo
+				+example.
+					<div class="fy-ldb -s"><div class="fy-ldb_c"></div></div>
+					<br>
+					<div class="fy-ldb"><div class="fy-ldb_c"></div></div>
+					<br>
+					<div class="fy-ldb -l"><div class="fy-ldb_c"></div></div>
+					<br>
+				+code.
+					<div class="fy-ldb -s"><div class="fy-ldb_c"></div></div>
+					<div class="fy-ldb"><div class="fy-ldb_c"></div></div>
+					<div class="fy-ldb -l"><div class="fy-ldb_c"></div></div>
+
