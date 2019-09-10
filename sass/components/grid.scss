@@ -1,4 +1,3 @@
-
 $grid-gutter-padding: 10px;
 
 .fy-gc {
@@ -14,22 +13,15 @@ $grid-gutter-padding: 10px;
 @for $i from 1 through $max-cols-number {
 	.fy-gc#{$i} {
 			float: left;
-			width: (100/$max-cols-number)*$i + %;
+			width: (100/$max-cols-number)*$i*1%;
 	}
-}
-
-@for $i from 1 through $max-cols-number {
-	/*.fy-gcxs#{$i} {
-			float: left;
-			width: (100/$max-cols-number)*$i + %;
-	}*/
 }
 
 @for $i from 1 through $max-cols-number {
 	.fy-gcs#{$i} {
 		@include min-media($small-min-size) {
 			float: left;
-			width: (100/$max-cols-number)*$i + %;
+			width: (100/$max-cols-number)*$i*1%;
 		}
 	}
 }
@@ -38,7 +30,7 @@ $grid-gutter-padding: 10px;
 	.fy-gcm#{$i} {
 		@include min-media($medium-min-size) {
 			float: left;
-			width: (100/$max-cols-number)*$i + %;
+			width: (100/$max-cols-number)*$i*1%;
 		}
 	}
 }
@@ -47,7 +39,7 @@ $grid-gutter-padding: 10px;
 	.fy-gcl#{$i} {
 		@include min-media($large-min-size) {
 			float: left;
-			width: (100/$max-cols-number)*$i + %;
+			width: (100/$max-cols-number)*$i*1%;
 		}
 	}
 }
@@ -61,42 +53,6 @@ $grid-gutter-padding: 10px;
 		}
 	}
 }
-
-/*
-.fy-gc {
-
-	&.-g {
-		> * {
-			padding-left: $grid-gutter-padding;
-			padding-right: $grid-gutter-padding;
-		}
-		&\@l {
-			> * {
-				@include min-media($large-min-size) {
-					padding-left: $grid-gutter-padding;
-					padding-right: $grid-gutter-padding;
-				}			
-			}
-		}		
-		&\@m {
-			> * {
-				@include min-media($medium-min-size) {
-					padding-left: $grid-gutter-padding;
-					padding-right: $grid-gutter-padding;
-				}			
-			}
-		}
-		&\@s {
-			> * {
-				@include min-media($small-min-size) {
-					padding-left: $grid-gutter-padding;
-					padding-right: $grid-gutter-padding;
-				}			
-			}
-		}
-	}
-
-}*/
 
 
 
