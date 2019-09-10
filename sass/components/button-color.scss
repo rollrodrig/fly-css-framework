@@ -9,13 +9,13 @@ $button-background-color-hover: #fafafa;
 	color: $button-color;
 	background-color: #ffffff;
 	border:1px solid $button-border-color;
-	transition: background-color 0.2s, border 0.2s;
+	/*transition: background-color 0.2s, border 0.2s;*/
 
 	&:hover {
 		text-decoration: none;
 		color:  $button-color;
 		border:1px solid $button-border-color-hover;
-		transition: background-color 0.2s, border 0.2s;
+		/*transition: background-color 0.2s, border 0.2s;*/
 	}
 
 	&.-cp {
