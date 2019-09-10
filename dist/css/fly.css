@@ -547,54 +547,6 @@ p a {
   float: left;
   width: 100%; }
 
-/*.fy-gcxs1 {
-			float: left;
-			width: (100/$max-cols-number)*$i + %;
-	}*/
-/*.fy-gcxs2 {
-			float: left;
-			width: (100/$max-cols-number)*$i + %;
-	}*/
-/*.fy-gcxs3 {
-			float: left;
-			width: (100/$max-cols-number)*$i + %;
-	}*/
-/*.fy-gcxs4 {
-			float: left;
-			width: (100/$max-cols-number)*$i + %;
-	}*/
-/*.fy-gcxs5 {
-			float: left;
-			width: (100/$max-cols-number)*$i + %;
-	}*/
-/*.fy-gcxs6 {
-			float: left;
-			width: (100/$max-cols-number)*$i + %;
-	}*/
-/*.fy-gcxs7 {
-			float: left;
-			width: (100/$max-cols-number)*$i + %;
-	}*/
-/*.fy-gcxs8 {
-			float: left;
-			width: (100/$max-cols-number)*$i + %;
-	}*/
-/*.fy-gcxs9 {
-			float: left;
-			width: (100/$max-cols-number)*$i + %;
-	}*/
-/*.fy-gcxs10 {
-			float: left;
-			width: (100/$max-cols-number)*$i + %;
-	}*/
-/*.fy-gcxs11 {
-			float: left;
-			width: (100/$max-cols-number)*$i + %;
-	}*/
-/*.fy-gcxs12 {
-			float: left;
-			width: (100/$max-cols-number)*$i + %;
-	}*/
 @media only screen and (min-width: 541px) {
   .fy-gcs1 {
     float: left;
@@ -782,41 +734,6 @@ p a {
     padding-left: 10px;
     padding-right: 10px; }
 
-/*
-.fy-gc {
-
-	&.-g {
-		> * {
-			padding-left: $grid-gutter-padding;
-			padding-right: $grid-gutter-padding;
-		}
-		&\@l {
-			> * {
-				@include min-media($large-min-size) {
-					padding-left: $grid-gutter-padding;
-					padding-right: $grid-gutter-padding;
-				}			
-			}
-		}		
-		&\@m {
-			> * {
-				@include min-media($medium-min-size) {
-					padding-left: $grid-gutter-padding;
-					padding-right: $grid-gutter-padding;
-				}			
-			}
-		}
-		&\@s {
-			> * {
-				@include min-media($small-min-size) {
-					padding-left: $grid-gutter-padding;
-					padding-right: $grid-gutter-padding;
-				}			
-			}
-		}
-	}
-
-}*/
 .fy-fx {
   display: flex; }
   .fy-fx\@l {
@@ -2062,12 +1979,12 @@ p a {
   color: #676a6c;
   background-color: #ffffff;
   border: 1px solid #ececec;
-  transition: background-color 0.2s, border 0.2s; }
+  /*transition: background-color 0.2s, border 0.2s;*/ }
   .fy-btn:hover {
     text-decoration: none;
     color: #676a6c;
     border: 1px solid #d2d2d2;
-    transition: background-color 0.2s, border 0.2s; }
+    /*transition: background-color 0.2s, border 0.2s;*/ }
   .fy-btn.-cp {
     background-color: #26B4FF;
     border: 1px solid #1d9adb;
