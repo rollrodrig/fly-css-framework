@@ -3219,38 +3219,8 @@ p a {
   font-size: 24px;
   margin-bottom: 50px; }
 
-.fy-ti {
-  margin-top: 0;
-  margin-bottom: 30px;
-  font-size: 32px;
-  font-weight: normal;
-  line-height: 1.1; }
-  .fy-ti.-s1 {
-    font-size: 14px;
-    margin-bottom: 12px; }
-  .fy-ti.-s2 {
-    font-size: 18px;
-    margin-bottom: 15px; }
-  .fy-ti.-s3 {
-    font-size: 24px;
-    margin-bottom: 20px; }
-  .fy-ti.-s4 {
-    font-size: 30px;
-    margin-bottom: 30px; }
-  .fy-ti.-s5 {
-    font-size: 40px;
-    margin-bottom: 30px; }
-  .fy-ti.-s6 {
-    font-size: 50px;
-    margin-bottom: 30px; }
-  .fy-ti.-s7 {
-    font-size: 60px;
-    margin-bottom: 30px; }
-
-.fy-sti {
-  margin-top: -30px;
-  margin-bottom: 20px; }
-
+/*@import "title";*/
+/*@import "subtitle";*/
 .fy-fz1 {
   font-size: 11px; }
 
