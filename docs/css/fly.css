@@ -23,7 +23,7 @@ body {
   color: #676a6c;
   font-size: 16px;
   font-family: Arial, Helvetica;
-  line-height: 1.3;
+  line-height: 1.2;
   margin: 0;
   padding: 0; }
 
@@ -3138,31 +3138,61 @@ p a {
 /* text */
 .fy-tx {
   font-size: 16px; }
-  .fy-txs {
-    font-size: 13px; }
-  .fy-txm {
-    font-size: 20px; }
-  .fy-txl {
-    font-size: 30px; }
-  .fy-txld {
+  .fy-txh1 {
+    font-size: 40px;
+    margin-bottom: 16px; }
+  .fy-txh2 {
+    font-size: 34px;
+    margin-bottom: 16px; }
+  .fy-txh3 {
+    font-size: 28px;
+    margin-bottom: 12px; }
+  .fy-txh4 {
     font-size: 24px;
-    margin-bottom: 50px; }
-  .fy-txmu {
+    margin-bottom: 8px; }
+  .fy-txh5 {
+    font-size: 20px;
+    margin-bottom: 4px; }
+  .fy-txh6 {
+    font-size: 16px;
+    margin-bottom: 4px; }
+  .fy-txb1 {
+    font-size: 16px;
+    margin-bottom: 8px; }
+  .fy-txb2 {
+    font-size: 14px;
+    margin-bottom: 4px; }
+  .fy-txb3 {
     font-size: 12px;
-    color: #a3a4a6; }
-    .fy-txmu a {
-      color: #a3a4a6; }
-  .fy-txul {
-    text-decoration: underline; }
-  .fy-txnul {
-    text-decoration: none; }
-  .fy-txuc {
-    text-transform: uppercase; }
-  .fy-txlc {
-    text-transform: lowercase; }
-  .fy-txcp {
-    text-transform: capitalize; }
+    margin-bottom: 4px; }
+  .fy-txb4 {
+    font-size: 10px;
+    margin-bottom: 4px; }
 
+/* Transform text */
+.fy-txul {
+  text-decoration: underline; }
+
+.fy-txnul {
+  text-decoration: none; }
+
+.fy-txuc {
+  text-transform: uppercase; }
+
+.fy-txlc {
+  text-transform: lowercase; }
+
+.fy-txcp {
+  text-transform: capitalize; }
+
+/* others */
+.fy-txmu {
+  font-size: 12px;
+  color: #a3a4a6; }
+  .fy-txmu a {
+    color: #a3a4a6; }
+
+/* text align */
 .fy-txal {
   text-align: left; }
 
@@ -3175,38 +3205,22 @@ p a {
 .fy-txaj {
   text-align: justify; }
 
-.fy-ti {
-  margin-top: 0;
-  margin-bottom: 30px;
-  font-size: 32px;
-  font-weight: normal;
-  line-height: 1.1; }
-  .fy-ti.-s1 {
-    font-size: 14px;
-    margin-bottom: 12px; }
-  .fy-ti.-s2 {
-    font-size: 18px;
-    margin-bottom: 15px; }
-  .fy-ti.-s3 {
-    font-size: 24px;
-    margin-bottom: 20px; }
-  .fy-ti.-s4 {
-    font-size: 30px;
-    margin-bottom: 30px; }
-  .fy-ti.-s5 {
-    font-size: 40px;
-    margin-bottom: 30px; }
-  .fy-ti.-s6 {
-    font-size: 50px;
-    margin-bottom: 30px; }
-  .fy-ti.-s7 {
-    font-size: 60px;
-    margin-bottom: 30px; }
+/*will be deleted soon*/
+.fy-txs {
+  font-size: 13px; }
 
-.fy-sti {
-  margin-top: -30px;
-  margin-bottom: 20px; }
+.fy-txm {
+  font-size: 20px; }
 
+.fy-txl {
+  font-size: 30px; }
+
+.fy-txld {
+  font-size: 24px;
+  margin-bottom: 50px; }
+
+/*@import "title";*/
+/*@import "subtitle";*/
 .fy-fz1 {
   font-size: 11px; }
 
