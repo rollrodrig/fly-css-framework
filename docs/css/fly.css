@@ -1629,6 +1629,8 @@ p a {
     .fy-brc > span:after {
       transform: rotate(45deg);
       top: 6px; }
+  .fy-brc > span:last-item {
+    display: none; }
 
 .fy-brc.-l {
   font-size: 15px; }
