@@ -2484,8 +2484,6 @@ p a {
     position: relative; }
     .fy-lg > div:last-child {
       border-bottom: none; }
-    .fy-lg > div:hover {
-      background-color: #FAFAFA; }
     .fy-lg > div a {
       color: #2b2e33; }
       .fy-lg > div a:hover {
@@ -2495,6 +2493,9 @@ p a {
       width: 18px;
       margin-right: 2px;
       text-align: center; }
+
+.fy-lg.-hv > div:hover {
+  background-color: #FAFAFA; }
 
 .fy-lg.-s {
   font-size: 12px; }
@@ -2513,6 +2514,9 @@ p a {
   border-radius: 3px; }
 
 .fy-lg.-h > div:first-child {
+  background-color: #ececec; }
+
+.fy-lg_h {
   background-color: #ececec; }
 
 .fy-lg_c {
