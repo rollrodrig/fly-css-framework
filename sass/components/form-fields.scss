@@ -7,13 +7,12 @@ $field-border-color: $color-light-darker;
 }
 .fy-fr {
 	margin-bottom: 20px;
-	
 }
 .fy-fi,
 .fy-fs,
 .fy-ft,
 .fy-fo {
-	font-size: 15px;
+	font-size: 16px;
 	&:focus {
 		outline: none;
 		border: 1px solid $color-primary;
