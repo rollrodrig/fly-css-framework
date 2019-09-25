@@ -1723,8 +1723,9 @@ p a {
   padding-bottom: 0px;
   margin: 0;
   text-align: center;
-  font-size: 14px;
-  line-height: 3.1;
+  font-size: 16px;
+  height: 45px;
+  line-height: 2.6;
   text-decoration: none;
   vertical-align: top;
   cursor: pointer; }
@@ -1806,25 +1807,22 @@ p a {
   padding-left: 4px;
   padding-right: 4px;
   font-size: 11px;
+  height: 18px;
   line-height: 1.5; }
 
 .fy-btn.-s {
   padding-left: 10px;
   padding-right: 10px;
-  font-size: 12px;
-  line-height: 2.8; }
+  font-size: 14px;
+  height: 30px;
+  line-height: 2; }
 
 .fy-btn.-l {
   padding-left: 30px;
   padding-right: 30px;
-  font-size: 18px;
-  line-height: 3.8; }
-
-.fy-btn.-xl {
-  padding-left: 40px;
-  padding-right: 40px;
-  font-size: 24px;
-  line-height: 4.1; }
+  font-size: 20px;
+  height: 65px;
+  line-height: 3; }
 
 .fy-btn.-al, .fy-btn.-ar {
   position: relative; }
@@ -2334,20 +2332,6 @@ p a {
 
 .fy-dd.-xl ._b {
   top: 98px; }
-
-.fy-dl > div {
-  padding: 11px 16px;
-  border-bottom: 1px solid #ececec;
-  font-size: 15px; }
-  .fy-dl > div:last-child {
-    border-bottom: none; }
-
-.fy-dl.-s > div {
-  padding: 6px 11px;
-  font-size: 12px; }
-
-.fy-dl.-b {
-  border: 1px solid #ececec; }
 
 .fy-ic {
   display: inline-block;
@@ -3675,7 +3659,7 @@ p a {
 .fy-cd {
   font-size: 14px;
   font-family: 'Roboto Mono',monospace;
-  color: #ffaeae; }
+  color: #ff4646; }
   .fy-cd.-p {
     color: #26B4FF; }
   .fy-cd.-s {
