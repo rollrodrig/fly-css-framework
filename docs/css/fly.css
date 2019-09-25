@@ -2335,20 +2335,6 @@ p a {
 .fy-dd.-xl ._b {
   top: 98px; }
 
-.fy-dl > div {
-  padding: 11px 16px;
-  border-bottom: 1px solid #ececec;
-  font-size: 15px; }
-  .fy-dl > div:last-child {
-    border-bottom: none; }
-
-.fy-dl.-s > div {
-  padding: 6px 11px;
-  font-size: 12px; }
-
-.fy-dl.-b {
-  border: 1px solid #ececec; }
-
 .fy-ic {
   display: inline-block;
   padding-left: 16px;
