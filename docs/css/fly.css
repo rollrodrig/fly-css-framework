@@ -1372,14 +1372,13 @@ p a {
 .fy-fs,
 .fy-ft,
 .fy-fo {
-  font-size: 15px; }
+  font-size: 16px; }
   .fy-fi:focus,
   .fy-fs:focus,
   .fy-ft:focus,
   .fy-fo:focus {
     outline: none;
-    border: 1px solid #26B4FF;
-    transition: border .2s; }
+    border: 1px solid #26B4FF; }
 
 .fy-fi,
 .fy-fs {
@@ -1387,24 +1386,23 @@ p a {
   width: 100%;
   height: 45px;
   border: 1px solid #ececec;
-  transition: border .2s;
   padding: 0 10px;
   color: #6c7886;
   background-color: #ffffff;
   border-radius: 0; }
   .fy-fi.-xs,
   .fy-fs.-xs {
-    height: 20px;
+    height: 18px;
     font-size: 11px;
     padding: 0 5px; }
   .fy-fi.-s,
   .fy-fs.-s {
-    height: 35px;
-    font-size: 13px; }
+    height: 30px;
+    font-size: 14px; }
   .fy-fi.-l,
   .fy-fs.-l {
-    height: 70px;
-    font-size: 18px;
+    height: 65px;
+    font-size: 20px;
     padding: 0 20px; }
 
 .fy-fs {
@@ -1420,7 +1418,7 @@ p a {
   .fy-fo > input {
     margin-right: 5px; }
   .fy-fo.-xs {
-    font-size: 12px; }
+    font-size: 11px; }
     .fy-fo.-xs > input {
       margin-right: 3px; }
   .fy-fo.-s {
@@ -1428,7 +1426,7 @@ p a {
     .fy-fo.-s > input {
       margin-right: 4px; }
   .fy-fo.-l {
-    font-size: 18px; }
+    font-size: 20px; }
     .fy-fo.-l > input {
       margin-right: 8px; }
 
@@ -1444,13 +1442,14 @@ p a {
   border-radius: 0;
   line-height: 1.4; }
   .fy-ft.-xs {
-    font-size: 12px;
+    font-size: 11px;
     padding: 5px; }
   .fy-ft.-s {
     font-size: 14px;
     padding: 8px; }
   .fy-ft.-l {
-    padding: 12px; }
+    padding: 12px;
+    font-size: 20px; }
 
 .fy-fl {
   margin-bottom: 5px;
