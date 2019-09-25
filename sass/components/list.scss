@@ -19,9 +19,6 @@ $list-group-item-hover: $color-light-lighter;
 		&:last-child {
 			border-bottom: none;
 		}
-		&:hover {
-			background-color: $list-group-item-hover;
-		}
 
 		a {
 			color: $list-group-a-color;
@@ -37,13 +34,16 @@ $list-group-item-hover: $color-light-lighter;
 			text-align: center;
 		}
 	}
-
-
-
-
 }
-
 .fy-lg {
+	&.-hv {
+		> div {
+			&:hover {
+				background-color: $list-group-item-hover;
+			}	
+		}
+		
+	}
 	&.-s {
 		font-size: 12px;
 		> div {
@@ -85,7 +85,9 @@ $list-group-item-hover: $color-light-lighter;
 		
 	}
 }
-
+.fy-lg_h {
+	background-color: $color-light-darker;
+}
 
 .fy-lg {
 	&_c {
