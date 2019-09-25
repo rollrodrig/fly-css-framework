@@ -827,10 +827,13 @@ fy-nb_ic_s
 .fy-tbl.-nh
 
 
-
-### List group
+### List group -> List
+### List
 
 .fy-lg
+
+# On Hover
+.fy-lg.-hv
 
 # small
 .fy-lg.-s
@@ -843,6 +846,7 @@ fy-nb_ic_s
 
 # header
 .fy-lg.-h
+.fy-lg_h # set header in child
 
 
 # with icon

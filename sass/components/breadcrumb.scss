@@ -39,6 +39,9 @@
 			top: 6px;
 	    }  
 	}
+	> span:last-item {
+		display: none;
+	}
 }
 .fy-brc {
 	&.-l {
