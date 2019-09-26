@@ -20,7 +20,7 @@ html {
   padding: 0; }
 
 body {
-  color: #676a6c;
+  color: #1a1a1a;
   font-size: 16px;
   font-family: Arial, Helvetica;
   line-height: 1.2;
@@ -1975,13 +1975,13 @@ p a {
   color: #a9a9a9; }
 
 .fy-btn {
-  color: #676a6c;
+  color: #1a1a1a;
   background-color: #ffffff;
   border: 1px solid #ececec;
   /*transition: background-color 0.2s, border 0.2s;*/ }
   .fy-btn:hover {
     text-decoration: none;
-    color: #676a6c;
+    color: #1a1a1a;
     border: 1px solid #d2d2d2;
     /*transition: background-color 0.2s, border 0.2s;*/ }
   .fy-btn.-cp {
@@ -2170,7 +2170,7 @@ p a {
     margin-bottom: 80px; }
 
 .fy-dd {
-  color: #676a6c;
+  color: #1a1a1a;
   display: inline-block;
   background-color: #ffffff;
   padding-left: 18px;
@@ -2721,7 +2721,7 @@ p a {
       margin-right: 2px;
       text-align: center; }
   .fy-nv a {
-    color: #676a6c; }
+    color: #1a1a1a; }
     .fy-nv a:hover {
       color: #2e3031;
       text-decoration: none; }
@@ -2998,7 +2998,7 @@ p a {
     text-align: center;
     cursor: pointer;
     font-size: 14px;
-    color: #676a6c;
+    color: #1a1a1a;
     text-decoration: none;
     line-height: 1.12;
     text-decoration: none;
