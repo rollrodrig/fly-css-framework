@@ -15,15 +15,11 @@ $drop-down-background-color-hover: $color-secondary-lighter;
     padding-top: 0px;
     padding-bottom: 0px;
     text-align: center;
-    
     border:1px solid $drop-down-border-color;
-    /*transition: background-color 5s, border 5s;*/
-
-    font-size: 14px;
     text-decoration: none;
-    line-height: 3.1;
+    height: 45px;
+    line-height: 2.6;
     text-decoration: none;
-
     position: relative;
     padding-right: 26px;
 
@@ -95,6 +91,7 @@ $drop-down-background-color-hover: $color-secondary-lighter;
         padding-left: 4px;
         padding-right: 4px;
         font-size: 11px;
+        height: 18px;
         line-height: 1.5;
 
     }
@@ -102,8 +99,9 @@ $drop-down-background-color-hover: $color-secondary-lighter;
     &.-s {
         padding-left: 10px;
         padding-right: 10px;
-        font-size: 12px;
-        line-height: 2.8;
+        font-size: 14px;
+        height: 30px;
+        line-height: 2;
     }
     &.-m {
         
@@ -112,21 +110,11 @@ $drop-down-background-color-hover: $color-secondary-lighter;
     &.-l {
         padding-left: 30px;
         padding-right: 30px;
-        font-size: 18px;
-        line-height: 3.8;
+        font-size: 20px;
+        height: 65px;
+        line-height: 3;
     }
     
-    &.-xl {
-        padding-left: 40px;
-        padding-right: 40px;
-        font-size: 24px;
-        line-height: 4.1;
-    }    
-
-
-
-
-
     &.-xs {
         padding-right: 18px;
         &:before, &:after {

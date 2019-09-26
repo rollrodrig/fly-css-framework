@@ -2175,10 +2175,9 @@ p a {
   padding-bottom: 0px;
   text-align: center;
   border: 1px solid #ececec;
-  /*transition: background-color 5s, border 5s;*/
-  font-size: 14px;
   text-decoration: none;
-  line-height: 3.1;
+  height: 45px;
+  line-height: 2.6;
   text-decoration: none;
   position: relative;
   padding-right: 26px; }
@@ -2225,22 +2224,20 @@ p a {
     padding-left: 4px;
     padding-right: 4px;
     font-size: 11px;
+    height: 18px;
     line-height: 1.5; }
   .fy-dd.-s {
     padding-left: 10px;
     padding-right: 10px;
-    font-size: 12px;
-    line-height: 2.8; }
+    font-size: 14px;
+    height: 30px;
+    line-height: 2; }
   .fy-dd.-l {
     padding-left: 30px;
     padding-right: 30px;
-    font-size: 18px;
-    line-height: 3.8; }
-  .fy-dd.-xl {
-    padding-left: 40px;
-    padding-right: 40px;
-    font-size: 24px;
-    line-height: 4.1; }
+    font-size: 20px;
+    height: 65px;
+    line-height: 3; }
   .fy-dd.-xs {
     padding-right: 18px; }
     .fy-dd.-xs:before, .fy-dd.-xs:after {
