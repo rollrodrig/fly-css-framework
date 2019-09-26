@@ -11,7 +11,7 @@ block content
 			+subtitle('Usage')
 			+description
 				p Add the stylesheet <code>font-awesome.css</code>
-				p Load the folder <code>fonts</code> inside your proyect
+				p Add the folder <code>fonts</code> inside your project next to the <code>css</code> folder
 			+demo
 				+example.
 					<link rel="stylesheet" href="css/font-awesome.css">
@@ -35,33 +35,30 @@ block content
 		+section
 			+subtitle('Sizes')
 			+description
-			+properties([{'r':'-xs','d':'Extra small'},{'r':'-s','d':'Small'},{'r':'-l','d':'Large'},{'r':'-xl','d':'Extra large'}])
+			+properties([{'r':'-xs','d':'Extra small'},{'r':'-s','d':'Small'},{'r':'-l','d':'Large'}])
 			+demo
 				+example.
 					<button class="fy-ic -xs"><i class="fas fa-save"></i></button>
 					<button class="fy-ic -s"><i class="fas fa-save"></i></button>
 					<button class="fy-ic"><i class="fas fa-save"></i></button>
 					<button class="fy-ic -l"><i class="fas fa-save"></i></button>
-					<button class="fy-ic -xl"><i class="fas fa-save"></i></button>
 				+code.
 					<button class="fy-ic -xs"><i class="fas fa-save"></i></button>
 					<button class="fy-ic -s"><i class="fas fa-save"></i></button>
 					<button class="fy-ic"><i class="fas fa-save"></i></button>
 					<button class="fy-ic -l"><i class="fas fa-save"></i></button>
-					<button class="fy-ic -xl"><i class="fas fa-save"></i></button>
 				+open_example('icon')
-
 
 		//- spec
-		+section
-			+subtitle('Rounded')
-			+description
-			+properties([{'r':'-r','d':'Rounded'}])
-			+demo
-				+example.
-					<div class="fy-ic -r"><i class="fas fa-save"></i></div>
+		//- +section
+		//- 	+subtitle('Rounded')
+		//- 	+description
+		//- 	+properties([{'r':'-r','d':'Rounded'}])
+		//- 	+demo
+		//- 		+example.
+		//- 			<div class="fy-ic -r"><i class="fas fa-save"></i></div>
 
-				+code.
-					<div class="fy-ic -r"><i class="fas fa-save"></i></div>
-				+open_example('icon')
+		//- 		+code.
+		//- 			<div class="fy-ic -r"><i class="fas fa-save"></i></div>
+		//- 		+open_example('icon')
 

@@ -2333,7 +2333,8 @@ p a {
   padding-bottom: 0px;
   text-align: center;
   font-size: 16px;
-  line-height: 2.7;
+  height: 45px;
+  line-height: 2.6;
   text-decoration: none;
   vertical-align: top;
   border: 1px solid transparent;
@@ -2344,28 +2345,24 @@ p a {
     background-color: #fafafa; }
   .fy-ic i {
     line-height: inherit; }
-  .fy-ic.-r {
-    border-radius: 50%; }
   .fy-ic.-xs {
     padding-left: 3px;
     padding-right: 3px;
     font-size: 11px;
+    height: 18px;
     line-height: 1.5; }
   .fy-ic.-s {
     padding-left: 12px;
     padding-right: 12px;
     font-size: 14px;
-    line-height: 2.4; }
+    height: 30px;
+    line-height: 2; }
   .fy-ic.-l {
     padding-left: 27px;
     padding-right: 27px;
-    font-size: 22px;
-    line-height: 3.1; }
-  .fy-ic.-xl {
-    padding-left: 39px;
-    padding-right: 39px;
-    font-size: 29px;
-    line-height: 3.4; }
+    font-size: 20px;
+    height: 65px;
+    line-height: 3; }
 
 .fy-img.-fw {
   width: 100%; }
