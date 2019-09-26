@@ -23,7 +23,6 @@ p {
 
 
 .fy-a {
-
 	&.-al {
 		position: relative;
 		padding-left: 26px;
@@ -125,6 +124,15 @@ p {
 			top: 7px;
 	     	
 	    } 		
+	}
+	&.-s {
+		font-size: 13px;
+		&:before {
+			top: 3px;	
+		}
+	    &:before, &:after {
+	        height: 6px;
+	    }		
 	}
 }
 

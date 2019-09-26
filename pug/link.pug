@@ -11,17 +11,20 @@ block content
 			+description
 			+demo
 				+example.
-						<p> Lorem ipsum <a class="fy-a" href="">adipisicing</a> consectetur adipisicing elit</p>
+						<a href="">simple link example</a> 
+						<br>
+						<p> Lorem ipsum <a href="">adipisicing</a> consectetur adipisicing elit</p>
 				+code.
-						<p> Lorem ipsum <a class="fy-a" href="">adipisicing</a> consectetur adipisicing elit</p>
+						<a href="">simple link example</a> 
+						<br>
+						<p> Lorem ipsum <a href="">adipisicing</a> consectetur adipisicing elit</p>
 				+open_example('link')
-
 
 		//- spec
 		+section
 			+subtitle('Link with arrow')
 			+description
-			+properties([{'r':'-al','d':'Align left'},{'r':'-ar','d':'Align right'}])
+			+properties([{'r':'fy-a -al','d':'Align left'},{'r':'fy-a -ar','d':'Align right'}])
 			+demo
 				+example.
 					<a class="fy-a -al" href="">Link with arrow left </a>
@@ -32,3 +35,23 @@ block content
 					<br>
 					<a class="fy-a -ar" href="">Link with arrow right </a>
 
+
+		//- spec
+		+section
+			+subtitle('Sizes')
+			+description
+			+properties([{'r':'','d':'Default'},{'r':'fy-a -s','d':'Small'}])
+			+demo
+				+example.
+					<a href="">Link default size </a>
+					<br>
+					<a class="fy-a -s" href="">Link small </a>
+					<br>
+					<a class="fy-a -ar -s" href="">Example small with arrow</a>
+
+				+code.
+					<a href="">Link default size </a>
+					<br>
+					<a class="fy-a -s" href="">Link small </a>
+					<br>
+					<a class="fy-a -ar -s" href="">Example small with arrow</a>

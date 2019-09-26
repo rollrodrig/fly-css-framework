@@ -154,6 +154,13 @@ p a {
     transform: rotate(45deg);
     top: 7px; }
 
+.fy-a.-s {
+  font-size: 13px; }
+  .fy-a.-s:before {
+    top: 3px; }
+  .fy-a.-s:before, .fy-a.-s:after {
+    height: 6px; }
+
 /* layout */
 .fy-ctnr {
   width: 100%;
