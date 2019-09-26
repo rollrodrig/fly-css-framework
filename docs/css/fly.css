@@ -202,9 +202,8 @@ p a {
     font-size: 24px; }
 
 .fy-nb {
-  font-size: 14px;
   background-color: #ffffff;
-  height: 68px;
+  height: 70px;
   position: relative;
   display: flex;
   box-shadow: 0 1px 0 rgba(24, 28, 33, 0.04); }
@@ -263,17 +262,17 @@ p a {
     justify-content: center;
     float: left;
     padding: 0 18px;
-    height: 68px;
+    height: 70px;
     text-decoration: none;
     color: #a3a4a6;
     background-color: transparent;
     text-align: center;
     position: relative; }
     .fy-nb_i:hover {
-      color: #4E5155;
+      color: #1a1a1a;
       text-decoration: none; }
     .fy-nb_i.-a {
-      color: #4E5155;
+      color: #1a1a1a;
       text-decoration: none; }
     @media only screen and (max-width: 980px) {
       .fy-nb_i {
@@ -312,7 +311,8 @@ p a {
         display: block; } }
 
 .fy-nb.-s {
-  height: 37px; }
+  font-size: 14px;
+  height: 40px; }
   @media only screen and (max-width: 980px) {
     .fy-nb.-s {
       height: auto; } }
@@ -322,15 +322,12 @@ p a {
       .fy-nb.-s .fy-nb_l {
         height: 37px; } }
   .fy-nb.-s .fy-nb_i {
-    font-size: 12px;
     padding: 0 18px;
-    line-height: 3.1;
-    height: 37px; }
+    height: 40px; }
     .fy-nb.-s .fy-nb_i i {
       font-size: 16px; }
   .fy-nb.-s .fy-fc {
-    margin-top: 1px;
-    margin-bottom: 1px; }
+    margin-top: 5px; }
   .fy-nb.-s .fy-nbb {
     top: 2px; }
 
@@ -339,7 +336,6 @@ p a {
 
 .fy-nb .fy-fc {
   margin-top: 12px;
-  margin-bottom: 8px;
   padding-left: 15px;
   padding-right: 15px; }
   .fy-nb .fy-fc .fy-btn {
@@ -357,7 +353,7 @@ p a {
   float: left;
   padding-left: 18px;
   padding-right: 28px;
-  line-height: 5;
+  line-height: 4.5;
   height: 68px;
   text-decoration: none;
   color: #a3a4a6;
@@ -371,10 +367,10 @@ p a {
       /*height: 50px;*/
       float: none; } }
   .fy-nb_dd:hover {
-    color: #4E5155;
+    color: #1a1a1a;
     text-decoration: none; }
   .fy-nb_dd.-a {
-    color: #4E5155;
+    color: #1a1a1a;
     text-decoration: none; }
   @media only screen and (max-width: 980px) {
     .fy-nb_dd {
@@ -457,10 +453,10 @@ p a {
             background-color: #ececec; } }
 
 .fy-nb.-s .fy-nb_dd {
-  font-size: 12px;
-  line-height: 3.1; }
+  line-height: 2.8;
+  height: 40px; }
   .fy-nb.-s .fy-nb_dd:before, .fy-nb.-s .fy-nb_dd:after {
-    top: 15px;
+    top: 17px;
     height: 6px; }
   .fy-nb.-s .fy-nb_dd:after {
     right: 12px; }

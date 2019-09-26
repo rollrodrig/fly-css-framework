@@ -5,7 +5,7 @@ $navbar-border-color: $color-light;
 $navbar-link-active: #f8f8f8;
 
 $navbar-link-color: #a3a4a6;
-$navbar-link-color-hover: #4E5155;
+$navbar-link-color-hover: $global-font-color;
 
 $navbar-link-background-color: transparent;
 $navbar-link-background-color-hover: $color-light-darker;
@@ -13,9 +13,8 @@ $navbar-link-background-color-hover: $color-light-darker;
 $navbar-link-border-bottom-color: $color-dark-lighter;
 
 .fy-nb {
-	font-size: 14px;
 	background-color: $navbar-background-color;
-	height: 68px;
+	height: 70px;
 	position: relative;
 	display: flex;
 	box-shadow: 0 1px 0 rgba(24,28,33,0.04);
@@ -89,7 +88,7 @@ $navbar-link-border-bottom-color: $color-dark-lighter;
 		justify-content: center;
 		float: left;
 		padding: 0 18px;
-     	height: 68px;
+     	height: 70px;
 		text-decoration: none;
 		color: $navbar-link-color;
 		background-color: $navbar-link-background-color;
@@ -157,12 +156,11 @@ $navbar-link-border-bottom-color: $color-dark-lighter;
 
 .fy-nb {
 	&.-s {
-		height: 37px;
+		font-size: 14px;
+		height: 40px;
 		@include media($medium-max-size) {
 			height: auto;
 		}
-
-
 		.fy-nb_l {
 			padding: 2px;
 			@include media($medium-max-size) {
@@ -170,19 +168,15 @@ $navbar-link-border-bottom-color: $color-dark-lighter;
 			}
 
 		}
-
 		.fy-nb_i {
-			font-size: 12px;
 			padding: 0 18px;
-			line-height: 3.1;
-			height: 37px;
+			height: 40px;
 			i {
 				font-size: 16px;
 			}
 		}
 		.fy-fc {
-			margin-top: 1px;
-			margin-bottom: 1px;
+			margin-top: 5px;
 		}
 
 		.fy-nbb {
@@ -200,7 +194,6 @@ $navbar-link-border-bottom-color: $color-dark-lighter;
 .fy-nb {
 	.fy-fc {
 		margin-top: 12px;
-	    margin-bottom: 8px;
 		padding-left: 15px;
 		padding-right: 15px;
 		.fy-btn {
@@ -223,7 +216,7 @@ $navbar-link-border-bottom-color: $color-dark-lighter;
 		float: left;
 		padding-left: 18px;
 		padding-right: 28px;
- 	    line-height: 5;
+ 	    line-height: 4.5;
      	height: 68px;
 		text-decoration: none;
 		color: $navbar-link-color;
@@ -363,12 +356,12 @@ $navbar-link-border-bottom-color: $color-dark-lighter;
 .fy-nb {
 	&.-s {
 		.fy-nb_dd {
-			font-size: 12px;
-			line-height: 3.1;
+			line-height: 2.8;
+			height: 40px;
 			@include media($medium-max-size) {
 			}
 			&:before, &:after {
-		        top: 15px;
+		        top: 17px;
 		        height: 6px;
 			}
 			&:after  {
