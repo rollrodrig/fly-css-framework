@@ -1,19 +1,22 @@
+$breadcrumb-color: $global-font-color-socondary;
+$breadcrumb-color-active: $global-font-color-socondary;
+
 .fy-brc {
 	font-size: 12px;
-	color: $color-secondary-lighter;
+	color: $breadcrumb-color;
  	a {
-		color: $color-secondary-lighter;
+		color: $breadcrumb-color;
 		text-decoration: none;
 		&:hover {
-			color: $color-secondary-lighter;
+			color: $breadcrumb-color;
 			text-decoration: underline;
 		}
 	}
 	.-a  {
-		color: $color-secondary-darker;
+		/*color: $breadcrumb-color-active;*/
 		font-weight: bold;
 		&:hover {
-			color: $color-secondary-darker;
+			color: $breadcrumb-color;
 		}
 	}
 	> span {

@@ -1603,10 +1603,10 @@ p a {
       color: #a9a9a9;
       text-decoration: underline; }
   .fy-brc .-a {
-    color: #6c7886;
+    /*color: $breadcrumb-color-active;*/
     font-weight: bold; }
     .fy-brc .-a:hover {
-      color: #6c7886; }
+      color: #a9a9a9; }
   .fy-brc > span {
     position: relative;
     padding-left: 15px;
