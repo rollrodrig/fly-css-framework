@@ -2672,35 +2672,6 @@ p a {
   .fy-mta.-sb > span::after {
     background-color: transparent; }
 
-.fy-mts {
-  display: inline-block;
-  font-size: 14px;
-  color: #a9a9a9; }
-  .fy-mts > span {
-    display: block;
-    padding: 6px 10px;
-    border-bottom: 1px solid #a9a9a9;
-    text-align: center; }
-    .fy-mts > span:last-child {
-      border: none; }
-  .fy-mts.-ic > span {
-    text-align: right; }
-    .fy-mts.-ic > span > i {
-      margin-left: 5px; }
-  .fy-mts.-d > span {
-    padding: 10px; }
-    .fy-mts.-d > span > span {
-      display: block;
-      font-size: 11px; }
-  .fy-mts.-l > span {
-    font-size: 18px;
-    padding: 10px 14px; }
-  .fy-mts.-l.-d > span {
-    padding: 10px; }
-    .fy-mts.-l.-d > span > span {
-      display: block;
-      font-size: 12px; }
-
 .fy-nv {
   display: block;
   margin-top: 10px;
@@ -2912,11 +2883,9 @@ p a {
   .fy-pn_h {
     padding: 15px;
     border-bottom: 1px solid #f3f4f4;
-    font-size: 15px;
     color: #6c7886; }
   .fy-pn_b {
-    padding: 15px;
-    font-size: 15px; }
+    padding: 15px; }
   .fy-pn_f {
     padding: 15px;
     font-size: 13px; }

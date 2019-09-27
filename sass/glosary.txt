@@ -782,6 +782,7 @@ fy-nb_ic_s
 
 
 ### Meta data stacked
+!! DEPRECATED
 .fy-mts
 
 # with icons
@@ -827,7 +828,8 @@ fy-nb_ic_s
 .fy-tbl.-nh
 
 
-### List group -> List
+### List group
+!!! DEPRECATED in favor of -> List
 ### List
 
 .fy-lg
