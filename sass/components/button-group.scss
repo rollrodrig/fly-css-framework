@@ -1,5 +1,4 @@
 .fy-btng {
-
 	&:after {
 		content: '.';
 		display: block;
@@ -7,7 +6,6 @@
 		height: 0;
 		clear: both;
 	}
-
 	> .fy-btn {
 		float: left;
 		margin-left: -1px;
@@ -19,11 +17,7 @@
 			z-index: 100;
 		}
 	}
-
-
-
 }
-
 .fy-btng {
 	&.-rd {
 		.fy-btn {

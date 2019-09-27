@@ -1,13 +1,14 @@
-
 $field-color: $color-secondary-darker;
 $field-border-color: $color-light-darker;
 
 .fy-fc {
 	
 }
+
 .fy-fr {
 	margin-bottom: 20px;
 }
+
 .fy-fi,
 .fy-fs,
 .fy-ft,
@@ -82,8 +83,6 @@ $field-border-color: $color-light-darker;
 	}	
 }
 
-
-
 .fy-ft {
 	display: block;
 	width: 100%;
@@ -140,9 +139,5 @@ $field-border-color: $color-light-darker;
 	}
 }
 
-
-
 @import "form-field-with-decorator";
 @import "form-field-with-button";
-
-
