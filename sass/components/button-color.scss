@@ -4,20 +4,15 @@ $button-border-color-hover: #d2d2d2;
 $button-color-hover: $color-secondary-darker;
 $button-background-color: $color-secondary-lighter;
 $button-background-color-hover: #fafafa;
-
 .fy-btn {
 	color: $button-color;
 	background-color: #ffffff;
 	border:1px solid $button-border-color;
-	/*transition: background-color 0.2s, border 0.2s;*/
-
 	&:hover {
 		text-decoration: none;
 		color:  $button-color;
 		border:1px solid $button-border-color-hover;
-		/*transition: background-color 0.2s, border 0.2s;*/
 	}
-
 	&.-cp {
 		background-color: $color-primary;
 		border:1px solid $color-primary-darker;

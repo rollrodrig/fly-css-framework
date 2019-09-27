@@ -1,5 +1,4 @@
 .fy-btn  {
-	
 	&.-xs {
 		&.-il {
 			padding-left: 5px;
@@ -10,9 +9,6 @@
 			padding-right: 5px;
 		}
 	}
-
-
-	
 	&.-s {
 		&.-il {
 			padding-left: 12px;
@@ -23,9 +19,6 @@
 			padding-left: 14px;
 		}
 	}
-
-
-
 	&.-l {
 		&.-il {
 			padding-left: 26px;
@@ -36,9 +29,6 @@
 			padding-right: 28px;
 		}
 	}
-
-
-
 	&.-xl {
 		&.-il {
 			padding-left: 38px;
@@ -51,17 +41,8 @@
 			
 		}
 	}
-
 	i {
 		line-height: inherit;
 		color: $color-secondary-lighter;
 	}
-
 }
-
-
-
-
-
-
-
