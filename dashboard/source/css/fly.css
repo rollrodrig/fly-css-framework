@@ -20,7 +20,7 @@ html {
   padding: 0; }
 
 body {
-  color: #676a6c;
+  color: #1a1a1a;
   font-size: 16px;
   font-family: Arial, Helvetica;
   line-height: 1.2;
@@ -154,6 +154,13 @@ p a {
     transform: rotate(45deg);
     top: 7px; }
 
+.fy-a.-s {
+  font-size: 13px; }
+  .fy-a.-s:before {
+    top: 3px; }
+  .fy-a.-s:before, .fy-a.-s:after {
+    height: 6px; }
+
 /* layout */
 .fy-ctnr {
   width: 100%;
@@ -202,9 +209,8 @@ p a {
     font-size: 24px; }
 
 .fy-nb {
-  font-size: 14px;
   background-color: #ffffff;
-  height: 68px;
+  height: 70px;
   position: relative;
   display: flex;
   box-shadow: 0 1px 0 rgba(24, 28, 33, 0.04); }
@@ -263,17 +269,17 @@ p a {
     justify-content: center;
     float: left;
     padding: 0 18px;
-    height: 68px;
+    height: 70px;
     text-decoration: none;
     color: #a3a4a6;
     background-color: transparent;
     text-align: center;
     position: relative; }
     .fy-nb_i:hover {
-      color: #4E5155;
+      color: #1a1a1a;
       text-decoration: none; }
     .fy-nb_i.-a {
-      color: #4E5155;
+      color: #1a1a1a;
       text-decoration: none; }
     @media only screen and (max-width: 980px) {
       .fy-nb_i {
@@ -312,7 +318,8 @@ p a {
         display: block; } }
 
 .fy-nb.-s {
-  height: 37px; }
+  font-size: 14px;
+  height: 40px; }
   @media only screen and (max-width: 980px) {
     .fy-nb.-s {
       height: auto; } }
@@ -322,15 +329,12 @@ p a {
       .fy-nb.-s .fy-nb_l {
         height: 37px; } }
   .fy-nb.-s .fy-nb_i {
-    font-size: 12px;
     padding: 0 18px;
-    line-height: 3.1;
-    height: 37px; }
+    height: 40px; }
     .fy-nb.-s .fy-nb_i i {
       font-size: 16px; }
   .fy-nb.-s .fy-fc {
-    margin-top: 1px;
-    margin-bottom: 1px; }
+    margin-top: 5px; }
   .fy-nb.-s .fy-nbb {
     top: 2px; }
 
@@ -339,7 +343,6 @@ p a {
 
 .fy-nb .fy-fc {
   margin-top: 12px;
-  margin-bottom: 8px;
   padding-left: 15px;
   padding-right: 15px; }
   .fy-nb .fy-fc .fy-btn {
@@ -357,7 +360,7 @@ p a {
   float: left;
   padding-left: 18px;
   padding-right: 28px;
-  line-height: 5;
+  line-height: 4.5;
   height: 68px;
   text-decoration: none;
   color: #a3a4a6;
@@ -371,10 +374,10 @@ p a {
       /*height: 50px;*/
       float: none; } }
   .fy-nb_dd:hover {
-    color: #4E5155;
+    color: #1a1a1a;
     text-decoration: none; }
   .fy-nb_dd.-a {
-    color: #4E5155;
+    color: #1a1a1a;
     text-decoration: none; }
   @media only screen and (max-width: 980px) {
     .fy-nb_dd {
@@ -457,10 +460,10 @@ p a {
             background-color: #ececec; } }
 
 .fy-nb.-s .fy-nb_dd {
-  font-size: 12px;
-  line-height: 3.1; }
+  line-height: 2.8;
+  height: 40px; }
   .fy-nb.-s .fy-nb_dd:before, .fy-nb.-s .fy-nb_dd:after {
-    top: 15px;
+    top: 17px;
     height: 6px; }
   .fy-nb.-s .fy-nb_dd:after {
     right: 12px; }
@@ -1607,10 +1610,10 @@ p a {
       color: #a9a9a9;
       text-decoration: underline; }
   .fy-brc .-a {
-    color: #6c7886;
+    /*color: $breadcrumb-color-active;*/
     font-weight: bold; }
     .fy-brc .-a:hover {
-      color: #6c7886; }
+      color: #a9a9a9; }
   .fy-brc > span {
     position: relative;
     padding-left: 15px;
@@ -1975,15 +1978,13 @@ p a {
   color: #a9a9a9; }
 
 .fy-btn {
-  color: #676a6c;
+  color: #1a1a1a;
   background-color: #ffffff;
-  border: 1px solid #ececec;
-  /*transition: background-color 0.2s, border 0.2s;*/ }
+  border: 1px solid #ececec; }
   .fy-btn:hover {
     text-decoration: none;
-    color: #676a6c;
-    border: 1px solid #d2d2d2;
-    /*transition: background-color 0.2s, border 0.2s;*/ }
+    color: #1a1a1a;
+    border: 1px solid #d2d2d2; }
   .fy-btn.-cp {
     background-color: #26B4FF;
     border: 1px solid #1d9adb;
@@ -2170,7 +2171,7 @@ p a {
     margin-bottom: 80px; }
 
 .fy-dd {
-  color: #676a6c;
+  color: #1a1a1a;
   display: inline-block;
   background-color: #ffffff;
   padding-left: 18px;
@@ -2179,10 +2180,9 @@ p a {
   padding-bottom: 0px;
   text-align: center;
   border: 1px solid #ececec;
-  /*transition: background-color 5s, border 5s;*/
-  font-size: 14px;
   text-decoration: none;
-  line-height: 3.1;
+  height: 45px;
+  line-height: 2.6;
   text-decoration: none;
   position: relative;
   padding-right: 26px; }
@@ -2229,22 +2229,20 @@ p a {
     padding-left: 4px;
     padding-right: 4px;
     font-size: 11px;
+    height: 18px;
     line-height: 1.5; }
   .fy-dd.-s {
     padding-left: 10px;
     padding-right: 10px;
-    font-size: 12px;
-    line-height: 2.8; }
+    font-size: 14px;
+    height: 30px;
+    line-height: 2; }
   .fy-dd.-l {
     padding-left: 30px;
     padding-right: 30px;
-    font-size: 18px;
-    line-height: 3.8; }
-  .fy-dd.-xl {
-    padding-left: 40px;
-    padding-right: 40px;
-    font-size: 24px;
-    line-height: 4.1; }
+    font-size: 20px;
+    height: 65px;
+    line-height: 3; }
   .fy-dd.-xs {
     padding-right: 18px; }
     .fy-dd.-xs:before, .fy-dd.-xs:after {
@@ -2286,8 +2284,6 @@ p a {
   position: relative; }
   .fy-dd ._b {
     display: none;
-    /*display: block;*/
-    /*background-color: orange;*/
     width: 164px;
     position: absolute;
     z-index: 1000;
@@ -2340,7 +2336,8 @@ p a {
   padding-bottom: 0px;
   text-align: center;
   font-size: 16px;
-  line-height: 2.7;
+  height: 45px;
+  line-height: 2.6;
   text-decoration: none;
   vertical-align: top;
   border: 1px solid transparent;
@@ -2351,28 +2348,24 @@ p a {
     background-color: #fafafa; }
   .fy-ic i {
     line-height: inherit; }
-  .fy-ic.-r {
-    border-radius: 50%; }
   .fy-ic.-xs {
     padding-left: 3px;
     padding-right: 3px;
     font-size: 11px;
+    height: 18px;
     line-height: 1.5; }
   .fy-ic.-s {
     padding-left: 12px;
     padding-right: 12px;
     font-size: 14px;
-    line-height: 2.4; }
+    height: 30px;
+    line-height: 2; }
   .fy-ic.-l {
     padding-left: 27px;
     padding-right: 27px;
-    font-size: 22px;
-    line-height: 3.1; }
-  .fy-ic.-xl {
-    padding-left: 39px;
-    padding-right: 39px;
-    font-size: 29px;
-    line-height: 3.4; }
+    font-size: 20px;
+    height: 65px;
+    line-height: 3; }
 
 .fy-img.-fw {
   width: 100%; }
@@ -2675,35 +2668,6 @@ p a {
   .fy-mta.-sb > span::after {
     background-color: transparent; }
 
-.fy-mts {
-  display: inline-block;
-  font-size: 14px;
-  color: #a9a9a9; }
-  .fy-mts > span {
-    display: block;
-    padding: 6px 10px;
-    border-bottom: 1px solid #a9a9a9;
-    text-align: center; }
-    .fy-mts > span:last-child {
-      border: none; }
-  .fy-mts.-ic > span {
-    text-align: right; }
-    .fy-mts.-ic > span > i {
-      margin-left: 5px; }
-  .fy-mts.-d > span {
-    padding: 10px; }
-    .fy-mts.-d > span > span {
-      display: block;
-      font-size: 11px; }
-  .fy-mts.-l > span {
-    font-size: 18px;
-    padding: 10px 14px; }
-  .fy-mts.-l.-d > span {
-    padding: 10px; }
-    .fy-mts.-l.-d > span > span {
-      display: block;
-      font-size: 12px; }
-
 .fy-nv {
   display: block;
   margin-top: 10px;
@@ -2721,7 +2685,7 @@ p a {
       margin-right: 2px;
       text-align: center; }
   .fy-nv a {
-    color: #676a6c; }
+    color: #1a1a1a; }
     .fy-nv a:hover {
       color: #2e3031;
       text-decoration: none; }
@@ -2915,11 +2879,9 @@ p a {
   .fy-pn_h {
     padding: 15px;
     border-bottom: 1px solid #f3f4f4;
-    font-size: 15px;
     color: #6c7886; }
   .fy-pn_b {
-    padding: 15px;
-    font-size: 15px; }
+    padding: 15px; }
   .fy-pn_f {
     padding: 15px;
     font-size: 13px; }
@@ -2998,7 +2960,7 @@ p a {
     text-align: center;
     cursor: pointer;
     font-size: 14px;
-    color: #676a6c;
+    color: #1a1a1a;
     text-decoration: none;
     line-height: 1.12;
     text-decoration: none;
@@ -3138,13 +3100,13 @@ p a {
     margin-bottom: 12px; }
   .fy-txh4 {
     font-size: 24px;
-    margin-bottom: 8px; }
+    margin-bottom: 10px; }
   .fy-txh5 {
     font-size: 20px;
-    margin-bottom: 4px; }
+    margin-bottom: 10px; }
   .fy-txh6 {
     font-size: 16px;
-    margin-bottom: 4px; }
+    margin-bottom: 10px; }
   .fy-txb1 {
     font-size: 16px;
     margin-bottom: 8px; }
