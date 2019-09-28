@@ -2,7 +2,7 @@ $breadcrumb-color: $global-font-color-socondary;
 $breadcrumb-color-active: $global-font-color-socondary;
 
 .fy-brc {
-	font-size: 12px;
+	font-size: 15px;
 	color: $breadcrumb-color;
  	a {
 		color: $breadcrumb-color;
@@ -12,25 +12,26 @@ $breadcrumb-color-active: $global-font-color-socondary;
 			text-decoration: underline;
 		}
 	}
-	.-a  {
+	&_a  {
 		/*color: $breadcrumb-color-active;*/
 		font-weight: bold;
 		&:hover {
 			color: $breadcrumb-color;
 		}
 	}
-	> span {
+	&_d {
 		position: relative;
 	    padding-left: 15px;
 	    padding-right: 15px;
 
 	    &:before, &:after {
 	        position: absolute;
-            left: 13px;
 	        content: ' ';
-	        height: 8px;
 	        width: 1px;
 	        background-color: $color-neutral;
+            left: 13px;
+	        height: 10px;
+
 	    }
 
 	    &:before {
@@ -39,27 +40,23 @@ $breadcrumb-color-active: $global-font-color-socondary;
 	    }
 	    &:after {
 	    	transform: rotate(45deg);
-			top: 6px;
+			top: 8px;
 	    }  
 	}
-	> span:last-item {
+	&_d span:last-item {
 		display: none;
 	}
 }
 .fy-brc {
-	&.-l {
-		font-size: 15px;
+	&.-s {
+		font-size: 12px;
 		> span {
 		    &:before, &:after {
-	            left: 13px;
-		        height: 10px;
-		    }
-		    &:before {
-				transform: rotate(-45deg);
+            	left: 13px;
+	        	height: 8px;
 		    }
 		    &:after {
-		    	transform: rotate(45deg);
-				top: 8px;
+				top: 6px;
 		    } 
 		}
 	}

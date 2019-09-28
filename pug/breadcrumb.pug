@@ -15,18 +15,18 @@ block content
 					.example-breadc.
 						<div class="fy-brc">
 							<a href="">Category</a>
-							<span></span>
+							<span class="fy-brc_d"></span>
 							<a href="">Sub category</a>
-							<span></span>
-							<a class="-a" href="">Current item</a>
+							<span class="fy-brc_d"></span>
+							<span class="fy-brc_a">Current item</span>
 						</div>
 				+code.
 					<div class="fy-brc">
 						<a href="">Category</a>
-						<span></span>
+						<span class="fy-brc_d"></span>
 						<a href="">Sub category</a>
-						<span></span>
-						<a class="-a" href="">Current item</a>
+						<span class="fy-brc_d"></span>
+						<span class="fy-brc_a">Current item</span>
 					</div>
 				+open_example('breadcrumb')
 
@@ -35,24 +35,24 @@ block content
 		+section
 			+subtitle('Size')
 			+description
-			+properties([{'r':'-l','d':'Large'}])
+			+properties([{'r':'fy-brc -s','d':'Small'}])
 			+demo
 				+example
 					.example-breadc.
-						<div class="fy-brc -l">
+						<div class="fy-brc -s">
 							<a href="">Category</a>
-							<span></span>
+							<span class="fy-brc_d"></span>
 							<a href="">Sub category</a>
-							<span></span>
-							<a class="-a" href="">Current item</a>
+							<span class="fy-brc_d"></span>
+							<span class="fy-brc_a">Current item</span>
 						</div>
 				+code.
-					<div class="fy-brc -l">
+					<div class="fy-brc -s">
 						<a href="">Category</a>
-						<span></span>
+						<span class="fy-brc_d"></span>
 						<a href="">Sub category</a>
-						<span></span>
-						<a class="-a" href="">Current item</a>
+						<span class="fy-brc_d"></span>
+						<span class="fy-brc_a">Current item</span>
 					</div>
 				+open_example('breadcrumb')
 
@@ -66,51 +66,51 @@ block content
 					.example-breadc.
 						<div class="fy-brc">
 							<a href="">Category</a>
-							<span></span>
+							<span class="fy-brc_d"></span>
 							<a href="">Sub category</a>
-							<span></span>
-							<a class="-a" href="">Current item</a>
+							<span class="fy-brc_d"></span>
+							<span class="fy-brc_a">Current item</span>
 						</div>
 						<div class="fy-brc -l">
 							<a href="">Category</a>
-							<span></span>
+							<span class="fy-brc_d"></span>
 							<a href="">Sub category</a>
-							<span></span>
-							<a class="-a" href="">Current item</a>
+							<span class="fy-brc_d"></span>
+							<span class="fy-brc_a">Current item</span>
 						</div>
 						<div class="fy-brc">
-							<a href="">Category</a> &nbsp; / &nbsp; <a href="">Sub category</a> &nbsp;/ &nbsp; <a href="" class="-a">Current item</a>
+							<a href="">Category</a> &nbsp; / &nbsp; <a href="">Sub category</a> &nbsp;/ &nbsp; <span class="fy-brc_a">Current item</span>
 						</div>
 						<div class="fy-brc -l">
-							<a href="">Category</a> &nbsp; / &nbsp; <a href="">Sub category</a> &nbsp;/ &nbsp; <a href="" class="-a">Current item</a>
+							<a href="">Category</a> &nbsp; / &nbsp; <a href="">Sub category</a> &nbsp;/ &nbsp; <span class="fy-brc_a">Current item</span>
 						</div>
 						<div class="fy-brc">
-							<a href="">Category</a> &nbsp; <i class="fas fa-angle-double-right"></i> &nbsp; <a href="">Sub category</a> &nbsp;<i class="fas fa-ambulance"></i> &nbsp; <a href="" class="-a">Current item</a>
+							<a href="">Category</a> &nbsp; <i class="fas fa-angle-double-right"></i> &nbsp; <a href="">Sub category</a> &nbsp;<i class="fas fa-ambulance"></i> &nbsp; <span class="fy-brc_a">Current item</span>
 						</div>
 
 				+code.
 					<div class="fy-brc">
 						<a href="">Category</a>
-						<span></span>
+						<span class="fy-brc_d"></span>
 						<a href="">Sub category</a>
-						<span></span>
-						<a class="-a" href="">Current item</a>
+						<span class="fy-brc_d"></span>
+						<span class="fy-brc_a">Current item</span>
 					</div>
 					<div class="fy-brc -l">
 						<a href="">Category</a>
-						<span></span>
+						<span class="fy-brc_d"></span>
 						<a href="">Sub category</a>
-						<span></span>
-						<a class="-a" href="">Current item</a>
+						<span class="fy-brc_d"></span>
+						<span class="fy-brc_a" href="">Current item</span>
 					</div>
 					<div class="fy-brc">
-						<a href="">Category</a> &nbsp; / &nbsp; <a href="">Sub category</a> &nbsp;/ &nbsp; <a href="" class="-a">Current item</a>
+						<a href="">Category</a> &nbsp; / &nbsp; <a href="">Sub category</a> &nbsp;/ &nbsp; <span class="fy-brc_a">Current item</span>
 					</div>
 					<div class="fy-brc -l">
-						<a href="">Category</a> &nbsp; / &nbsp; <a href="">Sub category</a> &nbsp;/ &nbsp; <a href="" class="-a">Current item</a>
+						<a href="">Category</a> &nbsp; / &nbsp; <a href="">Sub category</a> &nbsp;/ &nbsp; <span class="fy-brc_a">Current item</span>
 					</div>
 					<div class="fy-brc">
-						<a href="">Category</a> &nbsp; <i class="fas fa-angle-double-right"></i> &nbsp; <a href="">Sub category</a> &nbsp;<i class="fas fa-ambulance"></i> &nbsp; <a href="" class="-a">Current item</a>
+						<a href="">Category</a> &nbsp; <i class="fas fa-angle-double-right"></i> &nbsp; <a href="">Sub category</a> &nbsp;<i class="fas fa-ambulance"></i> &nbsp; <span class="fy-brc_a">Current item</span>
 					</div>
 
 
