@@ -1,10 +1,9 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "hash": "694d086161d7bd5930f96d70e3633edc",
     "content-hash": "9ec585cd493226b03c1690f2e9d06849",
     "packages": [
         {
@@ -67,7 +66,7 @@
                 "tar",
                 "zip"
             ],
-            "time": "2016-02-15 22:46:40"
+            "time": "2016-02-15T22:46:40+00:00"
         },
         {
             "name": "doctrine/collections",
@@ -134,7 +133,7 @@
                 "collections",
                 "iterator"
             ],
-            "time": "2017-01-03 10:49:41"
+            "time": "2017-01-03T10:49:41+00:00"
         },
         {
             "name": "kevinlebrun/colors.php",
@@ -185,7 +184,7 @@
                 "console",
                 "shell"
             ],
-            "time": "2018-05-30 08:34:23"
+            "time": "2018-05-30T08:34:23+00:00"
         },
         {
             "name": "michelf/php-markdown",
@@ -231,20 +230,20 @@
             "keywords": [
                 "markdown"
             ],
-            "time": "2018-01-15 00:49:33"
+            "time": "2018-01-15T00:49:33+00:00"
         },
         {
             "name": "mustache/mustache",
-            "version": "v2.12.0",
+            "version": "v2.14.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bobthecow/mustache.php.git",
-                "reference": "fe8fe72e9d580591854de404cc59a1b83ca4d19e"
+                "reference": "579ffa5c96e1d292c060b3dd62811ff01ad8c24e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bobthecow/mustache.php/zipball/fe8fe72e9d580591854de404cc59a1b83ca4d19e",
-                "reference": "fe8fe72e9d580591854de404cc59a1b83ca4d19e",
+                "url": "https://api.github.com/repos/bobthecow/mustache.php/zipball/579ffa5c96e1d292c060b3dd62811ff01ad8c24e",
+                "reference": "579ffa5c96e1d292c060b3dd62811ff01ad8c24e",
                 "shasum": ""
             },
             "require": {
@@ -277,7 +276,11 @@
                 "mustache",
                 "templating"
             ],
-            "time": "2017-07-11 12:54:05"
+            "support": {
+                "issues": "https://github.com/bobthecow/mustache.php/issues",
+                "source": "https://github.com/bobthecow/mustache.php/tree/v2.14.1"
+            },
+            "time": "2022-01-21T06:08:36+00:00"
         },
         {
             "name": "pattern-lab/core",
@@ -349,7 +352,7 @@
                 "style guide",
                 "styleguide"
             ],
-            "time": "2018-02-27 22:12:27"
+            "time": "2018-02-27T22:12:27+00:00"
         },
         {
             "name": "pattern-lab/patternengine-mustache",
@@ -404,7 +407,7 @@
                 "pattern engine",
                 "pattern lab"
             ],
-            "time": "2016-06-21 01:51:20"
+            "time": "2016-06-21T01:51:20+00:00"
         },
         {
             "name": "pattern-lab/plugin-reload",
@@ -469,7 +472,7 @@
                 "reload",
                 "websocket"
             ],
-            "time": "2016-07-03 00:36:21"
+            "time": "2016-07-03T00:36:21+00:00"
         },
         {
             "name": "pattern-lab/styleguidekit-assets-default",
@@ -528,7 +531,7 @@
                 "pattern lab",
                 "styleguide"
             ],
-            "time": "2017-10-31 12:19:46"
+            "time": "2017-10-31T12:19:46+00:00"
         },
         {
             "name": "pattern-lab/styleguidekit-mustache-default",
@@ -574,7 +577,7 @@
                 "pattern lab",
                 "styleguide"
             ],
-            "time": "2016-07-13 02:42:24"
+            "time": "2016-07-13T02:42:24+00:00"
         },
         {
             "name": "seld/jsonlint",
@@ -623,7 +626,7 @@
                 "parser",
                 "validator"
             ],
-            "time": "2018-01-24 12:46:19"
+            "time": "2018-01-24T12:46:19+00:00"
         },
         {
             "name": "shudrum/array-finder",
@@ -663,7 +666,7 @@
             ],
             "description": "ArrayFinder component",
             "homepage": "https://github.com/Shudrum/ArrayFinder",
-            "time": "2016-02-01 12:23:32"
+            "time": "2016-02-01T12:23:32+00:00"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -726,7 +729,7 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "https://symfony.com",
-            "time": "2019-01-16 13:27:11"
+            "time": "2019-01-16T13:27:11+00:00"
         },
         {
             "name": "symfony/filesystem",
@@ -776,7 +779,7 @@
             ],
             "description": "Symfony Filesystem Component",
             "homepage": "https://symfony.com",
-            "time": "2019-01-16 13:27:11"
+            "time": "2019-01-16T13:27:11+00:00"
         },
         {
             "name": "symfony/finder",
@@ -825,7 +828,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2019-01-16 13:43:35"
+            "time": "2019-01-16T13:43:35+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -883,7 +886,7 @@
                 "polyfill",
                 "portable"
             ],
-            "time": "2018-08-06 14:22:27"
+            "time": "2018-08-06T14:22:27+00:00"
         },
         {
             "name": "symfony/process",
@@ -932,7 +935,7 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
-            "time": "2019-01-16 13:27:11"
+            "time": "2019-01-16T13:27:11+00:00"
         },
         {
             "name": "symfony/yaml",
@@ -991,7 +994,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2019-01-16 10:59:17"
+            "time": "2019-01-16T10:59:17+00:00"
         },
         {
             "name": "wrench/wrench",
@@ -1054,7 +1057,7 @@
                 "hybi",
                 "websocket"
             ],
-            "time": "2017-02-12 02:08:51"
+            "time": "2017-02-12T02:08:51+00:00"
         }
     ],
     "packages-dev": [],
@@ -1066,5 +1069,6 @@
     "platform": {
         "php": ">=5.4"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.2.0"
 }
